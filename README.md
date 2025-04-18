@@ -691,15 +691,16 @@ de audiencia.</td>
 - <strong>Plan Profesional:</strong> Incluye hasta 50 activos con mantenimiento preventivo y correctivo, y hasta 5 administradores.
 
 - <strong>Plan Enterprise:</strong> Activos y administradores ilimitados, con opciones de personalización adicionales.</td>
-    <td align="justify">
+
+<td align="justify">
 
 - <strong>Plan Gratuito:</strong> Hasta 10 usuarios.
-
+  
 - <strong>Plan Premium:</strong> $24 USD por usuario/mes.
-
+  
 - <strong>Plan Enterprise:</strong> Precios personalizados.
-
-- <strong>Licencias Lite:<strong> $5 por usuario/mes.
+  
+- <strong>Licencias Lite:</strong> $5 por usuario/mes.
 
 </td>
     <td align="justify">
