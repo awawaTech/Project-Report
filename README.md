@@ -553,7 +553,7 @@ de audiencia.</td>
   <tr>
     <th colspan="2"></th>
     <td align="center">
-      <img src="img/mecanaut.jpg" width="100"><br><strong>Mecanaut</strong>
+      <img src="img/logos/mecanaut_logo.jpg" width="130"><br><strong>Mecanaut</strong>
     </td>
     <td align="center">
       <img src="https://safetyculture.com/_next/image/?url=https%3A%2F%2Fwp-website.safetyculture.com%2Fwp-content%2Fuploads%2Fsites%2F3%2F2023%2F11%2Fcropped-sc-icon-grey-213.png&w=1080&q=75" " width="100"><br><strong>SafetyCulture</strong>
