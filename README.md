@@ -622,7 +622,11 @@ de audiencia.</td>
 
 <tr>
   <td><strong>Estrategias de Marketing</strong></td>
-    <td align="justify">FALTA DEFINIR</td>
+    <td align="justify">
+
+- Mecanaut se posiciona como una solución especializada para industrias operativas, diferenciándose de competidores generalistas.
+- La plataforma se destacará por su flexibilidad e intuitividad, eliminando fricciones y permitiendo que los clientes la usen desde el primer día.
+</td>
     <td align="justify">
 
 - Permite a los usuarios experimentar las funcionalidades premium sin compromiso.
@@ -680,7 +684,13 @@ de audiencia.</td>
 
 <tr>
   <td><strong>Precios & Costos</strong></td>
-    <td align="justify">FALTA DEFINIR</td>
+    <td align="justify">
+        
+- <strong>Plan Gratuito:</strong> Incluye hasta 10 activos con mantenimiento básico y 1 perfil de administrador.
+
+- <strong>Plan Profesional:</strong> Incluye hasta 50 activos con mantenimiento preventivo y correctivo, y hasta 5 administradores.
+
+- <strong>Plan Enterprise:</strong> Activos y administradores ilimitados, con opciones de personalización adicionales.</td>
     <td align="justify">
 
 - <strong>Plan Gratuito:</strong> Hasta 10 usuarios.
@@ -708,6 +718,7 @@ de audiencia.</td>
   <td><strong>Canales de distribución (Web y/o Móvil)</strong></td>
     <td align="justify">
 
+
 - Acceso desde navegadores para gestión completa.
 
 - Conexión con otras herramientas empresariales y sistemas mediante APIs.
@@ -722,7 +733,7 @@ de audiencia.</td>
 
 </td>
     <td align="justify">
-        
+
 - Aplicaciones móviles,  compatibles con iOS y Android.
 
 - Versión web.
@@ -792,6 +803,7 @@ de audiencia.</td>
 <tr>
   <td><strong>Debilidades</strong></td>
     <td align="justify">
+
 - Al ser una startup, Mecanaut aún no cuenta con una presencia consolidada en el mercado.
 
 - La ausencia de aplicaciones móviles puede limitar el acceso en campo y la eficiencia operativa.
