@@ -566,8 +566,83 @@ de audiencia.</td>
 ### 4.1.1. General Style Guidelines
 ### 4.1.2. Web Style Guidelines
 ## 4.2. Information Architecture
+
+<p align="justify">La arquitectura de información de Mecanaut está diseñada para facilitar la navegación de dos tipos principales de usuarios: administradores y técnicos de mantenimiento. La organización de la plataforma permite registrar y gestionar maquinaria, materiales y tareas de mantenimiento de forma eficiente. Esta estructura ayuda a que los usuarios ejecuten sus tareas de forma rápida y visualicen con claridad las prioridades operativas.</p>
+
 ### 4.2.1. Organization Systems.
+
+<p align="justify">Mecanaut aplica diferentes tipos de organización según el tipo de información:</p>
+
+- **Organización jerárquica visual:**  
+  En la pantalla principal se muestran primero las opciones para registrar maquinaria y materiales, destacadas con botones llamativos.
+
+- **Organización secuencial:**  
+  Se utiliza tanto para la creación de órdenes de trabajo como para la creación de planes de mantenimiento.
+
+- **Organización matricial:**  
+  En vistas como el calendario o el panel de planes de trabajo, los datos pueden filtrarse según líneas de producción, frecuencia, tipo de mantenimiento y estado.
+<br>
+<p><strong>Sistemas de categorización</strong></p>
+
+- **Por tópicos:**  
+  Activos, órdenes de trabajo, planes de mantenimiento, repuestos, usuarios.
+
+- **Cronológica:**  
+  Ordenamiento de órdenes y planes según fecha de creación o activación.
+
+- **Alfabética:**  
+  Para buscar maquinaria o materiales por nombre o código.
+
+- **Por audiencia:**  
+  Accesos y vistas diferenciadas para administradores y técnicos.
+
+
 ### 4.2.2. Labeling Systems.
+<p align="justify">Mecanaut utiliza etiquetas claras, con el menor número de palabras necesario y una jerarquía visual consistente.</p>
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Etiqueta</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>Inicio</td>
+    <td>Acceso al panel principal.</td>
+  </tr>
+  <tr>
+    <td>Maquinaria</td>
+    <td>Registro y gestión de equipos.</td>
+  </tr>
+  <tr>
+    <td>Materiales</td>
+    <td>Registro de repuestos y recursos.</td>
+  </tr>
+  <tr>
+    <td>Líneas de Producción</td>
+    <td>Registro de líneas de producción.</td>
+  </tr>
+  <tr>
+    <td>Crear orden de trabajo</td>
+    <td>Flujo para crear una orden correctiva.</td>
+  </tr>
+  <tr>
+    <td>Planes de Trabajo</td>
+    <td>Creación y gestión de planes de mantenimiento fijos o dinámicos.</td>
+  </tr>
+  <tr>
+    <td>Estadísticas</td>
+    <td>Acceso a indicadores y exportes.</td>
+  </tr>
+  <tr>
+    <td>Perfil</td>
+    <td>Configuración de cuenta y roles.</td>
+  </tr>
+  <tr>
+    <td>Ayuda</td>
+    <td>Acceso a preguntas frecuentes o soporte técnico.</td>
+  </tr>
+</table>
+
+
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems.
 ### 4.2.5. Navigation Systems.
