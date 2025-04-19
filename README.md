@@ -792,6 +792,7 @@ de audiencia.</td>
 
 </td>
     <td align="justify">
+
 - Combina CMMS, gestión de inventario y adquisiciones en una sola plataforma.
 
 - Aplicación móvil que opera sin conexión, ideal para entornos industriales.
