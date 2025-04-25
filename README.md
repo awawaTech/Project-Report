@@ -590,6 +590,10 @@ de audiencia.</td>
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagram.
 
+<img src="img/database/bdd.png"></img>
+
+<br>
+
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management.
