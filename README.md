@@ -3,7 +3,7 @@
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
-    <strong>Ingeniería de Software - 2025-1</strong><br>
+    <strong>Ingeniería de Software - 2025-1</strong><br> 
     <strong>Aplicaciones Web - 4363</strong><br>
     <strong>Profesor: Alex Humberto Sánchez Ponce</strong><br>
     <br><strong>Informe del Trabajo Final</strong>
