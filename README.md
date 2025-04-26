@@ -741,7 +741,7 @@ de audiencia.</td>
 
 #### 5.2.1.3. Sprint Backlog 1
 
-<p>El objetivo de este primer sprint fue desarrollar la primera versión de la Landing Page de nuestro sistema Mecanet, enfocada en presentar la propuesta de valor del producto a potenciales usuarios. Esta versión incluye las secciones clave que comunican los beneficios, planes, preguntas frecuentes, footer y navegación general.</p>
+<p>El objetivo de este primer sprint fue desarrollar la primera versión de la Landing Page de nuestro sistema Mecanaut, enfocada en presentar la propuesta de valor del producto a potenciales usuarios. Esta versión incluye las secciones clave que comunican los beneficios, planes, preguntas frecuentes, footer y navegación general.</p>
 
 
 ![image](https://github.com/user-attachments/assets/8d30753d-dc89-47a1-9577-2bd45fe0a130)
@@ -862,7 +862,7 @@ de audiencia.</td>
 </tr>
 <tr>
     <td>11</td>
-    <td align="justify">Estilizar acordeón con branding de Mecanet</td>
+    <td align="justify">Estilizar acordeón con branding de Mecanaut</td>
     <td align="justify">Colores, fuentes (por ejemplo Montserrat), márgenes y hover effects.</td>
     <td>1 hr</td>
     <td>Mauricio Elera</td>
@@ -995,26 +995,27 @@ A continuación, se presentan capturas de pantalla de las vistas desarrolladas:
 
 Inicio:
 
-
+![image](/img/landing-sprint/inicio1.png)
 
 Producto:
 
-
+![image](/img/landing-sprint/product1.png)
 
 Beneficios:
 
-
+![image](/img/landing-sprint/benefits1.png)
 
 Planes:
 
-
+![image](/img/landing-sprint/plans1.png)
 
 Faq:
 
-
+![image](/img/landing-sprint/faq1.png)
 
 Footer:
 
+![image](/img/landing-sprint/footer1.png)
 
 <br>
 
@@ -1068,8 +1069,8 @@ A continuación, se detalla la participación específica de cada integrante del
  ### Problema Principal
 En la actualidad, muchas empresas industriales enfrentan problemas debido al uso de métodos manuales y herramientas dispersas para gestionar el mantenimiento de sus activos. Esto genera ineficiencias, paros no programados y decisiones basadas en información incompleta o errónea.
 
-### La Solución de Mecanet
-Mecanets proporciona una plataforma digital integral para gestionar el mantenimiento de activos de forma centralizada. Esto incluye la planificación de mantenimientos, gestión de inventarios, generación de reportes técnicos y registro de activos, todo en una sola interfaz amigable y fácil de usar.
+### La Solución de Mecanaut
+Mecanauts proporciona una plataforma digital integral para gestionar el mantenimiento de activos de forma centralizada. Esto incluye la planificación de mantenimientos, gestión de inventarios, generación de reportes técnicos y registro de activos, todo en una sola interfaz amigable y fácil de usar.
 
 ### Beneficios Clave para los Usuarios
 
@@ -1078,10 +1079,10 @@ Mecanets proporciona una plataforma digital integral para gestionar el mantenimi
 - **Técnicos**: Acceso en tiempo real a las órdenes de trabajo, tareas asignadas y un sistema claro para registrar y hacer seguimiento de las actividades. Esto optimiza la productividad y reduce los errores operativos.
 
 ### Optimización de Procesos
-La plataforma de Mecanet mejora la eficiencia operativa al automatizar tareas repetitivas y ofrecer una visibilidad clara de los indicadores clave de rendimiento (KPIs), lo que permite decisiones más rápidas y basadas en datos.
+La plataforma de Mecanaut mejora la eficiencia operativa al automatizar tareas repetitivas y ofrecer una visibilidad clara de los indicadores clave de rendimiento (KPIs), lo que permite decisiones más rápidas y basadas en datos.
 
 ### Enfoque en la Simplicidad
-Mecanets ha sido diseñado para ofrecer soluciones prácticas y de impacto inmediato. Se han evitado características que no generaban un valor directo, como sistemas de retroalimentación complejos, para centrarse en lo esencial.
+Mecanauts ha sido diseñado para ofrecer soluciones prácticas y de impacto inmediato. Se han evitado características que no generaban un valor directo, como sistemas de retroalimentación complejos, para centrarse en lo esencial.
 
 ### Accesibilidad y Facilidad de Uso
 La interfaz ha sido pensada para ser intuitiva, incluso para usuarios con poca experiencia en tecnología. El diseño visual con colores y tipografía claras facilita la navegación, especialmente en entornos industriales.
@@ -1090,10 +1091,10 @@ La interfaz ha sido pensada para ser intuitiva, incluso para usuarios con poca e
 Las mejoras están alineadas con las necesidades reales de los usuarios, basadas en entrevistas y en un análisis detallado de los flujos de trabajo actuales. La plataforma se adapta a las tareas diarias de los usuarios sin sobrecargarlo de funciones innecesarias.
 
 ### Mercado Potencial
-Mecanets tiene un mercado claro entre medianas empresas industriales de Latinoamérica que no han adoptado soluciones digitales completas para la gestión de mantenimiento, pero que buscan aumentar su eficiencia sin recurrir a sistemas demasiado complejos o costosos.
+Mecanauts tiene un mercado claro entre medianas empresas industriales de Latinoamérica que no han adoptado soluciones digitales completas para la gestión de mantenimiento, pero que buscan aumentar su eficiencia sin recurrir a sistemas demasiado complejos o costosos.
 
 ### Visión a Futuro
-Mecanets no solo resuelve los problemas inmediatos de las empresas, sino que tiene el potencial de transformar la manera en que se gestionan los procesos de mantenimiento en la industria, ofreciendo una solución escalable que puede adaptarse al crecimiento de las empresas.
+Mecanauts no solo resuelve los problemas inmediatos de las empresas, sino que tiene el potencial de transformar la manera en que se gestionan los procesos de mantenimiento en la industria, ofreciendo una solución escalable que puede adaptarse al crecimiento de las empresas.
 
 ## Recomendaciones 
 
