@@ -1242,7 +1242,7 @@ Profesionales encargados de ejecutar las tareas de mantenimiento preventivo y co
 | **Entrevistado 3** |  |
 | Edad |  58 años |
 | Distrito | Surquillo |
-|  | Administra tres líneas de producción automatizadas con envasadoras, etiquetadoras y sistemas de transporte. Utiliza un software básico de mantenimiento no integrado, lo que dificulta el control en tiempo real. Las fallas semanales generan pérdidas significativas. Presenta reportes mensuales de tiempos de parada y costos al gerente general, y busca soluciones tecnológicas que mejoren la planificación, reduzcan fallas y se adapten a su sistema actual.|
+| <img src="img/entrevistas/entrevista3.png"></img> | Administra tres líneas de producción automatizadas con envasadoras, etiquetadoras y sistemas de transporte. Utiliza un software básico de mantenimiento no integrado, lo que dificulta el control en tiempo real. Las fallas semanales generan pérdidas significativas. Presenta reportes mensuales de tiempos de parada y costos al gerente general, y busca soluciones tecnológicas que mejoren la planificación, reduzcan fallas y se adapten a su sistema actual.|
 | Timing: 0:10-3:31 | URL: [upc-pre-202510-1asi0730-4363-awawaTech- needfinding-sprint-1](https://upcedupe-my.sharepoint.com/personal/u202311064_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202311064%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista3%2DMecanaut%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee858aeae%2Dea94%2D43df%2D87ad%2D1b31097d0780)  |
 
 **Entrevistas a Técnicos Operativos**
