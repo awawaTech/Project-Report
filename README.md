@@ -3036,7 +3036,7 @@ Diagrama de clases basado en bounded contexts:
   </tr>
   <tr>
     <td>Cruz, Victor</td>
-    <td>JeanXP404</td>
+    <td> </td>
     <td>C</td>
     <td>C</td>
     <td>C</td>
@@ -3046,7 +3046,7 @@ Diagrama de clases basado en bounded contexts:
   </tr>
   <tr>
     <td>Vivanco, Rafael</td>
-    <td>brit2801</td>
+    <td>RafaelVivanco</td>
     <td>C</td>
     <td>L</td>
     <td>C</td>
