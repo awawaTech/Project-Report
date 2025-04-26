@@ -529,6 +529,7 @@ de audiencia.</td>
 **Mecanaut** es un software especializado para la gestión de mantenimiento industrial, diseñado para empresas que operan con maquinaria crítica. Permite registrar activos, materiales, líneas de producción y organizar tanto órdenes de trabajo correctivas como planes de mantenimiento preventivo.
 
 Con una interfaz intuitiva y flujos de trabajo optimizados, Mecanaut ayuda a técnicos y administradores a mantener sus equipos operativos, reducir tiempos de inactividad y tomar decisiones basadas en indicadores clave como MTTR, MTBF y costos operativos.
+<br>
 
 ### 1.1.2. Perfiles de integrantes del equipo
 2. ### Perfiles de integrantes del equipo
@@ -539,6 +540,7 @@ Con una interfaz intuitiva y flujos de trabajo optimizados, Mecanaut ayuda a té
 | <img src="./img/group-members/Mauricio Elera.png" alt="Mauricio Elera" width="300"/> | **Mauricio Elera \- u202313702** <br> Mi nombre es Mauricio Elera, tengo 18 años y soy estudiante del 5to ciclo de Ingeniería de Software en la UPC. Me considero una persona proactiva, organizada y con muchas ganas de aprender. Estoy comprometido con el trabajo en equipo y dispuesto a aportar todo lo necesario para que nuestro proyecto sea exitoso. |
 | <img src="./img/group-members/Victor Cruz.png" alt="Victor Cruz" width="300"/> | **Victor Cruz \- u202311053** <br> Mi nombre es Victor Cruz, tengo 19 años y estoy cursando mi 5to ciclo de la carrera de Ingeniería de Software en la UPC. Soy una persona entusiasta, creativa y comprometida con cada actividad que realizo. Estoy decidido a dar lo mejor de mi en este proyecto para lograr resultados de calidad. |
 | <img src="./img/group-members/Rafael Vivanco.png" alt="Rafael Vivanco" width="300"/>| **Rafael Vivanco \- u202311064** <br> Mi nombre es Rafael Vivanco, tengo 19 años y actualmente curso el 5to ciclo de la carrera de Ingeniería de Software en la UPC. Me considero una persona responsable con facilidad para adaptarme a distintos entornos y manejar varias tareas a la vez. Siempre doy lo mejor de mí en cada proyecto, aportando dedicación, esfuerzo y actitud positiva. |
+<br>
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
@@ -573,6 +575,7 @@ A través del desarrollo de un software llamado *Mecanaut*, se permitirá regist
 #### **How Much (¿Cuánto?)**
 
 Aunque el costo específico puede variar según la escala de la empresa, se estima que las pérdidas por mal mantenimiento pueden representar hasta un 5-10 % de la producción total anual, lo que justifica la inversión en un sistema automatizado como *Mecanaut*.
+<br>
 
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
@@ -608,6 +611,7 @@ Facilitar la transformación digital del mantenimiento de activos a través de u
 ##### **Initial Segment:**
 
 Dueños de empresas y administradores del sector productor textil, que ya reconocen la necesidad de controlar sus activos, pero aún no digitalizan sus procesos.
+<br>
 
 #### 1.2.2.2 **Lean UX Assumptions**
 
@@ -617,6 +621,7 @@ Dueños de empresas y administradores del sector productor textil, que ya recono
 * Administrador de mantenimiento y producción  
 * Técnico operativo de activos
 
+<br>
 
 **1.2.2.2.2 User outcomes:**  
 **¿Quién es el usuario?** 
@@ -645,6 +650,7 @@ Algunas características importantes son:
 **¿Cómo debe verse nuestro producto y cómo debe comportarse?** 
 
 Debe tener una interfaz profesional, clara y sin sobrecarga visual. El sistema debe ser estable, rápido y confiabl**e**, incluso con muchos activos registrados en líneas de producción.
+<br>
 
 **1.2.2.2.3 Business outcomes:**
 
@@ -671,7 +677,7 @@ Debe tener una interfaz profesional, clara y sin sobrecarga visual. El sistema d
 **¿Eso, si se prueba que es falso, causará que nuestro negocio / proyecto no funcione?**
 
 Si se prueba que nuestras suposiciones clave son falsas, podríamos enfrentar serios desafíos en la sostenibilidad de Mecanaut como negocio. Por ejemplo, si las empresas no cuentan con información previa organizada sobre sus activos y mantenimiento**s**, el proceso de implementación será más lento y costoso, lo cual puede disuadir a nuevos clientes.
-
+<br>
 #### 1.2.2.3 **Lean UX Hypothesis Statements**
 
 * **Creemos que** las empresas estarán dispuestas a digitalizar su proceso de mantenimiento si perciben beneficios claros en eficiencia y ahorro de costos.
@@ -689,10 +695,12 @@ Si se prueba que nuestras suposiciones clave son falsas, podríamos enfrentar se
 * **Creemos que** las empresas tendrán documentado su historial de activos y mantenimientos para agilizar la implementación del sistema.
 
 * **Sabremos que es verdad cuando** al menos el 50% de los nuevos clientes carguen su información de activos en la primera semana.
+<br>
 
 #### 1.2.2.4 **Lean UX Canvas**
 
 ![Canvas](./img/Mecanaut-Lean-Ux-Canvas2.png)
+<br>
 
 ## 1.3 Segmentos objetivo 
 
@@ -724,7 +732,8 @@ Profesionales encargados de ejecutar las tareas de mantenimiento preventivo y co
   * Acceso móvil a órdenes de trabajo diarias.
   * Reporte rápido de evidencia de mantenimiento realizado o necesidades de repuestos
   * Herramientas simples y visuales para trabajar en la planta.  
-    
+<br>
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
