@@ -1228,7 +1228,7 @@ Profesionales encargados de ejecutar las tareas de mantenimiento preventivo y co
 | 29 | US29 | Eliminar técnico | Como administrador, quiero eliminar técnicos que ya no forman parte del equipo, para mantener la base de datos limpia. | 5 |
 | 30 | US30 | Modificar perfil | Como usuario (técnico o administrador), quiero editar los datos de mi perfil, para mantener mi información actualizada. | 2 |
 | 31 | US31 | Actualización de inventario | Como administrador, quiero actualizar las cantidades de herramientas y materiales en el inventario, para su correcta información. | 3 |
-| 32 | US31 | Sección Hero del sitio web | Como usuario interesado, quiero ver una presentación clara del servicio apenas ingreso, para entender rápidamente qué ofrece Mecanet y por qué me conviene usarlo. | 3 |
+| 32 | US31 | Sección Hero del sitio web | Como usuario interesado, quiero ver una presentación clara del servicio apenas ingreso, para entender rápidamente qué ofrece Mecanaut y por qué me conviene usarlo. | 3 |
 | 33 | TS01 | Post Usuario | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero registrar a un nuevo usuario mediante una API Para que pueda autenticarse y utilizar las funcionalidades del sistema. | 3 |
 | 34 | TS02 | Get Usuario | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero obtener la información de un usuario mediante una API Para mostrar sus datos y permisos dentro del sistema. | 3 |
 | 35 | TS03 | Get Roles por Uuario | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero obtener los roles asociados a un usuario mediante una API Para controlar el acceso y las funcionalidades disponibles | 3 |
@@ -1899,13 +1899,13 @@ El **Domain-Driven Design (DDD)** pretende que el software represente con exacti
 - **Bounded Contexts**: división del dominio en zonas independientes, cada una con su propio modelo y límites claros.  
 - **Patrones estratégicos** (Context Map, Anticorruption Layer) y **tácticos** (Entidades, Value Objects, Repositories, Domain Services) que orientan la estructura del código y la arquitectura general.
 
-En SwiftPort, esta filosofía permite separar responsabilidades (autenticación, facturación, recursos, planificación, ejecución y notificaciones) y evolucionar cada área por separado sin sacrificar la coherencia global.
+En Mecanaut, esta filosofía permite separar responsabilidades (autenticación, facturación, recursos, planificación, ejecución y notificaciones) y evolucionar cada área por separado sin sacrificar la coherencia global.
 
 <br>
 
 ### 4.6.1. Software Architecture Context Diagram.
 
-El siguiente diagrama presenta en una sola vista el sistema SwiftPort, sus actores principales y los sistemas externos con los que se comunica:
+El siguiente diagrama presenta en una sola vista el sistema Mecanaut, sus actores principales y los sistemas externos con los que se comunica:
 
 <div>
   <p align="center"><img src="img/ddd/c1.png" alt="c1: System Context.png" width="700px" /></p>
@@ -2401,8 +2401,8 @@ Diagrama de clases basado en bounded contexts:
 <ul>
   <li><strong>Organización en GitHub:</strong> <a href="https://github.com/wiwitech1">https://github.com/wiwitech1</a></li>
   <li><strong>Informe del Proyecto:</strong> <a href="https://github.com/wiwitech1/Project-Report">https://github.com/wiwitech1/Project-Report</a></li>
-  <li><strong>Landing Page:</strong> <a href="https://github.com/wiwitech1/mecanet-l4nding-page">https://github.com/wiwitech1/mecanet-l4nding-page</a></li>
-  <li><strong>SPA Frontend:</strong> <a href="https://github.com/wiwitech1/mecanet-frontend">https://github.com/wiwitech1/mecanet-frontend</a></li>
+  <li><strong>Landing Page:</strong> <a href="https://github.com/wiwitech1/Mecanaut-l4nding-page">https://github.com/wiwitech1/Mecanaut-l4nding-page</a></li>
+  <li><strong>SPA Frontend:</strong> <a href="https://github.com/wiwitech1/Mecanaut-frontend">https://github.com/wiwitech1/Mecanaut-frontend</a></li>
   <li><strong>Backend API:</strong> <a href="https://github.com/faltañamñam">https://github.com/faltañamñam</a></li>
 </ul>
 
@@ -2527,7 +2527,7 @@ Diagrama de clases basado en bounded contexts:
   <li><strong>Inicia la creación:</strong> Haz clic en <strong>+ Create</strong> (o <strong>+ Add</strong>) y rellena el formulario:
     <ul>
       <li><strong>Subscription:</strong> elige tu suscripción activa.</li>
-      <li><strong>Resource group name:</strong> usa un nombre claro, por ejemplo: <code>mecanet-dev-rg</code>.</li>
+      <li><strong>Resource group name:</strong> usa un nombre claro, por ejemplo: <code>Mecanaut-dev-rg</code>.</li>
       <li><strong>Region:</strong> selecciona la misma región para todos los recursos (ej. <code>East US</code>) para minimizar latencia y costes de salida.</li>
     </ul>
   </li>
