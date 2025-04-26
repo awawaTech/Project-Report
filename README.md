@@ -3036,7 +3036,7 @@ Diagrama de clases basado en bounded contexts:
   </tr>
   <tr>
     <td>Cruz, Victor</td>
-    <td>JeanXP404</td>
+    <td> </td>
     <td>C</td>
     <td>C</td>
     <td>C</td>
@@ -3046,7 +3046,7 @@ Diagrama de clases basado en bounded contexts:
   </tr>
   <tr>
     <td>Vivanco, Rafael</td>
-    <td>brit2801</td>
+    <td>RafaelVivanco</td>
     <td>C</td>
     <td>L</td>
     <td>C</td>
@@ -3355,6 +3355,12 @@ Durante este Sprint se logró exitosamente el despliegue de la Landing Page de l
 - Se implementó y verificó el flujo de **CI/CD** (Integración y Entrega Continua), asegurando que cada **commit** realizado sobre la rama **main** actualice automáticamente la aplicación desplegada.
 - Se validó la **disponibilidad** y el **correcto funcionamiento** del producto accediendo al **dominio asignado por Azure**.
 
+![image](/img/landing-sprint/inicio1.png)
+![image](/img/landing-sprint/product1.png)
+![image](/img/landing-sprint/benefits1.png)
+![image](/img/landing-sprint/plans1.png)
+![image](/img/landing-sprint/faq1.png)
+![image](/img/landing-sprint/footer1.png)
 
 <br>
 
@@ -3373,6 +3379,10 @@ A continuación, se detalla la participación específica de cada integrante del
 | Cruz, Victor                   | Implementación de la sección "Footer"  |
 
 > **Nota:** Algunos integrantes colaboraron en secciones compartidas para asegurar consistencia en diseño y funcionalidad.
+
+![image](https://github.com/user-attachments/assets/2c9649af-a9bc-49e9-bc2a-6efd5880d762)
+![image](https://github.com/user-attachments/assets/7207afe3-de13-41fb-99f9-90c94a52da92)
+
 
 <br>
 
