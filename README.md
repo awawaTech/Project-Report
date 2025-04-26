@@ -1182,6 +1182,27 @@ Profesionales encargados de ejecutar las tareas de mantenimiento preventivo y co
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 ### 2.3.2. User Task Matrix
+
+| Task Matrix | Administrador de mantenimiento |  | Técnico Operativo |  |
+|--------------|--------------------------------|--|-------------------|--|
+|              | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
+| Registrar activos | Media | Alta | Baja | Media |
+| Registrar líneas de producción y su prioridad | Media | Alta | Nula | Baja |
+| Generar órdenes de trabajo | Alta | Alta | Baja | Alta |
+| Asignar personal técnico a órdenes de trabajo | Alta | Alta | Nula | Media |
+| Ejecutar tareas de mantenimiento programado | Nula | Media | Alta | Alta |
+| Supervisar el calendario de mantenimiento | Alta | Alta | Media | Alta |
+| Analizar KPIs de mantenimiento (Downtime, MTBF, MTTR, etc.) | Alta | Alta | Baja | Media |
+| Reportar fallas o incidencias en máquinas | Baja | Alta | Alta | Alta |
+| Registrar evidencias (fotos, comentarios, checklist) | Nula | Media | Alta | Alta |
+| Crear catálogo de repuestos o materiales | Alta | Alta | Baja | Alta |
+| Revisar y actualizar inventario de repuestos | Media | Alta | Alta | Media |
+| Solicitar repuestos o materiales faltantes | Baja | Media | Alta | Alta |
+| Comunicar disponibilidad o inactividad de máquinas | Baja | Media | Media | Alta |
+| Coordinar mantenimientos con las líneas de producción | Alta | Alta | Media | Media |
+
+<br>
+
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
