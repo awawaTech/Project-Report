@@ -1472,6 +1472,7 @@ Landing Page es Español
 Landing Page en Inglés
 <img src="img/landing-page/mock-up-landing-page-en.jpg">
 <br>
+
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 
@@ -1541,6 +1542,8 @@ Configuración
 <img src="img/web-application-design/wireframe-configuracion3.jpg">
 
 <br>
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
 <img src="img/web-application-design/wireflow-crear-cuenta.jpg">
@@ -1552,6 +1555,7 @@ Configuración
 <img src="img/web-application-design/wireflow-checklist.jpg">
 
 <br>
+
 ### 4.4.2. Web Applications Mock-ups.
 
 El mock-up de la app de Mecanaut se diseñó con el objetivo de lograr una interfaz visualmente atractiva, funcional y coherente con la identidad de la marca. Se priorizó una experiencia de usuario simple e intuitiva, aplicando principios de usabilidad, arquitectura de la información y diseño inclusivo para garantizar claridad, accesibilidad y eficiencia.
@@ -1647,6 +1651,7 @@ Configuración
 
 
 <br>
+
 ### 4.4.3. Web Applications User Flow Diagrams.
 
 <img src="img/web-application-design/userflow-crear-cuenta.jpg"> <br>
@@ -1772,6 +1777,7 @@ Unappy Paths:
 </ul>
 
 <br>
+
 ## 4.5. Web Applications Prototyping.
 
 El prototipo web de Mecanaut ha sido creado bajo un enfoque centrado en el usuario, integrando principios sólidos de arquitectura de la información y las heurísticas de usabilidad de Nielsen para brindar una experiencia intuitiva, funcional y accesible. La navegación se organiza jerárquicamente, guiando al usuario de manera natural hacia las distintas secciones y herramientas del sistema.
