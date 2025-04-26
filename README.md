@@ -462,7 +462,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
           
 <p><b>Rafael Andres Vivanco Salazar</b></p>
        <p><b>TB1:</b></p>
-        <p align="justify">-</p>
+        <p align="justify">Durante TB1, participé activamente en la elaboración del Solution Profile, incluyendo el desarrollo de los antecedentes y la definición del problema central del proyecto. Además, lideré la implementación del proceso de Lean UX, trabajando en la redacción de los Problem Statements, Assumptions e Hypothesis Statements. También estructuré el Lean UX Canvas de manera colaborativa con el equipo. Finalmente, contribuí a la identificación de los segmentos objetivo y participé en la construcción del Impact Mapping y el primer Product Backlog.</p>
         <p><b>TP1:</b></p>
         <p>-</p>
         <p><b>TB2:</b></p>
@@ -519,7 +519,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
           
 <p><b>Rafael Andres Vivanco Salazar</b></p>
        <p><b>TB1:</b></p>
-        <p align="justify">-</p>
+        <p align="justify">Mi participación en estas entregas permitió al equipo establecer una base estratégica clara y orientada a objetivos desde el inicio del proyecto. Fomenté la toma de decisiones compartida y apoyé la distribución equitativa de responsabilidades, promoviendo un liderazgo conjunto basado en la colaboración y la alineación de ideas.</p>
         <p><b>TP1:</b></p>
         <p>-</p>
         <p><b>TB2:</b></p>
@@ -583,7 +583,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
           
 <p><b>Rafael Andres Vivanco Salazar</b></p>
        <p><b>TB1:</b></p>
-        <p align="justify">-</p>
+        <p align="justify">Contribuí a generar un ambiente inclusivo al facilitar espacios de diálogo para construir los elementos del Lean UX y definir los objetivos del proyecto desde diversas perspectivas. Propuse una planificación clara de las tareas para el Sprint 1 relacionadas con el perfil de solución y el Lean UX, asegurando una distribución equitativa del trabajo. Además, apoyé la organización del backlog inicial en función de los impactos y metas establecidas por el equipo.</p>
         <p><b>TP1:</b></p>
         <p>-</p>
         <p><b>TB2:</b></p>
@@ -642,7 +642,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
           
 <p><b>Rafael Andres Vivanco Salazar</b></p>
        <p><b>TB1:</b></p>
-        <p align="justify">-</p>
+        <p align="justify">Esta experiencia me permitió fortalecer mis habilidades de planificación estratégica y trabajo colaborativo. Comprendí el valor de integrar diferentes puntos de vista desde el inicio del proyecto para lograr una visión compartida. Me comprometo a seguir promoviendo un entorno inclusivo y centrado en la organización y el cumplimiento de objetivos en los siguientes entregables.</p>
         <p><b>TP1:</b></p>
         <p>-</p>
         <p><b>TB2:</b></p>
