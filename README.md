@@ -140,6 +140,40 @@
 # Project Report Collaboration Insights
 [Link de repositorio del reporte:](https://github.com/awawaTech/Project-Report): https://github.com/awawaTech/Project-Report
 
+## Github Collaboration Insights
+
+Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
+
+Se puede identificar a los integrantes como: 
+- Ariana Cecilia Agreda Sobrino: arii4w
+- Claudia Valeria Belledonne Espinoza: Cl4us-tb
+- Victor Andres Cruz Ibarra: Elandrehs
+- Mauricio Daniel Elera Rodríguez: Maur1xio
+- Rafael Andres Vivanco Salazar: RafaelVivanco
+
+
+Asimismo, se explican las ramas que tenemos hasta el momento: 
+- main: Aún no se encuentra representada, pues se hace un merge en cada entrega al ser la rama principal del proyecto.
+- develop: Representada por la rama blanca. Se trata de la rama principal para el proceso del desarrollo del proyecto.
+- feature/x: Representada por las ramas inferiores a develop (azul y verde). Se utilizan para el desarrollo de cada uno de los contribuyentes
+
+<div>
+  <p><img src="img/evidence/ntw.png" alt="Network Graph TB1" width="700px" /></p>
+</div>
+
+Los siguientes gráficos muestran analíticos en cuanto a los commits que cada integrante del grupo ha estado realizando en el repositorio.
+
+__TB1__
+
+<div>
+  <p><img src="img/evidence/contri.png" alt="Contributors" width="700px" /></p>
+</div>
+<div>
+  <p><img src="img/evidence/over.png" alt="Overview" width="700px" /></p>
+</div>
+
+---
+
 # Contenido
 [Student Outcome](#student-outcome)
 
