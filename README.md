@@ -3910,4 +3910,13 @@ Mecanauts no solo resuelve los problemas inmediatos de las empresas, sino que ti
 # Video About-the-Team.
 # Bibliografía
 McKinsey & Company. (2021). Innovación a través de la disrupción digital en servicio a clientes. [https://www.mckinsey.com/pe/our-insights/innovation-through-the-digital-disruption-of-customer-service](https://www.mckinsey.com/pe/our-insights/innovation-through-the-digital-disruption-of-customer-service) 
-# Anexos
+
+
+# 8. Anexos 
+
+Para acceder a los diferentes recursos del proyecto, puedes visitar los siguientes enlaces:
+
+- Video exposición TB1: [https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315044_upc_edu_pe/Es7LsKR8jrtAm3Eih7QsQm4B6zQNcCRNPp4Q7ShqOVCGoA?e=Izawmc](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315044_upc_edu_pe/Es7LsKR8jrtAm3Eih7QsQm4B6zQNcCRNPp4Q7ShqOVCGoA?e=Izawmc)
+- Landing Page desplegado del proyecto: [https://zealous-moss-0e183d81e.6.azurestaticapps.net/](https://zealous-moss-0e183d81e.6.azurestaticapps.net/)
+- Repositorio de la Landing Page: [https://github.com/awawaTech/mecanaut-landing-page](https://github.com/awawaTech/mecanaut-landing-page)
+- Documentación del Proyecto: [https://github.com/awawaTech/Project-Report](https://github.com/awawaTech/Project-Report)
