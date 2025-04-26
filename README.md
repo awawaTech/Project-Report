@@ -573,7 +573,75 @@ de audiencia.</td>
 ### 4.2.5. Navigation Systems.
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
+
+El wireframe de la landing page presenta la estructura base del sitio, destacando una cabecera fija que organiza los elementos esenciales: el logotipo, un menú de navegación con accesos a Inicio, Producto, Beneficios, Planes y FAQ, un selector de idioma (ES | EN) y dos CTA principales: “Iniciar sesión” y “Crear cuenta”. Justo debajo, el hero section introduce un título central (“Mecanaut”), un eslogan breve y la imagen de un portátil donde se proyectará posteriormente la interfaz de la plataforma.
+<br>
+
+Principios de Diseño: <br>
+<ul>
+    <li>
+        Jerarquía visual: Los elementos clave (logo, título y botones principales) se ubican en la zona “above the fold”, captando la atención del usuario apenas ingresa.
+    </li>
+    <li>
+        Consistencia: Se utiliza una rejilla uniforme, tipografía Montserrat y espaciado coherente en todo el diseño.
+    </li>
+    <li>
+        Espaciado adecuado: Los bloques de contenido están bien separados, lo que reduce la carga visual y permite un escaneo más cómodo y rápido.
+    </li>
+</ul>
+Arquitectura de la información: <br>
+<ul>
+    <li>
+        Organización clara: El contenido se estructura en bloques temáticos bien definidos, facilitando la navegación.
+    </li>
+    <li>Navegabilidad fluida: Gracias a la barra fija con enlaces ancla, el usuario puede moverse por la página sin perder el contexto.
+    </li>
+</ul>
+Heurísticas de usabilidad: <br>
+<ul>
+    <li>Visibilidad del estado del sistema: El menú siempre visible permite al usuario saber dónde se encuentra.</li>
+    <li>Consistencia y estándares: Se sigue un esquema típico de páginas empresariales, lo que acorta la curva de aprendizaje.</li>
+    <li>Reconocimiento antes que recuerdo: El uso de iconos y etiquetas claras ayuda al usuario a ubicarse sin esfuerzo adicional.</li>
+</ul>
+<br>
+
+Wireframe
+<img src="img/landing-page/wireframe-landing-page.jpg"><br>
+
 ### 4.3.2. Landing Page Mock-up.
+
+El mockup visual de la landing page refuerza la estructura planteada en el wireframe, dándole vida a través del color, la tipografía y el estilo. El logotipo permanece en la parte superior acompañado de una breve descripción. Justo debajo, las tarjetas de métrica se ubican sobre una franja de color que aporta dinamismo y foco visual. La barra de navegación fija sigue presente, facilitando el acceso a las diferentes secciones informativas.
+
+Destaca el uso de colores contrastantes y una tipografía moderna que no solo mejora la legibilidad, sino que también transmite profesionalismo. Las secciones del menú se mantienen, pero ahora adaptadas visualmente a la identidad de Mecanet, logrando una interacción más natural y atractiva.
+
+Un detalle relevante es la inclusión de un selector de idioma (ES | EN), lo que refuerza el enfoque de diseño inclusivo al considerar una audiencia diversa desde el inicio. Esta funcionalidad facilita la accesibilidad del contenido para usuarios hispanohablantes y angloparlantes, promoviendo la equidad digital y mejorando la experiencia global.
+
+<br>
+Principios de Diseño: <br>
+<ul>
+    <li>Contraste visual: Se utiliza un color intenso para botones y elementos accionables, en contraste con fondos blancos que resaltan el contenido.</li>
+    <li>Jerarquía visual clara: Títulos en 48 px, subtítulos en 26 px y textos en 16 px facilitan la lectura y comprensión rápida de la información.</li>
+    <li>Consistencia visual: Los colores, iconos lineales y bordes redondeados de 20 px se repiten en toda la interfaz para crear una experiencia unificada.</li>
+</ul>
+Arquitectura de la información: <br>
+<ul>
+    <li>Claridad funcional: Cada bloque tiene un propósito específico: informar, demostrar beneficios o convertir.</li>
+    <li>Priorización estratégica: Los botones “Crear cuenta” se colocan estratégicamente después de mostrar valor y precios, guiando al usuario hacia la conversión.</li>
+</ul>
+Heurísticas de usabilidad: <br>
+<ul>
+    <li>Diseño estético y minimalista: Una paleta cromática sencilla (violeta, blanco, azul y acentos de rosa) y el uso de espacios en blanco ayudan a mantener el enfoque.</li>
+    <li>Consistencia y estándares: Botones y navegación se alinean con patrones de uso conocidos, generando confianza en el usuario.</li>
+    <li>Reconocimiento antes que recuerdo: Iconos representativos como una llave inglesa, un cronómetro o un calendario permiten identificar cada sección fácilmente con solo un vistazo.</li>
+</ul>
+<br>
+
+Landing Page es Español
+<img src="img/landing-page/mock-up-landing-page-es.png"><br>
+
+Landing Page en Inglés
+<img src="img/landing-page/mock-up-landing-page-en.jpg">
+<br>
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 ### 4.4.2. Web Applications Wireflow Diagrams.
