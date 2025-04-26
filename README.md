@@ -1195,6 +1195,52 @@ Profesionales encargados de ejecutar las tareas de mantenimiento preventivo y co
 ![ImpactMap](./img/impact-mapping/Impact%20Map%20-%20Mecanaut.jpg)
 ## 3.4. Product Backlog
 
+| \#Orden | User Story ID | Título | Descripción | Story Points  |
+| ----- | ----- | ----- | ----- | ----- |
+| 1 | US01 | Registro de maquinarias | Como administrador de mantenimiento, quiero registrar activos para llevar un control detallado del equipo en planta. | 5 |
+| 2 | US02 | Registro de líneas de producción | Como administrador de mantenimiento, quiero registrar líneas de producción con prioridad, para planificar el mantenimiento. | 5 |
+| 3 | US03 | Generación de órdenes de trabajo correctivas | Como administrador, quiero generar órdenes de trabajo correctivas, para cuando suceda un mantenimiento inesperado. | 8 |
+| 4 | US04 | Asignación de personal técnico | Como administrador, quiero asignar técnicos a órdenes de trabajo, para asegurar su ejecución. | 5 |
+| 5 | US05 | Supervisión del calendario de plan de mantenimiento. | Como administrador, quiero ver el calendario de planes de mantenimiento, para monitorear su cumplimiento. | 3 |
+| 6 | US06 | Filtro de plan de mantenimiento | Como usuario administrador, quiero filtrar los planes de mantenimiento por criterios como tipo de activo, fecha o estado, para visualizar solo los planes relevantes en el calendario. | 2 |
+| 7 | US07 | Visualización de KPIs | Como administrador, quiero analizar métricas (MTBF, MTTR, etc.), para evaluar el rendimiento. | 2 |
+| 8 | US08 | Reporte de orden de trabajo | Como técnico, quiero poder hacer un reporte final de una orden de trabajo, para dejar constancia. | 3 |
+| 9 | US09 | Implementación de plan de trabajo | Como administrador, quiero agregar un plan de mantenimiento al calendario con una duración para organizar a mis técnicos | 8 |
+| 10 | US10 | Consulta de órdenes de trabajo diarias | Como técnico, quiero ver las órdenes de trabajo que me han sido asignadas en el día, para planificarlo. | 3 |
+| 11 | US11 | Solicitud de repuestos | Como técnico, quiero solicitar repuestos faltantes, para poder realizar el mantenimiento. | 2 |
+| 12 | US12 | Revisión de inventario | Como administrador, quiero ver y actualizar el inventario, para asegurar disponibilidad de insumos | 2 |
+| 13 | US13 | Sección de beneficios del sistema | Como usuario interesado, quiero conocer los beneficios del sistema, para evaluar su utilidad. | 2 |
+| 14 | US14 | Sección precios del sitio web | Como usuario interesado, quiero conocer los planes de precios (gratuito, corporativo, profesional), para elegir el que más se adapte a mis necesidades. | 5 |
+| 15 | US15 | Sección footer del sitio web | Como usuario interesado, quiero acceder a información útil en el footer, como contacto, políticas y enlaces rápidos.. | 1 |
+| 16 | US16 | Navegación del sitio web | Como usuario interesado, quiero contar con una barra de navegación para explorar fácilmente el sitio. | 2 |
+| 17 | US17 | Sección dudas del sitio web | Como usuario interesado, quiero consultar una sección de preguntas frecuentes para resolver mis dudas rápidamente. | 1 |
+| 18 | US18 | Registro de tareas realizadas | Como técnico, quiero marcar las tareas que ya he realizado, para mantener un seguimiento claro de mi trabajo. | 5 |
+| 19 | US19 | Visualización de pantalla en dispositivos | Como usuario, quiero que el sitio se vea correctamente en cualquier dispositivo, para poder navegar cómodamente. | 2 |
+| 20 | US20 | Registro de cuenta | Como administrador, quiero registrar una cuenta con datos de empresa, tipo y contacto, para usar el sistema. | 3 |
+| 21 | US21 | Registro de técnicos | Como administrador, quiero registrar técnicos con sus datos, para asignarles tareas. | 3 |
+| 22 | US22 | Inicio de sesión | Como administrador o técnico, quiero iniciar sesión en el sistema para acceder a mis funcionalidades. | 3 |
+| 23 | US23 | Modificar plan de mantenimiento | Como administrador, quiero modificar un plan de mantenimiento ya registrado en el calendario, para ajustar fechas o duración según nuevas necesidades. | 5 |
+| 24 | US24 | Eliminar plan de mantenimiento | Como administrador, quiero eliminar un plan de mantenimiento del calendario, para retirar tareas que ya no se realizarán. | 5 |
+| 25 | US25 | Eliminar activo | Como administrador, quiero eliminar activos que ya no están en uso, para mantener actualizada la base de datos. | 5 |
+| 26 | US26 | Eliminar orden de trabajo repentina | Como administrador, quiero eliminar órdenes de trabajo repentinas que fueron creadas por error, para mantener el calendario limpio. | 5 |
+| 27 | US27 | Visualización de perfil de administrador | Como administrador, quiero visualizar mi perfil, para revisar y actualizar mi información personal o de la cuenta. | 3 |
+| 28 | US28 | Visualización de perfil de técnico | Como técnico, quiero visualizar mi perfil, para conocer mis datos y tareas asignadas. | 3 |
+| 29 | US29 | Eliminar técnico | Como administrador, quiero eliminar técnicos que ya no forman parte del equipo, para mantener la base de datos limpia. | 5 |
+| 30 | US30 | Modificar perfil | Como usuario (técnico o administrador), quiero editar los datos de mi perfil, para mantener mi información actualizada. | 2 |
+| 31 | US31 | Actualización de inventario | Como administrador, quiero actualizar las cantidades de herramientas y materiales en el inventario, para su correcta información. | 3 |
+| 32 | US31 | Sección Hero del sitio web | Como usuario interesado, quiero ver una presentación clara del servicio apenas ingreso, para entender rápidamente qué ofrece Mecanet y por qué me conviene usarlo. | 3 |
+| 33 | TS01 | Post Usuario | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero registrar a un nuevo usuario mediante una API Para que pueda autenticarse y utilizar las funcionalidades del sistema. | 3 |
+| 34 | TS02 | Get Usuario | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero obtener la información de un usuario mediante una API Para mostrar sus datos y permisos dentro del sistema. | 3 |
+| 35 | TS03 | Get Roles por Uuario | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero obtener los roles asociados a un usuario mediante una API Para controlar el acceso y las funcionalidades disponibles | 3 |
+| 36 | TS04 | Post Orden de Trabajo | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero registrar una nueva orden de trabajo mediante una API Para llevar control de los mantenimientos realizados. | 3 |
+| 37 | TS05 | Get Órdenes de Trabajo | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero obtener las órdenes de trabajo existentes mediante una API Para mostrar el historial de mantenimientos. | 3 |
+| 38 | TS06 | Get Métricas de Mantenimiento | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero obtener las métricas generales de mantenimiento mediante una API Para mostrar indicadores de desempeño en el dashboard. | 3 |
+| 39 | TS07 | Post Inventory Item | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero registrar un nuevo ítem en el inventario mediante una API Para mantener actualizado el stock de herramientas, materiales o equipos | 3 |
+| 40 | T08 | Get Inventory Item | Como desarrollador que trabaja en la aplicación de MecaNautQuiero obtener los detalles de un ítem del inventario mediante una APIPara visualizar su disponibilidad, ubicación y cantidad | 3 |
+| 41 | TS09 | Post Activo | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero registrar un activo mediante una API Para tenerlo disponible para programación de mantenimientos | 3 |
+| 42 | TS10 | Get Activo | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero obtener la información de un activo mediante una API Para mostrarla en el módulo de activos | 3 |
+<br>
+   
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
