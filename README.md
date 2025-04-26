@@ -531,14 +531,14 @@ de audiencia.</td>
 Con una interfaz intuitiva y flujos de trabajo optimizados, Mecanaut ayuda a técnicos y administradores a mantener sus equipos operativos, reducir tiempos de inactividad y tomar decisiones basadas en indicadores clave como MTTR, MTBF y costos operativos.
 
 ### 1.1.2. Perfiles de integrantes del equipo
-2. ### Perfiles de integrantes del equipo {#perfiles-de-integrantes-del-equipo}
+2. ### Perfiles de integrantes del equipo
 
-| ![][image3] | Ariana Agreda \- u202315044 <br> Mi nombre es Ariana Agreda, tengo 18 años y soy estudiante del 5to ciclo de Ingeniería de Software en la UPC. Me considero una persona creativa, responsable y comprometida con cada tarea. Por ello, estoy dispuesta a dedicar un gran esfuerzo y apoyo para que logremos los mejores resultados para el proyecto. |
+| <img src="./img/group-members/Ariana Agreda.png" alt="Ariana Agreda" width="300"/> | **Ariana Agreda \- u202315044** <br> Mi nombre es Ariana Agreda, tengo 18 años y soy estudiante del 5to ciclo de Ingeniería de Software en la UPC. Me considero una persona creativa, responsable y comprometida con cada tarea. Por ello, estoy dispuesta a dedicar un gran esfuerzo y apoyo para que logremos los mejores resultados para el proyecto. |
 | :---: | ----- |
-| ![][image4] | **Claudia Belledonne \- u202210259** <br> Mi nombre es Claudia Belledonne, tengo 20 años y me encuentro en mi segundo año de Ingeniería de Software en la UPC. En general, soy alguien creativa, responsable, dedicada y manejo bien el hacer muchas tareas a la vez. Para este trabajo, me comprometo a brindar mi máximo esfuerzo y dedicación. | 
-| ![][image5] | **Mauricio Elera \- u202313702** <br> اسمي أريانا أجريدا، عمري 18 عامًا وأنا طالبة هندسة برمجيات في الدورة الخامسة في UPC. أعتبر نفسي شخصًا مبدعًا ومسؤولًا وملتزمًا بكل مهمة. ولذلك، فأنا على استعداد لتخصيص قدر كبير من الجهد والدعم حتى نتمكن من تحقيق أفضل النتائج للمشروع. |
-| ![][image6] | **Victor Cruz \- u202311053** <br> Mi nombre es Victor Cruz, tengo 19 años y estoy cursando mi 5to ciclo de la carrera de Ingeniería de Software en la UPC. Soy una persona entusiasta, creativa y comprometida con cada actividad que realizo. Estoy decidido a dar lo mejor de mi en este proyecto para lograr resultados de calidad. |
-| ![][image7] | **Rafael Vivanco \- u202311064** <br> Mi nombre es Rafael Vivanco, tengo 19 años y actualmente curso el 5to ciclo de la carrera de Ingeniería de Software en la UPC. Me considero una persona responsable con facilidad para adaptarme a distintos entornos y manejar varias tareas a la vez. Siempre doy lo mejor de mí en cada proyecto, aportando dedicación, esfuerzo y actitud positiva. |
+| <img src="./img/group-members/Claudia Belledonne.png" alt="Claudia Belledonne" width="300"/> | **Claudia Belledonne \- u202210259** <br> Mi nombre es Claudia Belledonne, tengo 20 años y me encuentro en mi segundo año de Ingeniería de Software en la UPC. En general, soy alguien creativa, responsable, dedicada y manejo bien el hacer muchas tareas a la vez. Para este trabajo, me comprometo a brindar mi máximo esfuerzo y dedicación. |
+| <img src="./img/group-members/Mauricio Elera.png" alt="Mauricio Elera" width="300"/> | **Mauricio Elera \- u202313702** <br> Mi nombre es Mauricio Elera, tengo 18 años y soy estudiante del 5to ciclo de Ingeniería de Software en la UPC. Me considero una persona proactiva, organizada y con muchas ganas de aprender. Estoy comprometido con el trabajo en equipo y dispuesto a aportar todo lo necesario para que nuestro proyecto sea exitoso. |
+| <img src="./img/group-members/Victor Cruz.png" alt="Victor Cruz" width="300"/> | **Victor Cruz \- u202311053** <br> Mi nombre es Victor Cruz, tengo 19 años y estoy cursando mi 5to ciclo de la carrera de Ingeniería de Software en la UPC. Soy una persona entusiasta, creativa y comprometida con cada actividad que realizo. Estoy decidido a dar lo mejor de mi en este proyecto para lograr resultados de calidad. |
+| <img src="./img/group-members/Rafael Vivanco.png" alt="Rafael Vivanco" width="300"/>| **Rafael Vivanco \- u202311064** <br> Mi nombre es Rafael Vivanco, tengo 19 años y actualmente curso el 5to ciclo de la carrera de Ingeniería de Software en la UPC. Me considero una persona responsable con facilidad para adaptarme a distintos entornos y manejar varias tareas a la vez. Siempre doy lo mejor de mí en cada proyecto, aportando dedicación, esfuerzo y actitud positiva. |
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
@@ -692,7 +692,7 @@ Si se prueba que nuestras suposiciones clave son falsas, podríamos enfrentar se
 
 #### 1.2.2.4 **Lean UX Canvas**
 
-*Ilustración n: Lean UX Canvas*
+![Canvas](./img/lean-ux-canvas/Mecanaut-Lean-Ux-Canvas.png)
 
 ## 1.3 Segmentos objetivo 
 
