@@ -593,16 +593,17 @@ de audiencia.</td>
 | 29 | US29 | Eliminar técnico | Como administrador, quiero eliminar técnicos que ya no forman parte del equipo, para mantener la base de datos limpia. | 5 |
 | 30 | US30 | Modificar perfil | Como usuario (técnico o administrador), quiero editar los datos de mi perfil, para mantener mi información actualizada. | 2 |
 | 31 | US31 | Actualización de inventario | Como administrador, quiero actualizar las cantidades de herramientas y materiales en el inventario, para su correcta información. | 3 |
-| 32 | TS01 | Post Usuario | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero registrar a un nuevo usuario mediante una API Para que pueda autenticarse y utilizar las funcionalidades del sistema. | 3 |
-| 33 | TS02 | Get Usuario | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero obtener la información de un usuario mediante una API Para mostrar sus datos y permisos dentro del sistema. | 3 |
-| 34 | TS03 | Get Roles por Uuario | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero obtener los roles asociados a un usuario mediante una API Para controlar el acceso y las funcionalidades disponibles | 3 |
-| 35 | TS04 | Post Orden de Trabajo | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero registrar una nueva orden de trabajo mediante una API Para llevar control de los mantenimientos realizados. | 3 |
-| 36 | TS05 | Get Órdenes de Trabajo | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero obtener las órdenes de trabajo existentes mediante una API Para mostrar el historial de mantenimientos. | 3 |
-| 37 | TS06 | Get Métricas de Mantenimiento | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero obtener las métricas generales de mantenimiento mediante una API Para mostrar indicadores de desempeño en el dashboard. | 3 |
-| 38 | TS07 | Post Inventory Item | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero registrar un nuevo ítem en el inventario mediante una API Para mantener actualizado el stock de herramientas, materiales o equipos | 3 |
-| 39 | T08 | Get Inventory Item | Como desarrollador que trabaja en la aplicación de MecaNautQuiero obtener los detalles de un ítem del inventario mediante una APIPara visualizar su disponibilidad, ubicación y cantidad | 3 |
-| 40 | TS09 | Post Activo | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero registrar un activo mediante una API Para tenerlo disponible para programación de mantenimientos | 3 |
-| 41 | TS10 | Get Activo | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero obtener la información de un activo mediante una API Para mostrarla en el módulo de activos | 3 |
+| 32 | US31 | Sección Hero del sitio web | Como usuario interesado, quiero ver una presentación clara del servicio apenas ingreso, para entender rápidamente qué ofrece Mecanet y por qué me conviene usarlo. | 3 |
+| 33 | TS01 | Post Usuario | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero registrar a un nuevo usuario mediante una API Para que pueda autenticarse y utilizar las funcionalidades del sistema. | 3 |
+| 34 | TS02 | Get Usuario | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero obtener la información de un usuario mediante una API Para mostrar sus datos y permisos dentro del sistema. | 3 |
+| 35 | TS03 | Get Roles por Uuario | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero obtener los roles asociados a un usuario mediante una API Para controlar el acceso y las funcionalidades disponibles | 3 |
+| 36 | TS04 | Post Orden de Trabajo | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero registrar una nueva orden de trabajo mediante una API Para llevar control de los mantenimientos realizados. | 3 |
+| 37 | TS05 | Get Órdenes de Trabajo | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero obtener las órdenes de trabajo existentes mediante una API Para mostrar el historial de mantenimientos. | 3 |
+| 38 | TS06 | Get Métricas de Mantenimiento | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero obtener las métricas generales de mantenimiento mediante una API Para mostrar indicadores de desempeño en el dashboard. | 3 |
+| 39 | TS07 | Post Inventory Item | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero registrar un nuevo ítem en el inventario mediante una API Para mantener actualizado el stock de herramientas, materiales o equipos | 3 |
+| 40 | T08 | Get Inventory Item | Como desarrollador que trabaja en la aplicación de MecaNautQuiero obtener los detalles de un ítem del inventario mediante una APIPara visualizar su disponibilidad, ubicación y cantidad | 3 |
+| 41 | TS09 | Post Activo | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero registrar un activo mediante una API Para tenerlo disponible para programación de mantenimientos | 3 |
+| 42 | TS10 | Get Activo | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero obtener la información de un activo mediante una API Para mostrarla en el módulo de activos | 3 |
 <br>
    
 # Capítulo IV: Product Design
