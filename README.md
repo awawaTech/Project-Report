@@ -664,11 +664,11 @@ de audiencia.</td>
     </tr>
      <tr>
         <td>Sprint 1 Velocity  </td>
-        <td>13 Story Points.</td>
+        <td>14 Story Points.</td>
     </tr>
      <tr>
         <td>Sum of Story Points  </td>
-        <td>13 Story Points.</td>
+        <td>14 Story Points.</td>
     </tr>
 </table>
 
@@ -974,6 +974,18 @@ de audiencia.</td>
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
 
+| Repository                                                                 | Branch   | Commit Id             | Commit Message                              | Commit Message Body                                                                 | Committed on (Date) |
+|----------------------------------------------------------------------------|----------|------------------------|----------------------------------------------|--------------------------------------------------------------------------------------|----------------------|
+| https://github.com/awawaTech/mecanaut-l4nding-page                          | main     | 50cb013               | Setup commit: Vue project                    | Initial project scaffold created with Vue CLI and pushed to main                    | 26/04/2025           |
+|                                                                            | develop  | a19fe32               | feat(hero): implement hero section           | Added HTML and CSS for the HeroComponent with responsive design                     | 26/04/2025           |
+|                                                                            | develop  | 5c8ae91               | feat(navbar): add top navigation bar         | Created a reusable NavbarComponent with anchor links to sections                    | 26/04/2025           |
+|                                                                            | develop  | 8b7d2ac               | style(global): add font and color variables  | Set up global SCSS variables for font family, primary and secondary colors          | 26/04/2025           |
+|                                                                            | main     | 50cb013…a52b2c8       | chore(release): merge release 1.0.0 into main | First release containing Hero, Navbar and base styling                              | 26/04/2025           |
+|                                                                            | develop  | c7adf4e               | ci: configure GitHub Actions for deploy      | Set up CI/CD workflow for automatic deployment to Azure Static Web Apps             | 26/04/2025           |
+
+
+
+<br>
 
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
@@ -1007,7 +1019,25 @@ Footer:
 <br>
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+Durante este Sprint no se desarrollaron ni documentaron Web Services, ya que el objetivo principal fue la implementación de la Landing Page como primer entregable del sistema. Por ello, en esta fase del proyecto no se dispone de endpoints disponibles ni de documentación OpenAPI.
+
+La elaboración de la documentación de servicios está prevista para los próximos Sprints, cuando comience el desarrollo del backend y se defina la estructura inicial de la API que permitirá la integración con las vistas web implementadas.
+
+La documentación de servicios será considerada en los siguientes Sprints, una vez que se inicie el desarrollo del backend y se establezca la estructura básica de la API que permitirá la integración con las vistas web implementadas.
+<br>
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+Durante este Sprint se logró exitosamente el despliegue de la Landing Page de la solución **SwiftPort** a través del servicio **Azure Static Web Apps**, en línea con el enfoque de entrega incremental del producto.
+
+## Actividades ejecutadas:
+- Se creó una cuenta en **Azure** y se configuró un **grupo de recursos compartido** para optimizar la gestión de los servicios asociados.
+- Se realizó el **despliegue** de la Landing Page desde su **repositorio de GitHub** mediante **Azure Static Web Apps**, habilitando así un flujo automatizado de publicación a través de **GitHub Actions**.
+- Se implementó y verificó el flujo de **CI/CD** (Integración y Entrega Continua), asegurando que cada **commit** realizado sobre la rama **main** actualice automáticamente la aplicación desplegada.
+- Se validó la **disponibilidad** y el **correcto funcionamiento** del producto accediendo al **dominio asignado por Azure**.
+
+
+<br>
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la **Landing Page**, dividiéndose por secciones según el diseño y el contenido definido previamente.
@@ -1024,6 +1054,7 @@ A continuación, se detalla la participación específica de cada integrante del
 
 > **Nota:** Algunos integrantes colaboraron en secciones compartidas para asegurar consistencia en diseño y funcionalidad.
 
+<br>
 
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
