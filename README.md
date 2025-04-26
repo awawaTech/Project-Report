@@ -2766,11 +2766,11 @@ Diagrama de clases basado en bounded contexts:
 
 <h3>Repositorios de GitHub:</h3>
 <ul>
-  <li><strong>Organización en GitHub:</strong> <a href="https://github.com/wiwitech1">https://github.com/wiwitech1</a></li>
-  <li><strong>Informe del Proyecto:</strong> <a href="https://github.com/wiwitech1/Project-Report">https://github.com/wiwitech1/Project-Report</a></li>
-  <li><strong>Landing Page:</strong> <a href="https://github.com/wiwitech1/Mecanaut-l4nding-page">https://github.com/wiwitech1/Mecanaut-l4nding-page</a></li>
-  <li><strong>SPA Frontend:</strong> <a href="https://github.com/wiwitech1/Mecanaut-frontend">https://github.com/wiwitech1/Mecanaut-frontend</a></li>
-  <li><strong>Backend API:</strong> <a href="https://github.com/faltañamñam">https://github.com/faltañamñam</a></li>
+  <li><strong>Organización en GitHub:</strong> <a href="https://github.com/awawaTech">https://github.com/awawaTech</a></li>
+  <li><strong>Informe del Proyecto:</strong> <a href="https://github.com/awawaTech/Project-Report">https://github.com/awawaTech/Project-Report</a></li>
+  <li><strong>Landing Page:</strong> <a href="https://github.com/awawaTech/mecanaut-landing-page">https://github.com/awawaTech/mecanaut-landing-page</a></li>
+  <li><strong>SPA Frontend:</strong> <a href="https://github.com/awawaTech/mecanaut-fronted">https://github.com/awawaTech/mecanaut-fronted</a></li>
+  <li><strong>Backend API:</strong> <a href="https://github.com/awawaTech/mecanaut-back">https://github.com/awawaTech/mecanaut-back</a></li>
 </ul>
 
 <h3>Flujo de Trabajo GitFlow</h3>
@@ -3376,12 +3376,21 @@ A continuación, se detalla la participación específica de cada integrante del
 
 <br>
 
-## 5.3. Validation Interviews.
-### 5.3.1. Diseño de Entrevistas.
-### 5.3.2. Registro de Entrevistas.
-### 5.3.3. Evaluaciones según heurísticas.
+##### Evidencia de colaboración en GitHub
 
-## 5.4. Video About-the-Product.
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+
+![image](img/evidence/contributors.png)
+
+![image](img/evidence/network-graph.png)
+
+
+
+##### Repositorio de trabajo:
+
+- [Repositorio de la Landing Page en GitHub](https://github.com/awawaTech/mecanaut-landing-page)
+
+Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente con participación de todos los miembros del equipo.
 
 # Conclusiones
 ## Conclusiones y recomendaciones.
@@ -3389,7 +3398,7 @@ A continuación, se detalla la participación específica de cada integrante del
 En la actualidad, muchas empresas industriales enfrentan problemas debido al uso de métodos manuales y herramientas dispersas para gestionar el mantenimiento de sus activos. Esto genera ineficiencias, paros no programados y decisiones basadas en información incompleta o errónea.
 
 ### La Solución de Mecanaut
-Mecanauts proporciona una plataforma digital integral para gestionar el mantenimiento de activos de forma centralizada. Esto incluye la planificación de mantenimientos, gestión de inventarios, generación de reportes técnicos y registro de activos, todo en una sola interfaz amigable y fácil de usar.
+Mecanaut proporciona una plataforma digital integral para gestionar el mantenimiento de activos de forma centralizada. Esto incluye la planificación de mantenimientos, gestión de inventarios, generación de reportes técnicos y registro de activos, todo en una sola interfaz amigable y fácil de usar.
 
 ### Beneficios Clave para los Usuarios
 
