@@ -1201,6 +1201,35 @@ Profesionales encargados de ejecutar las tareas de mantenimiento preventivo y co
 | Comunicar disponibilidad o inactividad de máquinas | Baja | Media | Media | Alta |
 | Coordinar mantenimientos con las líneas de producción | Alta | Alta | Media | Media |
 
+**Tareas con mayor frecuencia e importancia**:
+
+\-Generar órdenes de trabajo
+
+\-Asignar personal técnico a órdenes de trabajo
+
+\-Supervisar el calendario de mantenimiento
+
+\-Analizar KPIs de mantenimiento
+
+\-Coordinar mantenimientos con las líneas de producción
+
+\-Ejecutar tareas de mantenimiento programado (principalmente del técnico)
+
+\-Registrar fallas o incidencias (más relevante para el técnico)
+
+Estas tareas son críticas para asegurar la continuidad operativa y evitar tiempos muertos.
+
+**Coincidencias entre los User Persona:**  
+ Ambos roles coinciden en la importancia de mantener actualizado el inventario, comunicar incidencias y coordinar mantenimientos. Esto refleja la necesidad de una comunicación efectiva y constante entre la gestión y la operación.
+
+**Principales diferencias:**
+
+\-El Administrador tiene tareas más enfocadas en planificación, asignación y análisis (como KPIs, creación de catálogos, calendarización).
+
+\-El Técnico se centra en la ejecución física de las tareas, el registro de incidencias y el mantenimiento en campo.
+
+\-Algunas tareas que el administrador considera de alta importancia (como *analizar KPIs*) son irrelevantes para el técnico, lo cual refleja su diferencia de enfoque: estratégico vs operativo.
+
 <br>
 
 ### 2.3.3. User Journey Mapping
