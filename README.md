@@ -447,7 +447,6 @@
 [Anexos](#anexos)
 
 # Student Outcome
-
 ABET – EAC - Student Outcome 5
 
 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
@@ -461,115 +460,249 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
     </thead>
   <tbody>
     <tr>
-      <td><b>Comunica oralmente con
-efectividad a diferentes rangos
-de audiencia.</b></td>
+      <td><b>Trabaja en equipo para proporcionar liderazgo en forma conjunta</b></td>
       <td>
-        <p><b>name  </b></p>
+<p><b>Ariana Cecilia Agreda Sobrino</b></p>
         <p><b>TB1:</b></p>
-        <p>..</p>
+        <p align="justify">Durante TB1, trabajé en los siguientes entregables clave: Style Guidelines, Landing Page Wireframes y Mockup, Web Applications Wireframes, Wireflow Diagram, User Flow Diagram y Prototype.</p>
         <p><b>TP1:</b></p>
-        <p>,..</p>
+        <p>-</p>
         <p><b>TB2:</b></p>
-        <p>.</p>
+        <p>-</p>
         <p><b>TF:</b></p>
-        <p>.</p>
-        <p><b>name</b></p>
+        <p>-</p>
+          <br>
+
+        
+<p><b>Claudia Valeria Belledonne Espinoza</b></p>
        <p><b>TB1:</b></p>
-        <p></p>
+        <p align="justify">Durante TB1, tomé un rol activo en la elaboración del análisis competitivo y en la propuesta de estrategias clave para el proyecto. Guié la redacción de las historias de usuario, los epics y la estructuración del product backlog, fomentando siempre la toma de decisiones conjunta y el liderazgo compartido en las etapas iniciales del trabajo. Finalmente, lidere el modelado del diagrama de la base de datos relacional para el trabajo.</p>
         <p><b>TP1:</b></p>
-        <p></p>
+        <p>-</p>
         <p><b>TB2:</b></p>
-        <p></p>
+        <p>-</p>
         <p><b>TF:</b></p>
-        <p>.</p>
-        <p><b>name</b></p>
+        <p>-</p>
+          <br>
+
+          
+<p><b>Mauricio Daniel Elera Rodríguez</b></p>
         <p><b>TB1:</b></p>
-        <p>     
-        </p>
+        <p align="justify">Durante el desarrollo de la TB1, me encargué del diseño de la interfaz de usuario de la landing page, creando su wireframe y mock-up para establecer tanto la estructura como el diseño visual final. También trabajé en el diseño de la experiencia y la interfaz de usuario de la aplicación web, desarrollando los wireframes, los diagramas de wireflow para ilustrar el flujo de interacciones entre pantallas, los mock-ups detallados y los diagramas de flujo de usuario para visualizar las rutas dentro de la aplicación. Además, creé prototipos interactivos de la aplicación web para probar las funcionalidades y la experiencia del usuario antes de la implementación final.</p>
         <p><b>TP1:</b></p>
-        <p>.</p>
+        <p>-</p>
         <p><b>TB2:</b></p>
-        <p></p>
+        <p>-</p>
         <p><b>TF:</b></p>
-        <p>.</p>
-        <p><b></b></p>
+        <p>-</p>
+          <br>
+
+          
+<p><b>Victor Andres Cruz Ibarra</b></p>
        <p><b>TB1:</b></p>
-        <p></p>
+        <p align="justify">-</p>
         <p><b>TP1:</b></p>
-        <p></p>
+        <p>-</p>
         <p><b>TB2:</b></p>
-        <p></p>
+        <p>-</p>
         <p><b>TF:</b></p>
-        <p></p>
+        <p>-</p>
+          <br>
+          
+<p><b>Rafael Andres Vivanco Salazar</b></p>
+       <p><b>TB1:</b></p>
+        <p align="justify">Durante TB1, participé activamente en la elaboración del Solution Profile, incluyendo el desarrollo de los antecedentes y la definición del problema central del proyecto. Además, lideré la implementación del proceso de Lean UX, trabajando en la redacción de los Problem Statements, Assumptions e Hypothesis Statements. También estructuré el Lean UX Canvas de manera colaborativa con el equipo. Finalmente, contribuí a la identificación de los segmentos objetivo y participé en la construcción del Impact Mapping y el primer Product Backlog.</p>
+        <p><b>TP1:</b></p>
+        <p>-</p>
+        <p><b>TB2:</b></p>
+        <p>-</p>
+        <p><b>TF:</b></p>
+        <p>-</p>
       </td>
       <td>
-        <p><strong>TB1:</strong></p>
-        <p></p>
-        <p><strong>TP1:</strong></p>
-        <p>.</p>
-        <p><strong>TB2:</strong></p>
-        <p></p>
-        <p><strong>TF:</strong></p>
-        <p></p>
+        <p><b>Ariana Cecilia Agreda Sobrino</b></p>
+        <p><b>TB1:</b></p>
+        <p align="justify">Mi contribución ayudó a consolidar un liderazgo colaborativo desde el comienzo del proyecto, alineando al equipo hacia metas compartidas y distribuyendo las responsabilidades de manera justa.</p>
+        <p><b>TP1:</b></p>
+        <p>-</p>
+        <p><b>TB2:</b></p>
+        <p>-</p>
+        <p><b>TF:</b></p>
+        <p>-</p>
+          <br>
+          
+<p><b>Claudia Valeria Belledonne Espinoza</b></p>
+       <p><b>TB1:</b></p>
+        <p align="justify">Mi participación permitió fortalecer el liderazgo colaborativo desde el inicio del proyecto, alineando al equipo en objetivos comunes y distribuyendo responsabilidades de forma equitativa.</p>
+        <p><b>TP1:</b></p>
+        <p>-</p>
+        <p><b>TB2:</b></p>
+        <p>-</p>
+        <p><b>TF:</b></p>
+        <p>-</p>
+          <br>
+          
+
+<p><b>Mauricio Daniel Elera Rodríguez</b></p>
+        <p><b>TB1:</b></p>
+        <p align="justify">El trabajo realizado en la TB1 mejoró la colaboración del equipo al facilitar una comunicación más clara y decisiones informadas gracias a los wireframes, mock-ups y prototipos. Estos entregables ayudaron a alinear objetivos y expectativas, fomentando un liderazgo compartido y una distribución equitativa de tareas, lo que fortaleció la responsabilidad y la colaboración dentro del equipo.</p>
+        <p><b>TP1:</b></p>
+        <p>-</p>
+        <p><b>TB2:</b></p>
+        <p>-</p>
+        <p><b>TF:</b></p>
+        <p>-</p>
+          <br>
+
+          
+<p><b>Victor Andres Cruz Ibarra</b></p>
+       <p><b>TB1:</b></p>
+        <p align="justify">-</p>
+        <p><b>TP1:</b></p>
+        <p>-</p>
+        <p><b>TB2:</b></p>
+        <p>-</p>
+        <p><b>TF:</b></p>
+        <p>-</p>
+          <br>
+          
+<p><b>Rafael Andres Vivanco Salazar</b></p>
+       <p><b>TB1:</b></p>
+        <p align="justify">Mi participación en estas entregas permitió al equipo establecer una base estratégica clara y orientada a objetivos desde el inicio del proyecto. Fomenté la toma de decisiones compartida y apoyé la distribución equitativa de responsabilidades, promoviendo un liderazgo conjunto basado en la colaboración y la alineación de ideas.</p>
+        <p><b>TP1:</b></p>
+        <p>-</p>
+        <p><b>TB2:</b></p>
+        <p>-</p>
+        <p><b>TF:</b></p>
+        <p>-</p>
       </td>
     </tr>
-    <tr>
-      <td>Comunica por escrito con
-efectividad a diferentes rangos
-de audiencia.</td>
+
+
+    
+<tr>
+      <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
       <td>
-        <p><b>name  </b></p>
+        <p><b>Ariana Cecilia Agreda Sobrino</b></p>
         <p><b>TB1:</b></p>
-        <p>..</p>
+        <p align="justify">Fomenté un entorno de trabajo colaborativo desde el inicio del proyecto, promoviendo la participación equitativa entre los miembros del equipo. Propuse ideas creativas para la landing page y ayudé a definir los objetivos del Sprint 1. Participé activamente en la planificación de tareas, coordinando esfuerzos con mis compañeros para cumplir los entregables establecidos de manera organizada y puntual.</p>
         <p><b>TP1:</b></p>
-        <p>..</p>
+        <p>-</p>
         <p><b>TB2:</b></p>
-        <p>..</p>
+        <p>-</p>
         <p><b>TF:</b></p>
-        <p>..</p>
-        <p><b>name</b></p>
+        <p>-</p>
+          <br>
+
+          
+<p><b>Claudia Valeria Belledonne Espinoza</b></p>
        <p><b>TB1:</b></p>
-        <p>..</p>
+        <p align="justify">Contribuí a crear un entorno colaborativo proponiendo metas claras para el Sprint 1 y apoyando la planificación de tareas desde una perspectiva inclusiva. Además, elaboré la documentación del sprint y del informe general, asegurando que las ideas del equipo fueran reflejadas de forma coherente y ordenada.</p>
         <p><b>TP1:</b></p>
-        <p>..</p>
+        <p>-</p>
         <p><b>TB2:</b></p>
-        <p>...</p>
+        <p>-</p>
         <p><b>TF:</b></p>
-        <p>.</p>
-        <p><b>name</b></p>
+        <p>-</p>
+          <br>
+
+          
+<p><b>Mauricio Daniel Elera Rodríguez</b></p>
         <p><b>TB1:</b></p>
-        <p>..
-        </p>
+        <p align="justify">Programé la landing page respetando las ideas y diseños planteados por el equipo, asegurando que todas las contribuciones se integraran de forma equitativa. Ayudé a planificar las tareas de desarrollo y a cumplir los plazos establecidos, fomentando un entorno colaborativo donde se valoraron todas las propuestas.</p>
         <p><b>TP1:</b></p>
-        <p>..</p>
+        <p>-</p>
         <p><b>TB2:</b></p>
-        <p>...</p>
+        <p>-</p>
         <p><b>TF:</b></p>
-        <p>.</p>
-        <p><b>name</b></p>
+        <p>-</p>
+          <br>
+
+          
+<p><b>Victor Andres Cruz Ibarra</b></p>
        <p><b>TB1:</b></p>
-        <p>...</p>
+        <p align="justify">-</p>
         <p><b>TP1:</b></p>
-        <p>...</p>
+        <p>-</p>
         <p><b>TB2:</b></p>
-        <p>...</p>
+        <p>-</p>
         <p><b>TF:</b></p>
-        <p>...</p>
+        <p>-</p>
+          <br>
+          
+<p><b>Rafael Andres Vivanco Salazar</b></p>
+       <p><b>TB1:</b></p>
+        <p align="justify">Contribuí a generar un ambiente inclusivo al facilitar espacios de diálogo para construir los elementos del Lean UX y definir los objetivos del proyecto desde diversas perspectivas. Propuse una planificación clara de las tareas para el Sprint 1 relacionadas con el perfil de solución y el Lean UX, asegurando una distribución equitativa del trabajo. Además, apoyé la organización del backlog inicial en función de los impactos y metas establecidas por el equipo.</p>
+        <p><b>TP1:</b></p>
+        <p>-</p>
+        <p><b>TB2:</b></p>
+        <p>-</p>
+        <p><b>TF:</b></p>
+        <p>-</p>
       </td>
-       <td>
-        <p><strong>TB1:</strong></p>
-        <p>..</p>
-        <p><strong>TP1:</strong></p>
-        <p>...</p>
-        <p><strong>TB2:</strong></p>
-        <p>..</p>
-        <p><strong>TF:</strong></p>
-        <p>...</p>
+      
+<td>
+    <p><b>Ariana Cecilia Agreda Sobrino</b></p>
+        <p><b>TB1:</b></p>
+        <p align="justify">Esta experiencia me permitió reforzar mis habilidades de liderazgo colaborativo y organización. Aprendí la importancia de escuchar distintas perspectivas para construir soluciones más sólidas y cohesionadas. Me comprometo a seguir fomentando un ambiente inclusivo en el equipo y a mantener el enfoque en el cumplimiento de metas en los próximos sprints.</p>
+        <p><b>TP1:</b></p>
+        <p>-</p>
+        <p><b>TB2:</b></p>
+        <p>-</p>
+        <p><b>TF:</b></p>
+        <p>-</p>
+          <br>
+
+          
+<p><b>Claudia Valeria Belledonne Espinoza</b></p>
+       <p><b>TB1:</b></p>
+        <p align="justify">Mi enfoque en la planificación y documentación ayudó a establecer una base clara para el trabajo, promoviendo la participación de todos los miembros y facilitando el cumplimiento de los objetivos trazados en TB1.</p>
+        <p><b>TP1:</b></p>
+        <p>-</p>
+        <p><b>TB2:</b></p>
+        <p>-</p>
+        <p><b>TF:</b></p>
+        <p>-</p>
+          <br>
+        
+
+<p><b>Mauricio Daniel Elera Rodríguez</b></p>
+        <p><b>TB1:</b></p>
+        <p align="justify">Trabajar en la programación de la landing page me permitió reforzar la colaboración, la organización de tareas y el compromiso para alcanzar los objetivos del sprint.</p>
+        <p><b>TP1:</b></p>
+        <p>-</p>
+        <p><b>TB2:</b></p>
+        <p>-</p>
+        <p><b>TF:</b></p>
+        <p>-</p>
+          <br>
+
+          
+<p><b>Victor Andres Cruz Ibarra</b></p>
+       <p><b>TB1:</b></p>
+        <p align="justify">-</p>
+        <p><b>TP1:</b></p>
+        <p>-</p>
+        <p><b>TB2:</b></p>
+        <p>-</p>
+        <p><b>TF:</b></p>
+        <p>-</p>
+          <br>
+          
+<p><b>Rafael Andres Vivanco Salazar</b></p>
+       <p><b>TB1:</b></p>
+        <p align="justify">Esta experiencia me permitió fortalecer mis habilidades de planificación estratégica y trabajo colaborativo. Comprendí el valor de integrar diferentes puntos de vista desde el inicio del proyecto para lograr una visión compartida. Me comprometo a seguir promoviendo un entorno inclusivo y centrado en la organización y el cumplimiento de objetivos en los siguientes entregables.</p>
+        <p><b>TP1:</b></p>
+        <p>-</p>
+        <p><b>TB2:</b></p>
+        <p>-</p>
+        <p><b>TF:</b></p>
+        <p>-</p>
       </td>
     </tr>
   </tbody>
 </table>
+
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
