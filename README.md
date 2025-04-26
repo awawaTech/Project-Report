@@ -1204,6 +1204,17 @@ Profesionales encargados de ejecutar las tareas de mantenimiento preventivo y co
 <br>
 
 ### 2.3.3. User Journey Mapping
+
+**Administrador de mantenimiento:** 
+
+<img src="img/user-journeymapping/journeymapAdmin.png"></img>
+
+**Técnico Operativo:**
+
+<img src="img/user-journeymapping/journeymapTec.png"></img>
+
+<br>
+
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
 ## 2.4. Ubiquitous Language
