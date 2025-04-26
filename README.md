@@ -1182,9 +1182,140 @@ Profesionales encargados de ejecutar las tareas de mantenimiento preventivo y co
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 ### 2.3.2. User Task Matrix
+
+| Task Matrix | Administrador de mantenimiento |  | Técnico Operativo |  |
+|--------------|--------------------------------|--|-------------------|--|
+|              | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
+| Registrar activos | Media | Alta | Baja | Media |
+| Registrar líneas de producción y su prioridad | Media | Alta | Nula | Baja |
+| Generar órdenes de trabajo | Alta | Alta | Baja | Alta |
+| Asignar personal técnico a órdenes de trabajo | Alta | Alta | Nula | Media |
+| Ejecutar tareas de mantenimiento programado | Nula | Media | Alta | Alta |
+| Supervisar el calendario de mantenimiento | Alta | Alta | Media | Alta |
+| Analizar KPIs de mantenimiento (Downtime, MTBF, MTTR, etc.) | Alta | Alta | Baja | Media |
+| Reportar fallas o incidencias en máquinas | Baja | Alta | Alta | Alta |
+| Registrar evidencias (fotos, comentarios, checklist) | Nula | Media | Alta | Alta |
+| Crear catálogo de repuestos o materiales | Alta | Alta | Baja | Alta |
+| Revisar y actualizar inventario de repuestos | Media | Alta | Alta | Media |
+| Solicitar repuestos o materiales faltantes | Baja | Media | Alta | Alta |
+| Comunicar disponibilidad o inactividad de máquinas | Baja | Media | Media | Alta |
+| Coordinar mantenimientos con las líneas de producción | Alta | Alta | Media | Media |
+
+<br>
+
 ### 2.3.3. User Journey Mapping
+
+**Administrador de mantenimiento:** 
+
+<img src="img/user-journeymapping/journeymapAdmin.png"></img>
+
+**Técnico Operativo:**
+
+<img src="img/user-journeymapping/journeymapTec.png"></img>
+
+<br>
+
 ### 2.3.4. Empathy Mapping
+
+Para la elaboración de los Empathy Maps de los User Personas Claudia (Jefa de Producción) y Jonathan (Técnico Operativo), el equipo siguió un proceso estructurado que inició con una etapa de preparación, en la cual se revisaron las entrevistas realizadas y se consolidaron los hallazgos más relevantes sobre sus comportamientos, necesidades y emociones en su entorno laboral. A continuación, se colocó al User Persona en el centro de la herramienta, y se realizó una lluvia de ideas grupal para responder a las preguntas correspondientes. Esta información fue organizada en las secciones correspondientes del mapa, priorizando la comprensión profunda del usuario desde una perspectiva humana. Este proceso permitió desarrollar una representación empática sólida y realista de cada perfil, que orientará mejor las decisiones de diseño.
+
+**Administrador de mantenimiento:**
+
+<img src="img/empathy-mapping/empathymapAdmin.png"></img>
+
+**Técnico Operativo:**
+
+<img src="img/empathy-mapping/empathymapTec.png"></img>
+
+<br>
+
 ### 2.3.5. As-is Scenario Mapping
+
+**Administrador de mantenimiento:**
+
+**1\. Preparación**
+
+Para elaborar el As-Is Scenario Mapping de Claudia, iniciamos revisando los resultados de su entrevista, su mapa de empatía y la Task Matrix. A partir de ello, buscamos comprender cómo experimenta actualmente el proceso de gestión del mantenimiento desde que recibe una incidencia hasta que genera reportes.
+
+**2\. Lluvia de ideas individual**
+
+Durante la lluvia de ideas, nuestro equipo propuso lo que Claudia probablemente realiza o siente en su día a día. Algunas ideas sueltas fueron:
+
+* Recibe muchas llamadas imprevistas.  
+* Usa Excel o papel para anotar incidentes.  
+* Se siente presionada cuando hay muchos reportes.  
+* Coordina mucho por WhatsApp con técnicos.  
+* A veces duda si los técnicos están haciendo bien su trabajo.  
+* Tiene que redactar reportes manuales, lo cual le quita tiempo.  
+* Se siente frustrada al no tener todo centralizado.
+
+**3\. Revisión grupal**
+
+En esta etapa, revisamos las ideas, detectando repeticiones como "coordinar por WhatsApp" o "anotar en Excel", y consolidamos algunas acciones similares. También descartamos elementos muy generales que no estaban directamente vinculados a fases específicas.
+
+**4\. Identificación de fases**
+
+Identificamos las fases principales del proceso que vive Claudia, desde la recepción del incidente hasta el registro de resultados. Las detectamos al observar puntos de transición en sus actividades cotidianas. Así nacieron fases como “Recepción de incidentes”, “Planear mantenimiento”, “Coordinar con técnicos”.
+
+**5\. Nombrar las fases**
+
+Cada fase fue nombrada con verbos claros que representarán las acciones que Claudia ejecuta o lidera. Buscamos mantener un lenguaje simple y profesional para su fácil lectura.
+
+**6\. Llenar filas: Doing, Thinking y Feeling**
+
+Una vez definidas las fases, completamos con el Doing, Thinking y Feeling en cada una. Para esto, retomamos su mapa de empatía y las ideas validadas del grupo. Por ejemplo, en “Planear mantenimiento” ella anota problemas en Excel (Doing), teme olvidar algo (Thinking), y siente frustración (Feeling).
+
+**7\. Identificación de áreas positivas, negativas y blank areas**
+
+Se identificaron áreas negativas donde Claudia siente ansiedad, frustración o incertidumbre, especialmente en la coordinación y verificación de tareas. Como área positiva se detectó el sentimiento de control en la planificación inicial. Las blank areas fueron momentos en los que no teníamos claridad sobre cómo prioriza tareas o cómo mide la efectividad de las órdenes, y lo marcamos para investigar más profundamente. 
+
+Finalmente, luego del anterior proceso conseguimos el siguiente As-Is Scenario Mapping:
+
+<img src="img/asis-scenario/asisAdmin.png"></img>
+
+**Técnico Operativo:**
+
+**1\. Preparación**
+
+Para el caso de Jonathan, el equipo revisó su mapa de empatía, entrevista y Task Matrix para identificar cómo es su jornada laboral al realizar tareas de mantenimiento. Nos enfocamos en su experiencia desde que recibe una orden de trabajo hasta que la completa y reporta.
+
+**2\. Lluvia de ideas individual**
+
+Algunas ideas surgidas de manera individual por los miembros del equipo fueron:
+
+* A veces no sabe si tiene todas las herramientas al empezar.  
+* Revisa la orden por WhatsApp o la recibe verbalmente.  
+* No siempre recibe instrucciones claras.  
+* Se frustra si le falta material.  
+* Se siente presionado por completar bien y rápido el trabajo.  
+* No tiene tiempo para reportar de forma detallada.
+
+**3\. Revisión grupal**
+
+Reunimos las ideas y agrupamos conceptos similares, como los relacionados a la verificación de herramientas y la inseguridad al iniciar una tarea. También se eliminaron algunas ideas vagas o repetitivas, como “le falta comunicación”, que se sustituyó por situaciones más específicas.
+
+**4\. Identificación de fases**
+
+Definimos fases que representan el flujo natural del trabajo de Jonathan, como “Recepción de orden de trabajo”, “Búsqueda y preparación de herramientas”, “Ejecución del mantenimiento”. Estas surgieron al seguir el trayecto real de una tarea.
+
+**5\. Nombrar las fases**
+
+Elegimos nombres que reflejaran lo que hace Jonathan, con un enfoque operativo. Por ejemplo, “Ejecución del mantenimiento” en lugar de simplemente “Trabajo”, para mantener claridad y precisión.
+
+**6\. Llenar filas: Doing, Thinking y Feeling**
+
+Completamos las filas con base en sus actividades diarias. Por ejemplo, en la fase de ejecución, realiza el trabajo solicitado (Doing), piensa que debe hacerlo rápido y bien (Thinking), y se siente concentrado (Feeling). Nos apoyamos tanto en su mapa de empatía como en sus respuestas de entrevista.
+
+**7\. Identificación de áreas positivas, negativas y blank areas**
+
+Detectamos áreas negativas asociadas a la falta de recursos o comunicación, que generan inseguridad, frustración y desmotivación. Como punto positivo, la ejecución misma del trabajo le permite concentrarse. Las blank areas surgieron en fases como la de reportar resultados, donde no sabíamos exactamente qué tan detallado era el informe o cómo se entregaba.
+
+Luego de este proceso, se consiguió el siguiente As-Is Scenario Mapping:
+
+<img src="img/asis-scenario/asisTec.png"></img>
+
+<br>
+
 ## 2.4. Ubiquitous Language
 
 # Capítulo III: Requirements Specification
