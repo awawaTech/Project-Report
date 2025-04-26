@@ -451,7 +451,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
           
 <p><b>Victor Andres Cruz Ibarra</b></p>
        <p><b>TB1:</b></p>
-        <p align="justify">-</p>
+        <p align="justify">Durante TB1, lideré la ejecución del proceso de investigación con usuarios, diseñando y registrando cuatro entrevistas clave para el levantamiento de necesidades. Posteriormente, realicé el análisis detallado de estas entrevistas, lo cual sirvió como base para el desarrollo del Needfinding. A partir de esto, elaboré entregables fundamentales como los User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping y el As-is Scenario Mapping. Además, desarrollé el Ubiquitous Language y participé activamente en la elaboración del To-Be Scenario Mapping, así como en la redacción de User Stories para la especificación de requerimientos.</p>
         <p><b>TP1:</b></p>
         <p>-</p>
         <p><b>TB2:</b></p>
@@ -508,7 +508,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
           
 <p><b>Victor Andres Cruz Ibarra</b></p>
        <p><b>TB1:</b></p>
-        <p align="justify">-</p>
+        <p align="justify">Mi participación en estas tareas ayudó a consolidar un liderazgo compartido centrado en el entendimiento profundo de las necesidades del usuario. Al asumir la responsabilidad de esta etapa clave, promoví una dinámica de trabajo colaborativa, impulsando decisiones basadas en evidencia que alinearon al equipo hacia una solución centrada en el usuario.</p>
         <p><b>TP1:</b></p>
         <p>-</p>
         <p><b>TB2:</b></p>
@@ -572,7 +572,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
           
 <p><b>Victor Andres Cruz Ibarra</b></p>
        <p><b>TB1:</b></p>
-        <p align="justify">-</p>
+        <p align="justify">Fomenté un entorno colaborativo al involucrar al equipo en la validación de entrevistas y en la interpretación conjunta de hallazgos. Guié la planificación de las tareas relacionadas con la fase de Needfinding y su vinculación con los requerimientos del sistema, asegurando que todas las voces del equipo fueran consideradas durante el análisis. La definición del Ubiquitous Language y la elaboración del To-Be Scenario Mapping permitieron alinear los objetivos del proyecto con las necesidades reales de los usuarios.</p>
         <p><b>TP1:</b></p>
         <p>-</p>
         <p><b>TB2:</b></p>
@@ -633,7 +633,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
        <p><b>TB1:</b></p>
         <p align="justify">-</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>Esta etapa me permitió mejorar mis habilidades de análisis colaborativo y planificación orientada al usuario. Aprendí la importancia de trabajar de forma inclusiva para construir soluciones significativas. Me comprometo a seguir promoviendo la escucha activa y la organización de tareas basadas en objetivos comunes en los próximos sprints.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
