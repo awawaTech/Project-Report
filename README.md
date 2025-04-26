@@ -692,7 +692,7 @@ Si se prueba que nuestras suposiciones clave son falsas, podríamos enfrentar se
 
 #### 1.2.2.4 **Lean UX Canvas**
 
-![Canvas](./img/lean-ux-canvas/Mecanaut-Lean-Ux-Canvas.png)
+![Canvas](./img/Mecanaut-Lean-Ux-Canvas2.png)
 
 ## 1.3 Segmentos objetivo 
 
