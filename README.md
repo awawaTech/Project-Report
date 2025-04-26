@@ -1355,7 +1355,65 @@ Service Provider(Proveedor de servicios): Empresa o profesional externo encargad
 
 # Capítulo III: Requirements Specification
 
+Después de comprender a profundidad a nuestros usuarios y sus contextos, pasamos a una etapa clave del proyecto: definir claramente qué debe hacer nuestra solución. En esta sección presentamos los requisitos que guiarán el desarrollo del producto digital, alineados con los hallazgos obtenidos. A través de herramientas como el *To-Be Scenario Mapping*, *User Stories*, *Impact Map* y *Product Backlog*, comenzamos a construir la base de una experiencia que responda verdaderamente a sus necesidades.
+
 ## 3.1. To-Be Scenario Mapping
+
+**1\. Preparación**
+
+Iniciamos esta etapa revisando los As-Is Scenario Mappings, las entrevistas, y los mapas de empatía para entender las frustraciones, necesidades y puntos de mejora tanto de Claudia como de Jonathan. El objetivo fue imaginar un futuro ideal donde sus actividades fueran más fluidas, apoyadas por tecnología, y sin fricciones innecesarias.
+
+**2\. Lluvia de ideas individual**
+
+El equipo propuso de manera individual cómo podría ser una experiencia ideal para Claudia y Jonathan si contaran con un sistema optimizado. Las ideas incluyeron, por ejemplo:
+
+* Alertas automáticas de fallas.  
+* Asignación de tareas sin llamadas.  
+* Seguimiento en tiempo real.  
+* Confirmación previa de herramientas.  
+* Comunicación fluida sin confusiones.  
+* Registro automático de evidencias.
+
+**3\. Revisión grupal**
+
+Se reunieron todas las ideas propuestas y se agruparon por afinidad, eliminando duplicados y conectando propuestas complementarias. Se validaron las ideas más viables desde el punto de vista tecnológico y de experiencia de usuario, manteniendo un enfoque centrado en las tareas reales de Claudia y Jonathan.
+
+**4\. Identificación de fases (columnas)**
+
+A partir de los flujos mejorados, el equipo identificó las fases clave del nuevo proceso. Estas fases representan los momentos de interacción con el sistema en un escenario deseado, con una lógica fluida desde la identificación del problema hasta el cierre de la tarea. Así se definieron las columnas como:
+
+Para Claudia:
+
+* Identificación  
+* Planificar mantenimiento  
+* Asignar tareas a técnicos  
+* Supervisar en tiempo real  
+* Registro y reporte de resultados
+
+Para Jonathan:
+
+* Recepción digital de la orden de trabajo  
+* Confirmación de herramientas y materiales  
+* Ejecución guiada de tareas  
+* Comunicación con administrador en tiempo real  
+* Registro y cierre
+
+**5\. Nombrar las fases**
+
+Se eligieron nombres breves, descriptivos y centrados en la acción. Priorizamos el uso de verbos como identificar, planificar, asignar, supervisar, etc., para reflejar claramente el tipo de interacción del usuario con el sistema o proceso. Nos aseguramos que cada nombre pudiera transmitir de forma intuitiva lo que ocurre en esa etapa, facilitando su comprensión.
+
+**Administrador de mantenimiento:**  
+
+<img src="img/tobe-scenario/tobeAdmin.png"></img> 
+ 
+El To-Be Scenario Mapping de Claudia Navarro muestra una experiencia optimizada frente al As-Is. Las fases del proceso se mantienen, pero se transforman gracias a Mecanaut: la recepción de incidentes se automatiza, la planificación y asignación se vuelve más eficiente, y el seguimiento y reporte se digitalizan. Esto reduce tiempos, evita errores y le brinda mayor control sobre el mantenimiento.  
+
+**Técnico Operador:**  
+
+<img src="img/tobe-scenario/tobeTec.png"></img> 
+ 
+En comparación con el escenario actual, el To-Be Scenario introduce mejoras clave: digitalización de órdenes, disponibilidad anticipada de herramientas, instrucciones más claras, y comunicación estructurada. Estas mejoras reducen el estrés, aumentan la eficiencia y motivación del técnico, y aseguran una mejor documentación del trabajo realizado.
+
 ## 3.2. User Stories
 ## 3.3. Impact Mapping
 ![ImpactMap](./img/impact-mapping/Impact%20Map%20-%20Mecanaut.jpg)
