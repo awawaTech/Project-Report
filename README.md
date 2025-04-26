@@ -1177,8 +1177,115 @@ Profesionales encargados de ejecutar las tareas de mantenimiento preventivo y co
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
+
+* **Modelo de Entrevista para Segmento Objetivo 1: Administrador de mantenimiento:**  
+  * ¿Qué tipo de maquinaria utilizan en sus procesos productivos?
+
+  * ¿Cuántas líneas de producción tienen actualmente?
+
+  * ¿Cómo organizan y programan los mantenimientos de las máquinas?
+
+  * ¿Tienen un sistema implementado para gestionar el mantenimiento de sus máquinas?
+
+  * ¿Cómo realizan el seguimiento del mantenimiento preventivo?
+
+  * ¿Qué impacto tienen las fallas o paradas inesperadas en su productividad?
+
+  * ¿Qué tan frecuente se presentan estas fallas?
+
+  * ¿Están utilizando herramientas digitales para visualizar indicadores de producción o mantenimiento?
+
+  * ¿Cómo se dan cuenta si el mantenimiento de sus máquinas está funcionando bien o no?
+
+  * ¿Te piden reportes? ¿A quién se los presentas y qué datos suelen pedirte?
+
+  * ¿Qué factores evalúan antes de invertir en una herramienta tecnológica?
+
+  * Si existiera una solución que les ayude a reducir fallas, visualizar indicadores clave y controlar los costos, ¿les interesaría probarla?  
+      
+* .**Modelo de Entrevista para Segmento Objetivo 2: Técnico Operativo:**  
+  * ¿Qué herramientas usas actualmente para registrar las tareas de mantenimiento? (Excel, papel, app, software…)
+
+  * ¿Usas o usarías una app desde tu dispositivo para registrar tareas en campo?
+
+  * ¿Cómo haces para saber qué máquina necesita mantenimiento?
+
+  * ¿Cómo organizas tu día de trabajo? ¿Quién te asigna las tareas?
+
+  * ¿Te ha pasado que se quede una máquina parada porque no estaba programado el mantenimiento?
+
+  * ¿Qué es lo más frustrante de tu día a día como técnico?  
+      
+  * ¿Te piden reportes sobre las tareas que realizas? ¿A quién se los presentas y qué datos suelen pedirte?  
+      
+  * Si tuvieras una herramienta que te permita ver el calendario de mantenimientos, registrar tareas y saber si hay stock de repuestos, ¿qué tan útil sería para ti?  
+      
+  * Si pudieras mejorar un solo proceso con tecnología, ¿cuál sería?
+
+<br>
+
 ### 2.2.2. Registro de entrevistas 
+
+**Entrevistas a Administradores de mantenimiento**
+
+| Entrevistado 1 | Magaly Tellez |
+| :---- | :---- |
+| Edad | 42 años |
+| Distrito | Gamarra |
+| <img src="img/entrevistas/entrevista1.png"></img> | Cuenta con más de 12 años en la industria textil y actualmente es jefe técnico en una planta de confección. Supervisa cinco líneas de producción y coordina mantenimientos de forma manual, sin herramientas digitales. Usa maquinaria como cortadoras automáticas y mesas de planchado. Reconoce que las fallas afectan la productividad y está dispuesto a probar una solución tecnológica, siempre que sea fácil de usar y no interrumpa las operaciones. |
+| Timing: 0:29-5:40 | URL:[upc-pre-202510-1asi0730-4363-awawaTech- needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/ER5BG1H-_ddBoCNShAOBekoB53D6dhlof2wrt9mWpAJZqw?e=94dg7U) |
+| **Entrevistado 2** | **Luisa Férnandez** |
+| Edad |  30 años |
+| Distrito | Ate |
+| <img src="img/entrevistas/entrevista2.png"></img> | Tiene experiencia en el manejo de plantas embotelladoras con procesos automatizados. Actualmente administra tres líneas de producción que operan con envasadoras, etiquetadoras y sistemas de transporte. Utiliza un software básico para gestionar el mantenimiento, aunque no está integrado con el sistema de producción. Reconoce que las fallas semanales en componentes generan pérdidas importantes. Presenta reportes mensuales al gerente general y está interesado en soluciones tecnológicas que ofrezcan datos en tiempo real y se adapten a sus sistemas actuales. |
+| Timing:  | URL:[upc-pre-202510-1asi0730-4363-awawaTech- needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/ERK9T7qPqMBOuUgowojqBHsBQSpi0aOWLVxWLCEj9YM5xA?e=E3x78u&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Entrevistado 3** |  |
+| Edad |  |
+| Distrito |  |
+|  |  |
+| Timing:  | URL: |
+
+**Entrevistas a Técnicos Operativos**
+
+| Entrevistado 4 | Luis Gómez |
+| :---- | :---- |
+| Edad | 23 años |
+| Distrito | Gamarra |
+| <img src="img/entrevistas/entrevista4.png"></img> | Trabaja como mecánico en una planta papelera, registrando sus tareas primero en una libreta y luego en Excel. Recibe las órdenes de trabajo directamente de su jefe al inicio del turno. Aunque no utiliza tecnología en campo, está dispuesto a usar una app si es rápida y sencilla. Se guía por avisos del supervisor o señales en las máquinas para detectar necesidades de mantenimiento. Lo que más le frustra es la espera por repuestos y la falta de comunicación clara. Considera muy útil una herramienta que le permita ver el calendario de mantenimientos, registrar tareas y verificar disponibilidad de repuestos en tiempo real. |
+| Timing: 0:21-3:40 | URL:[upc-pre-202510-1asi0730-4363-awawaTech- needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EftcvYLtD8NJriKgsGk6yk0BxMHZEh66iS0cSrhFWwunXg?e=UxM4ir&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Entrevistado 5** | **Adriano Sánchez** |
+| Edad |  33 años |
+| Distrito | Puente Piedra |
+| <img src="img/entrevistas/entrevista5.png"></img> | Cuenta con experiencia como mecánico industrial y actualmente trabaja en una planta con equipos antiguos. Registra sus tareas en papel y está abierto a usar una aplicación digital, siempre que reciba la capacitación adecuada. Organiza su trabajo según las tareas asignadas por su jefe de turno y suele lidiar con fallos recurrentes por falta de mantenimiento programado, especialmente en maquinaria vieja. Lo que más le frustra es enfrentar reparaciones sin diagnóstico previo ni repuestos disponibles. Considera que una herramienta que integre calendario, registro de tareas y estado del inventario sería muy útil, y destaca el control de repuestos como el proceso más urgente a mejorar. |
+| Timing:  | URL:[upc-pre-202510-1asi0730-4363-awawaTech- needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/ES1L8ZVeWT1PqLnXB-tg8EIB_yPNClMLlSa4mtcdWiYrkQ?e=K8w0oD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Entrevistado 6** | **Alvaro Díaz** |
+| Edad | 29 años |
+| Distrito | Comas |
+| <img src="img/entrevistas/entrevista6.png"></img> | Trabaja como técnico eléctrico en una planta industrial. Registra sus tareas en una hoja impresa que luego se transcribe. Usaría una app si es simple, ya que su tiempo es limitado. Recibe las tareas al iniciar su jornada, pero a veces hay problemas de coordinación. Lo que más le frustra es repetir trabajos por falta de piezas. Considera muy útil una herramienta que permita ver el calendario, registrar tareas y verificar stock. |
+| Timing:  | URL:[upc-pre-202510-1asi0730-4363-awawaTech- needfinding-sprint-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EWb93hiwfD1ChwkAqRGn7VkBkM4Qj8AmLscPZl2vOFWpPw?e=a5fq25&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+
+<br>
+
 ### 2.2.3. Análisis de entrevistas
+
+**Análisis del segmento de administrador de mantenimiento**
+
+Los tres administradores entrevistados provienen de distintos sectores industriales (alimentaria, textil y embotelladora), pero comparten desafíos similares en la gestión del mantenimiento. Todos coinciden en que no cuentan con un sistema robusto y automatizado para organizar los mantenimientos, recurriendo principalmente a Excel, cuadernos físicos o sistemas básicos no integrados. En consecuencia, la programación y el seguimiento del mantenimiento preventivo se realiza de manera manual o semimanual, lo que genera olvidos y fallas recurrentes.
+
+El impacto de las paradas inesperadas es alto en todos los casos, afectando directamente la productividad, generando horas extra o incluso pérdida de lotes de producción. Las fallas críticas ocurren al menos una vez por semana, y su gestión reactiva demuestra la necesidad de un sistema más proactivo. A pesar de que algunos utilizan tableros físicos o sistemas simples para visualizar métricas, ninguno cuenta con monitoreo en tiempo real ni indicadores integrados, lo cual limita la capacidad de análisis.
+
+Todos deben presentar reportes a mandos superiores (gerente general, jefe de planta o producción), y se les exigen datos como tiempos de parada, duración de mantenimientos, costos y disponibilidad de equipos. En cuanto a las barreras para adoptar nuevas tecnologías, mencionan factores como el costo, facilidad de uso y la resistencia del equipo operativo. Aun así, el 100% muestra interés en soluciones tecnológicas si estas son intuitivas, económicas y pueden probarse gradualmente, por ejemplo, en una línea piloto.
+
+**Análisis del segmento tecnico operativo**
+
+Los técnicos entrevistados (de áreas mecánica, eléctrica e industrial) coinciden en que los registros de mantenimiento aún se hacen en papel o con hojas impresas, y luego se transcriben manualmente. Esto no solo consume tiempo sino que también provoca omisiones y errores por falta de tiempo o coordinación. Aun así, todos estarían dispuestos a usar una app desde su dispositivo si esta es rápida, sencilla y no les hace perder tiempo.
+
+La asignación de tareas es manual y se realiza al inicio de cada turno, pero existe desorganización, especialmente los fines de semana o cuando hay falta de comunicación. Además, los técnicos no siempre cuentan con la información completa sobre la máquina a intervenir, ni con los repuestos necesarios, lo que genera frustración y retrabajo. La gestión de repuestos e inventario fue mencionada por todos como el proceso más problemático, ya que implica pérdida de tiempo y falta de control.
+
+En cuanto a los reportes, estos son solicitados al final del día por el jefe directo, pero en ocasiones no se completan por falta de tiempo o porque no son revisados con regularidad. Los datos que se solicitan suelen ser mínimos: qué se hizo, cuánto duró y si la máquina quedó operativa. Todos los técnicos valoran la idea de tener una herramienta que les permita ver el calendario de mantenimientos, registrar tareas y consultar el stock en tiempo real, ya que consideran que esto optimizaría su trabajo diario, evitaría errores y malentendidos.
+
+<br>
+
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 ### 2.3.2. User Task Matrix
