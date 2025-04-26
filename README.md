@@ -714,9 +714,9 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
           
 <p><b>Victor Andres Cruz Ibarra</b></p>
        <p><b>TB1:</b></p>
-        <p align="justify">-</p>
+        <p align="justify">Esta etapa me permitió mejorar mis habilidades de análisis colaborativo y planificación orientada al usuario. Aprendí la importancia de trabajar de forma inclusiva para construir soluciones significativas. Me comprometo a seguir promoviendo la escucha activa y la organización de tareas basadas en objetivos comunes en los próximos sprints.</p>
         <p><b>TP1:</b></p>
-        <p>Esta etapa me permitió mejorar mis habilidades de análisis colaborativo y planificación orientada al usuario. Aprendí la importancia de trabajar de forma inclusiva para construir soluciones significativas. Me comprometo a seguir promoviendo la escucha activa y la organización de tareas basadas en objetivos comunes en los próximos sprints.</p>
+        <p>-</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
