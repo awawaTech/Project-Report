@@ -585,7 +585,7 @@ A través de una experiencia visual inspiradora y funcional, Mecanaut no solo cu
             <li> Logotipo:
         El logotipo presenta el nombre completo del proyecto utilizando una tipografía moderna y fácilmente legible. En algunas versiones, el isotipo se incorpora al principio del logotipo reemplazando la letra "M", creando así una identidad visual                 unificada, versátil y fácil de recordar.</li>
         </ul>    
-        <img src="img/style-guidelines/logos.png">
+        <img src="img/style-guidelines/logos-mecanaut.png">
         <br>
     </li>
     <li>
