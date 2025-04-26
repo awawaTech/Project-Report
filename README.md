@@ -1216,6 +1216,19 @@ Profesionales encargados de ejecutar las tareas de mantenimiento preventivo y co
 <br>
 
 ### 2.3.4. Empathy Mapping
+
+Para la elaboración de los Empathy Maps de los User Personas Claudia (Jefa de Producción) y Jonathan (Técnico Operativo), el equipo siguió un proceso estructurado que inició con una etapa de preparación, en la cual se revisaron las entrevistas realizadas y se consolidaron los hallazgos más relevantes sobre sus comportamientos, necesidades y emociones en su entorno laboral. A continuación, se colocó al User Persona en el centro de la herramienta, y se realizó una lluvia de ideas grupal para responder a las preguntas correspondientes. Esta información fue organizada en las secciones correspondientes del mapa, priorizando la comprensión profunda del usuario desde una perspectiva humana. Este proceso permitió desarrollar una representación empática sólida y realista de cada perfil, que orientará mejor las decisiones de diseño.
+
+**Administrador de mantenimiento:**
+
+<img src="img/empathy-mapping/empathymapAdmin.png"></img>
+
+**Técnico Operativo:**
+
+<img src="img/empathy-mapping/empathymapTec.png"></img>
+
+<br>
+
 ### 2.3.5. As-is Scenario Mapping
 ## 2.4. Ubiquitous Language
 
