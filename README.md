@@ -2919,7 +2919,6 @@ Diagrama de clases basado en bounded contexts:
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
-
 <table>
     <tr>
         <td>Sprint #</td>
@@ -3347,7 +3346,7 @@ La documentación de servicios será considerada en los siguientes Sprints, una 
 <br>
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
-Durante este Sprint se logró exitosamente el despliegue de la Landing Page de la solución **SwiftPort** a través del servicio **Azure Static Web Apps**, en línea con el enfoque de entrega incremental del producto.
+Durante este Sprint se logró exitosamente el despliegue de la Landing Page de la solución **Mecanaut** a través del servicio **Azure Static Web Apps**, en línea con el enfoque de entrega incremental del producto.
 
 ## Actividades ejecutadas:
 - Se creó una cuenta en **Azure** y se configuró un **grupo de recursos compartido** para optimizar la gestión de los servicios asociados.
@@ -3361,6 +3360,10 @@ Durante este Sprint se logró exitosamente el despliegue de la Landing Page de l
 ![image](/img/landing-sprint/plans1.png)
 ![image](/img/landing-sprint/faq1.png)
 ![image](/img/landing-sprint/footer1.png)
+
+Video de Demostración e Implementación:
+[Ver video de Demostración e Implementación](https://upcedupe-my.sharepoint.com/personal/u202315044_upc_edu_pe/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fu202315044%5Fupc%5Fedu%5Fpe%2FDocuments%2FApplicacionesWebTB1&ga=1) 
+
 
 <br>
 
@@ -3393,6 +3396,9 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 ![image](img/evidence/contributors.png)
 
 ![image](img/evidence/network-graph.png)
+![image](img/evidence/eviden1.png)
+
+
 
 
 
