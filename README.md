@@ -563,8 +563,120 @@ de audiencia.</td>
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
+
+Mecanaut revoluciona la administración y planificación de mantenimientos al reemplazar los procesos manuales con una plataforma web automatizada. Lo que antes era tedioso y complejo, ahora se convierte en una experiencia accesible, eficiente y al alcance de cualquier empresa.
+
+Nuestra identidad visual transmite tecnología, modernidad e innovación, sin perder una apariencia amigable que conecta con los usuarios y los hace sentir cómodos al interactuar con la plataforma. El diseño está pensado para ofrecer una interfaz intuitiva y flujos de trabajo optimizados, permitiendo a técnicos y administradores mantener sus equipos operativos, reducir tiempos de inactividad y tomar decisiones basadas en indicadores clave como MTTR, MTBF y costos operativos.
+
+A través de una experiencia visual inspiradora y funcional, Mecanaut no solo cumple con las expectativas creativas de sus usuarios, sino que también los motiva a volver, generando una conexión duradera en cada uso.
+
 ### 4.1.1. General Style Guidelines
+
+<ul>
+    <li>
+        Logo
+        <br>
+        Se han desarrollado múltiples versiones del isotipo y logotipo para su correcta aplicación sobre diferentes fondos y en distintos formatos (claro, oscuro, con y sin nombre), garantizando la legibilidad y la consistencia visual de la marca en todos los entornos.
+        <ul>
+            <li>
+                Isotipo:
+        El isotipo representa un robot estilizado integrado con un engranaje, simbolizando los conceptos de automatización, tecnología y mantenimiento industrial. En el centro del engranaje se encuentra la letra "M", inicial del nombre del proyecto,                 reforzando su identidad visual. El diseño se caracteriza por su simetría, simplicidad y un estilo amigable que transmite eficiencia y facilidad de uso. 
+            </li>
+            <li> Logotipo:
+        El logotipo presenta el nombre completo del proyecto utilizando una tipografía moderna y fácilmente legible. En algunas versiones, el isotipo se incorpora al principio del logotipo reemplazando la letra "M", creando así una identidad visual                 unificada, versátil y fácil de recordar.</li>
+        </ul>    
+        <img src="img/style-guidelines/logos.png">
+        <br>
+    </li>
+    <li>
+        Tipografía
+         <br>
+        <ul><li>Montserrat: Esta fuente, reconocida por su modernidad y legibilidad, continúa siendo la elección en la interfaz de la aplicación. Aunque inicialmente se orientaba a un público joven, su diseño limpio y profesional se adapta perfectamente a las exigencias de un público de mayor edad. La tipografía proyecta una imagen contemporánea, sin perder la elegancia y claridad que un usuario maduro valora, garantizando así una experiencia visual agradable y accesible para todos.
+</li></ul>
+        <br>
+        <img src="img/style-guidelines/tipografia.jpg">
+        <br>
+    </li>
+    <li>
+        Colores
+        <br>
+        <ul>
+            <li>
+                Gamas de Morado y Azul:
+ Los tonos predominantes en la identidad visual distintos tonos de azul y morado sin llegar a una gran intensidad, proyectando una imagen tecnológica, confiable y moderna. El morado comunica sofisticación e innovación, mientras que los matices de azul aportan estabilidad y profesionalismo. Esta combinación establece un vínculo visual fuerte con sectores industriales que valoran tanto la precisión como el diseño.
+</li>
+<li>
+Neutros y Contrastes:
+ La paleta incluye grises suaves y oscuros, blanco puro y negro cálido, que refuerzan la estructura visual de la interfaz. Estos colores actúan como base para generar jerarquía visual, aportan balance y mejoran la legibilidad en todos los entornos, tanto en pantallas claras como en modos oscuros.
+</li>
+<li>
+Toques de Rojo y Rosa:
+ El rojo vibrante y su versión más clara aportan un acento en la interfaz, utilizado estratégicamente para elementos de alerta, interacción crítica o llamados de atención. Este contraste no solo añade vitalidad, sino que también asegura que las acciones importantes sean percibidas con claridad inmediata por el usuario.
+            </li>
+        </ul>
+        <img src="img/style-guidelines/colores.jpg">
+        <br>
+    </li>
+    <li>
+        Botones
+        <br>
+        La interfaz de Mecanaut utiliza un sistema de botones diseñado para ser visualmente claro, accesible y jerárquico, facilitando la interacción del usuario en contextos industriales y administrativos. Cada tipo de botón cumple una función específica y se ha diseñado utilizando los colores de la paleta institucional y formas consistentes, lo que garantiza una experiencia fluida y coherente. Con ello se busca garantizan una experiencia intuitiva, clara  y adaptable a distintos perfiles de usuario, manteniendo siempre la armonía visual y la funcionalidad del sistema.
+        <ul>
+            <li>
+                Botones Primarios:<br>
+Botones como “+ Nuevo Repuesto” representan acciones principales. Su diseño con bordes redondeados, íconos de acción y texto blanco resalta visualmente, transmitiendo urgencia y facilitando su identificación.
+            </li>
+            <li>
+               Botones Secundarios:<br>
+Acciones complementarias como “Guardar” o “Agregar Técnico” se presentan con estilos delineados o colores secundarios, como el morado. Estos botones apoyan el flujo de trabajo sin desviar la atención de las acciones prioritarias.
+            </li>
+            <li>
+                Botones de Advertencia o Críticos:<br>
+Botones como “Eliminar” se muestran en rojo intenso para señalar acciones de alto riesgo o impacto. Su color llamativo asegura que el usuario reflexione antes de ejecutar una acción irreversible.
+            </li>
+            <li>
+                Botones Neutros o de Estado:<br>
+Acciones intermedias, como “Marcar como Finalizada”, se representan con un contorno negro y fondo blanco, comunicando neutralidad y evitando confusión con funciones más urgentes o críticas.
+            </li>
+            <li>
+                Botones de Filtro y Herramientas:<br>
+Botones como “Filtro” emplean íconos sutiles y contornos en tonos morados. Están destinados a funciones de navegación o soporte y no compiten visualmente con los botones principales.
+            </li>
+        </ul>
+        <img src="img/style-guidelines/botones.jpg">
+        <br>
+    </li>
+</ul>
+
 ### 4.1.2. Web Style Guidelines
+
+<ul>
+    <li>Patrones de Lectura
+        <br>
+        En la sección de “Producto”, se emplea el patrón de lectura en F para dirigir la atención del usuario hacia los elementos clave, como la descripción de Mecanaut y los tipos de mantenimiento. Este enfoque asegura que títulos e imágenes importantes estén dentro del campo visual inicial, alineándose con la heurística de “reconocimiento antes que recuerdo”, al facilitar el acceso inmediato a la información esencial.
+        <img src="img/style-guidelines/patronf.png">
+
+<br>
+En secciones como “Beneficios”, se aplica el patrón de lectura en Z, llevando la vista del usuario desde la parte superior derecha hacia la inferior izquierda en un flujo diagonal. Esto permite visualizar cada beneficio de manera ordenada, mejorando la visibilidad del estado del sistema al mostrar claramente el avance de la interacción y las opciones disponibles.
+        <img src="img/style-guidelines/patronz.png">
+        <br>
+    </li>
+    <li>Navegación
+        <br>
+        La barra de navegación permanece visible y fija en la parte superior del sitio, ofreciendo al usuario un acceso constante a otras secciones. Esto fortalece la heurística de control y libertad, permitiendo una navegación flexible y evitando que el usuario se pierda durante su recorrido por la plataforma.
+                <img src="img/style-guidelines/navbar-en.png">
+        <img src="img/style-guidelines/navbar-es.png">
+        <br>
+    </li>
+    <li>Layout y Grid System
+        <br>
+        Diseño responsivo: El sitio utiliza un sistema de cuadrícula adaptable que mantiene una experiencia uniforme en distintos dispositivos. Esto refuerza la heurística de consistencia y estándares, ya que garantiza una navegación fluida sin importar el tamaño de pantalla.
+        <br>
+Organización del contenido: La información se presenta en bloques espaciados y bien estructurados, lo que reduce la carga cognitiva y favorece la eficiencia de uso. Así, los usuarios pueden identificar rápidamente los datos relevantes y navegar con mayor agilidad.
+        <br>
+    </li>
+</ul>
+
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems.
 ### 4.2.2. Labeling Systems.
