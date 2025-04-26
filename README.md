@@ -612,7 +612,7 @@ Wireframe
 
 El mockup visual de la landing page refuerza la estructura planteada en el wireframe, dándole vida a través del color, la tipografía y el estilo. El logotipo permanece en la parte superior acompañado de una breve descripción. Justo debajo, las tarjetas de métrica se ubican sobre una franja de color que aporta dinamismo y foco visual. La barra de navegación fija sigue presente, facilitando el acceso a las diferentes secciones informativas.
 
-Destaca el uso de colores contrastantes y una tipografía moderna que no solo mejora la legibilidad, sino que también transmite profesionalismo. Las secciones del menú se mantienen, pero ahora adaptadas visualmente a la identidad de Mecanet, logrando una interacción más natural y atractiva.
+Destaca el uso de colores contrastantes y una tipografía moderna que no solo mejora la legibilidad, sino que también transmite profesionalismo. Las secciones del menú se mantienen, pero ahora adaptadas visualmente a la identidad de Mecanaut, logrando una interacción más natural y atractiva.
 
 Un detalle relevante es la inclusión de un selector de idioma (ES | EN), lo que refuerza el enfoque de diseño inclusivo al considerar una audiencia diversa desde el inicio. Esta funcionalidad facilita la accesibilidad del contenido para usuarios hispanohablantes y angloparlantes, promoviendo la equidad digital y mejorando la experiencia global.
 
