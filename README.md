@@ -642,6 +642,7 @@ Configuración
 <img src="img/web-application-design/wireframe-configuracion2.jpg">
 <img src="img/web-application-design/wireframe-configuracion3.jpg">
 
+<br>
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
 <img src="img/web-application-design/wireflow-crear-cuenta.jpg">
@@ -652,6 +653,7 @@ Configuración
 <img src="img/web-application-design/wireflow-crear-plan-mantenimiento.jpg">
 <img src="img/web-application-design/wireflow-checklist.jpg">
 
+<br>
 ### 4.4.2. Web Applications Mock-ups.
 
 El mock-up de la app de Mecanaut se diseñó con el objetivo de lograr una interfaz visualmente atractiva, funcional y coherente con la identidad de la marca. Se priorizó una experiencia de usuario simple e intuitiva, aplicando principios de usabilidad, arquitectura de la información y diseño inclusivo para garantizar claridad, accesibilidad y eficiencia.
@@ -746,6 +748,7 @@ Configuración
 <img src="img/web-application-design/mockup-configuracion-3.jpg">
 
 
+<br>
 ### 4.4.3. Web Applications User Flow Diagrams.
 
 <img src="img/web-application-design/userflow-crear-cuenta.jpg"> <br>
@@ -870,6 +873,7 @@ Unappy Paths:
 
 </ul>
 
+<br>
 ## 4.5. Web Applications Prototyping.
 
 El prototipo web de Mecanaut ha sido creado bajo un enfoque centrado en el usuario, integrando principios sólidos de arquitectura de la información y las heurísticas de usabilidad de Nielsen para brindar una experiencia intuitiva, funcional y accesible. La navegación se organiza jerárquicamente, guiando al usuario de manera natural hacia las distintas secciones y herramientas del sistema.
@@ -880,6 +884,13 @@ Cada detalle ha sido diseñado para preservar la consistencia visual, ofrecer un
 
 
 https://www.figma.com/proto/SPFLusYscd4LBDsEJfKp7m/Mecanaut?node-id=344-4101&p=f&t=C0BerJI9MNVBMsiE-1&scaling=contain&content-scaling=fixed&page-id=344%3A4100&starting-point-node-id=344%3A4101&show-proto-sidebar=1
+https://www.youtube.com/watch?v=33yVUK49qWI
+
+
+https://github.com/user-attachments/assets/cf4a549d-6c93-4b95-ba80-9b9160aec81c
+
+
+
 
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Software Architecture Context Diagram.
