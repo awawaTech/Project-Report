@@ -603,7 +603,7 @@ de audiencia.</td>
 | 39 | T08 | Get Inventory Item | Como desarrollador que trabaja en la aplicación de MecaNautQuiero obtener los detalles de un ítem del inventario mediante una APIPara visualizar su disponibilidad, ubicación y cantidad | 3 |
 | 40 | TS09 | Post Activo | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero registrar un activo mediante una API Para tenerlo disponible para programación de mantenimientos | 3 |
 | 41 | TS10 | Get Activo | Como desarrollador que trabaja en la aplicación de MecaNaut Quiero obtener la información de un activo mediante una API Para mostrarla en el módulo de activos | 3 |
-
+<br>
    
 # Capítulo IV: Product Design
 
