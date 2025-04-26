@@ -675,14 +675,77 @@ de audiencia.</td>
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 
 <table>
-<tr>
-    <td>Team Member (Last Name, First Name)</td>
-    <td>GitHub Username</td>
-    <td>Aspect Name 1 Leader (L) / Collaborator (C)</td>
-</tr>    
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Sección de beneficios del sistema<br/>Leader (L) / Collaborator (C)</th>
+    <th>Sección precios del sitio web<br/>Leader (L) / Collaborator (C)</th>
+    <th>Sección dudas del sitio web<br/>Leader (L) / Collaborator (C)</th>
+    <th>Navegación del sitio web<br/>Leader (L) / Collaborator (C)</th>
+    <th>Sección footer del sitio web<br/>Leader (L) / Collaborator (C)</th>
+    <th>Sección Hero del sitio web<br/>Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Agreda, Ariana</td>
+    <td>arii4w</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Belledonne, Claudia</td>
+    <td>Cl4us-tb</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Elera, Mauricio</td>
+    <td>Maur1xio</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Cruz, Victor</td>
+    <td>JeanXP404</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Vivanco, Rafael</td>
+    <td>brit2801</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
 </table>
 
-#### 5.2.1.3. Sprint Backlog n.
+<br>
+
+#### 5.2.1.3. Sprint Backlog 1
+
+<p>El objetivo de este primer sprint fue desarrollar la primera versión de la Landing Page de nuestro sistema Mecanet, enfocada en presentar la propuesta de valor del producto a potenciales usuarios. Esta versión incluye las secciones clave que comunican los beneficios, planes, preguntas frecuentes, footer y navegación general.</p>
+
+
+![image](https://github.com/user-attachments/assets/8d30753d-dc89-47a1-9577-2bd45fe0a130)
+<p>[link:https://trello.com/invite/b/680a6cc7e8740865732b2289/ATTI0f0d254cd7c3649f29efcc5f9b5924a54D385D43/open-source](https://trello.com/invite/b/6809859e0eeb459935939fdd/ATTIbd99f0fb344dbb6087c9b4fca8759803429C15BE/apps-web)</p>
 
 <table>
   <tr>
@@ -709,18 +772,18 @@ de audiencia.</td>
     <th rowspan="4">US13</th>
     <th rowspan="4">Sección de beneficios del sistema</th>
     <td>1</td>
-    <td align="justify">Crear componente benefits-section</td>
-    <td align="justify">Generar el componente benefits-section para esta sección.</td>
+    <td align="justify">Crear componente BenefitsComponent</td>
+    <td align="justify">Generar el componente BenefitsComponent para esta sección.</td>
     <td>0.3 hr</td>
-    <td>e</td>
+    <td>Claudia Belledonne</td>
     <td>Done</td>
 </tr>
 <tr>
     <td>2</td>
-    <td align="justify">Codificar estructura HTML de benefits-section</td>
+    <td align="justify">Codificar estructura HTML de BenefitsComponent</td>
     <td align="justify">Maquetar columnas, puntos de separación y alineación de textos e íconos.</td>
     <td>1.5 hr</td>
-    <td>ea</td>
+    <td>Claudia Belledonne</td>
     <td>Done</td>
 </tr>
 <tr>
@@ -728,15 +791,15 @@ de audiencia.</td>
     <td align="justify">Estilar la sección de beneficios según el diseño (CSS)</td>
     <td align="justify">Colores, fuentes (por ejemplo Montserrat), márgenes y hover effects si aplica.</td>
     <td>1 hr</td>
-    <td>ea</td>
+    <td>Claudia Belledonne</td>
     <td>Done</td>
 </tr>
 <tr>
     <td>4</td>
-    <td align="justify">Incorporar animaciones suaves de scroll a benefits-section</td>
+    <td align="justify">Incorporar animaciones suaves de scroll a BenefitsComponent</td>
     <td align="justify">Agregar animaciones al hacer scroll o al cargar los beneficios para mejorar la experiencia visual.</td>
     <td>0.5 hr</td>
-    <td>ea</td>
+    <td>Claudia Belledonne</td>
     <td>Done</td>
 </tr>
 
@@ -749,7 +812,7 @@ de audiencia.</td>
     <td align="justify">Crear componente pricing-section</td>
     <td align="justify">Generar el componente pricing-section para esta sección.</td>
     <td>0.3 hr</td>
-    <td>e</td>
+    <td>Rafael Vivanco</td>
     <td>Done</td>
 </tr>
 <tr>
@@ -757,7 +820,7 @@ de audiencia.</td>
     <td align="justify">Codificar estructura HTML de pricing-section</td>
     <td align="justify">Maqueta la estructura visual con tarjetas (cards) en un contenedor principal que mantenga alineación responsiva.</td>
     <td>1 hr</td>
-    <td>ea</td>
+    <td>Rafael Vivanco</td>
     <td>Done</td>
 </tr>
 <tr>
@@ -765,7 +828,7 @@ de audiencia.</td>
     <td align="justify">Estilar la sección de precios según el diseño (CSS)</td>
     <td align="justify">Colores, fuentes (por ejemplo Montserrat), márgenes y hover effects si aplica.</td>
     <td>1 hr</td>
-    <td>ea</td>
+    <td>Rafael Vivanco</td>
     <td>Done</td>
 </tr>
 <tr>
@@ -773,7 +836,7 @@ de audiencia.</td>
     <td align="justify">Implementar el switch “Mensual / Anual</td>
     <td align="justify">Desarrolla el botón deslizante de alternancia entre pago mensual/anual de forma visual y funcional.</td>
     <td>0.5 hr</td>
-    <td>ea</td>
+    <td>Rafael Vivanco</td>
     <td>Done</td>
 </tr>
 
@@ -786,7 +849,7 @@ de audiencia.</td>
     <td align="justify">Crear componente faq-section</td>
     <td align="justify">Generar el componente que contendrá la sección de preguntas frecuentes.</td>
     <td>0.3 hr</td>
-    <td>e</td>
+    <td>Mauricio Elera</td>
     <td>Done</td>
 </tr>
 <tr>
@@ -794,15 +857,15 @@ de audiencia.</td>
     <td align="justify">Maquetar HTML con estructura tipo acordeón</td>
     <td align="justify">Mostrar preguntas con comportamiento colapsable (mostrar/ocultar respuesta).</td>
     <td>1.5 hr</td>
-    <td>ea</td>
+    <td>Mauricio Elera</td>
     <td>Done</td>
 </tr>
 <tr>
     <td>11</td>
-    <td align="justify">Estilizar acordeón con branding de Mecanaut</td>
+    <td align="justify">Estilizar acordeón con branding de Mecanet</td>
     <td align="justify">Colores, fuentes (por ejemplo Montserrat), márgenes y hover effects.</td>
     <td>1 hr</td>
-    <td>ea</td>
+    <td>Mauricio Elera</td>
     <td>Done</td>
 </tr>
 
@@ -814,7 +877,7 @@ de audiencia.</td>
     <td align="justify">Crear componente navbar</td>
     <td align="justify">Generar el componente modular navbar para integrarlo en el layout general del sitio.</td>
     <td>0.3 hr</td>
-    <td>e</td>
+    <td>Mauricio Elera</td>
     <td>Done</td>
 </tr>
 <tr>
@@ -822,7 +885,7 @@ de audiencia.</td>
     <td align="justify">Maquetar HTML del navbar con secciones y botones</td>
     <td align="justify">Maquetar el logo, menú de navegación (Home, Producto, Beneficios, Planes, FAQ) y botones de sesión ("Iniciar sesión", "Crear cuenta").</td>
     <td>1 hr</td>
-    <td>ea</td>
+    <td>Mauricio Elera</td>
     <td>Done</td>
 </tr>
 <tr>
@@ -830,7 +893,7 @@ de audiencia.</td>
     <td align="justify">Estilizar navbar según diseño con CSS</td>
     <td align="justify">Aplicar estilos: tipografía, resaltado del ítem activo, separación de botones, borde suave, fondo translúcido con sombra sutil.</td>
     <td>1 hr</td>
-    <td>ea</td>
+    <td>Mauricio Elera</td>
     <td>Done</td>
 </tr>
 <tr>
@@ -838,44 +901,7 @@ de audiencia.</td>
     <td align="justify">Agregar rutas funcionales a los botones</td>
     <td align="justify">Vincular los ítems de navegación a sus rutas internas.</td>
     <td>1 hr</td>
-    <td>ea</td>
-    <td>Done</td>
-</tr>
-
-
-
-<tr>
-    <th rowspan="4">US16</th>
-    <th rowspan="4">Navegación del sitio web</th>
-    <td>12</td>
-    <td align="justify">Crear componente navbar</td>
-    <td align="justify">Generar el componente modular navbar para integrarlo en el layout general del sitio.</td>
-    <td>0.3 hr</td>
-    <td>e</td>
-    <td>Done</td>
-</tr>
-<tr>
-    <td>13</td>
-    <td align="justify">Maquetar HTML del navbar con secciones y botones</td>
-    <td align="justify">Maquetar el logo, menú de navegación (Home, Producto, Beneficios, Planes, FAQ) y botones de sesión ("Iniciar sesión", "Crear cuenta").</td>
-    <td>1 hr</td>
-    <td>ea</td>
-    <td>Done</td>
-</tr>
-<tr>
-    <td>14</td>
-    <td align="justify">Estilizar navbar según diseño con CSS</td>
-    <td align="justify">Aplicar estilos: tipografía, resaltado del ítem activo, separación de botones, borde suave, fondo translúcido con sombra sutil.</td>
-    <td>1 hr</td>
-    <td>ea</td>
-    <td>Done</td>
-</tr>
-<tr>
-    <td>15</td>
-    <td align="justify">Agregar rutas funcionales a los botones</td>
-    <td align="justify">Vincular los ítems de navegación a sus rutas internas.</td>
-    <td>1 hr</td>
-    <td>ea</td>
+    <td>Mauricio Elera</td>
     <td>Done</td>
 </tr>
 
@@ -887,7 +913,7 @@ de audiencia.</td>
   <td align="justify">Crear componente footer</td>
   <td align="justify">Generar un componente exclusivo para el footer.</td>
   <td>0.3 hr</td>
-  <td>a</td>
+  <td>Victor Cruz</td>
   <td>Done</td>
 </tr>
 <tr>
@@ -895,7 +921,7 @@ de audiencia.</td>
   <td align="justify">Codificar estructura HTML del footer</td>
   <td align="justify">Maquetar el footer en base al diseño visual.</td>
   <td>1 hr</td>
-  <td>a</td>
+  <td>Victor Cruz</td>
   <td>Done</td>
 </tr>
 <tr>
@@ -903,7 +929,7 @@ de audiencia.</td>
   <td align="justify">Estilizar fondo degradado, íconos y tipografía con CSS</td>
   <td align="justify">Colores, fuentes (por ejemplo Montserrat), márgenes y hover effects.</td>
   <td>1 hr</td>
-  <td>a</td>
+  <td>Victor Cruz</td>
   <td>Done</td>
 </tr>
 <tr>
@@ -911,63 +937,94 @@ de audiencia.</td>
   <td align="justify">Agregar enlaces funcionales o placeholders</td>
   <td align="justify">Asignar rutas internas o externas a los enlaces del footer, o usar placeholders si aún no están definidas.</td>
   <td>1 hr</td>
-  <td>a</td>
+  <td>Victor Cruz</td>
   <td>Done</td>
 </tr>
 
 
 <tr>
-  <th rowspan="5">US19</th>
-  <th rowspan="5">Visualización de pantalla en dispositivos</th>
+  <th rowspan="3">US32</th>
+  <th rowspan="3">Sección Hero del sitio web</th>
   <td>16</td>
-  <td align="justify">Implementar responsividad para benefits-section</td>
-  <td align="justify">Asegurar adaptabilidad desde móviles hasta pantallas grandes.</td>
+  <td align="justify">Crear componente Hero</td>
+  <td align="justify">Generar el componente principal de bienvenida para la landing page.</td>
   <td>1 hr</td>
-  <td></td>
+  <td>Ariana Agreda</td>
   <td>Done</td>
 </tr>
 <tr>
   <td>17</td>
-  <td align="justify">Implementar responsividad para pricing-section</td>
-  <td align="justify">Implementar columnas en desktop y cards en columna en móviles entre otros.</td>
+  <td align="justify">Codificar estructura HTML del hero</td>
+  <td align="justify">Generar el componente principal de bienvenida para la landing page.</td>
   <td>1 hr</td>
-  <td></td>
+  <td>Ariana Agreda</td>
   <td>Done</td>
 </tr>
 <tr>
   <td>18</td>
-  <td align="justify">Implementar responsividad para faq-section</td>
-  <td align="justify">Asegurar adaptabilidad desde móviles hasta pantallas grandes. Evita desbordamientos y asegura buena legibilidad en pantallas pequeñas.</td>
+  <td align="justify">Estilizar fondo degradado, íconos y tipografía con CSS.</td>
+  <td align="justify">Aplicar estilos visuales como colores, fuentes e íconos para resaltar el impacto visual del hero.</td>
   <td>1 hr</td>
-  <td></td>
-  <td>Done</td>
-</tr>
-<tr>
-  <td>19</td>
-  <td align="justify">Adaptar navbar a vista responsive</td>
-  <td align="justify">En móviles, convertir el menú en un ícono tipo hamburguesa. Asegurar legibilidad y accesibilidad.</td>
-  <td>1 hr</td>
-  <td></td>
-  <td>Done</td>
-</tr>
-<tr>
-  <td>20</td>
-  <td align="justify">Responsividad del footer</td>
-  <td align="justify">Asegurar adaptabilidad desde móviles hasta pantallas grandes.</td>
-  <td>1 hr</td>
-  <td></td>
+  <td>Ariana Agreda</td>
   <td>Done</td>
 </tr>
 
 </table>
 
 
-
 #### 5.2.1.4. Development Evidence for Sprint Review.
+
+
 #### 5.2.1.5. Execution Evidence for Sprint Review.
+
+Durante este Sprint se logró implementar de forma completa la Landing Page del proyecto Macanet. Esta vista inicial permite a los usuarios conocer las funcionalidades clave del sistema, resolver dudas frecuentes y visualizar la propuesta de valor. Se trabajó en secciones como el header, sección de producto, sección de preguntas frecuentes (FAQ) y el footer, garantizando una navegación fluida y una presentación clara de los objetivos del producto.
+
+A continuación, se presentan capturas de pantalla de las vistas desarrolladas:
+
+Inicio:
+
+
+
+Producto:
+
+
+
+Beneficios:
+
+
+
+Planes:
+
+
+
+Faq:
+
+
+
+Footer:
+
+
+<br>
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+Durante el desarrollo del Sprint, cada miembro del equipo participó activamente en la implementación de la **Landing Page**, dividiéndose por secciones según el diseño y el contenido definido previamente.
+
+A continuación, se detalla la participación específica de cada integrante del equipo:
+
+| **Nombre**                       | **Actividad** |
+| ---------------------------------|------------|
+| Agreda Sobrino, Ariana Cecilia   | Implementación de las secciones "Navbar" y "Hero" |
+| Belledone Espinoza, Claudia      | Implementación de las secciones "Products" y "Benefits" |
+| Elera Rodríguez, Mauricio Daniel | Implenmentación de las secciones "FAQ" e inicialización del setup |
+| Vivanco , Rafael                    | Implementación de la sección "Plans" y "FAQ" |
+| Cruz, Victor                   | Implementación de la sección "Footer"  |
+
+> **Nota:** Algunos integrantes colaboraron en secciones compartidas para asegurar consistencia en diseño y funcionalidad.
+
+
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
 ### 5.3.2. Registro de Entrevistas.
