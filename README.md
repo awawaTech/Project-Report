@@ -547,6 +547,19 @@ de audiencia.</td>
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+
+Esta sección presenta los artefactos del diseño centrado en el usuario desarrollados para MecaNaut, basados en entrevistas a administradores de mantenimiento y técnicos operativos, así como en el análisis de soluciones de la competencia. Se identificaron problemas recurrentes como el uso de herramientas manuales (Excel, papel, WhatsApp), fallas no planificadas, falta de visibilidad de indicadores y desorganización en la gestión de repuestos. Estos hallazgos guiaron la definición de requerimientos funcionales y oportunidades de mejora, asegurando que el sistema responda a necesidades reales con soluciones simples, eficientes y escalables.
+
+**Administrador de mantenimiento:** 
+
+<img src="img/user-persona/upAdmin.png"></img>
+
+**Técnico Operativo:** 
+
+<img src="img/user-persona/upTecnico.png"></img>
+
+<br>
+
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
