@@ -1318,6 +1318,41 @@ Luego de este proceso, se consiguió el siguiente As-Is Scenario Mapping:
 
 ## 2.4. Ubiquitous Language
 
+Maintenance Request(Solicitud de mantenimiento): Petición generada por un usuario para atender un incidente o requerimiento de mantenimiento.
+
+Incident(Incidente): Evento que interrumpe el funcionamiento normal de un equipo o instalación.
+
+Work Order(Orden de trabajo): Documento o registro formal que detalla las tareas a realizar para atender una solicitud de mantenimiento.
+
+Preventive Maintenance(Mantenimiento preventivo): Intervenciones programadas para evitar fallas o deterioro de los activos.
+
+Corrective Maintenance(Mantenimiento correctivo): Intervenciones realizadas tras detectar una falla o avería.
+
+Asset(Activo): Bien físico (máquina, equipo, infraestructura) que requiere mantenimiento o monitoreo.
+
+Technician(Técnico): Persona encargada de ejecutar tareas de mantenimiento, reparación o inspección.
+
+Downtime(Tiempo de inactividad): Tiempo durante el cual un activo no está operativo debido a un problema técnico.
+
+Maintenance Schedule(Cronograma de mantenimiento): Plan que define fechas y frecuencias para realizar tareas de mantenimiento.  
+Mean Time Between Failures(MTBF): El tiempo promedio entre fallos de un equipo. Este valor es importante para evaluar la confiabilidad de las máquinas y para planificar el mantenimiento preventivo.
+
+Mean Time To Repair(MTTR): El tiempo promedio necesario para reparar un equipo después de una falla. Este valor es crucial para evaluar la eficiencia del proceso de reparación y la capacidad de recuperación.
+
+Spare Parts(Repuestos): Componentes o piezas necesarias para reparar o reemplazar partes de un activo.
+
+Checklist(Lista de verificación): Documento que contiene tareas o ítems que deben revisarse durante una intervención.
+
+Report(Informe): Documento que resume el trabajo realizado, hallazgos o resultados de una tarea de mantenimiento.
+
+Ticket: Registro en el sistema sobre un problema específico reportado.
+
+Maintenance History(Historial de mantenimiento): Registro acumulado de todas las intervenciones realizadas sobre un activo.
+
+Service Provider(Proveedor de servicios): Empresa o profesional externo encargado de brindar servicios de mantenimiento.
+
+<br>
+
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
