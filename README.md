@@ -558,6 +558,7 @@ de audiencia.</td>
 ## 3.1. To-Be Scenario Mapping
 ## 3.2. User Stories
 ## 3.3. Impact Mapping
+![ImpactMap](./img/impact-mapping/Impact%20Map%20-%20Mecanaut.jpg)
 ## 3.4. Product Backlog
 
 # Capítulo IV: Product Design
