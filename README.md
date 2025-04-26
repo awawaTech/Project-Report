@@ -1474,10 +1474,322 @@ Landing Page en Inglés
 <br>
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
+
+El diseño de la interfaz se basa en las heurísticas de Nielsen para ofrecer una experiencia intuitiva, clara y coherente. A lo largo de la web, cada elemento visual y funcional fue pensado para facilitar la navegación y reducir la carga cognitiva del usuario.
+<ul>
+<li>Visibilidad del estado del sistema:
+Una barra lateral fija permite acceder rápidamente a las distintas pantallas, manteniendo siempre claro dónde se encuentra el usuario dentro de la web</li>
+<li>
+Concordancia con el mundo real:
+El lenguaje es sencillo y directo, con etiquetas familiares como "Crear cuenta" o "Perfil", y se ofrece cambio de idioma, favoreciendo la comprensión sin tecnicismos.</li>
+<li>
+Control y libertad:
+El usuario puede retroceder o volver al inicio en todo momento gracias a botones visibles, lo que refuerza la sensación de control y evita bloqueos en la navegación.</li>
+<li>
+Consistencia y estándares:
+Se mantiene una estética uniforme en tipografías, iconos y posiciones de botones, especialmente en los módulos de generación de contenido, lo que favorece una experiencia predecible y fluida.</li>
+<li>
+Prevención de errores:
+Se limita la longitud del texto en los prompts para evitar fallos durante el procesamiento, anticipándose a errores comunes.</li>
+<li>
+Reconocimiento antes que recuerdo:
+Los elementos están claramente identificados, permitiendo al usuario entender su función sin necesidad de memorizar acciones.</li>
+<li>
+Flexibilidad y eficiencia:
+La interfaz permite moverse con agilidad entre funciones clave desde cualquier sección, haciendo el uso más dinámico y eficiente.</li>
+</ul>
+
+Crear cuenta
+<img src="img/web-application-design/wireframe-crear-cuenta.jpg">
+Iniciar sesión
+<img src="img/web-application-design/wireframe-iniciar-sesion.jpg">
+Inicio
+<img src="img/web-application-design/wireframe-inicio.jpg">
+Calendario
+<img src="img/web-application-design/wireframe-calendario-mensual.jpg">
+<img src="img/web-application-design/wireframe-calendario-semanal.jpg">
+Inventario > Repuestos
+<img src="img/web-application-design/wireframe-repuestos.jpg">
+<img src="img/web-application-design/wireframe-repuestos-form.jpg">
+Inventario > Orden de compra
+<img src="img/web-application-design/wireframe-orden-compra.jpg">
+<img src="img/web-application-design/wireframe-orden-compra-form.jpg">
+Gestión de Activos > Maquinarias
+<img src="img/web-application-design/wireframe-gestion-maquinarias.jpg">
+<img src="img/web-application-design/wireframe-gestion-maquinarias-form.jpg">
+Gestión de Activos > Línea de Producción
+<img src="img/web-application-design/wireframe-gestion-linea-produccion.jpg">
+<img src="img/web-application-design/wireframe-gestion-linea-produccion-form.jpg">
+Orden de Trabajo
+<img src="img/web-application-design/wireframe-orden-trabajo.jpg">
+<img src="img/web-application-design/wireframe-orden-trabajo-form.jpg">
+Plan de Mantenimiento
+<img src="img/web-application-design/wireframe-plan-mantenimiento.jpg">
+<img src="img/web-application-design/wireframe-plan-mantenimiento-dinamico.jpg">
+<img src="img/web-application-design/wireframe-plan-mantenimiento-estatico1.jpg">
+<img src="img/web-application-design/wireframe-plan-mantenimiento-estatico2.jpg">
+Ejecución
+<img src="img/web-application-design/wireframe-ejecucion.jpg">
+Dashboard
+<img src="img/web-application-design/wireframe-dashboard.jpg">
+Administración de personal
+<img src="img/web-application-design/wireframe-personal.jpg">
+<img src="img/web-application-design/wireframe-personal-form.jpg">
+Configuración
+<img src="img/web-application-design/wireframe-configuracion1.jpg">
+<img src="img/web-application-design/wireframe-configuracion2.jpg">
+<img src="img/web-application-design/wireframe-configuracion3.jpg">
+
+<br>
 ### 4.4.2. Web Applications Wireflow Diagrams.
+
+<img src="img/web-application-design/wireflow-crear-cuenta.jpg">
+<img src="img/web-application-design/wireflow-iniciar-sesion.jpg">
+<img src="img/web-application-design/wireflow-agregar-materiales.jpg">
+<img src="img/web-application-design/wireflow-registrar-maquinaria.jpg">
+<img src="img/web-application-design/wireflow-crear-linea-produccion.jpg">
+<img src="img/web-application-design/wireflow-crear-plan-mantenimiento.jpg">
+<img src="img/web-application-design/wireflow-checklist.jpg">
+
+<br>
 ### 4.4.2. Web Applications Mock-ups.
+
+El mock-up de la app de Mecanaut se diseñó con el objetivo de lograr una interfaz visualmente atractiva, funcional y coherente con la identidad de la marca. Se priorizó una experiencia de usuario simple e intuitiva, aplicando principios de usabilidad, arquitectura de la información y diseño inclusivo para garantizar claridad, accesibilidad y eficiencia.
+
+Heurísticas de Usabilidad Aplicadas:<br>
+<ul>
+    <li>Visibilidad del estado del sistema:
+El usuario siempre sabe dónde está, gracias a los títulos en pantalla y marcadores en la barra de navegación.</li>
+<li>
+Correspondencia con el mundo real:
+Se usan términos familiares como "Crear cuenta" o "Iniciar sesión", facilitando la comprensión sin tecnicismos.</li>
+<li>
+Control y libertad:
+Botones como "Cancelar" permiten volver atrás sin consecuencias, brindando al usuario libertad de acción.</li>
+<li>
+Consistencia y estándares:
+Los estilos, botones y estructuras se repiten en toda la app, facilitando el aprendizaje y navegación fluida.</li>
+<li>
+Prevención de errores:
+Se incluyen mensajes anticipados que advierten sobre requisitos, por ejemplo, en la creación de contraseñas.</li>
+</ul>
+
+Arquitectura de la información:<br>
+<ul>
+    <li>Jerarquía clara:
+Acciones importantes como "Iniciar sesión" y "Crear cuenta" están destacadas en las primeras pantallas.</li>
+    <li>Sistema de navegación:
+El menú lateral y los accesos directos ofrecen una navegación sencilla, coherente y sin confusión.</li>
+
+</ul>
+
+Principios de diseño centrados en el usuario:<br>
+<ul>
+    <li>Claridad y simplicidad:
+El diseño mantiene una estructura limpia con íconos y botones reconocibles.</li>
+    <li>Consistencia visual:
+Colores y tipografías se usan de forma uniforme para reforzar la identidad de Mecanaut.</li>
+    <li>Accesibilidad y retroalimentación:
+Mensajes de error en tiempo real y un alto contraste visual aseguran comprensión para todos los perfiles de usuario.</li>
+</ul>
+
+Diseño inclusivo:<br>
+<ul>
+    <li>Accesibilidad visual:
+Botones amplios, textos legibles y buen contraste facilitan la interacción para personas con dificultades visuales.</li>
+    <li>Lenguaje simple y navegación clara:
+La interfaz evita complejidad innecesaria, ayudando a usuarios con poca experiencia digital. Además de la opción para cambiar el idioma.</li>
+    <li>Retroalimentación constante y control del usuario:
+Cada acción recibe respuesta inmediata, lo que guía al usuario y genera confianza durante la exploración.</li>
+</ul>
+<br>
+
+Crear cuenta
+<img src="img/web-application-design/mockup-crear-cuenta.jpg">
+Iniciar sesión
+<img src="img/web-application-design/mockup-iniciar-sesion.jpg">
+Inicio
+<img src="img/web-application-design/mockup-inicio.jpg">
+Calendario
+<img src="img/web-application-design/mockup-calendario-mensual.jpg">
+<img src="img/web-application-design/mockup-calendario-semanal.jpg">
+Inventario > Repuestos
+<img src="img/web-application-design/mockup-repuestos.jpg">
+<img src="img/web-application-design/mockup-repuestos-form.jpg">
+Inventario > Orden de compra
+<img src="img/web-application-design/mockup-orden-compra.jpg">
+<img src="img/web-application-design/mockup-orden-compra-form.jpg">
+Gestión de Activos > Maquinarias
+<img src="img/web-application-design/mockup-gestion-maquinarias.jpg">
+<img src="img/web-application-design/mockup-gestion-maquinarias-form.jpg">
+Gestión de Activos > Línea de Producción
+<img src="img/web-application-design/mockup-gestion-linea-produccion.jpg">
+<img src="img/web-application-design/mockup-gestion-linea-produccion-form.jpg">
+Orden de Trabajo
+<img src="img/web-application-design/mockup-orden-trabajo.jpg">
+<img src="img/web-application-design/mockup-orden-trabajo-form.jpg">
+Plan de Mantenimiento
+<img src="img/web-application-design/mockup-plan-mantenimiento.jpg">
+<img src="img/web-application-design/mockup-plan-mantenimiento-dinamico.jpg">
+<img src="img/web-application-design/mockup-plan-mantenimiento-estatico1.jpg">
+<img src="img/web-application-design/mockup-plan-mantenimiento-estatico2.jpg">
+Ejecución
+<img src="img/web-application-design/mockup-ejecucion.jpg">
+Dashboard
+<img src="img/web-application-design/mockup-dashboard.jpg">
+Administración de personal
+<img src="img/web-application-design/mockup-personal.jpg">
+<img src="img/web-application-design/mockup-personal-form.jpg">
+Configuración
+<img src="img/web-application-design/mockup-configuracion-1.jpg">
+<img src="img/web-application-design/mockup-configuracion-2.jpg">
+<img src="img/web-application-design/mockup-configuracion-3.jpg">
+
+
+<br>
 ### 4.4.3. Web Applications User Flow Diagrams.
+
+<img src="img/web-application-design/userflow-crear-cuenta.jpg"> <br>
+User Goal: “Crear cuenta corporativa”<br>
+User persona: Empresas — Administrador<br>
+Happy Paths:
+<ul>
+    <li>El usuario ingresa a la aplicación y puede ver su perfil
+</li>
+</ul>
+Unappy Paths:
+<ul>
+    <li>Error de credenciales: Si el usuario digita un RUC inválido se refresca la página</li>
+</ul>
+
+<img src="img/web-application-design/userflow-iniciar-sesion.jpg"><br>
+User Goal: “Iniciar sesión”<br>
+User persona: Trabajador — Técnico<br>
+Happy Paths:
+<ul>
+   <li>El usuario ingresa a la aplicación y puede ver su perfil
+</li>
+</ul>
+Unappy Paths:
+<ul>
+    <li>Error de credenciales: Si el usuario digita un correo o contraseña no registrado se refresca la página</li>
+</ul>
+
+<img src="img/web-application-design/userflow-agregar-materiales.jpg"><br>
+User Goal: “Registrar Nueva Maquinaria”<br>
+User persona: Empresas — Administrador<br>
+Happy Paths:
+<ul>
+    <li>El usuario ingresa a la pantalla de “Gestión Activos > maquinarias”</li>
+    <li>
+Selecciona “Nueva máquina”</li>
+    <li>
+El usuario completa los campos del formulario</li>
+    <li>
+Cuando el usuario esté conforme con los datos presiona guardar</li>
+
+</ul>
+Unappy Paths:
+<ul>
+    <li>El usuario decide no continuar con el proceso de creación y presiona en cancelar</li>
+</ul>
+
+<img src="img/web-application-design/userflow-agregar-materiales.jpg"><br>
+User Goal: “Registrar Nueva Línea de producción”<br>
+User persona: Empresas — Administrador<br>
+Happy Paths:
+<ul>
+    <li>El usuario ingresa a la pantalla de “Gestión Activos > línea de producción”</li>
+    <li>
+Selecciona “Nueva Línea”</li>
+    <li>
+El usuario completa los campos del formulario</li>
+    <li>
+Cuando el usuario esté conforme con los datos presiona guardar</li>
+
+</ul>
+Unappy Paths:
+<ul>
+    <li>El usuario decide no continuar con el proceso de creación y presiona en cancelar</li>
+</ul>
+
+<img src="img/web-application-design/userflow-agregar-materiales.jpg"><br>
+User Goal: “Agregar nuevo Repuesto”<br>
+User persona: Empresas — Administrador<br>
+Happy Paths:
+<ul>
+    <li>El usuario ingresa a la pantalla de “inventario > repuestos”</li>
+    <li>
+Selecciona “Nuevo repuesto”</li>
+    <li>
+El usuario completa los campos del formulario</li>
+    <li>
+Cuando el usuario esté conforme con los datos presiona guardar</li>
+
+</ul>
+Unappy Paths:
+<ul>
+    <li>El usuario decide no continuar con el proceso de creación y presiona en cancelar</li>
+</ul>
+
+<img src="img/web-application-design/userflow-crear-plan-mantenimiento.jpg"><br>
+User Goal: “Crear Plan mensual de mantenimiento”<br>
+User persona: Empresas — Administrador<br>
+Happy Paths:
+<ul>
+    <li>El usuario ingresa a la pantalla "Plan de mantenimiento"</li>
+    <li>Presiona el botón de "nuevo plan de mantenimiento > plan estático"</li>
+    <li> El usuario completa los campos del formulario</li>
+    <li> Cuando el usuario esté conforme con los datos presiona continuar y pasa a la segunda pantalla del formulario</li>
+<li> El usuario completa los campos de la segunda pantalla del formulario</li>
+    <li> Cuando el usuario esté conforme con los datos presiona guardar</li>
+    <li>El usuario ingresa a la pantalla "orden de trabajo"</li>
+    <li>Presiona el botón asignar técnicos en el registro recién creado</li>
+    <li> El usuario completa el campo de los técnicos y le asigna su respectiva máquina a cada uno</li>
+    <li> Cuando el usuario esté conforme con los datos presiona guardar</li>
+</ul>
+Unappy Paths:
+<ul>
+    <li>El usuario decide no continuar con el proceso de creación y presiona en cancelar</li>
+    <li>El usuario decide retroceder en el formulario y presiona el botón "retroceder" o la pestaña de "información detallada"</li>
+
+</ul>
+
+<img src="img/web-application-design/wireflow-checklist.jpg"><br>
+User Goal: “Completar checklist de una orden de trabajo”<br>
+User persona: Trabajador — Técnico<br>
+Happy Paths:
+<ul>
+    <li>El usuario ingresa a la pantalla "Ejecución"</li>
+    <li>Completa las tareas de sus máquinas asignadas</li>
+    <li>Cuando el usuario esté conforme con los datos presiona guardar</li>
+    <li>Cuando el usuario haya completado todas las tareas presiona "Marcar como Finalizado"</li>
+</ul>
+Unappy Paths:
+<ul>
+    <li>El usuario deja tareas sin marcar y no le permite finalizar la orden de trabajo</li>
+
+</ul>
+
+<br>
 ## 4.5. Web Applications Prototyping.
+
+El prototipo web de Mecanaut ha sido creado bajo un enfoque centrado en el usuario, integrando principios sólidos de arquitectura de la información y las heurísticas de usabilidad de Nielsen para brindar una experiencia intuitiva, funcional y accesible. La navegación se organiza jerárquicamente, guiando al usuario de manera natural hacia las distintas secciones y herramientas del sistema.
+
+La interfaz mantiene una coherencia visual marcada, apoyada en una paleta cromática sobria y una tipografía clara que refuerzan la identidad institucional sin distraer del contenido. Elementos clave como botones, formularios y menús se han ubicado de forma estratégica para fomentar la fluidez en la interacción y minimizar la carga cognitiva.
+
+Cada detalle ha sido diseñado para preservar la consistencia visual, ofrecer una retroalimentación constante y asegurar la visibilidad del estado del sistema en todo momento. Asimismo, se han adoptado los estándares modernos de diseño responsivo, garantizando una experiencia uniforme y eficiente tanto en escritorio como en dispositivos móviles.
+
+
+https://www.figma.com/proto/SPFLusYscd4LBDsEJfKp7m/Mecanaut?node-id=344-4101&p=f&t=C0BerJI9MNVBMsiE-1&scaling=contain&content-scaling=fixed&page-id=344%3A4100&starting-point-node-id=344%3A4101&show-proto-sidebar=1
+https://www.youtube.com/watch?v=33yVUK49qWI
+
+
+https://github.com/user-attachments/assets/cf4a549d-6c93-4b95-ba80-9b9160aec81c
+
+
+
+
 ## 4.6. Domain-Driven Software Architecture.
 
 El **Domain-Driven Design (DDD)** pretende que el software represente con exactitud el mundo de negocio, favoreciendo la cooperación fluida entre desarrolladores y especialistas del dominio. Para lograrlo, DDD introduce:
