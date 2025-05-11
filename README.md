@@ -1799,14 +1799,14 @@ En comparación con el escenario actual, el To-Be Scenario introduce mejoras cla
 | \#Orden | User Story ID | Título | Descripción | Story Points  |
 | ----- | ----- | ----- | ----- | ----- |
 | 1 | US01 | Registro de maquinarias | Como administrador de mantenimiento, quiero registrar activos para llevar un control detallado del equipo en planta. | 5 |
-| 2 | US02 | Registro de líneas de producción | Como administrador de mantenimiento, quiero registrar líneas de producción con prioridad, para planificar el mantenimiento. | 5 |
-| 3 | US03 | Generación de órdenes de trabajo correctivas | Como administrador, quiero generar órdenes de trabajo correctivas, para cuando suceda un mantenimiento inesperado. | 8 |
+| 2 | US02 | Registro de líneas de producción | Como administrador de mantenimiento, quiero registrar líneas de producción con prioridad, para planificar el mantenimiento. | 3 |
+| 3 | US03 | Generación de órdenes de trabajo correctivas | Como administrador, quiero generar órdenes de trabajo correctivas, para cuando suceda un mantenimiento inesperado. | 5 |
 | 4 | US04 | Asignación de personal técnico | Como administrador, quiero asignar técnicos a órdenes de trabajo, para asegurar su ejecución. | 5 |
 | 5 | US05 | Supervisión del calendario de plan de mantenimiento. | Como administrador, quiero ver el calendario de planes de mantenimiento, para monitorear su cumplimiento. | 3 |
 | 6 | US06 | Filtro de plan de mantenimiento | Como usuario administrador, quiero filtrar los planes de mantenimiento por criterios como tipo de activo, fecha o estado, para visualizar solo los planes relevantes en el calendario. | 2 |
 | 7 | US07 | Visualización de KPIs | Como administrador, quiero analizar métricas (MTBF, MTTR, etc.), para evaluar el rendimiento. | 2 |
 | 8 | US08 | Reporte de orden de trabajo | Como técnico, quiero poder hacer un reporte final de una orden de trabajo, para dejar constancia. | 3 |
-| 9 | US09 | Implementación de plan de trabajo | Como administrador, quiero agregar un plan de mantenimiento al calendario con una duración para organizar a mis técnicos | 8 |
+| 9 | US09 | Implementación de plan de trabajo | Como administrador, quiero agregar un plan de mantenimiento al calendario con una duración para organizar a mis técnicos | 5 |
 | 10 | US10 | Consulta de órdenes de trabajo diarias | Como técnico, quiero ver las órdenes de trabajo que me han sido asignadas en el día, para planificarlo. | 3 |
 | 11 | US11 | Solicitud de repuestos | Como técnico, quiero solicitar repuestos faltantes, para poder realizar el mantenimiento. | 2 |
 | 12 | US12 | Revisión de inventario | Como administrador, quiero ver y actualizar el inventario, para asegurar disponibilidad de insumos | 2 |
@@ -1823,7 +1823,7 @@ En comparación con el escenario actual, el To-Be Scenario introduce mejoras cla
 | 23 | US23 | Modificar plan de mantenimiento | Como administrador, quiero modificar un plan de mantenimiento ya registrado en el calendario, para ajustar fechas o duración según nuevas necesidades. | 5 |
 | 24 | US24 | Eliminar plan de mantenimiento | Como administrador, quiero eliminar un plan de mantenimiento del calendario, para retirar tareas que ya no se realizarán. | 5 |
 | 25 | US25 | Eliminar activo | Como administrador, quiero eliminar activos que ya no están en uso, para mantener actualizada la base de datos. | 5 |
-| 26 | US26 | Eliminar orden de trabajo repentina | Como administrador, quiero eliminar órdenes de trabajo repentinas que fueron creadas por error, para mantener el calendario limpio. | 5 |
+| 26 | US26 | Eliminar orden de trabajo repentina | Como administrador, quiero eliminar órdenes de trabajo repentinas que fueron creadas por error, para mantener el calendario limpio. | 3 |
 | 27 | US27 | Visualización de perfil de administrador | Como administrador, quiero visualizar mi perfil, para revisar y actualizar mi información personal o de la cuenta. | 3 |
 | 28 | US28 | Visualización de perfil de técnico | Como técnico, quiero visualizar mi perfil, para conocer mis datos y tareas asignadas. | 3 |
 | 29 | US29 | Eliminar técnico | Como administrador, quiero eliminar técnicos que ya no forman parte del equipo, para mantener la base de datos limpia. | 5 |
