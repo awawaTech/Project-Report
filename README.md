@@ -132,6 +132,18 @@
     <td>Claudia Belledonne</td>
     <td>Planeación y documentación del Sprint 1</td>
 </tr>
+<tr>
+    <td>1.11</td>
+    <td>10/05/2025</td>
+    <td>Rafael Andres Vivanco Salazar</td>
+    <td>Corrección de los story points del product backlog</td>
+</tr>
+<tr>
+    <td>1.12</td>
+    <td>10/05/2025</td>
+    <td>Rafael Andres Vivanco Salazar</td>
+    <td>Corrección de porcentajes en segmentos objetivos</td>
+</tr>
 </table>
 
 </br>
