@@ -4012,14 +4012,370 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 ![image](img/evidence/eviden1.png)
 
 
-
-
-
 ##### Repositorio de trabajo:
 
 - [Repositorio de la Landing Page en GitHub](https://github.com/awawaTech/mecanaut-landing-page)
 
 Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente con participación de todos los miembros del equipo.
+
+### 5.2.2. Sprint 2
+#### 5.2.2.1. Sprint Planning 2
+<table>
+    <tr>
+        <td>Sprint #</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <th colspan="2"><strong>Sprint Planning Background</strong></th>
+    </tr>
+    <tr>
+        <td>Date</td>
+        <td>13/05/2025</td>
+    </tr>
+     <tr>
+        <td>Time</td>
+        <td>08:00 AM</td>
+    </tr>
+     <tr>
+        <td>Location</td>
+        <td>Reunión virtual – Discord</td>
+    </tr>
+    <tr>
+        <td>Prepared By</td>
+        <td>Claudia Belledonne</td>
+    </tr>
+    <tr>
+        <td>Attendees (to planning meeting)</td>
+        <td>
+
+- Ariana Cecilia Agreda Sobrino
+            
+- Claudia Valeria Belledonne Espinoza
+            
+- Victor Andres Cruz Ibarra
+            
+- Mauricio Daniel Elera Rodríguez
+            
+- Rafael Andres Vivanco Salazar
+        
+   </td>
+    </tr>
+    <tr>
+        <td>Sprint 2 – Review Summary</td>
+        <td>Durante el segundo sprint se corrigieron los Story Points del Product Backlog y se ajustaron los Hypothesis Statements según el feedback recibido. Además, se implementaron funciones clave en la app frontend con Vue, incluyendo routing, language switcher, organización basada en DDD, componentes reutilizables y consumo de una fake API. El sistema fue desplegado exitosamente para su visualización por el equipo y stakeholders.</td>
+    </tr>
+    <tr>
+        <td>Sprint 2 – Retrospective Summary</td>
+        <td>El equipo destacó mejoras en la organización del código y en la estructura del proyecto gracias a la aplicación de buenas prácticas como DDD. También se valoró positivamente el despliegue temprano. Como puntos a mejorar, se identificó la necesidad de definir mejor los criterios de aceptación y mantener la documentación técnica actualizada para facilitar el desarrollo continuo.</td>
+    </tr>
+    <tr>
+        <th colspan="2"><strong>Sprint Goal & User Stories</strong></th>
+    </tr>
+    <tr>
+        <td>Sprint 2 Goal</td>
+        <td>
+<strong>Nuestra meta fue</strong> implementar las funcionalidades clave del frontend de la aplicación para ofrecer una experiencia inicial fluida y navegable. 
+
+<strong>Creemos que</strong> esto facilita la interacción del usuario con el sistema y permite validar tempranamente la estructura técnica y visual.
+
+<strong>Esto se confirmará</strong> cuando los usuarios puedan acceder a la aplicación desplegada, navegar entre secciones mediante el sistema de rutas, cambiar el idioma, visualizar datos simulados desde una fake API y notar una interfaz coherente gracias al uso de componentes reutilizables y una organización basada en DDD.
+    </td>
+    </tr>
+     <tr>
+        <td>Sprint 2 Velocity  </td>
+        <td>94 Story Points.</td>
+    </tr>
+     <tr>
+        <td>Sum of Story Points  </td>
+        <td>94 Story Points.</td>
+    </tr>
+</table>
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+| Team Member (Last Name, First Name) | GitHub Username | US01 | US02 | US03 | US04 | US05 | US06 | US07 | US08 | US09 | US10 | US11 | US12 | US18 | US19 | US20 | US21 | US22 |
+|-------------------------------------|------------------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
+| Agreda, Ariana                      | arii4w           | C    | C    | L    | C    | C    | L    | C    | C    | L    | C    | C    | C    | C    | L    | C    | C    | L    |
+| Belledonne, Claudia                 | Cl4us-tb         | L    | C    | C    | C    | L    | C    | L    | L    | C    | C    | C    | C    | L    | C    | C    | L    | C    |
+| Elera, Mauricio                     | Maur1xio         | C    | L    | C    | L    | C    | C    | C    | C    | C    | L    | L    | L    | C    | C    | L    | C    | C    |
+| Cruz, Victor                        | Elandrehs        | C    | C    | C    | C    | C    | C    | C    | L    | C    | C    | C    | C    | C    | C    | C    | C    | C    |
+| Vivanco, Rafael                     | RafaelVivanco    | C    | C    | C    | C    | C    | C    | C    | C    | L    | C    | C    | C    | C    | C    | C    | C    | C    |
+
+#### 5.2.2.3. Sprint Backlog 1
+
+<p>El objetivo de este segundo sprint fue implementar funcionalidades clave del frontend de la aplicación de Mecanaut, enfocándonos en estructurar la arquitectura del proyecto con un enfoque DDD, incorporar rutas para la navegación, añadir un switcher de idiomas, reutilizar componentes, consumir datos desde una fake API y desplegar la aplicación para revisión del equipo.</p>
+
+
+![image](img/evidence/sprint2-backlog.png)
+<p>[link:https://trello.com/invite/b/682396f3453baa1b6245478d/ATTI107310f8bccd29ea2378df2271a608ac5A140C64/sprint-2
+](https://trello.com/invite/b/682396f3453baa1b6245478d/ATTI107310f8bccd29ea2378df2271a608ac5A140C64/sprint-2)</p>
+
+
+<table>
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="6">Sprint 2</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+
+  <!-- US01 -->
+  <tr>
+    <th rowspan="2">US01</th>
+    <th rowspan="2">Registro de maquinarias</th>
+    <td>1</td>
+    <td align="justify">Crear formulario para registrar maquinaria</td>
+    <td align="justify">Generar formulario para ingresar los datos de los activos.</td>
+    <td>1.5 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td align="justify">Estilizar formulario de registro</td>
+    <td align="justify">Aplicar estilos según el diseño (inputs, botones, bordes, márgenes).</td>
+    <td>1 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US02 -->
+  <tr>
+    <th rowspan="2">US02</th>
+    <th rowspan="2">Registro de líneas de producción</th>
+    <td>3</td>
+    <td align="justify">Crear formulario para registrar líneas de producción</td>
+    <td align="justify">Generar formulario para ingresar datos de las líneas de producción.</td>
+    <td>1.5 hr</td>
+    <td>Rafael Vivanco</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td align="justify">Estilizar formulario de líneas de producción</td>
+    <td align="justify">Aplicar diseño visual a los campos de entrada.</td>
+    <td>1 hr</td>
+    <td>Rafael Vivanco</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US03 -->
+  <tr>
+    <th rowspan="2">US03</th>
+    <th rowspan="2">Generación de órdenes de trabajo correctivas</th>
+    <td>5</td>
+    <td align="justify">Crear funcionalidad para generar orden de trabajo</td>
+    <td align="justify">Generar el backend y frontend para crear órdenes de trabajo correctivas.</td>
+    <td>2 hr</td>
+    <td>Mauricio Elera</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td align="justify">Estilizar formulario de órdenes de trabajo correctivas</td>
+    <td align="justify">Diseñar formulario para ingresar detalles de la orden.</td>
+    <td>1.5 hr</td>
+    <td>Mauricio Elera</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US04 -->
+  <tr>
+    <th rowspan="2">US04</th>
+    <th rowspan="2">Asignación de personal técnico</th>
+    <td>7</td>
+    <td align="justify">Crear funcionalidad de asignación de técnicos</td>
+    <td align="justify">Desarrollar el proceso de asignación de técnicos a las órdenes de trabajo.</td>
+    <td>2 hr</td>
+    <td>Ariana Agreda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td align="justify">Estilizar interfaz para asignación de técnicos</td>
+    <td align="justify">Aplicar estilos a la pantalla de asignación de técnicos (botones, listas, formularios).</td>
+    <td>1.5 hr</td>
+    <td>Ariana Agreda</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US05 -->
+  <tr>
+    <th rowspan="2">US05</th>
+    <th rowspan="2">Supervisión del calendario de plan de mantenimiento</th>
+    <td>9</td>
+    <td align="justify">Crear componente de calendario de mantenimiento</td>
+    <td align="justify">Desarrollar la vista del calendario con los planes de mantenimiento.</td>
+    <td>2 hr</td>
+    <td>Victor Cruz</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td align="justify">Estilizar calendario de mantenimiento</td>
+    <td align="justify">Aplicar los estilos para que el calendario se vea visualmente atractivo.</td>
+    <td>1 hr</td>
+    <td>Victor Cruz</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US06 -->
+  <tr>
+    <th rowspan="2">US06</th>
+    <th rowspan="2">Filtro de plan de mantenimiento</th>
+    <td>11</td>
+    <td align="justify">Crear funcionalidad de filtro para planes de mantenimiento</td>
+    <td align="justify">Desarrollar la funcionalidad para filtrar por fecha, tipo o estado.</td>
+    <td>1.5 hr</td>
+    <td>Rafael Vivanco</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td align="justify">Estilizar interfaz de filtro</td>
+    <td align="justify">Aplicar diseño adecuado para los filtros (inputs, botones).</td>
+    <td>1 hr</td>
+    <td>Rafael Vivanco</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US07 -->
+  <tr>
+    <th rowspan="2">US07</th>
+    <th rowspan="2">Visualización de KPIs</th>
+    <td>13</td>
+    <td align="justify">Crear componente para mostrar KPIs</td>
+    <td align="justify">Desarrollar el componente que mostrará los KPIs relevantes.</td>
+    <td>1.5 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td align="justify">Estilizar componente de KPIs</td>
+    <td align="justify">Aplicar diseño visual adecuado para mostrar métricas de KPIs.</td>
+    <td>1 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US08 -->
+  <tr>
+    <th rowspan="2">US08</th>
+    <th rowspan="2">Reporte de orden de trabajo</th>
+    <td>15</td>
+    <td align="justify">Crear reporte de orden de trabajo</td>
+    <td align="justify">Desarrollar funcionalidad para generar el reporte final de órdenes de trabajo.</td>
+    <td>2 hr</td>
+    <td>Victor Cruz</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td align="justify">Estilizar reporte de orden de trabajo</td>
+    <td align="justify">Diseñar la vista para la visualización del reporte final (tablas, botones, etc.).</td>
+    <td>1 hr</td>
+    <td>Victor Cruz</td>
+    <td>Done</td>
+  </tr>
+
+</table>
+
+
+#### 5.2.1.4. Development Evidence for Sprint Review.
+
+| Repository                                                                 | Branch   | Commit Id             | Commit Message                              | Commit Message Body                                                                 | Committed on (Date) |
+|----------------------------------------------------------------------------|----------|------------------------|----------------------------------------------|--------------------------------------------------------------------------------------|----------------------|
+| https://github.com/awawaTech/mecanaut-l4nding-page                          | main     | 79dfc1a               | Setup commit: Vue project                    | Initial project scaffold created with Vue CLI and pushed to main                    | 13/05/2025           |
+|                                                                            | develop  | 7b3f5d2               | feat(hero): implement hero section           | Added HTML and CSS for the HeroComponent with responsive design                     | 13/05/2025           |
+|                                                                            | develop  | 4d9a56f               | feat(navbar): add top navigation bar         | Created a reusable NavbarComponent with anchor links to sections                    | 13/05/2025           |
+|                                                                            | develop  | 22c7e92               | style(global): add font and color variables  | Set up global SCSS variables for font family, primary and secondary colors          | 13/05/2025           |
+|                                                                            | main     | 79dfc1a…b4d7e16       | chore(release): merge release 1.1.0 into main | Second release with Hero, Navbar and base styling enhancements                       | 13/05/2025           |
+|                                                                            | develop  | b8c81e1               | ci: configure GitHub Actions for deploy      | Set up CI/CD workflow for automatic deployment to Azure Static Web Apps             | 13/05/2025           |
+|                                                                            | develop  | e3d5420               | feat(pricing): add pricing section           | Added HTML and CSS for the PricingComponent with responsive design and toggle option | 13/05/2025           |
+|                                                                            | develop  | d7f8b5a               | feat(footer): add footer section             | Created FooterComponent and linked important pages                                  | 13/05/2025           |
+|                                                                            | develop  | 0a5e57b               | style(pricing): add pricing section styling  | Applied design styles to the pricing section with hover effects                     | 13/05/2025           |
+|                                                                            | main     | 79dfc1a…e8c9b57       | chore(release): merge release 1.2.0 into main | Third release with Pricing and Footer components                                    | 13/05/2025           |
+
+<br>
+
+#### 5.2.1.5. Execution Evidence for Sprint Review.
+
+Durante este Sprint se logró implementar de forma completa la Landing Page del proyecto Mecanaut. Se avanzó significativamente en las secciones clave de la página, permitiendo que los usuarios comprendan mejor las funcionalidades del sistema. Se trabajó en la implementación de la sección de beneficios del sistema, la sección de precios, la sección de dudas frecuentes (FAQ), la navegación y el footer. Estas secciones garantizan una navegación fluida, un diseño atractivo y la presentación clara de los objetivos del producto. La estructura de la página fue organizada y adaptada para ofrecer una experiencia de usuario coherente y optimizada.
+
+
+<br>
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+Durante este Sprint no se desarrollaron ni documentaron Web Services, ya que el objetivo principal fue la implementación de la Landing Page como primer entregable del sistema. Por ello, en esta fase del proyecto no se dispone de endpoints disponibles ni de documentación OpenAPI.
+
+La elaboración de la documentación de servicios está prevista para los próximos Sprints, cuando comience el desarrollo del backend y se defina la estructura inicial de la API que permitirá la integración con las vistas web implementadas.
+
+La documentación de servicios será considerada en los siguientes Sprints, una vez que se inicie el desarrollo del backend y se establezca la estructura básica de la API que permitirá la integración con las vistas web implementadas.
+<br>
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+Durante este Sprint se avanzó significativamente en el desarrollo de la interfaz principal de la solución **Mecanaut**, centrada en la implementación de la aplicación web que servirá como base para la interacción de los distintos tipos de usuarios.
+
+## Actividades ejecutadas:
+- Se creó el proyecto base en **Vue** utilizando **Vite** como herramienta de construcción para un entorno ágil y moderno.
+- Se estructuró la aplicación con **ruteo dinámico** usando **Vue Router**, permitiendo una navegación fluida entre vistas según los perfiles de usuario.
+- Se implementaron componentes reutilizables clave como el **Navbar** y secciones de navegación según el diseño base.
+- Se construyeron vistas correspondientes a las historias de usuario:
+  - **US1:** Registro de usuario (estructura inicial del formulario).
+  - **US2:** Inicio de sesión para usuarios registrados.
+  - **US4:** Vista principal para el tipo de usuario **Empresario**, mostrando accesos a funcionalidades relevantes.
+  - **US6:** Vista principal para el tipo de usuario **Técnico de mantenimiento**, con enfoque en tareas operativas.
+- Se aplicaron estilos globales y configuraciones de diseño responsivo para garantizar una experiencia coherente en distintos dispositivos.
+- Se mantuvo la estructura de carpetas bajo una convención clara para facilitar la escalabilidad y mantenimiento del proyecto.
+
+> Este avance representa un paso importante hacia la construcción funcional del sistema, permitiendo validar interacciones clave y sentar la base para futuras integraciones con el backend.
+
+
+<br>
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+Durante el desarrollo del Sprint 2, cada miembro del equipo trabajó en las secciones de la **Frontend App ** de Mecanaut, avanzando con las User Stories del Product Backlog asignadas. Las tareas fueron divididas entre los integrantes del equipo, con el objetivo de completar las secciones clave del sitio.
+
+A continuación, se detalla la participación específica de cada integrante del equipo, asociada a las User Stories que implementaron:
+
+| **Nombre**                       | **Actividad (User Stories)** |
+| --------------------------------- | ---------------------------- |
+| Agreda Sobrino, Ariana Cecilia    | US32: Sección Hero del sitio web |
+| Belledone Espinoza, Claudia       | US13: Sección de beneficios del sistema <br> US14: Sección precios del sitio web |
+| Elera Rodríguez, Mauricio Daniel  | US17: Sección dudas del sitio web |
+| Vivanco, Rafael                   | US14: Sección precios del sitio web <br> US17: Sección dudas del sitio web |
+| Cruz, Victor                      | US15: Sección footer del sitio web |
+
+> **Nota:** Algunos integrantes colaboraron en secciones compartidas para asegurar consistencia en diseño y funcionalidad.
+
+
+![image](img/evidence/pulse2.png)
+![image](img/evidence/contribuitors2.png)
+
+
+<br>
+
+##### Evidencia de colaboración en GitHub
+
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+
+![image](img/evidence/contribuitors2.png)
+
+![image](img/evidence/network-graph2.png)
 
 # Conclusiones
 ## Conclusiones y recomendaciones.
