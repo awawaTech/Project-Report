@@ -1,4 +1,4 @@
-# <center>Project Report</center>
+|# <center>Project Report</center>
 
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
@@ -4396,6 +4396,9 @@ A continuación, se presentan capturas de pantalla de las principales vistas imp
 
 ### Maintenance Plans Static
 ![alt text](img/sprint2/image4.png)
+
+### Maintenance Plans Calendar
+![alt text](img/sprint2/image10.png)
 
 ### Maintenance Plans Static
 ![alt text](img/sprint2/image5.png)
