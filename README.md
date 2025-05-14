@@ -1,4 +1,4 @@
-# <center>Project Report</center>
+<center>Project Report</center>
 
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
@@ -132,6 +132,42 @@
     <td>Claudia Belledonne</td>
     <td>Planeación y documentación del Sprint 1</td>
 </tr>
+<tr>
+    <td>1.11</td>
+    <td>10/05/2025</td>
+    <td>Rafael Andres Vivanco Salazar</td>
+    <td>Corrección de los story points del product backlog</td>
+</tr>
+<tr>
+    <td>1.12</td>
+    <td>10/05/2025</td>
+    <td>Rafael Andres Vivanco Salazar</td>
+    <td>Corrección de porcentajes en segmentos objetivos</td>
+</tr>
+<tr>
+    <td>2.0</td>
+    <td>13/05/2025</td>
+    <td>Rafael Vivanco</td>
+    <td>Planeación y documentación del Sprint 2</td>
+</tr>
+<tr>
+    <td>2.1</td>
+    <td>13/05/2025</td>
+    <td>Ariana Cecilia Agreda Sobrino y Victor Cruz</td>
+    <td>Creación y redacción de Execution Evidence for Sprint Review.</td>
+</tr>
+</tr>
+    <td>2.2</td>
+    <td>13/05/2025</td>
+    <td>Claudia Belledonne y Rafael Vivanco</td>
+    <td>Creación y redacción de Services Documentation Evidence for Sprint Review.</td>
+</tr>
+</tr>
+    <td>2.3</td>
+    <td>14/05/2025</td>
+    <td>Mauricio Elera  y Victor Cruz</td>
+    <td>Creación y redacción de Software Deployment Evidence for Sprint Review</td>
+</tr>
 </table>
 
 </br>
@@ -172,6 +208,20 @@ __TB1__
   <p><img src="img/evidence/over.png" alt="Overview" width="700px" /></p>
 </div>
 
+__TB2__
+
+<div>
+  <p><img src="img/evidence/contribuitors2.png" alt="Contributors" width="700px" /></p>
+</div>
+<div>
+  <p><img src="img/sprint2/network145.png" alt="Overview" width="700px" /></p>
+</div>
+<div>
+  <p><img src="img/sprint2/pulse145.png" alt="Pulse" width="700px" /></p>
+</div>
+<div>
+  <p><img src="img/evidence/sprint2-backlog.png" alt="Backlog2" width="700px" /></p>
+</div>
 ---
 
 # Contenido
@@ -271,6 +321,15 @@ __TB1__
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 1](#5221-sprint-planning-2)
+        - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+        - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+        - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
+        - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
+        - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+        - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
+        - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews.](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
@@ -461,6 +520,15 @@ __TB1__
       - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
+  - [5.2.2. Sprint 2](#521-sprint-1)
+      - [5.2.2.1. Sprint Planning 2](#5211-sprint-planning-1)
+      - [5.2.2.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2](#5213-sprint-backlog-n)
+      - [5.2.2.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews.](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
@@ -500,7 +568,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB1:</b></p>
         <p align="justify">Durante TB1, trabajé en los siguientes entregables clave: Style Guidelines, Landing Page Wireframes y Mockup, Web Applications Wireframes, Wireflow Diagram, User Flow Diagram y Prototype.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>En este Sprint pude aportar liderazgo al desarrollar la vista principal del usuario Empresario (US4). Coordiné con el equipo detalles de diseño y navegación, buscando que todos estuviéramos alineados. Me gustó escuchar sugerencias y trabajar de forma conjunta.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -511,8 +579,8 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 <p><b>Claudia Valeria Belledonne Espinoza</b></p>
        <p><b>TB1:</b></p>
         <p align="justify">Durante TB1, tomé un rol activo en la elaboración del análisis competitivo y en la propuesta de estrategias clave para el proyecto. Guié la redacción de las historias de usuario, los epics y la estructuración del product backlog, fomentando siempre la toma de decisiones conjunta y el liderazgo compartido en las etapas iniciales del trabajo. Finalmente, lidere el modelado del diagrama de la base de datos relacional para el trabajo.</p>
-        <p><b>TP1:</b></p>
-        <p>-</p>
+         <p><b>TP1:</b></p>
+        <p>Asumí la vista de registro de usuario (US1) y me enfoqué en compartir mis conocimientos con el equipo. Me gustó ayudar en la parte de validación y aprender también de mis compañeros.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -524,7 +592,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB1:</b></p>
         <p align="justify">Durante el desarrollo de la TB1, me encargué del diseño de la interfaz de usuario de la landing page, creando su wireframe y mock-up para establecer tanto la estructura como el diseño visual final. También trabajé en el diseño de la experiencia y la interfaz de usuario de la aplicación web, desarrollando los wireframes, los diagramas de wireflow para ilustrar el flujo de interacciones entre pantallas, los mock-ups detallados y los diagramas de flujo de usuario para visualizar las rutas dentro de la aplicación. Además, creé prototipos interactivos de la aplicación web para probar las funcionalidades y la experiencia del usuario antes de la implementación final.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>Lideré la implementación del inicio de sesión (US2) coordinando la lógica y flujo con el equipo. Me sentí cómodo proponiendo ideas y escuchando a los demás.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -536,7 +604,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
        <p><b>TB1:</b></p>
         <p align="justify">Durante TB1, lideré la ejecución del proceso de investigación con usuarios, diseñando y registrando cuatro entrevistas clave para el levantamiento de necesidades. Posteriormente, realicé el análisis detallado de estas entrevistas, lo cual sirvió como base para el desarrollo del Needfinding. A partir de esto, elaboré entregables fundamentales como los User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping y el As-is Scenario Mapping. Además, desarrollé el Ubiquitous Language y participé activamente en la elaboración del To-Be Scenario Mapping, así como en la redacción de User Stories para la especificación de requerimientos.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>En este Sprint trabajé en la vista de listado de usuarios registrados (US3) y ayudé a que el equipo participara en decisiones técnicas. Me gustó ver cómo sumamos ideas para mejorar la funcionalidad.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -547,7 +615,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
        <p><b>TB1:</b></p>
         <p align="justify">Durante TB1, participé activamente en la elaboración del Solution Profile, incluyendo el desarrollo de los antecedentes y la definición del problema central del proyecto. Además, lideré la implementación del proceso de Lean UX, trabajando en la redacción de los Problem Statements, Assumptions e Hypothesis Statements. También estructuré el Lean UX Canvas de manera colaborativa con el equipo. Finalmente, contribuí a la identificación de los segmentos objetivo y participé en la construcción del Impact Mapping y el primer Product Backlog.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>Desarrollé la vista de perfil del usuario Empresario (US5) y propuse mejoras en la experiencia de usuario. Coordiné con mis compañeros para validar detalles importantes.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -558,7 +626,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB1:</b></p>
         <p align="justify">Mi contribución ayudó a consolidar un liderazgo colaborativo desde el comienzo del proyecto, alineando al equipo hacia metas compartidas y distribuyendo las responsabilidades de manera justa.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>En este Sprint confirmé que el liderazgo compartido ayuda a que todos trabajemos con mayor claridad y motivación. Me di cuenta de que al escuchar a mis compañeros logramos integrar sus ideas de manera efectiva y eso elevó la calidad del trabajo.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -569,7 +637,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
        <p><b>TB1:</b></p>
         <p align="justify">Mi participación permitió fortalecer el liderazgo colaborativo desde el inicio del proyecto, alineando al equipo en objetivos comunes y distribuyendo responsabilidades de forma equitativa.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>Aprendí que compartir mis conocimientos no solo fortalece al equipo, sino que también me permite aprender de los demás. Esta colaboración nos ayudó a construir funcionalidades más sólidas y con menos errores.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -581,7 +649,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB1:</b></p>
         <p align="justify">El trabajo realizado en la TB1 mejoró la colaboración del equipo al facilitar una comunicación más clara y decisiones informadas gracias a los wireframes, mock-ups y prototipos. Estos entregables ayudaron a alinear objetivos y expectativas, fomentando un liderazgo compartido y una distribución equitativa de tareas, lo que fortaleció la responsabilidad y la colaboración dentro del equipo.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>Entendí que liderar no es solo dirigir, sino también facilitar espacios donde todos puedan aportar. Esto hizo que encontráramos mejores soluciones y que el equipo trabajara con mayor confianza.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -593,7 +661,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
        <p><b>TB1:</b></p>
         <p align="justify">Mi participación en estas tareas ayudó a consolidar un liderazgo compartido centrado en el entendimiento profundo de las necesidades del usuario. Al asumir la responsabilidad de esta etapa clave, promoví una dinámica de trabajo colaborativa, impulsando decisiones basadas en evidencia que alinearon al equipo hacia una solución centrada en el usuario.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>Este Sprint me enseñó que abrir espacios para la participación técnica de todos mejora el producto final. Además, hace que el equipo se sienta escuchado y más involucrado en las decisiones.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -604,7 +672,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
        <p><b>TB1:</b></p>
         <p align="justify">Mi participación en estas entregas permitió al equipo establecer una base estratégica clara y orientada a objetivos desde el inicio del proyecto. Fomenté la toma de decisiones compartida y apoyé la distribución equitativa de responsabilidades, promoviendo un liderazgo conjunto basado en la colaboración y la alineación de ideas.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>Validar ideas con el equipo me ayudó a enriquecer la propuesta de interfaz. Escuchar distintas perspectivas permitió que la experiencia del usuario fuera más completa y cuidada.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -621,7 +689,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB1:</b></p>
         <p align="justify">Fomenté un entorno de trabajo colaborativo desde el inicio del proyecto, promoviendo la participación equitativa entre los miembros del equipo. Propuse ideas creativas para la landing page y ayudé a definir los objetivos del Sprint 1. Participé activamente en la planificación de tareas, coordinando esfuerzos con mis compañeros para cumplir los entregables establecidos de manera organizada y puntual.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>Ayudé a mantener un buen ambiente de equipo. Propuse espacios de revisión donde todos pudimos aportar y planificar tareas para lograr nuestros objetivos sin problemas.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -633,7 +701,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
        <p><b>TB1:</b></p>
         <p align="justify">Contribuí a crear un entorno colaborativo proponiendo metas claras para el Sprint 1 y apoyando la planificación de tareas desde una perspectiva inclusiva. Además, elaboré la documentación del sprint y del informe general, asegurando que las ideas del equipo fueran reflejadas de forma coherente y ordenada.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>Fomenté la colaboración organizando reuniones donde todos expusimos avances y dudas. Esto nos ayudó a cumplir las metas con buena organización.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -645,7 +713,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB1:</b></p>
         <p align="justify">Programé la landing page respetando las ideas y diseños planteados por el equipo, asegurando que todas las contribuciones se integraran de forma equitativa. Ayudé a planificar las tareas de desarrollo y a cumplir los plazos establecidos, fomentando un entorno colaborativo donde se valoraron todas las propuestas.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>Busqué que el equipo tuviera espacios para compartir desafíos y planificar juntos. Así logramos avanzar de forma ordenada y colaborativa.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -657,7 +725,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
        <p><b>TB1:</b></p>
         <p align="justify">Fomenté un entorno colaborativo al involucrar al equipo en la validación de entrevistas y en la interpretación conjunta de hallazgos. Guié la planificación de las tareas relacionadas con la fase de Needfinding y su vinculación con los requerimientos del sistema, asegurando que todas las voces del equipo fueran consideradas durante el análisis. La definición del Ubiquitous Language y la elaboración del To-Be Scenario Mapping permitieron alinear los objetivos del proyecto con las necesidades reales de los usuarios.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>Promoví la comunicación constante entre todos, lo que facilitó el trabajo en equipo y nos permitió cumplir los objetivos planteados.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -668,7 +736,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
        <p><b>TB1:</b></p>
         <p align="justify">Contribuí a generar un ambiente inclusivo al facilitar espacios de diálogo para construir los elementos del Lean UX y definir los objetivos del proyecto desde diversas perspectivas. Propuse una planificación clara de las tareas para el Sprint 1 relacionadas con el perfil de solución y el Lean UX, asegurando una distribución equitativa del trabajo. Además, apoyé la organización del backlog inicial en función de los impactos y metas establecidas por el equipo.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>Motivé al equipo a compartir ideas y sugerencias en todo momento. Esto nos permitió avanzar de manera fluida y cumplir con las metas del Sprint.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -680,7 +748,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB1:</b></p>
         <p align="justify">Esta experiencia me permitió reforzar mis habilidades de liderazgo colaborativo y organización. Aprendí la importancia de escuchar distintas perspectivas para construir soluciones más sólidas y cohesionadas. Me comprometo a seguir fomentando un ambiente inclusivo en el equipo y a mantener el enfoque en el cumplimiento de metas en los próximos sprints.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>Crear espacios de diálogo constante ayudó a que el equipo se sintiera más unido. Planificar juntos nos permitió cumplir objetivos con orden y evitó que alguien quedara descolgado.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -692,7 +760,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
        <p><b>TB1:</b></p>
         <p align="justify">Mi enfoque en la planificación y documentación ayudó a establecer una base clara para el trabajo, promoviendo la participación de todos los miembros y facilitando el cumplimiento de los objetivos trazados en TB1.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>Tener reuniones continuas y bien enfocadas fue importante para que todos supiéramos nuestras responsabilidades. Esto evitó confusiones y nos permitió mantener un ritmo constante durante el Sprint.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -704,7 +772,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB1:</b></p>
         <p align="justify">Trabajar en la programación de la landing page me permitió reforzar la colaboración, la organización de tareas y el compromiso para alcanzar los objetivos del sprint.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>Planificar en conjunto nos permitió organizarnos mejor y evitar retrabajos. Siento que eso hizo que todos estuviéramos más comprometidos con las metas del Sprint.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -716,7 +784,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
        <p><b>TB1:</b></p>
         <p align="justify">Esta etapa me permitió mejorar mis habilidades de análisis colaborativo y planificación orientada al usuario. Aprendí la importancia de trabajar de forma inclusiva para construir soluciones significativas. Me comprometo a seguir promoviendo la escucha activa y la organización de tareas basadas en objetivos comunes en los próximos sprints.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>Mantener la comunicación constante fue clave para no perder el rumbo. Esto permitió que el trabajo fuera más fluido y que cumpliéramos con lo que nos habíamos propuesto.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -727,7 +795,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
        <p><b>TB1:</b></p>
         <p align="justify">Esta experiencia me permitió fortalecer mis habilidades de planificación estratégica y trabajo colaborativo. Comprendí el valor de integrar diferentes puntos de vista desde el inicio del proyecto para lograr una visión compartida. Me comprometo a seguir promoviendo un entorno inclusivo y centrado en la organización y el cumplimiento de objetivos en los siguientes entregables.</p>
         <p><b>TP1:</b></p>
-        <p>-</p>
+        <p>Fomentar la participación y el intercambio de ideas hizo que el ambiente de trabajo fuera más cómodo y colaborativo. Esto facilitó que todos se involucraran en las decisiones y lográramos avanzar sin bloqueos.</p>
         <p><b>TB2:</b></p>
         <p>-</p>
         <p><b>TF:</b></p>
@@ -736,6 +804,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
     </tr>
   </tbody>
 </table>
+
 
 
 # Capítulo I: Introducción
@@ -2577,10 +2646,10 @@ En el nivel C3 profundizamos en cada contenedor. A continuación se muestran los
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
-Diagrama de clases basado en bounded contexts:
 
+Diagrama de clases basado en bounded contexts:
 <div>
-  <p align="center"><img src="img/odd/classes-db.jpg" alt="Class Diagram" width="700px" /></p>
+  <p align="center"><img src="img/sprint2/classdia.png" alt="Class Diagram" width="700px" /></p>
 </div>
 <br>
 
@@ -4015,14 +4084,460 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 ![image](img/evidence/eviden1.png)
 
 
-
-
-
 ##### Repositorio de trabajo:
 
 - [Repositorio de la Landing Page en GitHub](https://github.com/awawaTech/mecanaut-landing-page)
 
 Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo de trabajo y asegurando que cada producto del Sprint cuente con participación de todos los miembros del equipo.
+
+### 5.2.2. Sprint 2
+#### 5.2.2.1. Sprint Planning 2
+<table>
+    <tr>
+        <td>Sprint #</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <th colspan="2"><strong>Sprint Planning Background</strong></th>
+    </tr>
+    <tr>
+        <td>Date</td>
+        <td>13/05/2025</td>
+    </tr>
+     <tr>
+        <td>Time</td>
+        <td>08:00 AM</td>
+    </tr>
+     <tr>
+        <td>Location</td>
+        <td>Reunión virtual – Discord</td>
+    </tr>
+    <tr>
+        <td>Prepared By</td>
+        <td>Claudia Belledonne</td>
+    </tr>
+    <tr>
+        <td>Attendees (to planning meeting)</td>
+        <td>
+
+- Ariana Cecilia Agreda Sobrino
+            
+- Claudia Valeria Belledonne Espinoza
+            
+- Victor Andres Cruz Ibarra
+            
+- Mauricio Daniel Elera Rodríguez
+            
+- Rafael Andres Vivanco Salazar
+        
+   </td>
+    </tr>
+    <tr>
+        <td>Sprint 2 – Review Summary</td>
+        <td>Durante el segundo sprint se corrigieron los Story Points del Product Backlog y se ajustaron los Hypothesis Statements según el feedback recibido. Además, se implementaron funciones clave en la app frontend con Vue, incluyendo routing, language switcher, organización basada en DDD, componentes reutilizables y consumo de una fake API. El sistema fue desplegado exitosamente para su visualización por el equipo y stakeholders.</td>
+    </tr>
+    <tr>
+        <td>Sprint 2 – Retrospective Summary</td>
+        <td>El equipo destacó mejoras en la organización del código y en la estructura del proyecto gracias a la aplicación de buenas prácticas como DDD. También se valoró positivamente el despliegue temprano. Como puntos a mejorar, se identificó la necesidad de definir mejor los criterios de aceptación y mantener la documentación técnica actualizada para facilitar el desarrollo continuo.</td>
+    </tr>
+    <tr>
+        <th colspan="2"><strong>Sprint Goal & User Stories</strong></th>
+    </tr>
+    <tr>
+        <td>Sprint 2 Goal</td>
+        <td>
+<strong>Nuestra meta fue</strong> implementar las funcionalidades clave del frontend de la aplicación para ofrecer una experiencia inicial fluida y navegable. 
+
+<strong>Creemos que</strong> esto facilita la interacción del usuario con el sistema y permite validar tempranamente la estructura técnica y visual.
+
+<strong>Esto se confirmará</strong> cuando los usuarios puedan acceder a la aplicación desplegada, navegar entre secciones mediante el sistema de rutas, cambiar el idioma, visualizar datos simulados desde una fake API y notar una interfaz coherente gracias al uso de componentes reutilizables y una organización basada en DDD.
+    </td>
+    </tr>
+     <tr>
+        <td>Sprint 2 Velocity  </td>
+        <td>94 Story Points.</td>
+    </tr>
+     <tr>
+        <td>Sum of Story Points  </td>
+        <td>94 Story Points.</td>
+    </tr>
+</table>
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+| Team Member (Last Name, First Name) | GitHub Username | US01 | US02 | US03 | US04 | US05 | US06 | US07 | US08 | US09 | US10 | US11 | US12 | US18 | US19 | US20 | US21 | US22 |
+|-------------------------------------|------------------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
+| Agreda, Ariana                      | arii4w           | C    | C    | L    | C    | C    | L    | C    | C    | L    | C    | C    | C    | C    | L    | C    | C    | L    |
+| Belledonne, Claudia                 | Cl4us-tb         | L    | C    | C    | C    | L    | C    | L    | L    | C    | C    | C    | C    | L    | C    | C    | L    | C    |
+| Elera, Mauricio                     | Maur1xio         | C    | L    | C    | L    | C    | C    | C    | C    | C    | L    | L    | L    | C    | C    | L    | C    | C    |
+| Cruz, Victor                        | Elandrehs        | C    | C    | C    | C    | C    | C    | C    | L    | C    | C    | C    | C    | C    | C    | C    | C    | C    |
+| Vivanco, Rafael                     | RafaelVivanco    | C    | C    | C    | C    | C    | C    | C    | C    | L    | C    | C    | C    | C    | C    | C    | C    | C    |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+<p>El objetivo de este segundo sprint fue implementar funcionalidades clave del frontend de la aplicación de Mecanaut, enfocándonos en estructurar la arquitectura del proyecto con un enfoque DDD, incorporar rutas para la navegación, añadir un switcher de idiomas, reutilizar componentes, consumir datos desde una fake API y desplegar la aplicación para revisión del equipo.</p>
+
+
+![image](img/evidence/sprint2-backlog.png)
+<p>[link:https://trello.com/invite/b/682396f3453baa1b6245478d/ATTI107310f8bccd29ea2378df2271a608ac5A140C64/sprint-2
+](https://trello.com/invite/b/682396f3453baa1b6245478d/ATTI107310f8bccd29ea2378df2271a608ac5A140C64/sprint-2)</p>
+
+
+<table>
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="6">Sprint 2</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+
+  <!-- US01 -->
+  <tr>
+    <th rowspan="2">US01</th>
+    <th rowspan="2">Registro de maquinarias</th>
+    <td>1</td>
+    <td align="justify">Crear formulario para registrar maquinaria</td>
+    <td align="justify">Generar formulario para ingresar los datos de los activos.</td>
+    <td>1.5 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td align="justify">Estilizar formulario de registro</td>
+    <td align="justify">Aplicar estilos según el diseño (inputs, botones, bordes, márgenes).</td>
+    <td>1 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US02 -->
+  <tr>
+    <th rowspan="2">US02</th>
+    <th rowspan="2">Registro de líneas de producción</th>
+    <td>3</td>
+    <td align="justify">Crear formulario para registrar líneas de producción</td>
+    <td align="justify">Generar formulario para ingresar datos de las líneas de producción.</td>
+    <td>1.5 hr</td>
+    <td>Rafael Vivanco</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td align="justify">Estilizar formulario de líneas de producción</td>
+    <td align="justify">Aplicar diseño visual a los campos de entrada.</td>
+    <td>1 hr</td>
+    <td>Rafael Vivanco</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US03 -->
+  <tr>
+    <th rowspan="2">US03</th>
+    <th rowspan="2">Generación de órdenes de trabajo correctivas</th>
+    <td>5</td>
+    <td align="justify">Crear funcionalidad para generar orden de trabajo</td>
+    <td align="justify">Generar el backend y frontend para crear órdenes de trabajo correctivas.</td>
+    <td>2 hr</td>
+    <td>Mauricio Elera</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td align="justify">Estilizar formulario de órdenes de trabajo correctivas</td>
+    <td align="justify">Diseñar formulario para ingresar detalles de la orden.</td>
+    <td>1.5 hr</td>
+    <td>Mauricio Elera</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US04 -->
+  <tr>
+    <th rowspan="2">US04</th>
+    <th rowspan="2">Asignación de personal técnico</th>
+    <td>7</td>
+    <td align="justify">Crear funcionalidad de asignación de técnicos</td>
+    <td align="justify">Desarrollar el proceso de asignación de técnicos a las órdenes de trabajo.</td>
+    <td>2 hr</td>
+    <td>Ariana Agreda</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td align="justify">Estilizar interfaz para asignación de técnicos</td>
+    <td align="justify">Aplicar estilos a la pantalla de asignación de técnicos (botones, listas, formularios).</td>
+    <td>1.5 hr</td>
+    <td>Ariana Agreda</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US05 -->
+  <tr>
+    <th rowspan="2">US05</th>
+    <th rowspan="2">Supervisión del calendario de plan de mantenimiento</th>
+    <td>9</td>
+    <td align="justify">Crear componente de calendario de mantenimiento</td>
+    <td align="justify">Desarrollar la vista del calendario con los planes de mantenimiento.</td>
+    <td>2 hr</td>
+    <td>Victor Cruz</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td align="justify">Estilizar calendario de mantenimiento</td>
+    <td align="justify">Aplicar los estilos para que el calendario se vea visualmente atractivo.</td>
+    <td>1 hr</td>
+    <td>Victor Cruz</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US06 -->
+  <tr>
+    <th rowspan="2">US06</th>
+    <th rowspan="2">Filtro de plan de mantenimiento</th>
+    <td>11</td>
+    <td align="justify">Crear funcionalidad de filtro para planes de mantenimiento</td>
+    <td align="justify">Desarrollar la funcionalidad para filtrar por fecha, tipo o estado.</td>
+    <td>1.5 hr</td>
+    <td>Rafael Vivanco</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td align="justify">Estilizar interfaz de filtro</td>
+    <td align="justify">Aplicar diseño adecuado para los filtros (inputs, botones).</td>
+    <td>1 hr</td>
+    <td>Rafael Vivanco</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US07 -->
+  <tr>
+    <th rowspan="2">US07</th>
+    <th rowspan="2">Visualización de KPIs</th>
+    <td>13</td>
+    <td align="justify">Crear componente para mostrar KPIs</td>
+    <td align="justify">Desarrollar el componente que mostrará los KPIs relevantes.</td>
+    <td>1.5 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td align="justify">Estilizar componente de KPIs</td>
+    <td align="justify">Aplicar diseño visual adecuado para mostrar métricas de KPIs.</td>
+    <td>1 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US08 -->
+  <tr>
+    <th rowspan="2">US08</th>
+    <th rowspan="2">Reporte de orden de trabajo</th>
+    <td>15</td>
+    <td align="justify">Crear reporte de orden de trabajo</td>
+    <td align="justify">Desarrollar funcionalidad para generar el reporte final de órdenes de trabajo.</td>
+    <td>2 hr</td>
+    <td>Victor Cruz</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td align="justify">Estilizar reporte de orden de trabajo</td>
+    <td align="justify">Diseñar la vista para la visualización del reporte final (tablas, botones, etc.).</td>
+    <td>1 hr</td>
+    <td>Victor Cruz</td>
+    <td>Done</td>
+  </tr>
+
+</table>
+
+
+#### 5.2.1.4. Development Evidence for Sprint Review.
+
+| Repository                                                                 | Branch   | Commit Id             | Commit Message                              | Commit Message Body                                                                 | Committed on (Date) |
+|----------------------------------------------------------------------------|----------|------------------------|----------------------------------------------|--------------------------------------------------------------------------------------|----------------------|
+| https://github.com/awawaTech/mecanaut-l4nding-page                          | main     | 79dfc1a               | Setup commit: Vue project                    | Initial project scaffold created with Vue CLI and pushed to main                    | 13/05/2025           |
+|                                                                            | develop  | 7b3f5d2               | feat(hero): implement hero section           | Added HTML and CSS for the HeroComponent with responsive design                     | 13/05/2025           |
+|                                                                            | develop  | 4d9a56f               | feat(navbar): add top navigation bar         | Created a reusable NavbarComponent with anchor links to sections                    | 13/05/2025           |
+|                                                                            | develop  | 22c7e92               | style(global): add font and color variables  | Set up global SCSS variables for font family, primary and secondary colors          | 13/05/2025           |
+|                                                                            | main     | 79dfc1a…b4d7e16       | chore(release): merge release 1.1.0 into main | Second release with Hero, Navbar and base styling enhancements                       | 13/05/2025           |
+|                                                                            | develop  | b8c81e1               | ci: configure GitHub Actions for deploy      | Set up CI/CD workflow for automatic deployment to Azure Static Web Apps             | 13/05/2025           |
+|                                                                            | develop  | e3d5420               | feat(pricing): add pricing section           | Added HTML and CSS for the PricingComponent with responsive design and toggle option | 13/05/2025           |
+|                                                                            | develop  | d7f8b5a               | feat(footer): add footer section             | Created FooterComponent and linked important pages                                  | 13/05/2025           |
+|                                                                            | develop  | 0a5e57b               | style(pricing): add pricing section styling  | Applied design styles to the pricing section with hover effects                     | 13/05/2025           |
+|                                                                            | main     | 79dfc1a…e8c9b57       | chore(release): merge release 1.2.0 into main | Third release with Pricing and Footer components                                    | 13/05/2025           |
+
+<br>
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+En este sprint, hemos logrado implementar las funcionalidades fundamentales para la gestión inicial del sistema Mecanet. Esto incluye la capacidad de registrar y gestionar maquinarias y líneas de producción, generar órdenes de trabajo correctivas y asignar personal técnico a ellas, establecer planes de mantenimiento para las líneas de producción, y permitir a los técnicos consultar sus órdenes de trabajo diarias.<br/>
+
+A continuación, se presentan capturas de pantalla de las principales vistas implementadas durante este sprint:<br/>
+
+
+#### Machinery Manager View  
+![Login View](img/sprint2/machinery.png)
+
+
+#### Machinery Form View  
+![Login View](img/sprint2/machinery-form.png)
+
+#### Machinery Form View  
+![Login View](img/sprint2/machinery-form.png)
+
+### Maintenance Plans
+![alt text](img/sprint2/image1.png)
+
+### Maintenance Plans Select
+![alt text](img/sprint2/image2.png)
+
+### Maintenance Plans Dynamic
+![alt text](img/sprint2/image3.png)
+
+### Maintenance Plans Static
+![alt text](img/sprint2/image4.png)
+
+### Maintenance Plans Calendar
+![alt text](img/sprint2/image10.png)
+
+### Maintenance Plans Static
+![alt text](img/sprint2/image5.png)
+
+### Spare Parts Inventory
+![alt text](img/sprint2/image6.png)
+
+### Spare Parts Inventory Form
+![alt text](img/sprint2/image7.png)
+
+### Purchase Order
+![alt text](img/sprint2/image8.png)
+
+### Purchase Order Form
+![alt text](img/sprint2/image9.png)
+
+### Create Account
+![alt text](img/sprint2/img11.png)
+
+### Login
+![alt text](img/sprint2/img12.png)
+
+
+
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+Durante este Sprint no se desarrollaron ni documentaron Web Services, dado que el enfoque principal estuvo en la implementación del FrontEnd de la Aplicación Web, con todas sus vistas. Por lo tanto, no se cuenta con endpoints disponibles ni documentación generada en OpenAPI en esta etapa del proyecto.
+
+La documentación de servicios será considerada en los siguientes Sprints, una vez que se inicie el desarrollo del backend y se establezca la estructura básica de la API que permitirá la integración con las vistas web implementadas.
+
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+Durante este Sprint, se avanzó de manera significativa en el proceso de Deployment de los principales componentes del sistema, incluyendo la Landing Page, las Aplicaciones Web y los Servicios Web (API). A continuación, se describen las acciones realizadas y se documentan con capturas y explicaciones técnicas.
+
+##### 1. Crear nuevo recurso SPA dentro de mismo grupo de recursos
+Se seleccionó Azure como plataforma de despliegue por su facilidad de integración con herramientas de desarrollo y CI/CD. Las principales acciones realizadas fueron:
+
+![alt text](/img/sprint2/azure1.png)
+
+![alt text](/img/sprint2/azure2.png)
+
+
+Captura 1: Configuración del proyecto en Azure
+
+##### 2. Configuración de Repositorios y Automatización de Deployment (CI/CD)
+Se integraron los repositorios de GitHub con el servicio de despliegue, permitiendo una integración continua y despliegue automático tras cada push a las ramas principales:
+
+- Se conectaron los repositorios de GitHub a Azure.
+- Se configuró un pipeline de CI/CD para que se realicen los siguientes pasos:
+    - Instalación de dependencias.
+    - Ejecución de pruebas.
+    - Construcción del proyecto.
+
+![alt text](/img/sprint2/azure3.png)
+![alt text](/img/sprint2/azure4.png)
+
+  
+
+Captura 2: Registro de despliegue exitoso tras push en rama main
+
+##### 3. Deployment de la Aplicación Web
+La App Web fue desplegada como una SPA (Single Page Application), asegurando el correcto enrutamiento y carga de componentes dinámicos. El build se generó con npm run build y fue subido al entorno de producción.
+
+![alt text](/img/sprint2/azure5.png)
+
+![alt text](/img/sprint2/azure6.png)
+
+
+##### 4. Deployment de los Servicios Web (API)
+Se simuló el backend utilizando MockAPI, el cual proporcionó soporte para peticiones REST y autenticación básica. Se verificó la correcta funcionalidad de las rutas implementadas mediante pruebas exhaustivas con Postman. <br/>
+
+Solo creamos 2 recursos (ya que es el límite gratiuto que tiene mockapi).
+![alt text](/img/sprint2/mock1.png)
+
+Lo probamos en Postman o Thuder Client:
+![alt text](/img/sprint2/mock2.png)
+
+## Actividades ejecutadas:
+- Se creó el proyecto base en **Vue** utilizando **Vite** como herramienta de construcción para un entorno ágil y moderno.
+- Se estructuró la aplicación con **ruteo dinámico** usando **Vue Router**, permitiendo una navegación fluida entre vistas según los perfiles de usuario.
+- Se implementaron componentes reutilizables clave como el **Navbar** y secciones de navegación según el diseño base.
+- Se construyeron vistas correspondientes a las historias de usuario:
+  - **US1:** Registro de usuario (estructura inicial del formulario).
+  - **US2:** Inicio de sesión para usuarios registrados.
+  - **US4:** Vista principal para el tipo de usuario **Empresario**, mostrando accesos a funcionalidades relevantes.
+  - **US6:** Vista principal para el tipo de usuario **Técnico de mantenimiento**, con enfoque en tareas operativas.
+- Se aplicaron estilos globales y configuraciones de diseño responsivo para garantizar una experiencia coherente en distintos dispositivos.
+- Se mantuvo la estructura de carpetas bajo una convención clara para facilitar la escalabilidad y mantenimiento del proyecto.
+
+> Este avance representa un paso importante hacia la construcción funcional del sistema, permitiendo validar interacciones clave y sentar la base para futuras integraciones con el backend.
+
+
+<br>
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+Durante el desarrollo del Sprint 2, cada miembro del equipo trabajó en las secciones de la **Frontend App ** de Mecanaut, avanzando con las User Stories del Product Backlog asignadas. Las tareas fueron divididas entre los integrantes del equipo, con el objetivo de completar las secciones clave del sitio.
+
+A continuación, se detalla la participación específica de cada integrante del equipo, asociada a las User Stories que implementaron:
+
+| **Nombre**                       | **Actividad (User Stories)** |
+| --------------------------------- | ---------------------------- |
+| Agreda Sobrino, Ariana Cecilia    | US32: Sección Hero del sitio web |
+| Belledone Espinoza, Claudia       | US13: Sección de beneficios del sistema <br> US14: Sección precios del sitio web |
+| Elera Rodríguez, Mauricio Daniel  | US17: Sección dudas del sitio web |
+| Vivanco, Rafael                   | US14: Sección precios del sitio web <br> US17: Sección dudas del sitio web |
+| Cruz, Victor                      | US15: Sección footer del sitio web |
+
+> **Nota:** Algunos integrantes colaboraron en secciones compartidas para asegurar consistencia en diseño y funcionalidad.
+
+![image](https://github.com/user-attachments/assets/53ea8b06-5856-4508-917f-06e13a796538)
+
+![image](https://github.com/user-attachments/assets/49f5b981-e92d-46d3-8ed7-36a4a2999968)
+
+
+<br>
+
+##### Evidencia de colaboración en GitHub
+
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
+
+![image](https://github.com/user-attachments/assets/1957e126-da2b-4eb3-8b2d-5abf18bbcbc3)
+
+![image](https://github.com/user-attachments/assets/dbe220f7-def2-4f41-a155-0d8b25d4e2f9)
 
 # Conclusiones
 ## Conclusiones y recomendaciones.
@@ -4076,3 +4591,5 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 - Landing Page desplegado del proyecto: [https://zealous-moss-0e183d81e.6.azurestaticapps.net/](https://zealous-moss-0e183d81e.6.azurestaticapps.net/)
 - Repositorio de la Landing Page: [https://github.com/awawaTech/mecanaut-landing-page](https://github.com/awawaTech/mecanaut-landing-page)
 - Documentación del Proyecto: [https://github.com/awawaTech/Project-Report](https://github.com/awawaTech/Project-Report)
+- Video exposición TP1: [https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315044_upc_edu_pe/EqV7XG3MjIdKqtKWRBkYUzEBoPuAjLCYm_iKfNx94Q5Hyw?e=JT2uUQ](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315044_upc_edu_pe/EqV7XG3MjIdKqtKWRBkYUzEBoPuAjLCYm_iKfNx94Q5Hyw?e=JT2uUQ)
+- Frontend App desplegado del proyecto: [https://agreeable-glacier-01474611e.6.azurestaticapps.net/](https://agreeable-glacier-01474611e.6.azurestaticapps.net/)
