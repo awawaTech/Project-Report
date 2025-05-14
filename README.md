@@ -992,11 +992,19 @@ Si se prueba que nuestras suposiciones clave son falsas, podríamos enfrentar se
 ### **Administrador de mantenimiento**
 **Descripción:**  
 Responsables de asegurar que la maquinaria de producción funcione sin interrupciones. Lideran al equipo técnico, gestionan el inventario de repuestos y generan reportes para la dirección. Buscan herramientas digitales para centralizar el control de tareas, monitorear indicadores de mantenimiento y justificar inversiones en mejoras.
+<br>
 **Características Demográficas:**
 * **Edad:** 30–60 años
-* **Ingreso:** Medio a alto
-* **Ubicación:** Ciudades industriales o zonas con plantas de producción activa
-* **Educación:** Técnica o universitaria (ingeniería mecánica, mantenimiento industrial, mecatrónica)
+* **Ingreso:** $1,200 – $2,500 USD
+* **Ubicación:** 
+  * 75% en zonas industriales de ciudades medianas o grandes
+  * 25% en polos de desarrollo industrial rurales
+* **Educación:** 
+  * 60% con estudios universitarios (ingeniería)
+  * 40% con formación técnica superior
+* **Prioridades:**
+  * 85% prioriza reducir paradas no planificadas
+  * 15% busca justificar inversiones con KPIs
 * **Intereses:**
   * Gestión eficiente de recursos y repuestos
   * Cumplimiento de KPIs de mantenimiento (disponibilidad, MTBF, MTTR)
@@ -1007,11 +1015,18 @@ Responsables de asegurar que la maquinaria de producción funcione sin interrupc
 ### **Técnico operativo**
 **Descripción:**  
 Profesionales encargados de ejecutar las tareas de mantenimiento preventivo y correctivo en planta. Necesitan una herramienta que les facilite registrar actividades, recibir órdenes de trabajo de forma clara, y reportar incidencias o necesidades de repuestos. Son quienes operan directamente con el sistema de Mecanaut en el campo.
+<br>
 **Características Demográficas:**
 * **Edad:** 20–45 años
-* **Ingreso:** Medio
-* **Ubicación:** Plantas industriales o centros de producción
-* **Educación:** Técnica (mecánica, electricidad industrial, mantenimiento)
+* **Ingreso:** $600 – $1,200 USD
+* **Ubicación:**
+  * 100% en planta o piso de producción
+* **Educación:**
+  * 85% con estudios técnicos
+  * 15% con cursos de capacitación en planta
+* **Prioridades:**
+  * 90% necesita rapidez y claridad para ejecutar tareas
+  * 10% valora sistemas que reduzcan la carga de papeleo
 * **Intereses:**
   * Tener un sistema claro para registrar y seguir tareas
   * Acceso móvil a órdenes de trabajo diarias.
