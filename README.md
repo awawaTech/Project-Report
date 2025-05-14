@@ -4368,23 +4368,106 @@ Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo 
 
 <br>
 
-#### 5.2.1.5. Execution Evidence for Sprint Review.
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+En este sprint, hemos logrado implementar las funcionalidades fundamentales para la gestión inicial del sistema Mecanet. Esto incluye la capacidad de registrar y gestionar maquinarias y líneas de producción, generar órdenes de trabajo correctivas y asignar personal técnico a ellas, establecer planes de mantenimiento para las líneas de producción, y permitir a los técnicos consultar sus órdenes de trabajo diarias.<br/>
 
-Durante este Sprint se logró implementar de forma completa la Landing Page del proyecto Mecanaut. Se avanzó significativamente en las secciones clave de la página, permitiendo que los usuarios comprendan mejor las funcionalidades del sistema. Se trabajó en la implementación de la sección de beneficios del sistema, la sección de precios, la sección de dudas frecuentes (FAQ), la navegación y el footer. Estas secciones garantizan una navegación fluida, un diseño atractivo y la presentación clara de los objetivos del producto. La estructura de la página fue organizada y adaptada para ofrecer una experiencia de usuario coherente y optimizada.
+A continuación, se presentan capturas de pantalla de las principales vistas implementadas durante este sprint:<br/>
 
 
-<br>
+#### Machinery Manager View  
+![Login View](img/sprint2/machinery.png)
 
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
-Durante este Sprint no se desarrollaron ni documentaron Web Services, ya que el objetivo principal fue la implementación de la Landing Page como primer entregable del sistema. Por ello, en esta fase del proyecto no se dispone de endpoints disponibles ni de documentación OpenAPI.
 
-La elaboración de la documentación de servicios está prevista para los próximos Sprints, cuando comience el desarrollo del backend y se defina la estructura inicial de la API que permitirá la integración con las vistas web implementadas.
+#### Machinery Form View  
+![Login View](img/sprint2/machinery-form.png)
+
+#### Machinery Form View  
+![Login View](img/sprint2/machinery-form.png)
+
+
+### Maintenance Plans
+![alt text](img/sprint2/image1.png)
+
+### Maintenance Plans Select
+![alt text](img/sprint2/image2.png)
+
+### Maintenance Plans Dynamic
+![alt text](img/sprint2/image3.png)
+
+### Maintenance Plans Static
+![alt text](img/sprint2/image4.png)
+
+### Maintenance Plans Static
+![alt text](img/sprint2/image5.png)
+
+### Spare Parts Inventory
+![alt text](img/sprint2/image6.png)
+
+### Spare Parts Inventory Form
+![alt text](img/sprint2/image7.png)
+
+### Purchase Order
+![alt text](img/sprint2/image8.png)
+
+### Purchase Order Form
+![alt text](img/sprint2/image9.png)
+
+
+
+
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+Durante este Sprint no se desarrollaron ni documentaron Web Services, dado que el enfoque principal estuvo en la implementación del FrontEnd de la Aplicación Web, con todas sus vistas. Por lo tanto, no se cuenta con endpoints disponibles ni documentación generada en OpenAPI en esta etapa del proyecto.
 
 La documentación de servicios será considerada en los siguientes Sprints, una vez que se inicie el desarrollo del backend y se establezca la estructura básica de la API que permitirá la integración con las vistas web implementadas.
-<br>
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
-Durante este Sprint se avanzó significativamente en el desarrollo de la interfaz principal de la solución **Mecanaut**, centrada en la implementación de la aplicación web que servirá como base para la interacción de los distintos tipos de usuarios.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+Durante este Sprint, se avanzó de manera significativa en el proceso de Deployment de los principales componentes del sistema, incluyendo la Landing Page, las Aplicaciones Web y los Servicios Web (API). A continuación, se describen las acciones realizadas y se documentan con capturas y explicaciones técnicas.
+
+##### 1. Crear nuevo recurso SPA dentro de mismo grupo de recursos
+Se seleccionó Azure como plataforma de despliegue por su facilidad de integración con herramientas de desarrollo y CI/CD. Las principales acciones realizadas fueron:
+
+![alt text](/img/sprint2/azure1.png)
+
+![alt text](/img/sprint2/azure2.png)
+
+
+Captura 1: Configuración del proyecto en Azure
+
+##### 2. Configuración de Repositorios y Automatización de Deployment (CI/CD)
+Se integraron los repositorios de GitHub con el servicio de despliegue, permitiendo una integración continua y despliegue automático tras cada push a las ramas principales:
+
+- Se conectaron los repositorios de GitHub a Azure.
+- Se configuró un pipeline de CI/CD para que se realicen los siguientes pasos:
+    - Instalación de dependencias.
+    - Ejecución de pruebas.
+    - Construcción del proyecto.
+
+![alt text](/img/sprint2/azure3.png)
+![alt text](/img/sprint2/azure4.png)
+
+  
+
+Captura 2: Registro de despliegue exitoso tras push en rama main
+
+##### 3. Deployment de la Aplicación Web
+La App Web fue desplegada como una SPA (Single Page Application), asegurando el correcto enrutamiento y carga de componentes dinámicos. El build se generó con npm run build y fue subido al entorno de producción.
+
+![alt text](/img/sprint2/azure5.png)
+
+![alt text](/img/sprint2/azure6.png)
+
+
+##### 4. Deployment de los Servicios Web (API)
+Se simuló el backend utilizando MockAPI, el cual proporcionó soporte para peticiones REST y autenticación básica. Se verificó la correcta funcionalidad de las rutas implementadas mediante pruebas exhaustivas con Postman. <br/>
+
+Solo creamos 2 recursos (ya que es el límite gratiuto que tiene mockapi).
+![alt text](/img/sprint2/mock1.png)
+
+Lo probamos en Postman o Thuder Client:
+![alt text](/img/sprint2/mock2.png)
 
 ## Actividades ejecutadas:
 - Se creó el proyecto base en **Vue** utilizando **Vite** como herramienta de construcción para un entorno ágil y moderno.
