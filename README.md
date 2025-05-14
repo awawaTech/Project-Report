@@ -1,4 +1,4 @@
-|# <center>Project Report</center>
+<center>Project Report</center>
 
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
