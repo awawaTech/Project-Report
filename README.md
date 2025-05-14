@@ -2574,10 +2574,10 @@ En el nivel C3 profundizamos en cada contenedor. A continuación se muestran los
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
-Diagrama de clases basado en bounded contexts:
 
+Diagrama de clases basado en bounded contexts:
 <div>
-  <p align="center"><img src="img/odd/classes-db.jpg" alt="Class Diagram" width="700px" /></p>
+  <p align="center"><img src="img/sprint2/classdia.png" alt="Class Diagram" width="700px" /></p>
 </div>
 <br>
 
