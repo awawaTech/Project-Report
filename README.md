@@ -214,10 +214,10 @@ __TB2__
   <p><img src="img/evidence/contribuitors2.png" alt="Contributors" width="700px" /></p>
 </div>
 <div>
-  <p><img src="img/evidence/network-graph2.png" alt="Overview" width="700px" /></p>
+  <p><img src="img/evidence/network145.png" alt="Overview" width="700px" /></p>
 </div>
 <div>
-  <p><img src="img/evidence/pulse2.png" alt="Pusle" width="700px" /></p>
+  <p><img src="img/evidence/pulse145.png" alt="Pulse" width="700px" /></p>
 </div>
 <div>
   <p><img src="img/evidence/sprint2-backlog.png" alt="Backlog2" width="700px" /></p>
@@ -4384,7 +4384,6 @@ A continuación, se presentan capturas de pantalla de las principales vistas imp
 #### Machinery Form View  
 ![Login View](img/sprint2/machinery-form.png)
 
-
 ### Maintenance Plans
 ![alt text](img/sprint2/image1.png)
 
@@ -4415,6 +4414,11 @@ A continuación, se presentan capturas de pantalla de las principales vistas imp
 ### Purchase Order Form
 ![alt text](img/sprint2/image9.png)
 
+### Create Account
+![alt text](img/sprint2/image11.png)
+
+### Login
+![alt text](img/sprint2/image12.png)
 
 
 
@@ -4572,3 +4576,4 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 - Landing Page desplegado del proyecto: [https://zealous-moss-0e183d81e.6.azurestaticapps.net/](https://zealous-moss-0e183d81e.6.azurestaticapps.net/)
 - Repositorio de la Landing Page: [https://github.com/awawaTech/mecanaut-landing-page](https://github.com/awawaTech/mecanaut-landing-page)
 - Documentación del Proyecto: [https://github.com/awawaTech/Project-Report](https://github.com/awawaTech/Project-Report)
+- Video exposición TP1: [https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315044_upc_edu_pe/EqV7XG3MjIdKqtKWRBkYUzEBoPuAjLCYm_iKfNx94Q5Hyw?e=JT2uUQ](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315044_upc_edu_pe/EqV7XG3MjIdKqtKWRBkYUzEBoPuAjLCYm_iKfNx94Q5Hyw?e=JT2uUQ)
