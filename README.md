@@ -4419,9 +4419,9 @@ A continuación, se detalla la participación específica de cada integrante del
 
 > **Nota:** Algunos integrantes colaboraron en secciones compartidas para asegurar consistencia en diseño y funcionalidad.
 
+![image](https://github.com/user-attachments/assets/53ea8b06-5856-4508-917f-06e13a796538)
 
-![image](img/evidence/pulse2.png)
-![image](img/evidence/contribuitors2.png)
+![image](https://github.com/user-attachments/assets/49f5b981-e92d-46d3-8ed7-36a4a2999968)
 
 
 <br>
@@ -4430,9 +4430,9 @@ A continuación, se detalla la participación específica de cada integrante del
 
 A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial, donde se evidencia la participación activa de todos los miembros del equipo.
 
-![image](img/evidence/contribuitors2.png)
+![image](https://github.com/user-attachments/assets/1957e126-da2b-4eb3-8b2d-5abf18bbcbc3)
 
-![image](img/evidence/network-graph2.png)
+![image](https://github.com/user-attachments/assets/dbe220f7-def2-4f41-a155-0d8b25d4e2f9)
 
 # Conclusiones
 ## Conclusiones y recomendaciones.
