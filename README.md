@@ -5146,8 +5146,9 @@ Mecanauts no solo resuelve los problemas inmediatos de las empresas, sino que ti
 link: [https://www.youtube.com/watch?v=I3xC4kqr_JM&ab_channel=Mayo](https://youtu.be/ch44ZfRNnuE)
 
 # Video About-the-Product.
-![image](https://github.com/user-attachments/assets/e49e1d18-5bf0-437b-b7ff-104f30b9a989)
-link: [https://www.youtube.com/watch?v=I3xC4kqr_JM&ab_channel=Mayo](https://youtu.be/ch44ZfRNnuE)
+![image](https://github.com/user-attachments/assets/60510df1-2ead-496b-9559-5532f6067382)
+
+link: https://www.youtube.com/watch?v=cW31cmfSuA8
 
 # Bibliografía
 McKinsey & Company. (2021). Innovación a través de la disrupción digital en servicio a clientes. [https://www.mckinsey.com/pe/our-insights/innovation-through-the-digital-disruption-of-customer-service](https://www.mckinsey.com/pe/our-insights/innovation-through-the-digital-disruption-of-customer-service) 
