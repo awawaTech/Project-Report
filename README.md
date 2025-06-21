@@ -4994,128 +4994,80 @@ Los endpoints documentados corresponden a las funcionalidades clave desarrollada
 Durante este Sprint, se avanzó en el proceso de Deployment del backend de la aplicación Mecanaut, enfocándose en el despliegue inicial de los Web Services en un entorno de desarrollo accesible, con el objetivo de facilitar la validación funcional por parte del equipo y sentar las bases para futuras integraciones con el frontend.
 
 #### Actividades realizadas en el Sprint 3:
-# Despliegue de **Mecanaut-Backend** – Guía Resumida (Windows 10/11)
+# Despliegue de **Mecanaut-Backend** – Guía de Producción (.NET 9 + MySQL en Azure) (Windows 10/11)
 
-1. **Configuración de repositorio remoto:**  
-   * **Sistema de control de versiones:** Git + GitHub  
-   * **Repositorio oficial del backend:** [mecanaut-backend](https://github.com/awawaTech/mecanaut-back)
+> Esta sección describe el proceso seguido para poner en línea la API desarrollada en **.NET 7** sobre una **Azure Web App** y una **Azure Database for MySQL – Flexible Server**.  
+> La aplicación quedó operativa en:  
+> https://mecanautbk-fffeemd3bqdwebce.centralus-01.azurewebsites.net/swagger/index.html
 
-2. **Creación de entorno de despliegue local:**  
-   * **Stack:** Spring Boot 3, Swagger UI, MySQL, Docker  
-   * **Archivo `docker-compose.yml`:**  
-     ```yml
-     services:
-       Mecanaut-db:
-         image: mysql:8
-         environment:
-           MYSQL_ROOT_PASSWORD: 123456789
-           MYSQL_DATABASE: Mecanaut
-           MYSQL_USER: dev
-         ports:
-           - "3306:3306"
+1. **Requisitos previos**  
+   • Suscripción activa en Microsoft Azure.  
+   • **Visual Studio 2022** (Community o superior) con el workload «Desarrollo de ASP.NET y web».  
+   • **.NET 7 SDK** instalado localmente.  
+   • Acceso al repositorio Git del proyecto.
 
-       Mecanaut-backend:
-         image: Mecanaut-backend:0.0.1
-         build:
-           context: .
-           dockerfile: Dockerfile
-         ports:
-           - "8080:8080"
-         environment:
-           - SPRING_PROFILES_ACTIVE=dev
-           - DB_PASSWORD=123456789
-         depends_on:
-           - Mecanaut-db
-     ```
+2. **Creación de la base de datos (Azure Database for MySQL)**  
+   1. Portal de Azure → *Create a resource* → *Azure Database for MySQL – Flexible Server*.  
+   2. Configura:  
+      – *Resource Group*: `MecanautRG`  
+      – *Server name*: `mecanaut-mysql` (único)  
+      – *Region*: Central US  
+      – *Version*: 8.0  
+      – *Authentication*: Password → usuario `admin` y contraseña segura  
+   3. Pestaña *Networking*: elige **Public access**, marca  
+      «Allow public access from Azure services» y «Add current client IP».  
+   4. Revisa y crea. Una vez desplegado, copia la cadena de conexión ADO.NET, por ejemplo:  
+      ```
+      Server=mecanaut-mysql.mysql.database.azure.com;Port=3306;Database=MecanautDb;
+      User Id=admin@mecanaut-mysql;Password=<PASSWORD>;Ssl Mode=Required;
+      ```
 
-3. **Ejecución local exitosa:**  
-   * **Comando para levantar el entorno:**  
-     ```powershell
-     docker-compose up --build
+3. **Preparar el proyecto .NET**  
+   • En `appsettings.json` agrega:  
+     ```json
+     "ConnectionStrings": {
+       "DefaultConnection": "Server=mecanaut-mysql.mysql.database.azure.com;Port=3306;Database=MecanautDb;User Id=admin@mecanaut-mysql;Password=<PASSWORD>;Ssl Mode=Required;"
+     }
      ```  
-   * **Acceso al Swagger:** [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+   • Para producción, sobreescribe la cadena mediante la variable de entorno  
+     `ConnectionStrings__DefaultConnection`.
 
-4. **Variables de entorno de Spring Profiles:**  
-   * **Variables a configurar en Windows:**  
-     ```powershell
-     setx SPRING_PROFILES_ACTIVE "prod"
-     setx DB_PASSWORD "123456789"
-     ```  
-   * **Configuración de `application-dev.properties` y `application-prod.properties` para MySQL.**
+4. **Crear la Azure Web App**  
+   1. Portal → *Create a resource* → *App Service*.  
+   2. Parámetros clave:  
+      – *Publish*: **Code**  
+      – *Runtime stack*: **.NET 7 (LTS)**  
+      – *OS*: **Windows**  
+      – *Region*: Central US  
+      – *Plan*: `MecanautPlan` (B1/S1 según presupuesto)  
+   3. Crea y, desde la pestaña *Overview*, descarga el **Publish Profile** (`*.PublishSettings`).
 
-5. **Empaquetado y dockerización:**  
-   * **Generación del JAR:**  
-     ```powershell
-     mvn clean package
-     ```  
-   * **Dockerfile:**  
-     ```dockerfile
-     FROM openjdk:17-jdk-slim
-     VOLUME /tmp
-     EXPOSE 8080
-     COPY target/Mecanaut-backend-0.0.1-SNAPSHOT.jar app.jar
-     ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
-     ```  
-   * **Ignorar archivos de build:**  
-     ```
-     .git
-     target/
-     .mvn/
-     mvnw*
-     ```
+5. **Publicar desde Visual Studio**  
+   1. Abre la solución → clic derecho sobre el proyecto → *Publish*.  
+   2. Selecciona **Import Profile** y carga el archivo `.PublishSettings`.  
+   3. En *Settings* agrega la cadena de conexión:  
+      – *Name*: `DefaultConnection`  
+      – *Type*: **MySQL**  
+   4. Pulsa **Publish**; Visual Studio compilará y usará *Web Deploy* para subir la aplicación.
 
-6. **Recursos de Azure (CLI Windows PowerShell):**  
-   * **Pasos para la configuración de Azure:**  
-     ```powershell
-     az login
-     az group create --name MecanautRG --location "Central US"
-     az provider register --namespace Microsoft.ContainerRegistry
-     az acr create -g MecanautRG -n Mecanautacr --sku Basic --admin-enabled true
-     az acr login -n Mecanautacr
-     ```
+6. **Variables de entorno adicionales**  
+   • `ASPNETCORE_ENVIRONMENT = Production`  
+   • Cualquier secreto (JWT, etc.) se define en *Configuration → Application settings*.
 
-7. **Publicación de la imagen Docker:**  
-   * **Etiquetar y subir la imagen Docker a ACR:**  
-     ```powershell
-     docker tag Mecanaut-backend:0.0.1 Mecanautacr.azurecr.io/Mecanaut-backend:0.0.1
-     docker push Mecanautacr.azurecr.io/Mecanaut-backend:0.0.1
-     ```
-
-8. **Creación de Azure Web App for Containers:**  
-   * **Crear App Service Plan + Web App:**  
-     ```powershell
-     az appservice plan create --name MecanautPlan --resource-group MecanautRG --is-linux --sku B1
-     az webapp create --resource-group MecanautRG --plan MecanautPlan --name Mecanaut-api --deployment-container-image-name Mecanautacr.azurecr.io/Mecanaut-backend:0.0.1
-     ```
-
-   * **Vincular ACR & actualizar variables de entorno:**  
-     ```powershell
-     az webapp config container set --name Mecanaut-api --resource-group MecanautRG --docker-custom-image-name Mecanautacr.azurecr.io/Mecanaut-backend:0.0.1 --docker-registry-server-url https://Mecanautacr.azurecr.io
-     az webapp config appsettings set --name Mecanaut-api --resource-group MecanautRG --settings SPRING_PROFILES_ACTIVE=prod DB_PASSWORD=123456789 PORT=8080
-     ```
-
-   * **Desactivar soporte Sidecar y configurar puerto 8080.**
-
-9. **Verificación en producción:**  
-   * **URL de prueba:**  
-     https://Mecanautbackend-hjexa7d8bkfybmfv.centralus-01.azurewebsites.net/swagger-ui/index.html
-   Confirmar que la aplicación esté funcionando con el perfil **prod** y la conexión a Azure MySQL.
+7. **Verificación**  
+   Abre la URL del servicio o entra directamente en el Swagger:  
+   https://mecanautbk-fffeemd3bqdwebce.centralus-01.azurewebsites.net/swagger/index.html  
+   Comprueba que los endpoints operen y que la API interactúe con la base de datos MySQL.
 
 #### Capturas del Proceso de Deployment
 
 
-![Evidencia 1:](/img/sprint3/prod/prod1.png)
-![Evidencia 2:](/img/sprint3/prod/prod2.png)
-![Evidencia 3:](/img/sprint3/prod/prod3.png)
-![Evidencia 4:](/img/sprint3/prod/prod4.png)
-![Evidencia 5:](/img/sprint3/prod/prod5.png)
-![Evidencia 6:](/img/sprint3/prod/prod6.png)
-![Evidencia 7:](/img/sprint3/prod/prod7.png)
-![Evidencia 8:](/img/sprint3/prod/prod8.png)
-![Evidencia 9:](/img/sprint3/prod/prod9.png)
-![Evidencia 10:](/img/sprint3/prod/prod10.png)
-![Evidencia 11:](/img/sprint3/prod/prod11.png)
-![Evidencia 12:](/img/sprint3/prod/prod12.png)
+![Evidencia 1:](/img/sprint3/prod2/prod1.png)
+![Evidencia 2:](/img/sprint3/prod2/prod2.png)
+![Evidencia 3:](/img/sprint3/prod2/prod3.png)
+![Evidencia 4:](/img/sprint3/prod2/prod4.png)
+![Evidencia 5:](/img/sprint3/prod2/prod5.png)
+![Evidencia 6:](/img/sprint3/prod2/prod6.png)
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
 Durante el desarrollo de este Sprint, el equipo colaboró de forma activa y coordinada en la implementación de las funcionalidades principales del backend del sistema Mecanaut. La colaboración se centró en la creación de entidades de dominio, el desarrollo de controladores REST, la configuración del entorno de desarrollo con .NET y MySQL, y la documentación de servicios con Swagger (OpenAPI).<br/>
