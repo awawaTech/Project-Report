@@ -5077,7 +5077,8 @@ A continuación, se detalla la participación específica de cada integrante del
 | Agreda Sobrino, Ariana Cecilia   | Responsable del modelado de entidades principales y configuración de la base de datos MySQL. Participó en la definición de relaciones entre entidades y persistencia. |
 | Belledone Espinoza, Claudia      | Encargada de la lógica de negocio y servicios de autenticación. Desarrolló la estructura de seguridad, generación de tokens JWT y configuración de rutas protegidas.       |
 | Elera Rodríguez, Mauricio Daniel | Implementó los controladores REST y validaciones. Participó activamente en la construcción de endpoints para entidades como usuarios, técnicos y órdenes.                  |
-| Qqueso Rodriguez, Britney Delhy  | Responsable de la documentación con Swagger. Estructuró el despliegue local del backend con Docker.      |
+| Vivanco Salazar, Rafael Andres | Responsable de la documentación con Swagger. Estructuró el despliegue local del backend con Docker.      |
+| Cruz Ibarra, Victor Andres | Participó en la recopilación de requerimientos técnicos para el backend y colaboró en la validación de los endpoints mediante pruebas funcionales con Postman.      |
 
 
 #### Evidencia de colaboración en GitHub
@@ -5085,12 +5086,10 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 
 Captura de colaboracion en github:
 
-![image](https://github.com/user-attachments/assets/bcc0f50d-0c07-4656-89f8-210dc6ff022a)
-![image](https://github.com/user-attachments/assets/07cba899-1fc5-4a11-ba40-a5ef7148554d)
-![image](https://github.com/user-attachments/assets/61829674-ca49-413b-8d10-aac189bc426c)
-![image](https://github.com/user-attachments/assets/8c8fd376-b266-436e-80fc-3202e65e115a)
-![image](https://github.com/user-attachments/assets/0eafee43-5903-4e80-a80f-44884748a53d)
-![image](https://github.com/user-attachments/assets/bd8b15c8-4036-4cea-b3a2-f9d7930d4fd3)
+![Evidencia Git1:](/img/sprint3/network3.png)
+![Evidencia Git2:](/img/sprint3/contribuitors3.png)
+![Evidencia Git3:](/img/sprint3/git.png)
+![Evidencia Git4:](/img/sprint3/commit.png)
 
 
 
@@ -5098,9 +5097,6 @@ Captura de colaboracion en github:
 * Repositorio del Backend en GitHub: https://github.com/awawaTech/mecanaut-back
 
 El equipo mantuvo una comunicación constante durante todo el Sprint, utilizando herramientas colaborativas como GitHub y reuniones breves, permitiendo una integración progresiva de los módulos desarrollados y asegurando que cada funcionalidad contara con aportes técnicos y revisiones cruzadas por parte de todos los miembros.
-
-
-
 
 
 # Conclusiones
@@ -5143,6 +5139,13 @@ Mecanauts no solo resuelve los problemas inmediatos de las empresas, sino que ti
 
 
 # Video About-the-Team.
+![image](https://github.com/user-attachments/assets/a777e1fa-222c-415a-a0a0-a5022ec026a4)
+link: [https://www.youtube.com/watch?v=I3xC4kqr_JM&ab_channel=Mayo](https://youtu.be/ch44ZfRNnuE)
+
+# Video About-the-Product.
+![image](https://github.com/user-attachments/assets/e49e1d18-5bf0-437b-b7ff-104f30b9a989)
+link: [https://www.youtube.com/watch?v=I3xC4kqr_JM&ab_channel=Mayo](https://youtu.be/ch44ZfRNnuE)
+
 # Bibliografía
 McKinsey & Company. (2021). Innovación a través de la disrupción digital en servicio a clientes. [https://www.mckinsey.com/pe/our-insights/innovation-through-the-digital-disruption-of-customer-service](https://www.mckinsey.com/pe/our-insights/innovation-through-the-digital-disruption-of-customer-service) 
 
