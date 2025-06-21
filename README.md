@@ -5428,7 +5428,9 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 - Repositorio de la Landing Page: [https://github.com/awawaTech/mecanaut-landing-page](https://github.com/awawaTech/mecanaut-landing-page)
 - Documentación del Proyecto: [https://github.com/awawaTech/Project-Report](https://github.com/awawaTech/Project-Report)
 - Video exposición TP1: [https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315044_upc_edu_pe/EqV7XG3MjIdKqtKWRBkYUzEBoPuAjLCYm_iKfNx94Q5Hyw?e=JT2uUQ](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315044_upc_edu_pe/EqV7XG3MjIdKqtKWRBkYUzEBoPuAjLCYm_iKfNx94Q5Hyw?e=JT2uUQ)
+- Video de exposición TB2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315044_upc_edu_pe/EQFbL1s4DUxNiw3qzYBfiloBmXPhTYM-2DC2kas0xCRIqQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EVZnL9
 - Frontend App desplegado del proyecto: [https://agreeable-glacier-01474611e.6.azurestaticapps.net/](https://agreeable-glacier-01474611e.6.azurestaticapps.net/)
+- Backend desplegado del proyecto: https://mecanautbk-fffeemd3bqdwebce.centralus-01.azurewebsites.net/swagger/index.html
 - Video About The product:
 - https://youtu.be/cW31cmfSuA8
 - https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210259_upc_edu_pe/EQZYuCOUrwROqPTL4T3q65kBQR6OupO11aRn8NsnEDmTSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pzeLdc
