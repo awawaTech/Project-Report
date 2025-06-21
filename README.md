@@ -570,7 +570,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>En este Sprint pude aportar liderazgo al desarrollar la vista principal del usuario Empresario (US4). Coordiné con el equipo detalles de diseño y navegación, buscando que todos estuviéramos alineados. Me gustó escuchar sugerencias y trabajar de forma conjunta.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>Cumplí con el Student Outcome al liderar la implementación de los endpoints para obtener los roles de usuario y las métricas de maquinarias. Me aseguré de que las métricas fueran precisas y fáciles de interpretar, lo cual fue crucial para la toma de decisiones dentro del sistema. Esta responsabilidad me permitió asumir un papel de liderazgo en el desarrollo de funcionalidades clave para el proyecto.</p>
         <p><b>TF:</b></p>
         <p>-</p>
           <br>
@@ -582,7 +582,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
          <p><b>TP1:</b></p>
         <p>Asumí la vista de registro de usuario (US1) y me enfoqué en compartir mis conocimientos con el equipo. Me gustó ayudar en la parte de validación y aprender también de mis compañeros.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>Cumplí con el Student Outcome al tomar la iniciativa en la implementación de las validaciones para el registro de usuarios y en el diseño de los modelos para los ítems de inventario y activos. Fui responsable de asegurar que las funciones claves estuvieran correctamente implementadas y protegidas, liderando el aspecto de la seguridad y la estructuración de datos en el proyecto.</p>
         <p><b>TF:</b></p>
         <p>-</p>
           <br>
@@ -594,7 +594,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Lideré la implementación del inicio de sesión (US2) coordinando la lógica y flujo con el equipo. Me sentí cómodo proponiendo ideas y escuchando a los demás.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>Cumplí con el Student Outcome al liderar la implementación de los endpoints para obtener los roles de usuario y las métricas de maquinarias. Me aseguré de que las métricas fueran precisas y fáciles de interpretar, lo cual fue crucial para la toma de decisiones dentro del sistema. Esta responsabilidad me permitió asumir un papel de liderazgo en el desarrollo de funcionalidades clave para el proyecto.</p>
         <p><b>TF:</b></p>
         <p>-</p>
           <br>
