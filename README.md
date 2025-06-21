@@ -654,7 +654,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>En este Sprint trabajé en la vista de listado de usuarios registrados (US3) y ayudé a que el equipo participara en decisiones técnicas. Me gustó ver cómo sumamos ideas para mejorar la funcionalidad.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>En este sprint, fui responsable del diseño y desarrollo de los modelos para los ítems de inventario y activos. Además, desarrollé el endpoint GET para consultar los ítems del inventario. Mi enfoque estuvo en garantizar que las tareas estuvieran bien definidas, planificadas y distribuidas entre el equipo. Me aseguré de que todas las partes del proyecto estuvieran alineadas con los objetivos, y promoví una comunicación constante con el equipo para asegurarme de que todas las dudas se resolvieran a tiempo, creando un ambiente inclusivo y colaborativo.</p>
         <p><b>TF:</b></p>
         <p>-</p>
           <br>
@@ -665,7 +665,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Desarrollé la vista de perfil del usuario Empresario (US5) y propuse mejoras en la experiencia de usuario. Coordiné con mis compañeros para validar detalles importantes.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>En este sprint, me encargué de desarrollar el endpoint POST para la creación de órdenes de trabajo relacionadas con los planes de mantenimiento. Trabajé en estrecha colaboración con mi equipo para asegurar que las tareas estuvieran bien planificadas y cumplidas dentro del tiempo estimado. Coordiné las metas del sprint y me aseguré de que mis responsabilidades estuvieran alineadas con los objetivos globales del equipo. Además, mantuve una comunicación abierta y compartí avances regularmente, lo que contribuyó a un entorno inclusivo donde todos podíamos contribuir y apoyar a los demás.</p>
         <p><b>TF:</b></p>
         <p>-</p>
       </td>
@@ -711,7 +711,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Este Sprint me enseñó que abrir espacios para la participación técnica de todos mejora el producto final. Además, hace que el equipo se sienta escuchado y más involucrado en las decisiones.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>Este sprint me permitió entender cómo la colaboración efectiva y la planificación de tareas son esenciales para lograr los objetivos del equipo. Aprendí la importancia de la organización y la comunicación continua, y cómo estas prácticas contribuyen a un entorno de trabajo más eficiente y armonioso. Estoy más consciente de cómo puedo contribuir a un equipo para alcanzar metas de manera efectiva.</p>
         <p><b>TF:</b></p>
         <p>-</p>
           <br>
@@ -722,7 +722,9 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Validar ideas con el equipo me ayudó a enriquecer la propuesta de interfaz. Escuchar distintas perspectivas permitió que la experiencia del usuario fuera más completa y cuidada.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>Este sprint me ayudó a entender mejor cómo un entorno colaborativo mejora la eficiencia en el cumplimiento de objetivos. Aprendí que planificar tareas y mantener una comunicación constante son claves para un trabajo en equipo exitoso. Me siento más cómodo en la toma de decisiones y en la coordinación con el equipo para cumplir nuestras metas de manera eficaz.
+
+</p>
         <p><b>TF:</b></p>
         <p>-</p>
       </td>
@@ -775,7 +777,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Promoví la comunicación constante entre todos, lo que facilitó el trabajo en equipo y nos permitió cumplir los objetivos planteados.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>Cumplí con el Student Outcome al tomar la iniciativa en el desarrollo del modelo y los endpoints para los ítems de inventario y activos. Aunque mi tarea era técnica, busqué siempre involucrar al equipo en las decisiones relacionadas con la estructura de datos y los requerimientos del sistema. Ayudé a guiar el desarrollo de las tareas para asegurar que todos estuviéramos alineados y que las tareas avanzaran en conjunto, proporcionando liderazgo en áreas clave.</p>
         <p><b>TF:</b></p>
         <p>-</p>
           <br>
@@ -786,7 +788,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Motivé al equipo a compartir ideas y sugerencias en todo momento. Esto nos permitió avanzar de manera fluida y cumplir con las metas del Sprint.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>Cumplí con el Student Outcome al trabajar en equipo, proporcionando liderazgo en las tareas relacionadas con el desarrollo del endpoint de las órdenes de trabajo. Aunque mi tarea era técnica, tomé la iniciativa en el diseño de la API y en la estructura necesaria para que las órdenes se registraran correctamente en la base de datos. Aseguré que el diseño estuviera alineado con los requerimientos y que todos los miembros del equipo pudieran comprender el flujo del trabajo, contribuyendo a una colaboración efectiva.</p>
         <p><b>TF:</b></p>
         <p>-</p>
       </td>
@@ -834,7 +836,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Mantener la comunicación constante fue clave para no perder el rumbo. Esto permitió que el trabajo fuera más fluido y que cumpliéramos con lo que nos habíamos propuesto.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>Este sprint me permitió trabajar de manera más integrada con el equipo, liderando el desarrollo de tareas técnicas y asegurando que todos trabajáramos hacia el mismo objetivo. Aprendí que el liderazgo no solo implica tomar decisiones, sino también estar atento a las necesidades del equipo y fomentar una comunicación fluida. Me siento más preparado para liderar en proyectos futuros y contribuir a la dirección del equipo.</p>
         <p><b>TF:</b></p>
         <p>-</p>
           <br>
@@ -845,7 +847,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Fomentar la participación y el intercambio de ideas hizo que el ambiente de trabajo fuera más cómodo y colaborativo. Esto facilitó que todos se involucraran en las decisiones y lográramos avanzar sin bloqueos.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>Este sprint me permitió desarrollar mis habilidades de liderazgo dentro de un equipo. Aprendí que liderar no solo implica tomar decisiones, sino también asegurarse de que todos estén bien informados y colaboren activamente en la ejecución de las tareas. Estoy más confiado en mi capacidad para coordinarme con otros y asumir responsabilidades clave en el desarrollo de tareas complejas.</p>
         <p><b>TF:</b></p>
         <p>-</p>
       </td>
