@@ -4727,7 +4727,7 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 
 #### 5.2.3.3. Sprint Backlog 3.
 <p>El objetivo de este tercer sprint es desarrollar las APIs esenciales del backend para la gestión de usuarios (registro y autenticación), administración de inventario (registro y consulta de ítems), control de activos (maquinarias y equipos), generación de órdenes de trabajo y reportes de métricas de mantenimiento. Esto proporcionará la base técnica para el funcionamiento integral del sistema y la futura integración con el frontend.</p>
-<img src="img/sprint2/Trello-Mecanaut-Sprint3.png">
+![image](https://github.com/user-attachments/assets/743ce2a4-09ec-463d-aaf6-3f69dcac2ed9)
 <p>link: https://trello.com/invite/b/6856e1e8c088d7020dccd927/ATTI90b6034f0cedf76620020ee88e41c87eB625855C/mecanaout-opensource</p>
 
 <table>
