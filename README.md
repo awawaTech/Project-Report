@@ -628,7 +628,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>En este Sprint confirmé que el liderazgo compartido ayuda a que todos trabajemos con mayor claridad y motivación. Me di cuenta de que al escuchar a mis compañeros logramos integrar sus ideas de manera efectiva y eso elevó la calidad del trabajo.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>Este sprint me permitió practicar el liderazgo en tareas técnicas críticas. Aprendí la importancia de tener datos precisos y claros para el análisis posterior, lo que es esencial en sistemas complejos. Me siento más segura en la toma de decisiones técnicas y en la gestión de tareas de desarrollo.</p>
         <p><b>TF:</b></p>
         <p>-</p>
           <br>
@@ -639,7 +639,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Aprendí que compartir mis conocimientos no solo fortalece al equipo, sino que también me permite aprender de los demás. Esta colaboración nos ayudó a construir funcionalidades más sólidas y con menos errores.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>Este sprint me permitió aplicar y fortalecer mis habilidades en diseño de modelos y validación de datos. Asumí un papel de liderazgo técnico, lo que me ayudó a comprender la importancia de la seguridad y la integridad de los datos en el desarrollo de sistemas. Me siento más preparada para liderar tareas complejas en futuros sprints.</p>
         <p><b>TF:</b></p>
         <p>-</p>
           <br>
@@ -651,7 +651,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Entendí que liderar no es solo dirigir, sino también facilitar espacios donde todos puedan aportar. Esto hizo que encontráramos mejores soluciones y que el equipo trabajara con mayor confianza.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>Este sprint me permitió mejorar mi capacidad para liderar tareas técnicas importantes. Aprendí la importancia de la validación de datos y cómo asegurar que todo funcione correctamente en el backend. Me siento más confiado en mi capacidad para asumir responsabilidades y coordinar mis esfuerzos para avanzar en el proyecto.</p>
         <p><b>TF:</b></p>
         <p>-</p>
           <br>
@@ -691,7 +691,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Ayudé a mantener un buen ambiente de equipo. Propuse espacios de revisión donde todos pudimos aportar y planificar tareas para lograr nuestros objetivos sin problemas.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>Cumplí con el Student Outcome al trabajar de manera inclusiva con el equipo para implementar los endpoints de roles de usuario y métricas de maquinarias. Me aseguré de establecer metas claras para las métricas que debían ser calculadas y trabajé de manera colaborativa para asegurar que todos estuviéramos alineados en cuanto a los objetivos del sprint. Me aseguré de cumplir con los plazos establecidos y de coordinarme con el equipo para cualquier ajuste necesario.</p>
         <p><b>TF:</b></p>
         <p>-</p>
           <br>
@@ -703,7 +703,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Fomenté la colaboración organizando reuniones donde todos expusimos avances y dudas. Esto nos ayudó a cumplir las metas con buena organización.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>Cumplí con el Student Outcome al crear un entorno inclusivo y colaborativo, donde compartí ideas y trabajé de manera estrecha con el equipo para diseñar las validaciones de seguridad y los modelos de inventario y activos. Me aseguré de que todos los miembros del equipo tuvieran claridad sobre las tareas y de que todas las acciones estuvieran alineadas con los objetivos del sprint. Coordiné las tareas de manera eficaz para asegurar que se cumplieran los plazos.</p>
         <p><b>TF:</b></p>
         <p>-</p>
           <br>
@@ -715,7 +715,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Busqué que el equipo tuviera espacios para compartir desafíos y planificar juntos. Así logramos avanzar de forma ordenada y colaborativa.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>Cumplí con este Student Outcome al trabajar de manera colaborativa con mi equipo para desarrollar los endpoints POST y GET para usuarios. Me aseguré de que las metas para el sprint estuvieran claras y de que las tareas estuvieran planificadas y distribuidas de forma eficiente. Coordiné con mis compañeros para asegurarme de que las tareas avanzaran de manera sincronizada, y me aseguré de cumplir con los objetivos establecidos para la implementación de los endpoints.</p>
         <p><b>TF:</b></p>
         <p>-</p>
           <br>
@@ -750,7 +750,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Crear espacios de diálogo constante ayudó a que el equipo se sintiera más unido. Planificar juntos nos permitió cumplir objetivos con orden y evitó que alguien quedara descolgado.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>Este sprint me permitió fortalecer mis habilidades de colaboración y planificación de tareas. Aprendí la importancia de tener metas claras y asegurarse de que todos los miembros del equipo trabajen en la misma dirección. Ahora me siento más confiada en crear un entorno inclusivo y en asegurarme de que se cumplan los objetivos establecidos.</p>
         <p><b>TF:</b></p>
         <p>-</p>
           <br>
@@ -762,7 +762,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Tener reuniones continuas y bien enfocadas fue importante para que todos supiéramos nuestras responsabilidades. Esto evitó confusiones y nos permitió mantener un ritmo constante durante el Sprint.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>Este sprint me permitió ver cómo un entorno colaborativo mejora la eficiencia del equipo. Aprendí a planificar y distribuir tareas de manera equitativa y asegurarme de que todos estuvieran involucrados en las decisiones clave. Me siento más preparada para seguir trabajando de manera inclusiva y contribuir al éxito del equipo.</p>
         <p><b>TF:</b></p>
         <p>-</p>
           <br>
@@ -774,7 +774,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Planificar en conjunto nos permitió organizarnos mejor y evitar retrabajos. Siento que eso hizo que todos estuviéramos más comprometidos con las metas del Sprint.</p>
         <p><b>TB2:</b></p>
-        <p>-</p>
+        <p>Este sprint me permitió practicar la importancia de establecer metas claras y planificar las tareas de manera efectiva. Aprendí cómo gestionar tareas técnicas dentro de un entorno colaborativo, donde cada miembro del equipo aporta de manera significativa. Me siento más cómodo trabajando en equipo y coordinando esfuerzos para cumplir los objetivos del sprint.</p>
         <p><b>TF:</b></p>
         <p>-</p>
           <br>
