@@ -1851,7 +1851,7 @@ En comparación con el escenario actual, el To-Be Scenario introduce mejoras cla
 | US29 | Eliminar técnico | Como administrador, quiero eliminar técnicos que ya no forman parte del equipo, para mantener la base de datos limpia. | Escenario 1: Eliminación correcta **Given** que accede al listado de técnicos. **When** selecciona uno y confirma su eliminación. **Then** el sistema elimina al técnico y actualiza sus asignaciones. Escenario 2: Técnico con tareas pendientes **Given** que el técnico tiene tareas asignadas. **When** intenta eliminarlo. **Then** el sistema impide la acción e informa sobre las tareas activas. | EP09 |
 | US30 | Modificar perfil | Como usuario (técnico o administrador), quiero editar los datos de mi perfil, para mantener mi información actualizada. | Escenario 1: Modificación exitosa **Given** que el usuario accede a su perfil. **When** actualiza su información y guarda los cambios. **Then** el sistema confirma la modificación y actualiza los datos. Escenario 2: Error en formato de datos **Given** que el usuario ingresa datos inválidos (ej. email mal escrito). **When** intenta guardar los cambios. **Then** el sistema muestra errores específicos que debe corregir. | EP09 |
 | US31 | Actualización de inventario | Como administrador, quiero actualizar las cantidades de herramientas y materiales en el inventario, para su correcta información. | Escenario 1: Revisión de inventario **Given** que accedió al inventario. **When** actualiza las cantidades de herramientas o materiales. **Then** se muestra un mensaje diciendo que se actualizó el inventario con éxito. Escenario 2: Error en la base de datos **Given** que accedió al inventario. **When** intenta ingresar una cantidad inválida (como un número negativo) **Then** el sistema muestra un mensaje indicando que el valor ingresado no es válido. | EP06 |
-| US32 | Sección Hero del sitio web | Como usuario interesado, quiero ver una presentación clara del servicio apenas ingreso, para entender rápidamente qué ofrece Mecanet y por qué me conviene usarlo. | Escenario 1: Visualización inicial del servicio **Given** que el usuario accede a la landing page **When** se carga la página **Then** se muestra el nombre del sistema, un subtítulo explicativo y una breve descripción del servicio en el centro de la pantalla. Escenario 2: Métricas destacadas visibles  **Given** que el usuario hace scroll o visualiza la sección completa **When** observa los indicadores de impacto (ej. menos fallas, menos tiempo perdido, mantenimientos programados) **Then** puede entender rápidamente los beneficios concretos de la plataforma. | EP07 |
+| US32 | Sección Hero del sitio web | Como usuario interesado, quiero ver una presentación clara del servicio apenas ingreso, para entender rápidamente qué ofrece Mecanaut y por qué me conviene usarlo. | Escenario 1: Visualización inicial del servicio **Given** que el usuario accede a la landing page **When** se carga la página **Then** se muestra el nombre del sistema, un subtítulo explicativo y una breve descripción del servicio en el centro de la pantalla. Escenario 2: Métricas destacadas visibles  **Given** que el usuario hace scroll o visualiza la sección completa **When** observa los indicadores de impacto (ej. menos fallas, menos tiempo perdido, mantenimientos programados) **Then** puede entender rápidamente los beneficios concretos de la plataforma. | EP07 |
 | EP01 | Registro y organización inicial | Como administrador, quiero registrar los elementos y categorías del sistema, para organizar la información base de mantenimiento. | No corresponde | US01, US02, US25 |
 | EP02 | Gestión y planificación del plan de mantenimiento | Como administrador, quiero gestionar y planificar el plan de mantenimiento, para asegurar que las tareas se ejecuten en tiempo y forma. | No corresponde | US03, US04,US23, US24, US26 |
 | EP03 | Métricas de desempeño | Como administrador, quiero visualizar indicadores clave del sistema, para evaluar el rendimiento del equipo técnico y la eficiencia operativa. | No corresponde | US07 |
@@ -4384,7 +4384,7 @@ Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo 
 <br>
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
-En este sprint, hemos logrado implementar las funcionalidades fundamentales para la gestión inicial del sistema Mecanet. Esto incluye la capacidad de registrar y gestionar maquinarias y líneas de producción, generar órdenes de trabajo correctivas y asignar personal técnico a ellas, establecer planes de mantenimiento para las líneas de producción, y permitir a los técnicos consultar sus órdenes de trabajo diarias.<br/>
+En este sprint, hemos logrado implementar las funcionalidades fundamentales para la gestión inicial del sistema Mecanaut. Esto incluye la capacidad de registrar y gestionar maquinarias y líneas de producción, generar órdenes de trabajo correctivas y asignar personal técnico a ellas, establecer planes de mantenimiento para las líneas de producción, y permitir a los técnicos consultar sus órdenes de trabajo diarias.<br/>
 
 A continuación, se presentan capturas de pantalla de las principales vistas implementadas durante este sprint:<br/>
 
@@ -4756,7 +4756,7 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
     <td align="justify">Diseñar modelo de plan de mantenimiento</td>
     <td align="justify">Definir la estructura de datos para registrar un nuevo plan de mantenimiento (dinámico o estático).</td>
     <td>4 hr</td>
-    <td>Britney Qqueso</td>
+    <td>Victor Cruz</td>
     <td>In Progress</td>
 </tr>
 <tr>
@@ -4764,7 +4764,7 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
     <td align="justify">Crear endpoint POST para orden de trabajo</td>
     <td align="justify">Desarrollar el endpoint que reciba los datos del plan de mantenimiento y los almacene correctamente en la base de datos.</td>
     <td>5 hr</td>
-    <td>Britney Qqueso</td>
+    <td>Rafael Vivanco</td>
     <td>In Progress</td>
 </tr>
 
@@ -4816,7 +4816,7 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
     <td align="justify">Desarrollar endpoint GET para consultar ítems</td>
     <td align="justify">Obtener información detallada de cada ítem del inventario para verificar su disponibilidad.</td>
     <td>3 hr</td>
-    <td>Britney Qqueso</td>
+    <td>Victor Cruz</td>
     <td>To Do</td>
 </tr>
 
@@ -4854,7 +4854,7 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 </table>
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
-En este sprint, se lograron avances fundamentales en la construcción de la lógica del backend para Mecanet, priorizando la gestión de usuarios, activos, órdenes de trabajo, métricas y elementos de inventario. Se implementaron múltiples endpoints REST para el registro y recuperación de datos clave, permitiendo sentar las bases para una interacción fluida con el frontend y asegurar la persistencia de la información operativa. Las validaciones, modelos de datos y estructuras de control fueron diseñadas con énfasis en escalabilidad y mantenibilidad.<br/>
+En este sprint, se lograron avances fundamentales en la construcción de la lógica del backend para Mecanaut, priorizando la gestión de usuarios, activos, órdenes de trabajo, métricas y elementos de inventario. Se implementaron múltiples endpoints REST para el registro y recuperación de datos clave, permitiendo sentar las bases para una interacción fluida con el frontend y asegurar la persistencia de la información operativa. Las validaciones, modelos de datos y estructuras de control fueron diseñadas con énfasis en escalabilidad y mantenibilidad.<br/>
 
 A continuación, se presenta una tabla con los commits relacionados con la implementación de estas funcionalidades:  <br/>
 
@@ -4872,7 +4872,7 @@ A continuación, se presenta una tabla con los commits relacionados con la imple
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
-En este sprint, hemos logrado implementar las funcionalidades fundamentales para la gestión inicial del sistema Mecanet. Esto incluye la capacidad de registrar y gestionar maquinarias y líneas de producción, establecer planes de mantenimiento para las líneas de producción entre otros.<br/>
+En este sprint, hemos logrado implementar las funcionalidades fundamentales para la gestión inicial del sistema Mecanaut. Esto incluye la capacidad de registrar y gestionar maquinarias y líneas de producción, establecer planes de mantenimiento para las líneas de producción entre otros.<br/>
 
 A continuación, se presentan capturas de pantalla de las principales funcionalidades implementadas durante este sprint:<br/>
 
@@ -4899,7 +4899,7 @@ A continuación, se presentan capturas de pantalla de las principales funcionali
 
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
-Durante este Sprint, se avanzó significativamente en la documentación de los servicios web desarrollados para el backend del sistema MecaNet, utilizando OpenAPI (Swagger). Esta documentación permite la visualización, prueba e integración futura con el frontend y facilita la validación de la estructura de los endpoints REST implementados.
+Durante este Sprint, se avanzó significativamente en la documentación de los servicios web desarrollados para el backend del sistema Mecanaut, utilizando OpenAPI (Swagger). Esta documentación permite la visualización, prueba e integración futura con el frontend y facilita la validación de la estructura de los endpoints REST implementados.
 
 Los endpoints documentados corresponden a las funcionalidades clave desarrolladas durante el Sprint, incluyendo el registro y consulta de maquinarias, líneas de producción, órdenes de trabajo, métricas de mantenimiento y gestión de usuarios. A través de Swagger UI, los desarrolladores pueden interactuar con cada uno de estos servicios, visualizar sus parámetros, realizar llamadas HTTP con datos de ejemplo y observar las respuestas correspondientes.
 
@@ -4912,7 +4912,7 @@ Los endpoints documentados corresponden a las funcionalidades clave desarrollada
 | Planes de Mantenimiento   | Crear plan de mantenimiento        | POST   | `/api/maintenance-plan` | `{"name": "Plan Prueba", "startDate": "2025-06-20", "endDate": "2025-06-20", "productionLineId": 1, "cyclePeriodInDays": 10, "durationInDays": 1}` | `{"id": 1, "name": "Plan Prueba", "startDate": "2025-06-20", "endDate": "2025-06-20", "status": "ACTIVE", "productionLineId": 1, "cyclePeriodInDays": 10, "durationInDays": 1, "items": []}`                    |
 |                      | Consultar plan             | GET    | `/api/maintenance-plan`            | -                                                                            | `[{"id": 1, "estado": "ACTIVE"}]`                  |
 | Métricas (MTTR/MTBF) | Obtener métricas              | GET    | `/api/metricas/mttr-mtbf` | -                                                                            | `{"mttr": 5.2, "mtbf": 48.3}`                                               |
-| Autenticación        | Login de usuario              | POST   | `/api/auth/login`         | `{"email": "admin@mecanet.com", "password": "123456"}`                       | `{"token": "eyJhbGciOi..."}`                                                |
+| Autenticación        | Login de usuario              | POST   | `/api/auth/login`         | `{"email": "admin@Mecanaut.com", "password": "123456"}`                       | `{"token": "eyJhbGciOi..."}`                                                |
 
 #### Capturas de la documentación OpenAPI/Swagger
 
@@ -4941,10 +4941,10 @@ Los endpoints documentados corresponden a las funcionalidades clave desarrollada
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
-Durante este Sprint, se avanzó en el proceso de Deployment del backend de la aplicación Mecanet, enfocándose en el despliegue inicial de los Web Services en un entorno de desarrollo accesible, con el objetivo de facilitar la validación funcional por parte del equipo y sentar las bases para futuras integraciones con el frontend.
+Durante este Sprint, se avanzó en el proceso de Deployment del backend de la aplicación Mecanaut, enfocándose en el despliegue inicial de los Web Services en un entorno de desarrollo accesible, con el objetivo de facilitar la validación funcional por parte del equipo y sentar las bases para futuras integraciones con el frontend.
 
 #### Actividades realizadas en el Sprint 3:
-# Despliegue de **Mecanet-Backend** – Guía Resumida (Windows 10/11)
+# Despliegue de **Mecanaut-Backend** – Guía Resumida (Windows 10/11)
 
 1. **Configuración de repositorio remoto:**  
    * **Sistema de control de versiones:** Git + GitHub  
@@ -4955,17 +4955,17 @@ Durante este Sprint, se avanzó en el proceso de Deployment del backend de la ap
    * **Archivo `docker-compose.yml`:**  
      ```yml
      services:
-       mecanet-db:
+       Mecanaut-db:
          image: mysql:8
          environment:
            MYSQL_ROOT_PASSWORD: 123456789
-           MYSQL_DATABASE: mecanet
+           MYSQL_DATABASE: Mecanaut
            MYSQL_USER: dev
          ports:
            - "3306:3306"
 
-       mecanet-backend:
-         image: mecanet-backend:0.0.1
+       Mecanaut-backend:
+         image: Mecanaut-backend:0.0.1
          build:
            context: .
            dockerfile: Dockerfile
@@ -4975,7 +4975,7 @@ Durante este Sprint, se avanzó en el proceso de Deployment del backend de la ap
            - SPRING_PROFILES_ACTIVE=dev
            - DB_PASSWORD=123456789
          depends_on:
-           - mecanet-db
+           - Mecanaut-db
      ```
 
 3. **Ejecución local exitosa:**  
@@ -5003,7 +5003,7 @@ Durante este Sprint, se avanzó en el proceso de Deployment del backend de la ap
      FROM openjdk:17-jdk-slim
      VOLUME /tmp
      EXPOSE 8080
-     COPY target/mecanet-backend-0.0.1-SNAPSHOT.jar app.jar
+     COPY target/Mecanaut-backend-0.0.1-SNAPSHOT.jar app.jar
      ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
      ```  
    * **Ignorar archivos de build:**  
@@ -5018,37 +5018,37 @@ Durante este Sprint, se avanzó en el proceso de Deployment del backend de la ap
    * **Pasos para la configuración de Azure:**  
      ```powershell
      az login
-     az group create --name MecanetRG --location "Central US"
+     az group create --name MecanautRG --location "Central US"
      az provider register --namespace Microsoft.ContainerRegistry
-     az acr create -g MecanetRG -n mecanetacr --sku Basic --admin-enabled true
-     az acr login -n mecanetacr
+     az acr create -g MecanautRG -n Mecanautacr --sku Basic --admin-enabled true
+     az acr login -n Mecanautacr
      ```
 
 7. **Publicación de la imagen Docker:**  
    * **Etiquetar y subir la imagen Docker a ACR:**  
      ```powershell
-     docker tag mecanet-backend:0.0.1 mecanetacr.azurecr.io/mecanet-backend:0.0.1
-     docker push mecanetacr.azurecr.io/mecanet-backend:0.0.1
+     docker tag Mecanaut-backend:0.0.1 Mecanautacr.azurecr.io/Mecanaut-backend:0.0.1
+     docker push Mecanautacr.azurecr.io/Mecanaut-backend:0.0.1
      ```
 
 8. **Creación de Azure Web App for Containers:**  
    * **Crear App Service Plan + Web App:**  
      ```powershell
-     az appservice plan create --name MecanetPlan --resource-group MecanetRG --is-linux --sku B1
-     az webapp create --resource-group MecanetRG --plan MecanetPlan --name mecanet-api --deployment-container-image-name mecanetacr.azurecr.io/mecanet-backend:0.0.1
+     az appservice plan create --name MecanautPlan --resource-group MecanautRG --is-linux --sku B1
+     az webapp create --resource-group MecanautRG --plan MecanautPlan --name Mecanaut-api --deployment-container-image-name Mecanautacr.azurecr.io/Mecanaut-backend:0.0.1
      ```
 
    * **Vincular ACR & actualizar variables de entorno:**  
      ```powershell
-     az webapp config container set --name mecanet-api --resource-group MecanetRG --docker-custom-image-name mecanetacr.azurecr.io/mecanet-backend:0.0.1 --docker-registry-server-url https://mecanetacr.azurecr.io
-     az webapp config appsettings set --name mecanet-api --resource-group MecanetRG --settings SPRING_PROFILES_ACTIVE=prod DB_PASSWORD=123456789 PORT=8080
+     az webapp config container set --name Mecanaut-api --resource-group MecanautRG --docker-custom-image-name Mecanautacr.azurecr.io/Mecanaut-backend:0.0.1 --docker-registry-server-url https://Mecanautacr.azurecr.io
+     az webapp config appsettings set --name Mecanaut-api --resource-group MecanautRG --settings SPRING_PROFILES_ACTIVE=prod DB_PASSWORD=123456789 PORT=8080
      ```
 
    * **Desactivar soporte Sidecar y configurar puerto 8080.**
 
 9. **Verificación en producción:**  
    * **URL de prueba:**  
-     https://mecanetbackend-hjexa7d8bkfybmfv.centralus-01.azurewebsites.net/swagger-ui/index.html
+     https://Mecanautbackend-hjexa7d8bkfybmfv.centralus-01.azurewebsites.net/swagger-ui/index.html
    Confirmar que la aplicación esté funcionando con el perfil **prod** y la conexión a Azure MySQL.
 
 #### Capturas del Proceso de Deployment
@@ -5068,16 +5068,17 @@ Durante este Sprint, se avanzó en el proceso de Deployment del backend de la ap
 ![Evidencia 12:](/img/sprint3/prod/prod12.png)
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
-Durante el desarrollo de este Sprint, el equipo colaboró de forma activa y coordinada en la implementación de las funcionalidades principales del backend del sistema Mecanet. La colaboración se centró en la creación de entidades de dominio, el desarrollo de controladores REST, la configuración del entorno de desarrollo con Spring Boot y MySQL, y la documentación de servicios con Swagger (OpenAPI).<br/>
+Durante el desarrollo de este Sprint, el equipo colaboró de forma activa y coordinada en la implementación de las funcionalidades principales del backend del sistema Mecanaut. La colaboración se centró en la creación de entidades de dominio, el desarrollo de controladores REST, la configuración del entorno de desarrollo con Spring Boot y MySQL, y la documentación de servicios con Swagger (OpenAPI).<br/>
 
 A continuación, se detalla la participación específica de cada integrante del equipo en las principales áreas funcionales del backend:
 
 | **Nombre**                       | **Actividad**                                                                                                                                                              |
 | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Agreda Sobrino, Ariana Cecilia   | Responsable del modelado de entidades principales y configuración de la base de datos MySQL. Participó en la definición de relaciones entre entidades y persistencia. |
+| Agreda Sobrino, Ariana Cecilia   | Responsable del modelado de entidades principales y configuración de la base de datos MySQL. Participó en la definición de relaciones entre entidades y persistencia.      |
 | Belledone Espinoza, Claudia      | Encargada de la lógica de negocio y servicios de autenticación. Desarrolló la estructura de seguridad, generación de tokens JWT y configuración de rutas protegidas.       |
 | Elera Rodríguez, Mauricio Daniel | Implementó los controladores REST y validaciones. Participó activamente en la construcción de endpoints para entidades como usuarios, técnicos y órdenes.                  |
-| Qqueso Rodriguez, Britney Delhy  | Responsable de la documentación con Swagger. Estructuró el despliegue local del backend con Docker.      |
+| Cruz Ibarra, Victor Andres       | Responsable de la documentación con Swagger. Estructuró el despliegue local del backend con Docker.      |
+| Vivanco Salazar, Rafael Andres   | Participó en la documentación con Swagger y en la definición de relaciones entre entidades y persistencia.  |
 
 
 #### Evidencia de colaboración en GitHub
@@ -5085,12 +5086,13 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 
 Captura de colaboracion en github:
 
-![image](https://github.com/user-attachments/assets/bcc0f50d-0c07-4656-89f8-210dc6ff022a)
-![image](https://github.com/user-attachments/assets/07cba899-1fc5-4a11-ba40-a5ef7148554d)
-![image](https://github.com/user-attachments/assets/61829674-ca49-413b-8d10-aac189bc426c)
-![image](https://github.com/user-attachments/assets/8c8fd376-b266-436e-80fc-3202e65e115a)
-![image](https://github.com/user-attachments/assets/0eafee43-5903-4e80-a80f-44884748a53d)
-![image](https://github.com/user-attachments/assets/bd8b15c8-4036-4cea-b3a2-f9d7930d4fd3)
+
+![image](https://github.com/user-attachments/assets/036ed7ba-4a3f-485d-bccc-cf3df73e7887)
+![image](https://github.com/user-attachments/assets/ca074073-4be2-4e37-a26e-02be34f9a9dc)
+![image](https://github.com/user-attachments/assets/fac2486f-f64c-4207-81b1-f11a2d73974d)
+![image](https://github.com/user-attachments/assets/1337d5b4-9526-45c5-87d5-de481b854dbf)
+![image](https://github.com/user-attachments/assets/9e3e2203-21ae-41f3-bc15-a73a79460686)
+![image](https://github.com/user-attachments/assets/6019942e-97f6-4496-8531-48aed068893c)
 
 
 
