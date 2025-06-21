@@ -168,6 +168,48 @@
     <td>Mauricio Elera  y Victor Cruz</td>
     <td>Creación y redacción de Software Deployment Evidence for Sprint Review</td>
 </tr>
+    </tr>
+    <td>3.0</td>
+    <td>14/06/2025</td>
+    <td>Victor Cruz</td>
+    <td>Documentación de Validation Interviews </td>
+</tr>
+</tr>
+    <td>3.1</td>
+    <td>16/06/2025</td>
+    <td>Mauricio Elera, Claudia Belledonne</td>
+    <td>Creación del Sprint 3 y documentación del Sprint Planning 3 y Aspect Leaders and Collaborators </td>
+</tr>
+</tr>
+    <td>3.2</td>
+    <td>16/06/2025</td>
+    <td>Rafael Vivanco</td>
+    <td>Creación y documentación del Sprint Backlog 3 </td>
+</tr>
+</tr>
+    <td>3.3</td>
+    <td>17/06/2025</td>
+    <td>Ariana Agreda y Rafael Vivanco</td>
+    <td>Redacción de Development Evidence for Sprint Review </td>
+</tr>
+</tr>
+    <td>3.4</td>
+    <td>17/06/2025</td>
+    <td>Victor Cruz</td>
+    <td>Documentación de Execution Evidence for Sprint Review </td>
+</tr>
+</tr>
+    <td>3.6</td>
+    <td>19/06/2025</td>
+    <td>Claudia Belledonne</td>
+    <td>Creación y redacción de Services Documentation Evidence for Sprint Review </td>
+</tr>
+</tr>
+    <td>3.7</td>
+    <td>20/06/2025</td>
+    <td>Mauricio Elera, Ariana Agreda</td>
+    <td>Redacción de Software Deployment Evidence for Sprint Review y Team Collaboration Insights during Sprint</td>
+</tr>
 </table>
 
 </br>
