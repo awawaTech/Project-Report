@@ -5142,7 +5142,8 @@ Mecanauts no solo resuelve los problemas inmediatos de las empresas, sino que ti
 
 
 # Video About-the-Team.
-![image](https://github.com/user-attachments/assets/a777e1fa-222c-415a-a0a0-a5022ec026a4)
+![image](https://github.com/user-attachments/assets/95e68b0a-e793-4933-9ffe-b59ae6ead8d3)
+
 link: [https://www.youtube.com/watch?v=I3xC4kqr_JM&ab_channel=Mayo](https://youtu.be/ch44ZfRNnuE)
 
 # Video About-the-Product.
