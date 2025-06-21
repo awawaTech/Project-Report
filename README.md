@@ -4611,6 +4611,73 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
     </tr>
 </table>
 
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+<table>
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Sección API Gestión de Usuarios<br/>Leader (L) / Collaborator (C)</th>
+    <th>Sección API Órdenes de Trabajo<br/>Leader (L) / Collaborator (C)</th>
+    <th>Sección API Inventario<br/>Leader (L) / Collaborator (C)</th>
+    <th>Sección API Plan de Mantenimiento<br/>Leader (L) / Collaborator (C)</th>
+    <th>Sección API Gestión de Activos<br/>Leader (L) / Collaborator (C)</th>
+    <th>Sección API Métricas<br/>Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Agreda, Ariana</td>
+    <td>arii4w</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Belledonne, Claudia</td>
+    <td>Cl4us-tb</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Elera, Mauricio</td>
+    <td>Maur1xio</td>
+    <td>L</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Cruz, Victor</td>
+    <td>Elandrehs</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+    <tr>
+    <td>Vivanco, Rafael</td>
+    <td>RafaelVivanco</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+</table>
+
+
+
+
 
 
 # Conclusiones
