@@ -250,7 +250,7 @@ __TB1__
   <p><img src="img/evidence/over.png" alt="Overview" width="700px" /></p>
 </div>
 
-__TB2__
+__TP__
 
 <div>
   <p><img src="img/evidence/contribuitors2.png" alt="Contributors" width="700px" /></p>
@@ -264,6 +264,12 @@ __TB2__
 <div>
   <p><img src="img/evidence/sprint2-backlog.png" alt="Backlog2" width="700px" /></p>
 </div>
+
+__TB2__
+![image](https://github.com/user-attachments/assets/5dfcf980-e381-4518-9f48-162c949468cd)
+![image](https://github.com/user-attachments/assets/6949fc70-d158-4592-bffe-913d2b69ed5c)
+
+
 ---
 
 # Contenido
