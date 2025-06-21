@@ -4675,6 +4675,429 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
   </tr>
 </table>
 
+#### 5.2.3.3. Sprint Backlog 3.
+<p>El objetivo de este tercer sprint es desarrollar las APIs esenciales del backend para la gestión de usuarios (registro y autenticación), administración de inventario (registro y consulta de ítems), control de activos (maquinarias y equipos), generación de órdenes de trabajo y reportes de métricas de mantenimiento. Esto proporcionará la base técnica para el funcionamiento integral del sistema y la futura integración con el frontend.</p>
+<img src="img/sprint2/Trello-Mecanaut-Sprint3.png">
+<p>link: https://trello.com/invite/b/6856e1e8c088d7020dccd927/ATTI90b6034f0cedf76620020ee88e41c87eB625855C/mecanaout-opensource</p>
+
+<table>
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="6">Sprint 3</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+    
+<tr>
+    <th rowspan="2">TS01</th>
+    <th rowspan="2">Post Usuario</th>
+    <td>1</td>
+    <td align="justify">Crear endpoint POST para registrar usuario</td>
+    <td align="justify">Implementar el endpoint en el backend que permita registrar nuevos usuarios en la base de datos, validando los datos requeridos (nombre, correo, contraseña, tipo de usuario).</td>
+    <td>4 hr</td>
+    <td>Mauricio Elera</td>
+    <td>In Progress</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td align="justify">Configurar validaciones y seguridad para el registro</td>
+    <td align="justify">Agregar validaciones (campos requeridos, formato de correo, hash de contraseña) y medidas de seguridad básicas para proteger el endpoint.</td>
+    <td>3 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>In Progress</td>
+</tr>
+
+<tr>
+    <th rowspan="2">TS02</th>
+    <th rowspan="2">Get Usuario</th>
+    <td>3</td>
+    <td align="justify">Crear endpoint GET para consultar usuario por ID</td>
+    <td align="justify">Permitir obtener la información básica de un usuario específico mediante su ID, retornando datos personales y roles asociados.</td>
+    <td>4 hr</td>
+    <td>Mauricio Elera</td>
+    <td>To Do</td>
+</tr>
+<tr>
+    <td>4</td>
+    <td align="justify">Conectar consulta a base de datos y estructurar respuesta</td>
+    <td align="justify">Realizar la consulta a la base de datos y retornar la información estructurada en formato JSON para el frontend.</td>
+    <td>3 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>To Do</td>
+</tr>
+
+<tr>
+    <th rowspan="1">TS03</th>
+    <th rowspan="1">Get Roles por Usuario</th>
+    <td>5</td>
+    <td align="justify">Implementar endpoint GET de roles por usuario</td>
+    <td align="justify">Permitir recuperar los roles asignados a un usuario autenticado para establecer los permisos del sistema.</td>
+    <td>3 hr</td>
+    <td>Ariana Agreda</td>
+    <td>To Do</td>
+</tr>
+
+<tr>
+    <th rowspan="2">TS04</th>
+    <th rowspan="2">Post Plan de mantenimiento</th>
+    <td>6</td>
+    <td align="justify">Diseñar modelo de plan de mantenimiento</td>
+    <td align="justify">Definir la estructura de datos para registrar un nuevo plan de mantenimiento (dinámico o estático).</td>
+    <td>4 hr</td>
+    <td>Britney Qqueso</td>
+    <td>In Progress</td>
+</tr>
+<tr>
+    <td>7</td>
+    <td align="justify">Crear endpoint POST para orden de trabajo</td>
+    <td align="justify">Desarrollar el endpoint que reciba los datos del plan de mantenimiento y los almacene correctamente en la base de datos.</td>
+    <td>5 hr</td>
+    <td>Britney Qqueso</td>
+    <td>In Progress</td>
+</tr>
+
+<tr>
+    <th rowspan="1">TS05</th>
+    <th rowspan="1">Get Plan de mantenimiento</th>
+    <td>8</td>
+    <td align="justify">Desarrollar endpoint GET para obtener un Plan de Mantenimiento</td>
+    <td align="justify">Permitir obtener un Plan de Mantenimiento filtrado por ID.</td>
+    <td>4 hr</td>
+    <td>Mauricio Elera</td>
+    <td>To Do</td>
+</tr>
+
+<tr>
+    <th rowspan="1">TS06</th>
+    <th rowspan="1">Get Métricas de Maquinarias</th>
+    <td>9</td>
+    <td align="justify">Implementar endpoint de métricas</td>
+    <td align="justify">Desarrollar una API que calcule y entregue indicadores clave de mantenimiento utilizando los datos históricos de órdenes completadas.</td>
+    <td>5 hr</td>
+    <td>Ariana Agreda</td>
+    <td>To Do</td>
+</tr>
+
+<tr>
+    <th rowspan="2">TS07</th>
+    <th rowspan="2">Post Inventory Item</th>
+    <td>10</td>
+    <td align="justify">Diseñar modelo de ítem de inventario</td>
+    <td align="justify">Definir los atributos requeridos para registrar herramientas y materiales (nombre, código, cantidad, ubicación).</td>
+    <td>3 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>In Progress</td>
+</tr>
+<tr>
+    <td>11</td>
+    <td align="justify">Crear endpoint POST para ítems de inventario</td>
+    <td align="justify">Crear API que registre ítems en el sistema, permitiendo su uso posterior en tareas de mantenimiento.</td>
+    <td>4 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>In Progress</td>
+</tr>
+
+<tr>
+    <th rowspan="1">TS08</th>
+    <th rowspan="1">Get Inventory Item</th>
+    <td>12</td>
+    <td align="justify">Desarrollar endpoint GET para consultar ítems</td>
+    <td align="justify">Obtener información detallada de cada ítem del inventario para verificar su disponibilidad.</td>
+    <td>3 hr</td>
+    <td>Britney Qqueso</td>
+    <td>To Do</td>
+</tr>
+
+<tr>
+    <th rowspan="2">TS09</th>
+    <th rowspan="2">Post Activo</th>
+    <td>13</td>
+    <td align="justify">Diseñar modelo de activo</td>
+    <td align="justify">Definir los atributos y relaciones necesarias de activos como maquinaria, para su programación en mantenimientos.</td>
+    <td>3 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>To Do</td>
+</tr>
+<tr>
+    <td>14</td>
+    <td align="justify">Crear endpoint POST para registrar activo</td>
+    <td align="justify">Permitir el registro de nuevos activos mediante API, validando la unicidad de cada registro.</td>
+    <td>4 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>To Do</td>
+</tr>
+
+<tr>
+    <th rowspan="1">TS10</th>
+    <th rowspan="1">Get Activo</th>
+    <td>15</td>
+    <td align="justify">Desarrollar API para obtener datos de activo</td>
+    <td align="justify">Permitir visualizar datos específicos de un activo registrado, como tipo, estado y uso actual.</td>
+    <td>3 hr</td>
+    <td>Mauricio Elera</td>
+    <td>To Do</td>
+</tr>
+
+
+</table>
+
+#### 5.2.3.4. Development Evidence for Sprint Review.
+En este sprint, se lograron avances fundamentales en la construcción de la lógica del backend para Mecanet, priorizando la gestión de usuarios, activos, órdenes de trabajo, métricas y elementos de inventario. Se implementaron múltiples endpoints REST para el registro y recuperación de datos clave, permitiendo sentar las bases para una interacción fluida con el frontend y asegurar la persistencia de la información operativa. Las validaciones, modelos de datos y estructuras de control fueron diseñadas con énfasis en escalabilidad y mantenibilidad.<br/>
+
+A continuación, se presenta una tabla con los commits relacionados con la implementación de estas funcionalidades:  <br/>
+
+| Repository                                                                                           | Branch  | Commit Id | Commit Message                                 | Commit Message Body                                                              | Committed on (Date) |
+| ---------------------------------------------------------------------------------------------------- | ------- | --------- | ---------------------------------------------- | -------------------------------------------------------------------------------- | ------------------- |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | 81f3a1c   | feat(user): implement POST user registration   | Added endpoint for user creation with validation and password hashing            | 10/06/2025         |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | 94b2e8d   | feat(user): add GET user by ID                 | Implemented GET endpoint to retrieve user information with role mapping          | 17/06/2025          |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | a72d3c7   | feat(order): implement POST maintenance plan         | Created model and controller logic to register new work orders in DB             | 17/06/2025          |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | b51f2a9   | feat(order): add GET a maintenance plan          | Endpoint to retrieve and filter work orders by date, status, and priority        | 18/06/2025          |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | c12ff9b   | feat(metrics): implement machinery metrics | Developed metric calculation logic from completed orders                         | 18/06/2025          |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | d72ca6e   | feat(inventory): add POST inventory item       | Enabled registration of inventory tools and materials with validation rules      | 18/06/2025          |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | e49d8f0   | feat(asset): implement POST asset registration | Created data structure and API for adding new equipment or machines              | 19/06/2025          |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | f28c9ad   | ci: update CI pipeline for backend deployment  | Modified GitHub Actions for backend automatic deployment on sprint release       | 19/06/2025          |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | main    | f28c9ad   | chore(release): merge Sprint 3 backend to main | Merged all Sprint 3 backend features including users, assets, orders and metrics | 19/06/2025          |
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+En este sprint, hemos logrado implementar las funcionalidades fundamentales para la gestión inicial del sistema Mecanet. Esto incluye la capacidad de registrar y gestionar maquinarias y líneas de producción, establecer planes de mantenimiento para las líneas de producción entre otros.<br/>
+
+A continuación, se presentan capturas de pantalla de las principales funcionalidades implementadas durante este sprint:<br/>
+
+#### Evidencia 1: Registro de Plantas
+![image](https://github.com/user-attachments/assets/ca3bd3b7-4b30-4f0a-9a18-138fb59b5b47)
+![image](https://github.com/user-attachments/assets/9d3c31b4-3513-4349-860f-3a7ac9bab299)
+![image](https://github.com/user-attachments/assets/1c0154f3-8392-44d8-bee8-52b4ec8da180)
+
+
+#### Evidencia 2: Listado de maquinarias registradas
+![image](https://github.com/user-attachments/assets/343996b8-f1d4-4f6f-a74e-0f156dd5a030)
+![image](https://github.com/user-attachments/assets/9ebecd2f-aea6-4329-91e9-634e0d78b40b)
+
+
+#### Evidencia 3: Registro de línea de producción
+![image](https://github.com/user-attachments/assets/ef9a15b0-90c1-4a22-bdf3-f6a696c51913)
+![image](https://github.com/user-attachments/assets/64af89ab-c320-4aa0-9e0f-29eb817f6fa5)
+![image](https://github.com/user-attachments/assets/31926553-c322-4da2-ac1d-dbb4970e5679)
+
+#### Evidencia 4: Obtener métricas de maquinaria
+![image](https://github.com/user-attachments/assets/d8829fad-f539-4e0a-876c-3b7fcd21c1f2)
+![image](https://github.com/user-attachments/assets/75f24a42-e25d-4224-9341-7e9bee568820)
+
+
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+Durante este Sprint, se avanzó significativamente en la documentación de los servicios web desarrollados para el backend del sistema MecaNet, utilizando OpenAPI (Swagger). Esta documentación permite la visualización, prueba e integración futura con el frontend y facilita la validación de la estructura de los endpoints REST implementados.
+
+Los endpoints documentados corresponden a las funcionalidades clave desarrolladas durante el Sprint, incluyendo el registro y consulta de maquinarias, líneas de producción, órdenes de trabajo, métricas de mantenimiento y gestión de usuarios. A través de Swagger UI, los desarrolladores pueden interactuar con cada uno de estos servicios, visualizar sus parámetros, realizar llamadas HTTP con datos de ejemplo y observar las respuestas correspondientes.
+
+| Módulo               | Acción                        | Método | Endpoint                  | Parámetros (ejemplo)                                                         | Respuesta (ejemplo)                                                         |
+| -------------------- | ----------------------------- | ------ | ------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Maquinarias          | Registrar maquinaria          | POST   | `/api/maquinarias`        | `{"nombre": "Compresora", "modelo": "XK-120", "serie": "A1234"}`             | `{"id": 1, "nombre": "Compresora", "modelo": "XK-120", "serie": "A1234"}`   |
+|                      | Listar maquinarias            | GET    | `/api/maquinarias`        | -                                                                            | `[{"id": 1, "nombre": "Compresora", "modelo": "XK-120", "serie": "A1234"}]` |
+| Líneas de Producción | Registrar línea de producción | POST   | `/api/lineas-produccion`  | `{"nombre": "Línea 1", "prioridad": 2}`                                      | `{"id": 1, "nombre": "Línea 1", "prioridad": 2}`                            |
+|                      | Consultar líneas              | GET    | `/api/lineas-produccion`  | -                                                                            | `[{"id": 1, "nombre": "Línea 1", "prioridad": 2}]`                          |
+| Planes de Mantenimiento   | Crear plan de mantenimiento        | POST   | `/api/maintenance-plan` | `{"name": "Plan Prueba", "startDate": "2025-06-20", "endDate": "2025-06-20", "productionLineId": 1, "cyclePeriodInDays": 10, "durationInDays": 1}` | `{"id": 1, "name": "Plan Prueba", "startDate": "2025-06-20", "endDate": "2025-06-20", "status": "ACTIVE", "productionLineId": 1, "cyclePeriodInDays": 10, "durationInDays": 1, "items": []}`                    |
+|                      | Consultar plan             | GET    | `/api/maintenance-plan`            | -                                                                            | `[{"id": 1, "estado": "ACTIVE"}]`                  |
+| Métricas (MTTR/MTBF) | Obtener métricas              | GET    | `/api/metricas/mttr-mtbf` | -                                                                            | `{"mttr": 5.2, "mtbf": 48.3}`                                               |
+| Autenticación        | Login de usuario              | POST   | `/api/auth/login`         | `{"email": "admin@mecanet.com", "password": "123456"}`                       | `{"token": "eyJhbGciOi..."}`                                                |
+
+#### Capturas de la documentación OpenAPI/Swagger
+
+- Endpoint GET /api/v1/roles – Obtener todos los roles
+![image](https://github.com/user-attachments/assets/ff24f69b-b608-4f34-a29e-2722a8153a22)
+
+
+- Endpoint POST /api/v1/authentication/sign-up – Registro de usuario
+![image](https://github.com/user-attachments/assets/cad232f5-65d1-4494-a910-8a598f442b1d)
+
+
+- Endpoint GET /api/v1/metric-definitions – Obtener todas las definiciones de métricas
+![image](https://github.com/user-attachments/assets/c95defec-7c69-4399-ba45-947a4ad21078)
+
+  
+- Endpoint POST /api/maquinarias – Registro de maquinaria
+![image](https://github.com/user-attachments/assets/ab20b452-58f4-48f2-bbb4-84913f9ddef1)
+
+
+- Endpoint POST /api/v1/maintenance-plans/dynamic – Crear plan de mantenimiento estático
+![image](https://github.com/user-attachments/assets/0af52037-c86c-4c10-98a3-68f12dd198f6)
+
+
+- Endpoint GET /api/v1/maintenance-plans/static/{planId} – Obtener plan de mantenimiento dinámico
+![image](https://github.com/user-attachments/assets/2fe60178-9029-40e4-aabc-35bba9e483f5)
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+Durante este Sprint, se avanzó en el proceso de Deployment del backend de la aplicación Mecanet, enfocándose en el despliegue inicial de los Web Services en un entorno de desarrollo accesible, con el objetivo de facilitar la validación funcional por parte del equipo y sentar las bases para futuras integraciones con el frontend.
+
+#### Actividades realizadas en el Sprint 3:
+# Despliegue de **Mecanet-Backend** – Guía Resumida (Windows 10/11)
+
+1. **Configuración de repositorio remoto:**  
+   * **Sistema de control de versiones:** Git + GitHub  
+   * **Repositorio oficial del backend:** [mecanaut-backend](https://github.com/awawaTech/mecanaut-back)
+
+2. **Creación de entorno de despliegue local:**  
+   * **Stack:** Spring Boot 3, Swagger UI, MySQL, Docker  
+   * **Archivo `docker-compose.yml`:**  
+     ```yml
+     services:
+       mecanet-db:
+         image: mysql:8
+         environment:
+           MYSQL_ROOT_PASSWORD: 123456789
+           MYSQL_DATABASE: mecanet
+           MYSQL_USER: dev
+         ports:
+           - "3306:3306"
+
+       mecanet-backend:
+         image: mecanet-backend:0.0.1
+         build:
+           context: .
+           dockerfile: Dockerfile
+         ports:
+           - "8080:8080"
+         environment:
+           - SPRING_PROFILES_ACTIVE=dev
+           - DB_PASSWORD=123456789
+         depends_on:
+           - mecanet-db
+     ```
+
+3. **Ejecución local exitosa:**  
+   * **Comando para levantar el entorno:**  
+     ```powershell
+     docker-compose up --build
+     ```  
+   * **Acceso al Swagger:** [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+
+4. **Variables de entorno de Spring Profiles:**  
+   * **Variables a configurar en Windows:**  
+     ```powershell
+     setx SPRING_PROFILES_ACTIVE "prod"
+     setx DB_PASSWORD "123456789"
+     ```  
+   * **Configuración de `application-dev.properties` y `application-prod.properties` para MySQL.**
+
+5. **Empaquetado y dockerización:**  
+   * **Generación del JAR:**  
+     ```powershell
+     mvn clean package
+     ```  
+   * **Dockerfile:**  
+     ```dockerfile
+     FROM openjdk:17-jdk-slim
+     VOLUME /tmp
+     EXPOSE 8080
+     COPY target/mecanet-backend-0.0.1-SNAPSHOT.jar app.jar
+     ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+     ```  
+   * **Ignorar archivos de build:**  
+     ```
+     .git
+     target/
+     .mvn/
+     mvnw*
+     ```
+
+6. **Recursos de Azure (CLI Windows PowerShell):**  
+   * **Pasos para la configuración de Azure:**  
+     ```powershell
+     az login
+     az group create --name MecanetRG --location "Central US"
+     az provider register --namespace Microsoft.ContainerRegistry
+     az acr create -g MecanetRG -n mecanetacr --sku Basic --admin-enabled true
+     az acr login -n mecanetacr
+     ```
+
+7. **Publicación de la imagen Docker:**  
+   * **Etiquetar y subir la imagen Docker a ACR:**  
+     ```powershell
+     docker tag mecanet-backend:0.0.1 mecanetacr.azurecr.io/mecanet-backend:0.0.1
+     docker push mecanetacr.azurecr.io/mecanet-backend:0.0.1
+     ```
+
+8. **Creación de Azure Web App for Containers:**  
+   * **Crear App Service Plan + Web App:**  
+     ```powershell
+     az appservice plan create --name MecanetPlan --resource-group MecanetRG --is-linux --sku B1
+     az webapp create --resource-group MecanetRG --plan MecanetPlan --name mecanet-api --deployment-container-image-name mecanetacr.azurecr.io/mecanet-backend:0.0.1
+     ```
+
+   * **Vincular ACR & actualizar variables de entorno:**  
+     ```powershell
+     az webapp config container set --name mecanet-api --resource-group MecanetRG --docker-custom-image-name mecanetacr.azurecr.io/mecanet-backend:0.0.1 --docker-registry-server-url https://mecanetacr.azurecr.io
+     az webapp config appsettings set --name mecanet-api --resource-group MecanetRG --settings SPRING_PROFILES_ACTIVE=prod DB_PASSWORD=123456789 PORT=8080
+     ```
+
+   * **Desactivar soporte Sidecar y configurar puerto 8080.**
+
+9. **Verificación en producción:**  
+   * **URL de prueba:**  
+     https://mecanetbackend-hjexa7d8bkfybmfv.centralus-01.azurewebsites.net/swagger-ui/index.html
+   Confirmar que la aplicación esté funcionando con el perfil **prod** y la conexión a Azure MySQL.
+
+#### Capturas del Proceso de Deployment
+
+
+![Evidencia 1:](/img/sprint3/prod/prod1.png)
+![Evidencia 2:](/img/sprint3/prod/prod2.png)
+![Evidencia 3:](/img/sprint3/prod/prod3.png)
+![Evidencia 4:](/img/sprint3/prod/prod4.png)
+![Evidencia 5:](/img/sprint3/prod/prod5.png)
+![Evidencia 6:](/img/sprint3/prod/prod6.png)
+![Evidencia 7:](/img/sprint3/prod/prod7.png)
+![Evidencia 8:](/img/sprint3/prod/prod8.png)
+![Evidencia 9:](/img/sprint3/prod/prod9.png)
+![Evidencia 10:](/img/sprint3/prod/prod10.png)
+![Evidencia 11:](/img/sprint3/prod/prod11.png)
+![Evidencia 12:](/img/sprint3/prod/prod12.png)
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+Durante el desarrollo de este Sprint, el equipo colaboró de forma activa y coordinada en la implementación de las funcionalidades principales del backend del sistema Mecanet. La colaboración se centró en la creación de entidades de dominio, el desarrollo de controladores REST, la configuración del entorno de desarrollo con Spring Boot y MySQL, y la documentación de servicios con Swagger (OpenAPI).<br/>
+
+A continuación, se detalla la participación específica de cada integrante del equipo en las principales áreas funcionales del backend:
+
+| **Nombre**                       | **Actividad**                                                                                                                                                              |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Agreda Sobrino, Ariana Cecilia   | Responsable del modelado de entidades principales y configuración de la base de datos MySQL. Participó en la definición de relaciones entre entidades y persistencia. |
+| Belledone Espinoza, Claudia      | Encargada de la lógica de negocio y servicios de autenticación. Desarrolló la estructura de seguridad, generación de tokens JWT y configuración de rutas protegidas.       |
+| Elera Rodríguez, Mauricio Daniel | Implementó los controladores REST y validaciones. Participó activamente en la construcción de endpoints para entidades como usuarios, técnicos y órdenes.                  |
+| Qqueso Rodriguez, Britney Delhy  | Responsable de la documentación con Swagger. Estructuró el despliegue local del backend con Docker.      |
+
+
+#### Evidencia de colaboración en GitHub
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial del backend, donde se evidencia la participación activa de todos los miembros del equipo en el Sprint 3. <br/>
+
+Captura de colaboracion en github:
+
+![image](https://github.com/user-attachments/assets/bcc0f50d-0c07-4656-89f8-210dc6ff022a)
+![image](https://github.com/user-attachments/assets/07cba899-1fc5-4a11-ba40-a5ef7148554d)
+![image](https://github.com/user-attachments/assets/61829674-ca49-413b-8d10-aac189bc426c)
+![image](https://github.com/user-attachments/assets/8c8fd376-b266-436e-80fc-3202e65e115a)
+![image](https://github.com/user-attachments/assets/0eafee43-5903-4e80-a80f-44884748a53d)
+![image](https://github.com/user-attachments/assets/bd8b15c8-4036-4cea-b3a2-f9d7930d4fd3)
+
+
+
+#### Repositorio de trabajo:
+* Repositorio del Backend en GitHub: https://github.com/awawaTech/mecanaut-back
+
+El equipo mantuvo una comunicación constante durante todo el Sprint, utilizando herramientas colaborativas como GitHub y reuniones breves, permitiendo una integración progresiva de los módulos desarrollados y asegurando que cada funcionalidad contara con aportes técnicos y revisiones cruzadas por parte de todos los miembros.
 
 
 
@@ -4734,3 +5157,6 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 - Documentación del Proyecto: [https://github.com/awawaTech/Project-Report](https://github.com/awawaTech/Project-Report)
 - Video exposición TP1: [https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315044_upc_edu_pe/EqV7XG3MjIdKqtKWRBkYUzEBoPuAjLCYm_iKfNx94Q5Hyw?e=JT2uUQ](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315044_upc_edu_pe/EqV7XG3MjIdKqtKWRBkYUzEBoPuAjLCYm_iKfNx94Q5Hyw?e=JT2uUQ)
 - Frontend App desplegado del proyecto: [https://agreeable-glacier-01474611e.6.azurestaticapps.net/](https://agreeable-glacier-01474611e.6.azurestaticapps.net/)
+- Video About The product: https://www.youtube.com/watch?v=cW31cmfSuA8, [About the product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210259_upc_edu_pe/EQZYuCOUrwROqPTL4T3q65kBQR6OupO11aRn8NsnEDmTSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pzeLdc)
+- Video About The team: https://youtu.be/ch44ZfRNnuE, [About the team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210259_upc_edu_pe/Eatgx8ofihRLkXpFKcXZp-kBTvydQxAIaxjAxhq3S3nfew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=U4mI7y)
+
