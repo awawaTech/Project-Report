@@ -5077,7 +5077,6 @@ A continuación, se detalla la participación específica de cada integrante del
 | Agreda Sobrino, Ariana Cecilia   | Responsable del modelado de entidades principales y configuración de la base de datos MySQL. Participó en la definición de relaciones entre entidades y persistencia.      |
 | Belledone Espinoza, Claudia      | Encargada de la lógica de negocio y servicios de autenticación. Desarrolló la estructura de seguridad, generación de tokens JWT y configuración de rutas protegidas.       |
 | Elera Rodríguez, Mauricio Daniel | Implementó los controladores REST y validaciones. Participó activamente en la construcción de endpoints para entidades como usuarios, técnicos y órdenes.                  |
-
 | Vivanco Salazar, Rafael Andres | Responsable de la documentación con Swagger. Estructuró el despliegue local del backend con Docker.      |
 | Cruz Ibarra, Victor Andres | Participó en la recopilación de requerimientos técnicos para el backend y colaboró en la validación de los endpoints mediante pruebas funcionales con Postman.      |
 
