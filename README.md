@@ -5118,7 +5118,7 @@ Durante este Sprint, se avanzó en el proceso de Deployment del backend de la ap
 ![Evidencia 12:](/img/sprint3/prod/prod12.png)
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint.
-Durante el desarrollo de este Sprint, el equipo colaboró de forma activa y coordinada en la implementación de las funcionalidades principales del backend del sistema Mecanaut. La colaboración se centró en la creación de entidades de dominio, el desarrollo de controladores REST, la configuración del entorno de desarrollo con Spring Boot y MySQL, y la documentación de servicios con Swagger (OpenAPI).<br/>
+Durante el desarrollo de este Sprint, el equipo colaboró de forma activa y coordinada en la implementación de las funcionalidades principales del backend del sistema Mecanaut. La colaboración se centró en la creación de entidades de dominio, el desarrollo de controladores REST, la configuración del entorno de desarrollo con .NET y MySQL, y la documentación de servicios con Swagger (OpenAPI).<br/>
 
 A continuación, se detalla la participación específica de cada integrante del equipo en las principales áreas funcionales del backend:
 
