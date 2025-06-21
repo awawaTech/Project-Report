@@ -5144,7 +5144,7 @@ Mecanauts no solo resuelve los problemas inmediatos de las empresas, sino que ti
 # Video About-the-Team.
 ![image](https://github.com/user-attachments/assets/95e68b0a-e793-4933-9ffe-b59ae6ead8d3)
 
-link: [https://www.youtube.com/watch?v=I3xC4kqr_JM&ab_channel=Mayo](https://youtu.be/ch44ZfRNnuE)
+link: https://youtu.be/ch44ZfRNnuE
 
 # Video About-the-Product.
 ![image](https://github.com/user-attachments/assets/60510df1-2ead-496b-9559-5532f6067382)
@@ -5165,6 +5165,10 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 - Documentación del Proyecto: [https://github.com/awawaTech/Project-Report](https://github.com/awawaTech/Project-Report)
 - Video exposición TP1: [https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315044_upc_edu_pe/EqV7XG3MjIdKqtKWRBkYUzEBoPuAjLCYm_iKfNx94Q5Hyw?e=JT2uUQ](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315044_upc_edu_pe/EqV7XG3MjIdKqtKWRBkYUzEBoPuAjLCYm_iKfNx94Q5Hyw?e=JT2uUQ)
 - Frontend App desplegado del proyecto: [https://agreeable-glacier-01474611e.6.azurestaticapps.net/](https://agreeable-glacier-01474611e.6.azurestaticapps.net/)
-- Video About The product: https://www.youtube.com/watch?v=cW31cmfSuA8, [About the product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210259_upc_edu_pe/EQZYuCOUrwROqPTL4T3q65kBQR6OupO11aRn8NsnEDmTSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pzeLdc)
-- Video About The team: https://youtu.be/ch44ZfRNnuE, [About the team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210259_upc_edu_pe/Eatgx8ofihRLkXpFKcXZp-kBTvydQxAIaxjAxhq3S3nfew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=U4mI7y)
+- Video About The product:
+- https://youtu.be/cW31cmfSuA8
+- https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210259_upc_edu_pe/EQZYuCOUrwROqPTL4T3q65kBQR6OupO11aRn8NsnEDmTSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pzeLdc
+- Video About The team:
+- https://youtu.be/ch44ZfRNnuE
+- https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210259_upc_edu_pe/Eatgx8ofihRLkXpFKcXZp-kBTvydQxAIaxjAxhq3S3nfew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=U4mI7y
 
