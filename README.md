@@ -4539,6 +4539,223 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 
 ![image](https://github.com/user-attachments/assets/dbe220f7-def2-4f41-a155-0d8b25d4e2f9)
 
+## 5.3. Validation Interviews.
+### 5.3.1. Diseño de Entrevistas.
+
+Se llevaron a cabo entrevistas breves con usuarios finales de los dos perfiles clave en la plataforma: técnicos de mantenimiento y administradores de mantenimiento. Estas entrevistas tienen como finalidad validar la claridad, utilidad y usabilidad general de la aplicación web y su landing page, considerando los flujos de usuario más relevantes para cada perfil.
+
+Durante las sesiones, se mostró a los entrevistados tanto la landing page como una versión funcional de la aplicación web. A partir de ello, se les invitó a realizar tareas específicas y responder preguntas diseñadas para recoger percepciones sobre navegación, comprensión de funcionalidades y barreras de uso.
+
+**Preguntas sobre la Landing Page** 
+
+1. ¿La información presentada en la página inicial te parece útil y relevante para entender la solución?
+
+2. ¿Sientes que la sección “FAQ” transmite confianza y claridad sobre quién está detrás del sistema?
+
+3. ¿Crees que el contenido es claro y está bien organizado, o hay algo que deberíamos ajustar?
+
+4. ¿Cómo percibes el diseño visual general de la página? ¿Te parece adecuado para una solución orientada a mantenimiento industrial?
+
+5. ¿Quedó claro desde un primer momento cuál es el propósito de la aplicación?
+
+6. ¿Después de navegar por la página, te sentirías motivado a registrarte y probar la aplicación? ¿Por qué?
+
+**Preguntas sobre la aplicación**
+
+**Para Administradores de Mantenimiento**
+Se considerará los userflows de:
+
+* Registro e inicio de sesión
+
+* Gestión del personal técnico
+
+* Registro de nuevos planes de mantenimiento
+
+* Registro de repuestos y solicitud de órdenes de adquisición
+
+1. ¿Te pareció clara y sencilla la experiencia de creación de cuenta para tu empresa?
+
+2. ¿Qué agregarías o quitarías para facilitar este registro inicial?
+ 
+3. ¿Te resultó intuitivo el proceso para agregar una nueva línea de producción?
+ 
+4. ¿Fue fácil identificar dónde registrar una nueva máquina?
+ 
+5. ¿La funcionalidad para generar el plan mensual es clara y fácil de usar?
+ 
+6. ¿Te parece que la organización de la aplicación se entiende y comprende fácilmente?
+
+
+**Para Técnicos de Mantenimiento**
+Para Técnicos de Mantenimiento
+
+* Registro e inicio de sesión
+
+* Visualización de maquinaria asignada
+  
+* Consulta y edición de información de maquinaria
+  
+* Consulta de planes de mantenimiento activos
+  
+* Revisión del calendario semanal y mensual con tareas asignadas
+
+
+1. ¿Pudiste crear tu cuenta e iniciar sesión sin inconvenientes?
+
+2. ¿Fue clara la navegación para acceder al listado de maquinarias?
+
+3. ¿Te resultó fácil consultar los datos de una máquina y editarlos si era necesario?
+
+4. ¿Pudiste visualizar sin dificultad los planes de mantenimiento asociados a tus tareas?
+
+5. ¿Qué tan intuitivo te pareció el calendario semanal y mensual? ¿Lograste identificar correctamente los días en los que tienes planes activos?
+
+6. ¿Hubo algún punto del proceso en el que te sentiste confundido o desorientado?
+
+
+### 5.3.2. Registro de Entrevistas.
+### Segmento 1: Administradores de Mantenimiento
+
+#### Entrevista #1
+- **Nombre completo:** Albano Romero
+- **Edad:** 28
+- **Cargo / Rol en la empresa:**  Administrador de mantenimiento en sector minero
+- **Enlace del video:** [Validation Interview 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EbdxQ6H8_WpFpmp_VpUuPJQBSRnF4ci9ezYww8Y3j3C_gw?e=FAvhpB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Inicio:** 0:00 s
+- **Fin:** 22:07 s
+ <img src="img/interviews/entrevista-validacion-administrador-1.png"> 
+
+#### Entrevista #2
+- **Nombre completo:** Samy Ramirez
+- **Edad:** 30
+- **Cargo / Rol en la empresa:** Administrador de Mantenimiento de sector medico
+- **Enlace del video:** [Validation Interview 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EbdxQ6H8_WpFpmp_VpUuPJQBSRnF4ci9ezYww8Y3j3C_gw?e=FAvhpB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Inicio:** 22:08 s
+- **Fin:** 32:23 s
+ <img src="img/interviews/entrevista-validacion-administrador-2.png">
+
+#### Entrevista #3
+- **Nombre completo:** Marcos Salazar
+- **Edad:** 35
+- **Cargo / Rol en la empresa:** Administrador de Mantenimiento en sector textil
+- **Enlace del video:** [Validation Interview 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EbdxQ6H8_WpFpmp_VpUuPJQBSRnF4ci9ezYww8Y3j3C_gw?e=FAvhpB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Inicio:** 32:28 s
+- **Fin:** 52:08 s
+ <img src="img/interviews/entrevista-validacion-administrador-3.png">
+
+### Segmento 2: Técnicos Operativos
+
+#### Entrevista #1
+- **Nombre completo:**  Lucero Avalos
+- **Edad:**  27
+- **Puesto o función que desempeñas:** Técnica en sector de textiles
+- **Enlace del video:** [Validation Interview 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EbdxQ6H8_WpFpmp_VpUuPJQBSRnF4ci9ezYww8Y3j3C_gw?e=FAvhpB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Inicio:** 52:08 s
+- **Fin:** 01:08:30 s
+ <img src="img/interviews/entrevista-validacion-tecnico-1.png">
+
+#### Entrevista #2
+- **Nombre completo:** Adriano Sanchez
+- **Edad:** 23
+- **Puesto o función que desempeñas:** Técnico de mantenimiento en maquinaria textil
+- **Enlace del video:** [Validation Interview 5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EbdxQ6H8_WpFpmp_VpUuPJQBSRnF4ci9ezYww8Y3j3C_gw?e=FAvhpB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Inicio:** 01:08 :30 s
+- **Fin:** 01:23 :14 s
+ <img src="img/interviews/entrevista-validacion-tecnico-2.png">
+
+#### Entrevista #3
+- **Nombre completo:** Luis Gomez
+- **Edad:** 23 años  
+- **Puesto o función que desempeñas:** Técnico de mantenimiento mecánico  
+- **Enlace del video:** [Validation Interview 6](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311053_upc_edu_pe/EbdxQ6H8_WpFpmp_VpUuPJQBSRnF4ci9ezYww8Y3j3C_gw?e=FAvhpB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Inicio:** 01:23 :14 s
+- **Fin:** 01:40 :08 s
+ <img src="img/interviews/entrevista-validacion-tecnico-3.png">
+
+
+### 5.3.3. Evaluaciones según heurísticas  
+**Sitio o Aplicación Evaluada:** MecaNet  
+
+**Tareas evaluadas:**  
+
+La presente evaluación de usabilidad se centró en analizar la experiencia de usuario al completar las siguientes funcionalidades dentro de la plataforma:
+
+- Ingreso a la aplicación desde la landing page  
+- Registro de cuenta en la plataforma  
+- Proceso de inicio de sesión  
+- Acceso y visualización de la pantalla principal  
+- Navegación por el calendario (semanal y mensual)  
+- Consulta del inventario (repuestos y solicitudes de adquisición)  
+- Gestión de activos (maquinarias y líneas de producción)  
+- Revisión de órdenes de trabajo  
+- Consulta y seguimiento de planes de mantenimiento  
+- Gestión del personal técnico  
+- Acceso a la configuración de cuenta  
+
+Quedan fuera del alcance de esta evaluación:
+
+- Recuperación de contraseña o cuenta  
+- Visualización de reportes e indicadores  
+- Funcionalidades específicas del perfil técnico  
+
+---
+
+### Escala de severidad  
+*Los hallazgos fueron clasificados con base en la siguiente escala de severidad:*  
+
+|***Nivel***|***Descripción***|
+| :-: | :-: |
+|*1*|*Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.*|
+|*2*|*Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase*|
+|*3*|*Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.*|
+|*4*|*Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.*|
+
+---
+
+### Tabla resumen
+
+|**#**|**Problema**|**Escala de severidad**|**Heurística/principio violada(o)**|
+| :- | :- | :- | :- |
+|1| No existe un medio directo de contacto en la landing page | 3 | Usability: Help and documentation |
+|2| El formulario de registro está restringido solo a usuarios administradores | 4 | Usability: Flexibility and efficiency of use |
+
+---
+
+### Descripción de problemas
+
+---
+
+#### **PROBLEMA #1:** Ausencia de canal directo para contacto en la landing page  
+
+**Severidad:** 3  
+**Heurística violada:** Usability: Help and documentation  
+
+**Descripción:**  
+La página de inicio del sistema cuenta con una sección de preguntas frecuentes, sin embargo, no brinda una forma directa de contacto como un formulario, correo visible o botón de soporte. Esta omisión puede dificultar que usuarios potenciales aclaren dudas específicas, reduciendo la posibilidad de conversión o retención inicial.
+
+**Imagen:**  
+<img src="" width="600px">
+
+**Recomendación:**  
+Implementar un formulario de contacto sencillo con campos como nombre, correo y mensaje, además de una notificación visual de confirmación al enviarlo. También puede considerarse incluir accesos directos a canales alternativos (correo, WhatsApp o chat en vivo).
+
+---
+
+#### **PROBLEMA #2:** El registro de cuenta está limitado a administradores  
+
+**Severidad:** 4  
+**Heurística violada:** Usability: Flexibility and efficiency of use  
+
+**Descripción:**  
+Actualmente, la opción de registro está diseñada únicamente para administradores, impidiendo que los técnicos creen sus propias cuentas. Esta limitación obliga a que el administrador registre a todos los técnicos manualmente, lo cual genera fricción en el proceso de adopción y uso inicial de la plataforma.
+
+**Imagen:**  
+<img src="" width="600px">
+
+**Recomendación:**  
+Permitir la selección del tipo de cuenta (Administrador o Técnico) desde el formulario de registro inicial. Esto facilitaría que cada usuario se incorpore según su rol correspondiente, sin depender de terceros, y promueve una experiencia más fluida y autónoma.
+
+
 # Conclusiones
 ## Conclusiones y recomendaciones.
  ### Problema Principal
