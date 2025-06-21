@@ -1901,7 +1901,7 @@ En comparación con el escenario actual, el To-Be Scenario introduce mejoras cla
 | US29 | Eliminar técnico | Como administrador, quiero eliminar técnicos que ya no forman parte del equipo, para mantener la base de datos limpia. | Escenario 1: Eliminación correcta **Given** que accede al listado de técnicos. **When** selecciona uno y confirma su eliminación. **Then** el sistema elimina al técnico y actualiza sus asignaciones. Escenario 2: Técnico con tareas pendientes **Given** que el técnico tiene tareas asignadas. **When** intenta eliminarlo. **Then** el sistema impide la acción e informa sobre las tareas activas. | EP09 |
 | US30 | Modificar perfil | Como usuario (técnico o administrador), quiero editar los datos de mi perfil, para mantener mi información actualizada. | Escenario 1: Modificación exitosa **Given** que el usuario accede a su perfil. **When** actualiza su información y guarda los cambios. **Then** el sistema confirma la modificación y actualiza los datos. Escenario 2: Error en formato de datos **Given** que el usuario ingresa datos inválidos (ej. email mal escrito). **When** intenta guardar los cambios. **Then** el sistema muestra errores específicos que debe corregir. | EP09 |
 | US31 | Actualización de inventario | Como administrador, quiero actualizar las cantidades de herramientas y materiales en el inventario, para su correcta información. | Escenario 1: Revisión de inventario **Given** que accedió al inventario. **When** actualiza las cantidades de herramientas o materiales. **Then** se muestra un mensaje diciendo que se actualizó el inventario con éxito. Escenario 2: Error en la base de datos **Given** que accedió al inventario. **When** intenta ingresar una cantidad inválida (como un número negativo) **Then** el sistema muestra un mensaje indicando que el valor ingresado no es válido. | EP06 |
-| US32 | Sección Hero del sitio web | Como usuario interesado, quiero ver una presentación clara del servicio apenas ingreso, para entender rápidamente qué ofrece Mecanet y por qué me conviene usarlo. | Escenario 1: Visualización inicial del servicio **Given** que el usuario accede a la landing page **When** se carga la página **Then** se muestra el nombre del sistema, un subtítulo explicativo y una breve descripción del servicio en el centro de la pantalla. Escenario 2: Métricas destacadas visibles  **Given** que el usuario hace scroll o visualiza la sección completa **When** observa los indicadores de impacto (ej. menos fallas, menos tiempo perdido, mantenimientos programados) **Then** puede entender rápidamente los beneficios concretos de la plataforma. | EP07 |
+| US32 | Sección Hero del sitio web | Como usuario interesado, quiero ver una presentación clara del servicio apenas ingreso, para entender rápidamente qué ofrece Mecanaut y por qué me conviene usarlo. | Escenario 1: Visualización inicial del servicio **Given** que el usuario accede a la landing page **When** se carga la página **Then** se muestra el nombre del sistema, un subtítulo explicativo y una breve descripción del servicio en el centro de la pantalla. Escenario 2: Métricas destacadas visibles  **Given** que el usuario hace scroll o visualiza la sección completa **When** observa los indicadores de impacto (ej. menos fallas, menos tiempo perdido, mantenimientos programados) **Then** puede entender rápidamente los beneficios concretos de la plataforma. | EP07 |
 | EP01 | Registro y organización inicial | Como administrador, quiero registrar los elementos y categorías del sistema, para organizar la información base de mantenimiento. | No corresponde | US01, US02, US25 |
 | EP02 | Gestión y planificación del plan de mantenimiento | Como administrador, quiero gestionar y planificar el plan de mantenimiento, para asegurar que las tareas se ejecuten en tiempo y forma. | No corresponde | US03, US04,US23, US24, US26 |
 | EP03 | Métricas de desempeño | Como administrador, quiero visualizar indicadores clave del sistema, para evaluar el rendimiento del equipo técnico y la eficiencia operativa. | No corresponde | US07 |
@@ -4434,7 +4434,7 @@ Como se evidencia, el equipo ha trabajado colaborativamente respetando el flujo 
 <br>
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
-En este sprint, hemos logrado implementar las funcionalidades fundamentales para la gestión inicial del sistema Mecanet. Esto incluye la capacidad de registrar y gestionar maquinarias y líneas de producción, generar órdenes de trabajo correctivas y asignar personal técnico a ellas, establecer planes de mantenimiento para las líneas de producción, y permitir a los técnicos consultar sus órdenes de trabajo diarias.<br/>
+En este sprint, hemos logrado implementar las funcionalidades fundamentales para la gestión inicial del sistema Mecanaut. Esto incluye la capacidad de registrar y gestionar maquinarias y líneas de producción, generar órdenes de trabajo correctivas y asignar personal técnico a ellas, establecer planes de mantenimiento para las líneas de producción, y permitir a los técnicos consultar sus órdenes de trabajo diarias.<br/>
 
 A continuación, se presentan capturas de pantalla de las principales vistas implementadas durante este sprint:<br/>
 
@@ -4589,6 +4589,569 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 
 ![image](https://github.com/user-attachments/assets/dbe220f7-def2-4f41-a155-0d8b25d4e2f9)
 
+### 5.2.3. Sprint 3
+#### 5.2.3.1. Sprint Planning 3
+<table>
+    <tr>
+        <td>Sprint #</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <th colspan="2"><strong>Sprint Planning Background</strong></th>
+    </tr>
+    <tr>
+        <td>Date</td>
+        <td>15/06/2025</td>
+    </tr>
+     <tr>
+        <td>Time</td>
+        <td> 11:00 AM</td>
+    </tr>
+     <tr>
+        <td>Location</td>
+        <td>Reunión virtual – Discord</td>
+    </tr>
+    <tr>
+        <td>Prepared By</td>
+        <td>Claudia Belledonne</td>
+    </tr>
+    <tr>
+        <td>Attendees (to planning meeting)</td>
+        <td>
+
+- Ariana Cecilia Agreda Sobrino
+            
+- Claudia Valeria Belledonne Espinoza
+            
+- Mauricio Daniel Elera Rodríguez
+            
+- Victor Andres Cruz Ibarra
+
+- Rafael Andres Vivanco Salazar
+   </td>
+    </tr>
+    <tr>
+        <td>Sprint 3 – 2 Review Summary</td>
+        <td>Durante la revisión del Sprint 2, se logró desarrollar e implementar las funcionalidades esenciales de la página web para una gestión integral. Esto incluyó la gestión de usuarios (creación e inicio de sesión para cuentas corporativas y de usuario), la administración de activos (maquinarias), la gestión de la línea de producción, la planificación del mantenimiento y el menú de órdenes de trabajo. Se recibieron comentarios positivos sobre la claridad de la información y la navegación de estas nuevas funcionalidades.</td>
+    </tr>
+    <tr>
+        <td>Sprint 3 – 2 Retrospective Summary</td>
+        <td>En la retrospectiva del Sprint 2, se destacó como aspectos positivos la buena comunicación y coordinación durante el sprint, así como una mayor claridad en la definición de tareas desde la planificación. Sin embargo, se identificaron oportunidades de mejora, como refinar la estimación de tiempos para evitar retrasos en tareas complejas y distribuir mejor la carga de trabajo.</td>
+    </tr>
+    <tr>
+        <th colspan="2"><strong>Sprint Goal & User Stories</strong></th>
+    </tr>
+    <tr>
+        <td>Sprint 3 Goal</td>
+        <td>
+<strong>Nuestra meta para este sprint es</strong> desarrollar e implementar las funcionalidades esenciales del backend para la aplicación MecaNaut, enfocándonos en la creación de APIs REST para la gestión de usuarios (registro y consulta), administración de roles, manejo de órdenes de trabajo (creación y seguimiento), control de inventario (registro y consulta de ítems) y gestión de activos (maquinarias y equipos).
+
+<strong>Creemos que</strong> esto proporcionará una base técnica sólida para el correcto funcionamiento del sistema, permitiendo el almacenamiento seguro de datos y la comunicación efectiva entre el frontend y el backend.
+
+<strong>Esto se confirmará</strong> cuando las APIs de usuarios permitan registrar y consultar datos correctamente. Se validará que las APIs de órdenes de trabajo faciliten la creación y listado de órdenes sin errores, mientras que las APIs de inventario soporten el registro de ítems y la consulta de su información. Finalmente, se confirmará cuando las APIs de activos permitan el registro y consulta de detalles de equipos, y las métricas de mantenimiento puedan generarse y consultarse adecuadamente, garantizando que los usuarios gestionen eficientemente sus operaciones desde la página web.
+    </td>
+    </tr>
+     <tr>
+        <td>Sprint 3 Velocity  </td>
+        <td>35 Story Points.</td>
+    </tr>
+     <tr>
+        <td>Sum of Story Points  </td>
+        <td>34 Story Points.</td>
+    </tr>
+</table>
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+<table>
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>Sección API Gestión de Usuarios<br/>Leader (L) / Collaborator (C)</th>
+    <th>Sección API Órdenes de Trabajo<br/>Leader (L) / Collaborator (C)</th>
+    <th>Sección API Inventario<br/>Leader (L) / Collaborator (C)</th>
+    <th>Sección API Plan de Mantenimiento<br/>Leader (L) / Collaborator (C)</th>
+    <th>Sección API Gestión de Activos<br/>Leader (L) / Collaborator (C)</th>
+    <th>Sección API Métricas<br/>Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Agreda, Ariana</td>
+    <td>arii4w</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Belledonne, Claudia</td>
+    <td>Cl4us-tb</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Elera, Mauricio</td>
+    <td>Maur1xio</td>
+    <td>L</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Cruz, Victor</td>
+    <td>Elandrehs</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+    <tr>
+    <td>Vivanco, Rafael</td>
+    <td>RafaelVivanco</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+</table>
+
+#### 5.2.3.3. Sprint Backlog 3.
+<p>El objetivo de este tercer sprint es desarrollar las APIs esenciales del backend para la gestión de usuarios (registro y autenticación), administración de inventario (registro y consulta de ítems), control de activos (maquinarias y equipos), generación de órdenes de trabajo y reportes de métricas de mantenimiento. Esto proporcionará la base técnica para el funcionamiento integral del sistema y la futura integración con el frontend.</p>
+<img src="img/sprint2/Trello-Mecanaut-Sprint3.png">
+<p>link: https://trello.com/invite/b/6856e1e8c088d7020dccd927/ATTI90b6034f0cedf76620020ee88e41c87eB625855C/mecanaout-opensource</p>
+
+<table>
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="6">Sprint 3</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+    
+<tr>
+    <th rowspan="2">TS01</th>
+    <th rowspan="2">Post Usuario</th>
+    <td>1</td>
+    <td align="justify">Crear endpoint POST para registrar usuario</td>
+    <td align="justify">Implementar el endpoint en el backend que permita registrar nuevos usuarios en la base de datos, validando los datos requeridos (nombre, correo, contraseña, tipo de usuario).</td>
+    <td>4 hr</td>
+    <td>Mauricio Elera</td>
+    <td>In Progress</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td align="justify">Configurar validaciones y seguridad para el registro</td>
+    <td align="justify">Agregar validaciones (campos requeridos, formato de correo, hash de contraseña) y medidas de seguridad básicas para proteger el endpoint.</td>
+    <td>3 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>In Progress</td>
+</tr>
+
+<tr>
+    <th rowspan="2">TS02</th>
+    <th rowspan="2">Get Usuario</th>
+    <td>3</td>
+    <td align="justify">Crear endpoint GET para consultar usuario por ID</td>
+    <td align="justify">Permitir obtener la información básica de un usuario específico mediante su ID, retornando datos personales y roles asociados.</td>
+    <td>4 hr</td>
+    <td>Mauricio Elera</td>
+    <td>To Do</td>
+</tr>
+<tr>
+    <td>4</td>
+    <td align="justify">Conectar consulta a base de datos y estructurar respuesta</td>
+    <td align="justify">Realizar la consulta a la base de datos y retornar la información estructurada en formato JSON para el frontend.</td>
+    <td>3 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>To Do</td>
+</tr>
+
+<tr>
+    <th rowspan="1">TS03</th>
+    <th rowspan="1">Get Roles por Usuario</th>
+    <td>5</td>
+    <td align="justify">Implementar endpoint GET de roles por usuario</td>
+    <td align="justify">Permitir recuperar los roles asignados a un usuario autenticado para establecer los permisos del sistema.</td>
+    <td>3 hr</td>
+    <td>Ariana Agreda</td>
+    <td>To Do</td>
+</tr>
+
+<tr>
+    <th rowspan="2">TS04</th>
+    <th rowspan="2">Post Plan de mantenimiento</th>
+    <td>6</td>
+    <td align="justify">Diseñar modelo de plan de mantenimiento</td>
+    <td align="justify">Definir la estructura de datos para registrar un nuevo plan de mantenimiento (dinámico o estático).</td>
+    <td>4 hr</td>
+    <td>Victor Cruz</td>
+    <td>In Progress</td>
+</tr>
+<tr>
+    <td>7</td>
+    <td align="justify">Crear endpoint POST para orden de trabajo</td>
+    <td align="justify">Desarrollar el endpoint que reciba los datos del plan de mantenimiento y los almacene correctamente en la base de datos.</td>
+    <td>5 hr</td>
+    <td>Rafael Vivanco</td>
+    <td>In Progress</td>
+</tr>
+
+<tr>
+    <th rowspan="1">TS05</th>
+    <th rowspan="1">Get Plan de mantenimiento</th>
+    <td>8</td>
+    <td align="justify">Desarrollar endpoint GET para obtener un Plan de Mantenimiento</td>
+    <td align="justify">Permitir obtener un Plan de Mantenimiento filtrado por ID.</td>
+    <td>4 hr</td>
+    <td>Mauricio Elera</td>
+    <td>To Do</td>
+</tr>
+
+<tr>
+    <th rowspan="1">TS06</th>
+    <th rowspan="1">Get Métricas de Maquinarias</th>
+    <td>9</td>
+    <td align="justify">Implementar endpoint de métricas</td>
+    <td align="justify">Desarrollar una API que calcule y entregue indicadores clave de mantenimiento utilizando los datos históricos de órdenes completadas.</td>
+    <td>5 hr</td>
+    <td>Ariana Agreda</td>
+    <td>To Do</td>
+</tr>
+
+<tr>
+    <th rowspan="2">TS07</th>
+    <th rowspan="2">Post Inventory Item</th>
+    <td>10</td>
+    <td align="justify">Diseñar modelo de ítem de inventario</td>
+    <td align="justify">Definir los atributos requeridos para registrar herramientas y materiales (nombre, código, cantidad, ubicación).</td>
+    <td>3 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>In Progress</td>
+</tr>
+<tr>
+    <td>11</td>
+    <td align="justify">Crear endpoint POST para ítems de inventario</td>
+    <td align="justify">Crear API que registre ítems en el sistema, permitiendo su uso posterior en tareas de mantenimiento.</td>
+    <td>4 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>In Progress</td>
+</tr>
+
+<tr>
+    <th rowspan="1">TS08</th>
+    <th rowspan="1">Get Inventory Item</th>
+    <td>12</td>
+    <td align="justify">Desarrollar endpoint GET para consultar ítems</td>
+    <td align="justify">Obtener información detallada de cada ítem del inventario para verificar su disponibilidad.</td>
+    <td>3 hr</td>
+    <td>Victor Cruz</td>
+    <td>To Do</td>
+</tr>
+
+<tr>
+    <th rowspan="2">TS09</th>
+    <th rowspan="2">Post Activo</th>
+    <td>13</td>
+    <td align="justify">Diseñar modelo de activo</td>
+    <td align="justify">Definir los atributos y relaciones necesarias de activos como maquinaria, para su programación en mantenimientos.</td>
+    <td>3 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>To Do</td>
+</tr>
+<tr>
+    <td>14</td>
+    <td align="justify">Crear endpoint POST para registrar activo</td>
+    <td align="justify">Permitir el registro de nuevos activos mediante API, validando la unicidad de cada registro.</td>
+    <td>4 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>To Do</td>
+</tr>
+
+<tr>
+    <th rowspan="1">TS10</th>
+    <th rowspan="1">Get Activo</th>
+    <td>15</td>
+    <td align="justify">Desarrollar API para obtener datos de activo</td>
+    <td align="justify">Permitir visualizar datos específicos de un activo registrado, como tipo, estado y uso actual.</td>
+    <td>3 hr</td>
+    <td>Mauricio Elera</td>
+    <td>To Do</td>
+</tr>
+
+
+</table>
+
+#### 5.2.3.4. Development Evidence for Sprint Review.
+En este sprint, se lograron avances fundamentales en la construcción de la lógica del backend para Mecanaut, priorizando la gestión de usuarios, activos, órdenes de trabajo, métricas y elementos de inventario. Se implementaron múltiples endpoints REST para el registro y recuperación de datos clave, permitiendo sentar las bases para una interacción fluida con el frontend y asegurar la persistencia de la información operativa. Las validaciones, modelos de datos y estructuras de control fueron diseñadas con énfasis en escalabilidad y mantenibilidad.<br/>
+
+A continuación, se presenta una tabla con los commits relacionados con la implementación de estas funcionalidades:  <br/>
+
+| Repository                                                                                           | Branch  | Commit Id | Commit Message                                 | Commit Message Body                                                              | Committed on (Date) |
+| ---------------------------------------------------------------------------------------------------- | ------- | --------- | ---------------------------------------------- | -------------------------------------------------------------------------------- | ------------------- |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | 81f3a1c   | feat(user): implement POST user registration   | Added endpoint for user creation with validation and password hashing            | 10/06/2025         |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | 94b2e8d   | feat(user): add GET user by ID                 | Implemented GET endpoint to retrieve user information with role mapping          | 17/06/2025          |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | a72d3c7   | feat(order): implement POST maintenance plan         | Created model and controller logic to register new work orders in DB             | 17/06/2025          |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | b51f2a9   | feat(order): add GET a maintenance plan          | Endpoint to retrieve and filter work orders by date, status, and priority        | 18/06/2025          |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | c12ff9b   | feat(metrics): implement machinery metrics | Developed metric calculation logic from completed orders                         | 18/06/2025          |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | d72ca6e   | feat(inventory): add POST inventory item       | Enabled registration of inventory tools and materials with validation rules      | 18/06/2025          |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | e49d8f0   | feat(asset): implement POST asset registration | Created data structure and API for adding new equipment or machines              | 19/06/2025          |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | f28c9ad   | ci: update CI pipeline for backend deployment  | Modified GitHub Actions for backend automatic deployment on sprint release       | 19/06/2025          |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | main    | f28c9ad   | chore(release): merge Sprint 3 backend to main | Merged all Sprint 3 backend features including users, assets, orders and metrics | 19/06/2025          |
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+En este sprint, hemos logrado implementar las funcionalidades fundamentales para la gestión inicial del sistema Mecanaut. Esto incluye la capacidad de registrar y gestionar maquinarias y líneas de producción, establecer planes de mantenimiento para las líneas de producción entre otros.<br/>
+
+A continuación, se presentan capturas de pantalla de las principales funcionalidades implementadas durante este sprint:<br/>
+
+#### Evidencia 1: Registro de Plantas
+![image](https://github.com/user-attachments/assets/ca3bd3b7-4b30-4f0a-9a18-138fb59b5b47)
+![image](https://github.com/user-attachments/assets/9d3c31b4-3513-4349-860f-3a7ac9bab299)
+![image](https://github.com/user-attachments/assets/1c0154f3-8392-44d8-bee8-52b4ec8da180)
+
+
+#### Evidencia 2: Listado de maquinarias registradas
+![image](https://github.com/user-attachments/assets/343996b8-f1d4-4f6f-a74e-0f156dd5a030)
+![image](https://github.com/user-attachments/assets/9ebecd2f-aea6-4329-91e9-634e0d78b40b)
+
+
+#### Evidencia 3: Registro de línea de producción
+![image](https://github.com/user-attachments/assets/ef9a15b0-90c1-4a22-bdf3-f6a696c51913)
+![image](https://github.com/user-attachments/assets/64af89ab-c320-4aa0-9e0f-29eb817f6fa5)
+![image](https://github.com/user-attachments/assets/31926553-c322-4da2-ac1d-dbb4970e5679)
+
+#### Evidencia 4: Obtener métricas de maquinaria
+![image](https://github.com/user-attachments/assets/d8829fad-f539-4e0a-876c-3b7fcd21c1f2)
+![image](https://github.com/user-attachments/assets/75f24a42-e25d-4224-9341-7e9bee568820)
+
+
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+Durante este Sprint, se avanzó significativamente en la documentación de los servicios web desarrollados para el backend del sistema Mecanaut, utilizando OpenAPI (Swagger). Esta documentación permite la visualización, prueba e integración futura con el frontend y facilita la validación de la estructura de los endpoints REST implementados.
+
+Los endpoints documentados corresponden a las funcionalidades clave desarrolladas durante el Sprint, incluyendo el registro y consulta de maquinarias, líneas de producción, órdenes de trabajo, métricas de mantenimiento y gestión de usuarios. A través de Swagger UI, los desarrolladores pueden interactuar con cada uno de estos servicios, visualizar sus parámetros, realizar llamadas HTTP con datos de ejemplo y observar las respuestas correspondientes.
+
+| Módulo               | Acción                        | Método | Endpoint                  | Parámetros (ejemplo)                                                         | Respuesta (ejemplo)                                                         |
+| -------------------- | ----------------------------- | ------ | ------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Maquinarias          | Registrar maquinaria          | POST   | `/api/maquinarias`        | `{"nombre": "Compresora", "modelo": "XK-120", "serie": "A1234"}`             | `{"id": 1, "nombre": "Compresora", "modelo": "XK-120", "serie": "A1234"}`   |
+|                      | Listar maquinarias            | GET    | `/api/maquinarias`        | -                                                                            | `[{"id": 1, "nombre": "Compresora", "modelo": "XK-120", "serie": "A1234"}]` |
+| Líneas de Producción | Registrar línea de producción | POST   | `/api/lineas-produccion`  | `{"nombre": "Línea 1", "prioridad": 2}`                                      | `{"id": 1, "nombre": "Línea 1", "prioridad": 2}`                            |
+|                      | Consultar líneas              | GET    | `/api/lineas-produccion`  | -                                                                            | `[{"id": 1, "nombre": "Línea 1", "prioridad": 2}]`                          |
+| Planes de Mantenimiento   | Crear plan de mantenimiento        | POST   | `/api/maintenance-plan` | `{"name": "Plan Prueba", "startDate": "2025-06-20", "endDate": "2025-06-20", "productionLineId": 1, "cyclePeriodInDays": 10, "durationInDays": 1}` | `{"id": 1, "name": "Plan Prueba", "startDate": "2025-06-20", "endDate": "2025-06-20", "status": "ACTIVE", "productionLineId": 1, "cyclePeriodInDays": 10, "durationInDays": 1, "items": []}`                    |
+|                      | Consultar plan             | GET    | `/api/maintenance-plan`            | -                                                                            | `[{"id": 1, "estado": "ACTIVE"}]`                  |
+| Métricas (MTTR/MTBF) | Obtener métricas              | GET    | `/api/metricas/mttr-mtbf` | -                                                                            | `{"mttr": 5.2, "mtbf": 48.3}`                                               |
+| Autenticación        | Login de usuario              | POST   | `/api/auth/login`         | `{"email": "admin@Mecanaut.com", "password": "123456"}`                       | `{"token": "eyJhbGciOi..."}`                                                |
+
+#### Capturas de la documentación OpenAPI/Swagger
+
+- Endpoint GET /api/v1/roles – Obtener todos los roles
+![image](https://github.com/user-attachments/assets/ff24f69b-b608-4f34-a29e-2722a8153a22)
+
+
+- Endpoint POST /api/v1/authentication/sign-up – Registro de usuario
+![image](https://github.com/user-attachments/assets/cad232f5-65d1-4494-a910-8a598f442b1d)
+
+
+- Endpoint GET /api/v1/metric-definitions – Obtener todas las definiciones de métricas
+![image](https://github.com/user-attachments/assets/c95defec-7c69-4399-ba45-947a4ad21078)
+
+  
+- Endpoint POST /api/maquinarias – Registro de maquinaria
+![image](https://github.com/user-attachments/assets/ab20b452-58f4-48f2-bbb4-84913f9ddef1)
+
+
+- Endpoint POST /api/v1/maintenance-plans/dynamic – Crear plan de mantenimiento estático
+![image](https://github.com/user-attachments/assets/0af52037-c86c-4c10-98a3-68f12dd198f6)
+
+
+- Endpoint GET /api/v1/maintenance-plans/static/{planId} – Obtener plan de mantenimiento dinámico
+![image](https://github.com/user-attachments/assets/2fe60178-9029-40e4-aabc-35bba9e483f5)
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+Durante este Sprint, se avanzó en el proceso de Deployment del backend de la aplicación Mecanaut, enfocándose en el despliegue inicial de los Web Services en un entorno de desarrollo accesible, con el objetivo de facilitar la validación funcional por parte del equipo y sentar las bases para futuras integraciones con el frontend.
+
+#### Actividades realizadas en el Sprint 3:
+# Despliegue de **Mecanaut-Backend** – Guía Resumida (Windows 10/11)
+
+1. **Configuración de repositorio remoto:**  
+   * **Sistema de control de versiones:** Git + GitHub  
+   * **Repositorio oficial del backend:** [mecanaut-backend](https://github.com/awawaTech/mecanaut-back)
+
+2. **Creación de entorno de despliegue local:**  
+   * **Stack:** Spring Boot 3, Swagger UI, MySQL, Docker  
+   * **Archivo `docker-compose.yml`:**  
+     ```yml
+     services:
+       Mecanaut-db:
+         image: mysql:8
+         environment:
+           MYSQL_ROOT_PASSWORD: 123456789
+           MYSQL_DATABASE: Mecanaut
+           MYSQL_USER: dev
+         ports:
+           - "3306:3306"
+
+       Mecanaut-backend:
+         image: Mecanaut-backend:0.0.1
+         build:
+           context: .
+           dockerfile: Dockerfile
+         ports:
+           - "8080:8080"
+         environment:
+           - SPRING_PROFILES_ACTIVE=dev
+           - DB_PASSWORD=123456789
+         depends_on:
+           - Mecanaut-db
+     ```
+
+3. **Ejecución local exitosa:**  
+   * **Comando para levantar el entorno:**  
+     ```powershell
+     docker-compose up --build
+     ```  
+   * **Acceso al Swagger:** [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+
+4. **Variables de entorno de Spring Profiles:**  
+   * **Variables a configurar en Windows:**  
+     ```powershell
+     setx SPRING_PROFILES_ACTIVE "prod"
+     setx DB_PASSWORD "123456789"
+     ```  
+   * **Configuración de `application-dev.properties` y `application-prod.properties` para MySQL.**
+
+5. **Empaquetado y dockerización:**  
+   * **Generación del JAR:**  
+     ```powershell
+     mvn clean package
+     ```  
+   * **Dockerfile:**  
+     ```dockerfile
+     FROM openjdk:17-jdk-slim
+     VOLUME /tmp
+     EXPOSE 8080
+     COPY target/Mecanaut-backend-0.0.1-SNAPSHOT.jar app.jar
+     ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+     ```  
+   * **Ignorar archivos de build:**  
+     ```
+     .git
+     target/
+     .mvn/
+     mvnw*
+     ```
+
+6. **Recursos de Azure (CLI Windows PowerShell):**  
+   * **Pasos para la configuración de Azure:**  
+     ```powershell
+     az login
+     az group create --name MecanautRG --location "Central US"
+     az provider register --namespace Microsoft.ContainerRegistry
+     az acr create -g MecanautRG -n Mecanautacr --sku Basic --admin-enabled true
+     az acr login -n Mecanautacr
+     ```
+
+7. **Publicación de la imagen Docker:**  
+   * **Etiquetar y subir la imagen Docker a ACR:**  
+     ```powershell
+     docker tag Mecanaut-backend:0.0.1 Mecanautacr.azurecr.io/Mecanaut-backend:0.0.1
+     docker push Mecanautacr.azurecr.io/Mecanaut-backend:0.0.1
+     ```
+
+8. **Creación de Azure Web App for Containers:**  
+   * **Crear App Service Plan + Web App:**  
+     ```powershell
+     az appservice plan create --name MecanautPlan --resource-group MecanautRG --is-linux --sku B1
+     az webapp create --resource-group MecanautRG --plan MecanautPlan --name Mecanaut-api --deployment-container-image-name Mecanautacr.azurecr.io/Mecanaut-backend:0.0.1
+     ```
+
+   * **Vincular ACR & actualizar variables de entorno:**  
+     ```powershell
+     az webapp config container set --name Mecanaut-api --resource-group MecanautRG --docker-custom-image-name Mecanautacr.azurecr.io/Mecanaut-backend:0.0.1 --docker-registry-server-url https://Mecanautacr.azurecr.io
+     az webapp config appsettings set --name Mecanaut-api --resource-group MecanautRG --settings SPRING_PROFILES_ACTIVE=prod DB_PASSWORD=123456789 PORT=8080
+     ```
+
+   * **Desactivar soporte Sidecar y configurar puerto 8080.**
+
+9. **Verificación en producción:**  
+   * **URL de prueba:**  
+     https://Mecanautbackend-hjexa7d8bkfybmfv.centralus-01.azurewebsites.net/swagger-ui/index.html
+   Confirmar que la aplicación esté funcionando con el perfil **prod** y la conexión a Azure MySQL.
+
+#### Capturas del Proceso de Deployment
+
+
+![Evidencia 1:](/img/sprint3/prod/prod1.png)
+![Evidencia 2:](/img/sprint3/prod/prod2.png)
+![Evidencia 3:](/img/sprint3/prod/prod3.png)
+![Evidencia 4:](/img/sprint3/prod/prod4.png)
+![Evidencia 5:](/img/sprint3/prod/prod5.png)
+![Evidencia 6:](/img/sprint3/prod/prod6.png)
+![Evidencia 7:](/img/sprint3/prod/prod7.png)
+![Evidencia 8:](/img/sprint3/prod/prod8.png)
+![Evidencia 9:](/img/sprint3/prod/prod9.png)
+![Evidencia 10:](/img/sprint3/prod/prod10.png)
+![Evidencia 11:](/img/sprint3/prod/prod11.png)
+![Evidencia 12:](/img/sprint3/prod/prod12.png)
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+Durante el desarrollo de este Sprint, el equipo colaboró de forma activa y coordinada en la implementación de las funcionalidades principales del backend del sistema Mecanaut. La colaboración se centró en la creación de entidades de dominio, el desarrollo de controladores REST, la configuración del entorno de desarrollo con Spring Boot y MySQL, y la documentación de servicios con Swagger (OpenAPI).<br/>
+
+A continuación, se detalla la participación específica de cada integrante del equipo en las principales áreas funcionales del backend:
+
+| **Nombre**                       | **Actividad**                                                                                                                                                              |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Agreda Sobrino, Ariana Cecilia   | Responsable del modelado de entidades principales y configuración de la base de datos MySQL. Participó en la definición de relaciones entre entidades y persistencia.      |
+| Belledone Espinoza, Claudia      | Encargada de la lógica de negocio y servicios de autenticación. Desarrolló la estructura de seguridad, generación de tokens JWT y configuración de rutas protegidas.       |
+| Elera Rodríguez, Mauricio Daniel | Implementó los controladores REST y validaciones. Participó activamente en la construcción de endpoints para entidades como usuarios, técnicos y órdenes.                  |
+| Vivanco Salazar, Rafael Andres | Responsable de la documentación con Swagger. Estructuró el despliegue local del backend con Docker.      |
+| Cruz Ibarra, Victor Andres | Participó en la recopilación de requerimientos técnicos para el backend y colaboró en la validación de los endpoints mediante pruebas funcionales con Postman.      |
+
+
+
+#### Evidencia de colaboración en GitHub
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial del backend, donde se evidencia la participación activa de todos los miembros del equipo en el Sprint 3. <br/>
+
+Captura de colaboracion en github:
+
+
+![Evidencia Git1:](/img/sprint3/network3.png)
+![Evidencia Git2:](/img/sprint3/contribuitors3.png)
+![Evidencia Git3:](/img/sprint3/git.png)
+![Evidencia Git4:](/img/sprint3/commit.png)
+
+
+
+
+#### Repositorio de trabajo:
+* Repositorio del Backend en GitHub: https://github.com/awawaTech/mecanaut-back
+
+El equipo mantuvo una comunicación constante durante todo el Sprint, utilizando herramientas colaborativas como GitHub y reuniones breves, permitiendo una integración progresiva de los módulos desarrollados y asegurando que cada funcionalidad contara con aportes técnicos y revisiones cruzadas por parte de todos los miembros.
+
+
 # Conclusiones
 ## Conclusiones y recomendaciones.
  ### Problema Principal
@@ -4629,6 +5192,15 @@ Mecanauts no solo resuelve los problemas inmediatos de las empresas, sino que ti
 
 
 # Video About-the-Team.
+![image](https://github.com/user-attachments/assets/95e68b0a-e793-4933-9ffe-b59ae6ead8d3)
+
+link: https://youtu.be/ch44ZfRNnuE
+
+# Video About-the-Product.
+![image](https://github.com/user-attachments/assets/60510df1-2ead-496b-9559-5532f6067382)
+
+link: https://www.youtube.com/watch?v=cW31cmfSuA8
+
 # Bibliografía
 McKinsey & Company. (2021). Innovación a través de la disrupción digital en servicio a clientes. [https://www.mckinsey.com/pe/our-insights/innovation-through-the-digital-disruption-of-customer-service](https://www.mckinsey.com/pe/our-insights/innovation-through-the-digital-disruption-of-customer-service) 
 
@@ -4643,3 +5215,10 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 - Documentación del Proyecto: [https://github.com/awawaTech/Project-Report](https://github.com/awawaTech/Project-Report)
 - Video exposición TP1: [https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315044_upc_edu_pe/EqV7XG3MjIdKqtKWRBkYUzEBoPuAjLCYm_iKfNx94Q5Hyw?e=JT2uUQ](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202315044_upc_edu_pe/EqV7XG3MjIdKqtKWRBkYUzEBoPuAjLCYm_iKfNx94Q5Hyw?e=JT2uUQ)
 - Frontend App desplegado del proyecto: [https://agreeable-glacier-01474611e.6.azurestaticapps.net/](https://agreeable-glacier-01474611e.6.azurestaticapps.net/)
+- Video About The product:
+- https://youtu.be/cW31cmfSuA8
+- https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210259_upc_edu_pe/EQZYuCOUrwROqPTL4T3q65kBQR6OupO11aRn8NsnEDmTSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pzeLdc
+- Video About The team:
+- https://youtu.be/ch44ZfRNnuE
+- https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210259_upc_edu_pe/Eatgx8ofihRLkXpFKcXZp-kBTvydQxAIaxjAxhq3S3nfew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=U4mI7y
+
