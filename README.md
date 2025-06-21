@@ -5338,7 +5338,7 @@ Quedan fuera del alcance de esta evaluación:
 La página de inicio del sistema cuenta con una sección de preguntas frecuentes, sin embargo, no brinda una forma directa de contacto como un formulario, correo visible o botón de soporte. Esta omisión puede dificultar que usuarios potenciales aclaren dudas específicas, reduciendo la posibilidad de conversión o retención inicial.
 
 **Imagen:**  
-<img src="" width="600px">
+<img src="img/interviews/heuristicasA.png" width="600px">
 
 **Recomendación:**  
 Implementar un formulario de contacto sencillo con campos como nombre, correo y mensaje, además de una notificación visual de confirmación al enviarlo. También puede considerarse incluir accesos directos a canales alternativos (correo, WhatsApp o chat en vivo).
@@ -5354,7 +5354,7 @@ Implementar un formulario de contacto sencillo con campos como nombre, correo y 
 Actualmente, la opción de registro está diseñada únicamente para administradores, impidiendo que los técnicos creen sus propias cuentas. Esta limitación obliga a que el administrador registre a todos los técnicos manualmente, lo cual genera fricción en el proceso de adopción y uso inicial de la plataforma.
 
 **Imagen:**  
-<img src="" width="600px">
+<img src="img/interviews/heuristicasB.png" width="600px">
 
 **Recomendación:**  
 Permitir la selección del tipo de cuenta (Administrador o Técnico) desde el formulario de registro inicial. Esto facilitaría que cada usuario se incorpore según su rol correspondiente, sin depender de terceros, y promueve una experiencia más fluida y autónoma.
