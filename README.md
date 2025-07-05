@@ -5012,6 +5012,447 @@ Captura de colaboracion en github:
 ![Evidencia Git3:](/img/sprint3/git.png)
 ![Evidencia Git4:](/img/sprint3/commit.png)
 
+
+
+### 5.2.4. Sprint 4
+#### 5.2.4.1. Sprint Planning 4
+<table>
+    <tr>
+        <td>Sprint #</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <th colspan="2"><strong>Sprint Planning Background</strong></th>
+    </tr>
+    <tr>
+        <td>Date</td>
+        <td>04/07/2025</td>
+    </tr>
+    <tr>
+        <td>Time</td>
+        <td>10:00 AM</td>
+    </tr>
+    <tr>
+        <td>Location</td>
+        <td>Reunión virtual – Discord</td>
+    </tr>
+    <tr>
+        <td>Prepared By</td>
+        <td>Claudia Belledonne</td>
+    </tr>
+    <tr>
+        <td>Attendees (to planning meeting)</td>
+        <td>
+- Ariana Cecilia Agreda Sobrino<br/>
+- Claudia Valeria Belledonne Espinoza<br/>
+- Mauricio Daniel Elera Rodríguez<br/>
+- Victor Andres Cruz Ibarra<br/>
+- Rafael Andres Vivanco Salazar
+        </td>
+    </tr>
+    <tr>
+        <td>Sprint 4 – 3 Review Summary</td>
+        <td>Durante el Sprint 3 se desarrollaron las APIs principales que conforman la base del backend del sistema MecaNaut, incluyendo endpoints para usuarios, roles, activos, órdenes de trabajo, métricas de mantenimiento y manejo de inventario. Estas APIs fueron implementadas con validaciones básicas, conexión a la base de datos y pruebas locales. Este avance permitió tener un backend listo para ser consumido por el frontend en el siguiente sprint.</td>
+    </tr>
+    <tr>
+        <td>Sprint 4 – 3 Retrospective Summary</td>
+        <td>En la retrospectiva del Sprint 3 se valoró positivamente la correcta estructuración de los endpoints y el trabajo en equipo para mantener la coherencia del sistema. Se destacó la aplicación de buenas prácticas REST y el uso de controladores organizados. Sin embargo, se identificó como mejora la necesidad de probar la integración del frontend con las APIs desde etapas tempranas, así como documentar más detalladamente cada funcionalidad implementada.</td>
+    </tr>
+    <tr>
+        <th colspan="2"><strong>Sprint Goal & User Stories</strong></th>
+    </tr>
+    <tr>
+        <td>Sprint 4 Goal</td>
+        <td>
+<strong>Nuestra meta para este sprint es</strong> integrar y conectar exitosamente el frontend con el backend, asegurando que los datos fluyan correctamente entre ambos mediante los endpoints REST creados en el sprint anterior.
+
+<strong>Creemos que</strong> esto permitirá validar el sistema de forma funcional, permitiendo que los usuarios interactúen con información real (no simulada) desde la interfaz, y facilitando la detección de errores lógicos o de comunicación entre capas.
+
+<strong>Esto se confirmará</strong> cuando se prueben todos los flujos principales del sistema desde el navegador, incluyendo registro, inicio de sesión, visualización de inventario, planes de mantenimiento y órdenes de trabajo; y se compruebe que estos interactúan sin errores con el backend.
+        </td>
+    </tr>
+    <tr>
+        <td>Sprint 4 Velocity</td>
+        <td>47 Story Points.</td>
+    </tr>
+    <tr>
+        <td>Sum of Story Points</td>
+        <td>47 Story Points.</td>
+    </tr>
+</table>
+
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+
+<table>
+  <tr>
+    <th>Team Member (Last Name, First Name)</th>
+    <th>GitHub Username</th>
+    <th>US09</th>
+    <th>US11</th>
+    <th>US12</th>
+    <th>US18</th>
+    <th>US19</th>
+    <th>US20</th>
+    <th>US21</th>
+    <th>US22</th>
+    <th>US23</th>
+    <th>US24</th>
+    <th>US25</th>
+    <th>US26</th>
+    <th>US27</th>
+    <th>US28</th>
+    <th>US29</th>
+    <th>US30</th>
+    <th>US31</th>
+  </tr>
+  <tr>
+    <td>Agreda, Ariana</td>
+    <td>arii4w</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Belledonne, Claudia</td>
+    <td>Cl4us-tb</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Elera, Mauricio</td>
+    <td>Maur1xio</td>
+    <td>C</td>
+    <td>L</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Cruz, Victor</td>
+    <td>Elandrehs</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Vivanco, Rafael</td>
+    <td>RafaelVivanco</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+    
+</table>
+
+
+#### 5.2.4.3. Sprint Backlog 4.
+<p>El objetivo de este cuarto sprint es conectar las funcionalidades desarrolladas previamente en el backend con la interfaz del usuario, permitiendo la integración completa del sistema. Se trabajó en implementar, consumir y validar los endpoints desde el frontend para funcionalidades clave como el registro de cuentas, técnicos y planes de mantenimiento, así como la gestión de inventario, perfiles de usuario, tareas realizadas y visualización en distintos dispositivos. Esto permitió asegurar la comunicación entre capas y garantizar una experiencia funcional y coherente para usuarios técnicos y administradores dentro del sistema Mecanaut.</p>
+![Sprint Backlog 4:]()
+<p>link: https://trello.com/invite/b/6869ac6f5f53fd4d132b4158/ATTIadd3c83f4651caa18a358e778e8716902D79214F/mecanaut-sprint4</p>
+
+<table>
+  <tr>
+    <th colspan="2">Sprint #</th>
+    <th colspan="6">Sprint 4</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+
+  <!-- US09 -->
+  <tr>
+    <th rowspan="1">US09</th>
+    <th rowspan="1">Implementación de plan de trabajo</th>
+    <td>1</td>
+    <td align="justify">Conectar backend con el calendario de mantenimiento</td>
+    <td align="justify">Permitir agregar un plan al calendario desde el frontend, enviando datos al backend y mostrando confirmación visual.</td>
+    <td>4 hr</td>
+    <td>Victor Cruz</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US11 -->
+  <tr>
+    <th rowspan="1">US11</th>
+    <th rowspan="1">Solicitud de repuestos</th>
+    <td>2</td>
+    <td align="justify">Implementar formulario de solicitud de repuestos</td>
+    <td align="justify">Permitir que técnicos envíen solicitudes de repuestos a través del frontend y sean registradas en la base de datos.</td>
+    <td>3 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US12 -->
+  <tr>
+    <th rowspan="1">US12</th>
+    <th rowspan="1">Revisión de inventario</th>
+    <td>3</td>
+    <td align="justify">Conectar inventario con backend</td>
+    <td align="justify">Mostrar lista de insumos y permitir editar cantidades desde el frontend utilizando los endpoints correspondientes.</td>
+    <td>3 hr</td>
+    <td>Mauricio Elera</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US18 -->
+  <tr>
+    <th rowspan="1">US18</th>
+    <th rowspan="1">Registro de tareas realizadas</th>
+    <td>4</td>
+    <td align="justify">Agregar opción para marcar tareas como completadas</td>
+    <td align="justify">Permitir que el técnico actualice el estado de las tareas dentro de una orden de trabajo.</td>
+    <td>2 hr</td>
+    <td>Ariana Agreda</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US19 -->
+  <tr>
+    <th rowspan="1">US19</th>
+    <th rowspan="1">Visualización en dispositivos</th>
+    <td>5</td>
+    <td align="justify">Aplicar diseño responsive al sistema</td>
+    <td align="justify">Asegurar que todas las vistas se adapten a móviles, tablets y pantallas grandes utilizando CSS y Flex/Grid.</td>
+    <td>2 hr</td>
+    <td>Rafael Vivanco</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US20 -->
+  <tr>
+    <th rowspan="1">US20</th>
+    <th rowspan="1">Registro de cuenta</th>
+    <td>6</td>
+    <td align="justify">Conectar formulario de registro con backend</td>
+    <td align="justify">Enviar datos del formulario de empresa al endpoint para crear nueva cuenta.</td>
+    <td>2 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US21 -->
+  <tr>
+    <th rowspan="1">US21</th>
+    <th rowspan="1">Registro de técnicos</th>
+    <td>7</td>
+    <td align="justify">Conectar vista de registro de técnicos</td>
+    <td align="justify">Permitir al administrador registrar técnicos desde el frontend usando la API correspondiente.</td>
+    <td>2 hr</td>
+    <td>Rafael Vivanco</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US22 -->
+  <tr>
+    <th rowspan="1">US22</th>
+    <th rowspan="1">Inicio de sesión</th>
+    <td>8</td>
+    <td align="justify">Conectar formulario de login con autenticación</td>
+    <td align="justify">Permitir a técnicos o administradores iniciar sesión, autenticando con el backend.</td>
+    <td>3 hr</td>
+    <td>Mauricio Elera</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US23 -->
+  <tr>
+    <th rowspan="1">US23</th>
+    <th rowspan="1">Modificar plan de mantenimiento</th>
+    <td>9</td>
+    <td align="justify">Agregar funcionalidad de edición de planes</td>
+    <td align="justify">Permitir editar un plan de mantenimiento y enviar los cambios al backend.</td>
+    <td>3 hr</td>
+    <td>Victor Cruz</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US24 -->
+  <tr>
+    <th rowspan="1">US24</th>
+    <th rowspan="1">Eliminar plan de mantenimiento</th>
+    <td>10</td>
+    <td align="justify">Agregar funcionalidad de eliminación de planes</td>
+    <td align="justify">Eliminar un plan de mantenimiento del calendario enviando la solicitud al backend.</td>
+    <td>2 hr</td>
+    <td>Ariana Agreda</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US25 -->
+  <tr>
+    <th rowspan="1">US25</th>
+    <th rowspan="1">Eliminar activo</th>
+    <td>11</td>
+    <td align="justify">Eliminar activos desde interfaz</td>
+    <td align="justify">Permitir eliminar un activo existente desde la vista del administrador.</td>
+    <td>2 hr</td>
+    <td>Rafael Vivanco</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US26 -->
+  <tr>
+    <th rowspan="1">US26</th>
+    <th rowspan="1">Eliminar orden de trabajo repentina</th>
+    <td>12</td>
+    <td align="justify">Eliminar órdenes correctivas desde el sistema</td>
+    <td align="justify">Permitir borrar órdenes de trabajo inesperadas creadas por error desde el backend.</td>
+    <td>2 hr</td>
+    <td>Mauricio Elera</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US27 -->
+  <tr>
+    <th rowspan="1">US27</th>
+    <th rowspan="1">Visualización de perfil de administrador</th>
+    <td>13</td>
+    <td align="justify">Diseñar vista de perfil para administrador</td>
+    <td align="justify">Mostrar información personal y de cuenta del administrador, consumiendo la API correspondiente.</td>
+    <td>2 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US28 -->
+  <tr>
+    <th rowspan="1">US28</th>
+    <th rowspan="1">Visualización de perfil de técnico</th>
+    <td>14</td>
+    <td align="justify">Diseñar vista de perfil para técnico</td>
+    <td align="justify">Mostrar datos personales y tareas asignadas al técnico autenticado.</td>
+    <td>2 hr</td>
+    <td>Ariana Agreda</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US29 -->
+  <tr>
+    <th rowspan="1">US29</th>
+    <th rowspan="1">Eliminar técnico</th>
+    <td>15</td>
+    <td align="justify">Eliminar técnicos desde la interfaz</td>
+    <td align="justify">Permitir eliminar técnicos desde el panel de administración enviando solicitud al backend.</td>
+    <td>2 hr</td>
+    <td>Rafael Vivanco</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US30 -->
+  <tr>
+    <th rowspan="1">US30</th>
+    <th rowspan="1">Modificar perfil</th>
+    <td>16</td>
+    <td align="justify">Permitir edición de perfil</td>
+    <td align="justify">Permitir modificar datos personales desde el frontend y guardar los cambios en la base de datos.</td>
+    <td>2 hr</td>
+    <td>Claudia Belledonne</td>
+    <td>Done</td>
+  </tr>
+
+  <!-- US31 -->
+  <tr>
+    <th rowspan="1">US31</th>
+    <th rowspan="1">Actualización de inventario</th>
+    <td>17</td>
+    <td align="justify">Actualizar cantidades desde frontend</td>
+    <td align="justify">Permitir modificar el inventario desde la interfaz de administrador y sincronizar con la base de datos.</td>
+    <td>2 hr</td>
+    <td>Mauricio Elera</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+
+#### 5.2.4.4. Development Evidence for Sprint Review.
+
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
 
