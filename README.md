@@ -1,4 +1,4 @@
-<center>Project Report</center>
+![image](https://github.com/user-attachments/assets/f706b7f6-a272-4e63-b1d4-d63c3a86e684)<center>Project Report</center>
 
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
@@ -5447,8 +5447,378 @@ A continuación, se presentan algunas de las evidencias visuales que demuestran 
 ![image](https://github.com/user-attachments/assets/370d2ad9-141d-4d28-be9c-0463b0c86b51)
 ![image](https://github.com/user-attachments/assets/c071c375-aac7-4c8e-b5f5-0926c150044d)
 
+<br>
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+##### Inventory Parts
+
+| Endpoint | Verbo HTTP | Sintaxis |
+|----------|-------------|----------|
+| `/api/inventory-parts` | POST | `/api/inventory-parts` |
+
+---
+
+**Parámetros (Request Body):**  
+```
+{
+  "code": "P11223",
+  "name": "Tuerca de Acero M8",
+  "description": "Tuerca de acero de alta resistencia para tornillos M8.",
+  "currentStock": 1000,
+  "minStock": 200,
+  "unitPrice": 0.30,
+  "plantId": 1
+}
+```
+
+**Ejemplo Response (201 Created):**  
+```
+{
+  "id": 4,
+  "code": "P11223",
+  "name": "Tuerca de Acero M8",
+  "description": "Tuerca de acero de alta resistencia para tornillos M8.",
+  "currentStock": 1000,
+  "minStock": 200,
+  "unitPrice": 0.3,
+  "stockStatus": null
+}
+```
+
+**Descripción:**  
+Permite registrar una nueva parte de inventario vinculada a una planta específica.
+![Evidencia pl1:](/img/sprint-4/api/1.png)
+![Evidencia pl1:](/img/sprint-4/api/2.png)  
+
+<br>
+
+##### Inventory Parts (GET)
+
+| Endpoint | Verbo HTTP | Sintaxis |
+|----------|-------------|----------|
+| `/api/inventory-parts` | GET | `/api/inventory-parts?plantId=1` |
+
+---
+
+**Parámetros (Query):**  
+```
+plantId: 1
+```
+
+**Ejemplo Response (200 OK):**  
+```
+[
+  {
+    "id": 1,
+    "code": "A12345",
+    "name": "Tornillo de Acero Inoxidable",
+    "description": "Tornillo de alta resistencia, ideal para proyectos industriales y construcción.",
+    "currentStock": 80,
+    "minStock": 50,
+    "unitPrice": 0.75,
+    "stockStatus": null
+  },
+  {
+    "id": 2,
+    "code": "P12345",
+    "name": "Aceite Industrial X-100",
+    "description": "Aceite lubricante de alta viscosidad para maquinaria pesada.",
+    "currentStock": 190,
+    "minStock": 50,
+    "unitPrice": 15.75,
+    "stockStatus": null
+  },
+  {
+    "id": 3,
+    "code": "P67890",
+    "name": "Lubricante Universal",
+    "description": "Lubricante multipropósito para piezas mecánicas.",
+    "currentStock": 70,
+    "minStock": 30,
+    "unitPrice": 5.50,
+    "stockStatus": null
+  }
+]
+```
+
+**Descripción:**  
+Permite consultar todas las partes de inventario filtradas por `plantId`.
+![Evidencia pl1:](/img/sprint-4/api/3.png) 
+
+<br>
+
+##### Purchase Orders (POST)
+
+| Endpoint | Verbo HTTP | Sintaxis |
+|----------|-------------|----------|
+| `/api/purchase-orders` | POST | `/api/purchase-orders` |
+
+---
+
+**Parámetros (Request Body):**  
+```
+{
+  "orderNumber": "string",
+  "inventoryPartId": 0,
+  "quantity": 2147483647,
+  "totalPrice": 0,
+  "plantId": 0,
+  "deliveryDate": "2025-07-06T21:50:06.077Z"
+}
+```
+
+**Ejemplo Response (201 Created):**  
+```
+{
+  "id": 0,
+  "orderNumber": "string",
+  "inventoryPartId": 0,
+  "quantity": 0,
+  "totalPrice": 0,
+  "orderDate": "2025-07-06T21:50:06.089Z",
+  "deliveryDate": "2025-07-06T21:50:06.089Z",
+  "status": "string",
+  "plantId": 0
+}
+```
+
+**Descripción:**  
+Permite registrar una nueva orden de compra, vinculada a una parte de inventario y a una planta, incluyendo cantidad, precio total y fecha de entrega.
+
+![Evidencia pl1:](/img/sprint-4/api/4.png) 
+![Evidencia pl1:](/img/sprint-4/api/5.png) 
+
+<br>
+
+##### Work Orders (POST)
+
+| Endpoint | Verbo HTTP | Sintaxis |
+|----------|-------------|----------|
+| `/api/v1/work-orders` | POST | `/api/v1/work-orders` |
+
+---
+
+**Parámetros (Request Body):**  
+```
+{
+  "code": "string",
+  "date": "2025-07-06T21:53:42.645Z",
+  "productionLineId": 0,
+  "type": "string",
+  "machineIds": [
+    0
+  ],
+  "tasks": [
+    "string"
+  ],
+  "technicianIds": [
+    0
+  ]
+}
+```
+
+**Ejemplo Response (201 Created):**  
+```
+{
+  "id": 3,
+  "code": "PH-12345",
+  "status": "Pending",
+  "type": "Corrective",
+  "date": "2025-07-06T21:54:33.245Z",
+  "productionLineId": 1,
+  "machineIds": [
+    101,
+    103
+  ],
+  "technicianIds": [
+    5,
+    7
+  ],
+  "tasks": [
+    "Revisión de filtros",
+    "Inspección de cables y conexiones",
+    "Ajuste de componentes eléctricos",
+    "Limpieza de sistema de ventilación"
+  ]
+}
+```
+
+**Descripción:**  
+Permite crear una nueva orden de trabajo asociando línea de producción, máquinas, técnicos y tareas programadas.
+
+![Evidencia pl1:](/img/sprint-4/api/6.png) 
+![Evidencia pl1:](/img/sprint-4/api/7.png) 
+
+<br>
+
+##### Work Orders (GET)
+
+| Endpoint | Verbo HTTP | Sintaxis |
+|----------|-------------|----------|
+| `/api/v1/work-orders/{id}` | GET | `/api/v1/work-orders/3` |
+
+---
+
+**Parámetros (Path):**  
+```
+id: 3
+```
+
+**Ejemplo Response (200 OK):**  
+```
+{
+  "id": 3,
+  "code": "PH-12345",
+  "status": "Pending",
+  "type": "Corrective",
+  "date": "2025-07-06T21:54:33.245Z",
+  "productionLineId": 1,
+  "machineIds": [
+    101,
+    103
+  ],
+  "technicianIds": [
+    5,
+    7
+  ],
+  "tasks": [
+    "Revisión de filtros",
+    "Inspección de cables y conexiones",
+    "Ajuste de componentes eléctricos",
+    "Limpieza de sistema de ventilación"
+  ]
+}
+```
+
+**Descripción:**  
+Permite consultar una orden de trabajo específica por su `id`.
+![Evidencia pl1:](/img/sprint-4/api/8.png)
+
+<br>
+
+
+##### Executed Work Orders (POST)
+
+| Endpoint | Verbo HTTP | Sintaxis |
+|----------|-------------|----------|
+| `/api/v1/executed-work-orders` | POST | `/api/v1/executed-work-orders` |
+
+---
+
+**Parámetros (Request Body):**  
+```
+{
+  "code": "Plan de Mantenimiento Mensual - Línea 1.2",
+  "annotations": "Esto realmente necesita validaciones",
+  "executionDate": "2025-07-06T18:26:09.356Z",
+  "productionLineId": 1,
+  "intervenedMachineIds": [
+    2
+  ],
+  "assignedTechnicianIds": [
+    1
+  ],
+  "executedTasks": [
+    "string"
+  ],
+  "usedProducts": [
+    {
+      "productId": 2,
+      "quantity": 10
+    }
+  ],
+  "files": [
+    "fotiotp2"
+  ],
+  "workOrderId": 3
+}
+```
+
+**Ejemplo Response (200 OK):**  
+```
+{
+  "code": "Plan de Mantenimiento Mensual - Línea 1.2",
+  "annotations": "Esto realmente necesita validaciones",
+  "executionDate": "2025-07-06T18:26:09.356Z",
+  "productionLineId": 1,
+  "intervenedMachineIds": [
+    2
+  ],
+  "assignedTechnicianIds": [
+    1
+  ],
+  "executedTasks": [
+    "string"
+  ],
+  "usedProducts": [
+    {
+      "productId": 2,
+      "quantity": 10
+    }
+  ],
+  "files": [
+    "fotiotp2"
+  ],
+  "workOrderId": 3
+}
+```
+
+**Descripción:**  
+Permite registrar la ejecución de una orden de trabajo, indicando máquinas intervenidas, técnicos asignados, tareas realizadas, productos utilizados y archivos de evidencia.
+
+![Evidencia 9:](/img/sprint-4/api/9.png)
+![Evidencia 10:](/img/sprint-4/api/10.png)
+
+<br>
+
+##### Executed Work Orders (GET)
+
+| Endpoint | Verbo HTTP | Sintaxis |
+|----------|-------------|----------|
+| `/api/v1/executed-work-orders/{id}` | GET | `/api/v1/executed-work-orders/1` |
+
+---
+
+**Parámetros (Path):**  
+```
+id: 1
+```
+
+**Ejemplo Response (200 OK):**  
+```
+{
+  "id": 1,
+  "code": "12e",
+  "annotations": "eqwqwe",
+  "executionDate": "2025-07-06T17:29:58.63",
+  "productionLineId": 0,
+  "intervenedMachineIds": [
+    1
+  ],
+  "assignedTechnicianIds": [
+    1
+  ],
+  "executedTasks": [
+    "eee"
+  ],
+  "usedProducts": [
+    {
+      "productId": 1,
+      "quantity": 10
+    }
+  ],
+  "executionImages": []
+}
+```
+
+**Descripción:**  
+Permite consultar la información de una orden de trabajo ejecutada específica mediante su `id`.
+
+![Evidencia 9:](/img/sprint-4/api/11.png)
+![Evidencia 9:](/img/sprint-4/api/12.png)
+
+<br>
+
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
