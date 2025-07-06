@@ -374,6 +374,15 @@ __TB2__
     - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
     - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
     - [5.2.3.8. Team Collaboration Insights during Sprint.](#5238-team-collaboration-insights-during-sprint)
+  - [5.2.4. Sprint 4](#524-sprint-4)
+    - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+    - [5.2.4.2. Aspect Leaders and Collaborators.](#5242-aspect-leaders-and-collaborators)
+    - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+    - [5.2.4.4. Development Evidence for Sprint Review.](#5244-development-evidence-for-sprint-review)
+    - [5.2.4.5. Execution Evidence for Sprint Review.](#5245-execution-evidence-for-sprint-review)
+    - [5.2.4.6. Services Documentation Evidence for Sprint Review.](#5246-services-documentation-evidence-for-sprint-review)
+    - [5.2.4.7. Software Deployment Evidence for Sprint Review.](#5247-software-deployment-evidence-for-sprint-review)
+    - [5.2.4.8. Team Collaboration Insights during Sprint.](#5248-team-collaboration-insights-during-sprint)
 - [5.3. Validation Interviews.](#53-validation-interviews)
   - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
   - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
@@ -388,129 +397,7 @@ __TB2__
 [Bibliografía](#bibliografía)
 
 [Anexos](#anexos)
-      - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews.](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product.](#54-video-about-the-product)
-- [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-- [Video About-the-Team.](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
 
-[Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-- [COURSE PROJECT](#course-project)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Contenido](#contenido)
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Impact Mapping](#33-impact-mapping)
-  - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
-  - [4.1. Style Guidelines](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-  - [4.2. Information Architecture](#42-information-architecture)
-    - [4.2.1. Organization Systems.](#421-organization-systems)
-    - [4.2.2. Labeling Systems.](#422-labeling-systems)
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems.](#424-searching-systems)
-    - [4.2.5. Navigation Systems.](#425-navigation-systems)
-  - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
-  - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
-    - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
-    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
-    - [4.6.1. Software Architecture Context Diagram.](#461-software-architecture-context-diagram)
-    - [4.6.2. Software Architecture Container Diagrams.](#462-software-architecture-container-diagrams)
-    - [4.6.3. Software Architecture Components Diagrams.](#463-software-architecture-components-diagrams)
-  - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams.](#471-class-diagrams)
-    - [4.7.2. Class Dictionary.](#472-class-dictionary)
-  - [4.8. Database Design.](#48-database-design)
-    - [4.8.1. Database Diagram.](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management.](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management.](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint 1](#521-sprint-1)
-      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-      - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog n.](#5213-sprint-backlog-n)
-      - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
-  - [5.2.2. Sprint 2](#521-sprint-1)
-      - [5.2.2.1. Sprint Planning 2](#5211-sprint-planning-1)
-      - [5.2.2.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
-      - [5.2.2.3. Sprint Backlog 2](#5213-sprint-backlog-n)
-      - [5.2.2.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
-      - [5.2.2.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
-      - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.2.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews.](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product.](#54-video-about-the-product)
-- [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-- [Video About-the-Team.](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
-
-[Conclusiones](#conclusiones)
-- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
-
-[Bibliografía](#bibliografía)
-
-[Anexos](#anexos)
 
 # Student Outcome
 ABET – EAC - Student Outcome 5
@@ -536,7 +423,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Cumplí con el Student Outcome al liderar la implementación de los endpoints para obtener los roles de usuario y las métricas de maquinarias. Me aseguré de que las métricas fueran precisas y fáciles de interpretar, lo cual fue crucial para la toma de decisiones dentro del sistema. Esta responsabilidad me permitió asumir un papel de liderazgo en el desarrollo de funcionalidades clave para el proyecto.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>En el TF participé activamente en la conexión de funcionalidades clave del frontend con el backend. Apoyé en la revisión final de tareas asignadas, ayudando a otros integrantes con la validación de componentes y pruebas de vista. Me aseguré de que el flujo del usuario en los perfiles funcionara correctamente. Además, me mantuve en comunicación constante con el equipo para resolver problemas de integración.</p>
           <br>
 
         
@@ -548,7 +435,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Cumplí con el Student Outcome al tomar la iniciativa en la implementación de las validaciones para el registro de usuarios y en el diseño de los modelos para los ítems de inventario y activos. Fui responsable de asegurar que las funciones claves estuvieran correctamente implementadas y protegidas, liderando el aspecto de la seguridad y la estructuración de datos en el proyecto.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>En la entrega final asumí un rol de liderazgo en la integración del formulario de registro, el login y el perfil del administrador, asegurándome de que todas las validaciones funcionaran correctamente. Guié al equipo en la revisión de bugs finales y coordiné entregables técnicos, brindando soporte a cada miembro para que completaran sus tareas a tiempo.</p>
           <br>
 
           
@@ -560,7 +447,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Cumplí con el Student Outcome al liderar la implementación de los endpoints para obtener los roles de usuario y las métricas de maquinarias. Me aseguré de que las métricas fueran precisas y fáciles de interpretar, lo cual fue crucial para la toma de decisiones dentro del sistema. Esta responsabilidad me permitió asumir un papel de liderazgo en el desarrollo de funcionalidades clave para el proyecto.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Durante el TF participé en la conexión del backend con funcionalidades del inventario y el sistema de autenticación. Me aseguré de que los endpoints de inicio de sesión y métricas funcionaran de forma estable. También colaboré con pruebas y ajustes de lógica en el sistema de visualización de activos.</p>
           <br>
 
           
@@ -572,7 +459,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>En este sprint, fui responsable del diseño y desarrollo de los modelos para los ítems de inventario y activos. Además, desarrollé el endpoint GET para consultar los ítems del inventario. Mi enfoque estuvo en garantizar que las tareas estuvieran bien definidas, planificadas y distribuidas entre el equipo. Me aseguré de que todas las partes del proyecto estuvieran alineadas con los objetivos, y promoví una comunicación constante con el equipo para asegurarme de que todas las dudas se resolvieran a tiempo, creando un ambiente inclusivo y colaborativo.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Me encargué de conectar el plan de mantenimiento con el backend, asegurando que las vistas funcionaran de forma dinámica y actualizada. También revisé las funcionalidades de edición de planes y colaboré en la validación general del sistema. Coordiné con el equipo los avances y ayudé en la organización de entregables finales.</p>
           <br>
           
 <p><b>Rafael Andres Vivanco Salazar</b></p>
@@ -583,7 +470,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>En este sprint, me encargué de desarrollar el endpoint POST para la creación de órdenes de trabajo relacionadas con los planes de mantenimiento. Trabajé en estrecha colaboración con mi equipo para asegurar que las tareas estuvieran bien planificadas y cumplidas dentro del tiempo estimado. Coordiné las metas del sprint y me aseguré de que mis responsabilidades estuvieran alineadas con los objetivos globales del equipo. Además, mantuve una comunicación abierta y compartí avances regularmente, lo que contribuyó a un entorno inclusivo donde todos podíamos contribuir y apoyar a los demás.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Fui responsable de verificar que las vistas responsive funcionaran correctamente. Realicé los ajustes finales en la visualización del perfil de técnico y colaboré con la conexión de endpoints desde frontend. También estuve atento a los detalles visuales, asegurando que la interfaz sea clara y funcional.</p>
       </td>
       <td>
         <p><b>Ariana Cecilia Agreda Sobrino</b></p>
@@ -594,7 +481,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Este sprint me permitió practicar el liderazgo en tareas técnicas críticas. Aprendí la importancia de tener datos precisos y claros para el análisis posterior, lo que es esencial en sistemas complejos. Me siento más segura en la toma de decisiones técnicas y en la gestión de tareas de desarrollo.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Esta etapa final me permitió reafirmar la importancia del liderazgo compartido, especialmente cuando surgen tareas urgentes. Aprendí que apoyar a otros en sus entregables también es una forma de liderazgo, y que estar presente para el equipo es clave para cerrar el proyecto exitosamente.</p>
           <br>
           
 <p><b>Claudia Valeria Belledonne Espinoza</b></p>
@@ -605,7 +492,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Este sprint me permitió aplicar y fortalecer mis habilidades en diseño de modelos y validación de datos. Asumí un papel de liderazgo técnico, lo que me ayudó a comprender la importancia de la seguridad y la integridad de los datos en el desarrollo de sistemas. Me siento más preparada para liderar tareas complejas en futuros sprints.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Este cierre me permitió consolidar mis habilidades como líder técnica. Saber coordinar, revisar código y apoyar en tareas críticas fueron aspectos clave en este sprint. Me llevo la experiencia de haber sido un punto de apoyo para el equipo cuando más lo necesitaba.</p>
           <br>
           
 
@@ -617,7 +504,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Este sprint me permitió mejorar mi capacidad para liderar tareas técnicas importantes. Aprendí la importancia de la validación de datos y cómo asegurar que todo funcione correctamente en el backend. Me siento más confiado en mi capacidad para asumir responsabilidades y coordinar mis esfuerzos para avanzar en el proyecto.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Me di cuenta de que un liderazgo efectivo también se da desde la responsabilidad técnica. Guiar la implementación de endpoints críticos fue clave para el éxito del proyecto. Aprendí que trabajar de forma ordenada y predecible es lo que más ayuda al equipo en momentos finales.</p>
           <br>
 
           
@@ -629,7 +516,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Este sprint me permitió entender cómo la colaboración efectiva y la planificación de tareas son esenciales para lograr los objetivos del equipo. Aprendí la importancia de la organización y la comunicación continua, y cómo estas prácticas contribuyen a un entorno de trabajo más eficiente y armonioso. Estoy más consciente de cómo puedo contribuir a un equipo para alcanzar metas de manera efectiva.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Esta etapa me ayudó a reafirmar que el liderazgo conjunto se basa en apoyar al equipo y tomar responsabilidad en tareas clave. Disfruté poder ayudar a otros y asegurar que lo que hicimos se entregue con calidad.</p>
           <br>
           
 <p><b>Rafael Andres Vivanco Salazar</b></p>
@@ -638,11 +525,9 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Validar ideas con el equipo me ayudó a enriquecer la propuesta de interfaz. Escuchar distintas perspectivas permitió que la experiencia del usuario fuera más completa y cuidada.</p>
         <p><b>TB2:</b></p>
-        <p>Este sprint me ayudó a entender mejor cómo un entorno colaborativo mejora la eficiencia en el cumplimiento de objetivos. Aprendí que planificar tareas y mantener una comunicación constante son claves para un trabajo en equipo exitoso. Me siento más cómodo en la toma de decisiones y en la coordinación con el equipo para cumplir nuestras metas de manera eficaz.
-
-</p>
+        <p>Este sprint me ayudó a entender mejor cómo un entorno colaborativo mejora la eficiencia en el cumplimiento de objetivos. Aprendí que planificar tareas y mantener una comunicación constante son claves para un trabajo en equipo exitoso. Me siento más cómodo en la toma de decisiones y en la coordinación con el equipo para cumplir nuestras metas de manera eficaz.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>El liderazgo en este sprint se reflejó en asumir tareas específicas y ejecutarlas con compromiso. Trabajar en equipo para solucionar problemas pequeños pero urgentes me enseñó que el liderazgo también está en los detalles que consolidan un buen producto.</p>
       </td>
     </tr>
 
@@ -659,7 +544,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Cumplí con el Student Outcome al trabajar de manera inclusiva con el equipo para implementar los endpoints de roles de usuario y métricas de maquinarias. Me aseguré de establecer metas claras para las métricas que debían ser calculadas y trabajé de manera colaborativa para asegurar que todos estuviéramos alineados en cuanto a los objetivos del sprint. Me aseguré de cumplir con los plazos establecidos y de coordinarme con el equipo para cualquier ajuste necesario.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Durante el TF me aseguré de cumplir con mis tareas de forma oportuna y brindé soporte a compañeros que necesitaban ayuda en pruebas. Coordiné con el equipo detalles de vista y validación. Aporté a las reuniones finales de revisión y cumplimos con los objetivos planificados.</p>
           <br>
 
           
@@ -671,7 +556,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Cumplí con el Student Outcome al crear un entorno inclusivo y colaborativo, donde compartí ideas y trabajé de manera estrecha con el equipo para diseñar las validaciones de seguridad y los modelos de inventario y activos. Me aseguré de que todos los miembros del equipo tuvieran claridad sobre las tareas y de que todas las acciones estuvieran alineadas con los objetivos del sprint. Coordiné las tareas de manera eficaz para asegurar que se cumplieran los plazos.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Me encargué de revisar que las funcionalidades clave del registro, login y perfil de administrador estuvieran completas, validadas y alineadas con lo planificado. Me aseguré de que cada integrante tuviera claro su objetivo final, promoviendo la resolución de problemas de forma proactiva y colaborativa.</p>
           <br>
 
           
@@ -683,7 +568,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Cumplí con este Student Outcome al trabajar de manera colaborativa con mi equipo para desarrollar los endpoints POST y GET para usuarios. Me aseguré de que las metas para el sprint estuvieran claras y de que las tareas estuvieran planificadas y distribuidas de forma eficiente. Coordiné con mis compañeros para asegurarme de que las tareas avanzaran de manera sincronizada, y me aseguré de cumplir con los objetivos establecidos para la implementación de los endpoints.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Participé activamente en el cumplimiento de metas técnicas relacionadas al sistema de login e inventario. Coordiné tareas técnicas con compañeros para que todas las conexiones funcionaran correctamente y propuse soluciones rápidas ante errores detectados.</p>
           <br>
 
           
@@ -695,7 +580,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Cumplí con el Student Outcome al tomar la iniciativa en el desarrollo del modelo y los endpoints para los ítems de inventario y activos. Aunque mi tarea era técnica, busqué siempre involucrar al equipo en las decisiones relacionadas con la estructura de datos y los requerimientos del sistema. Ayudé a guiar el desarrollo de las tareas para asegurar que todos estuviéramos alineados y que las tareas avanzaran en conjunto, proporcionando liderazgo en áreas clave.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Ayudé a definir las metas del cierre técnico, asegurando que el plan de mantenimiento, la edición y eliminación de planes funcionaran bien. Coordiné con compañeros para validar funcionalidades y corregir bugs en los endpoints y vistas. Nos organizamos para revisar todo a tiempo.</p>
           <br>
           
 <p><b>Rafael Andres Vivanco Salazar</b></p>
@@ -706,7 +591,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Cumplí con el Student Outcome al trabajar en equipo, proporcionando liderazgo en las tareas relacionadas con el desarrollo del endpoint de las órdenes de trabajo. Aunque mi tarea era técnica, tomé la iniciativa en el diseño de la API y en la estructura necesaria para que las órdenes se registraran correctamente en la base de datos. Aseguré que el diseño estuviera alineado con los requerimientos y que todos los miembros del equipo pudieran comprender el flujo del trabajo, contribuyendo a una colaboración efectiva.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Contribuí a la planificación del cierre técnico de vistas de usuario, asegurando que el diseño responsive estuviera aplicado correctamente. También participé en la validación de perfiles, ayudando a compañeros a cumplir con sus entregables y haciendo revisiones conjuntas antes del cierre.</p>
       </td>
       
 <td>
@@ -718,7 +603,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Este sprint me permitió fortalecer mis habilidades de colaboración y planificación de tareas. Aprendí la importancia de tener metas claras y asegurarse de que todos los miembros del equipo trabajen en la misma dirección. Ahora me siento más confiada en crear un entorno inclusivo y en asegurarme de que se cumplan los objetivos establecidos.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Este cierre me ayudó a ver el valor de planificar y mantener una actitud colaborativa hasta el final. Me siento más preparada para proyectos donde la organización, el cumplimiento y la colaboración constante son esenciales para lograr buenos resultados.</p>
           <br>
 
           
@@ -730,7 +615,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Este sprint me permitió ver cómo un entorno colaborativo mejora la eficiencia del equipo. Aprendí a planificar y distribuir tareas de manera equitativa y asegurarme de que todos estuvieran involucrados en las decisiones clave. Me siento más preparada para seguir trabajando de manera inclusiva y contribuir al éxito del equipo.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Esta etapa final me permitió reforzar mi capacidad para planificar tareas y acompañar al equipo en su cumplimiento. Mantener el enfoque organizacional fue clave, y aprendí que generar espacios claros de trabajo mejora el ritmo y los resultados del grupo.</p>
           <br>
         
 
@@ -742,7 +627,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Este sprint me permitió practicar la importancia de establecer metas claras y planificar las tareas de manera efectiva. Aprendí cómo gestionar tareas técnicas dentro de un entorno colaborativo, donde cada miembro del equipo aporta de manera significativa. Me siento más cómodo trabajando en equipo y coordinando esfuerzos para cumplir los objetivos del sprint.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Aprendí que en las etapas finales lo más importante es tener claridad en las metas y trabajar coordinadamente. Me siento más confiado en mi capacidad para colaborar y contribuir al cumplimiento de objetivos con eficiencia.</p>
           <br>
 
           
@@ -754,7 +639,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Este sprint me permitió trabajar de manera más integrada con el equipo, liderando el desarrollo de tareas técnicas y asegurando que todos trabajáramos hacia el mismo objetivo. Aprendí que el liderazgo no solo implica tomar decisiones, sino también estar atento a las necesidades del equipo y fomentar una comunicación fluida. Me siento más preparado para liderar en proyectos futuros y contribuir a la dirección del equipo.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Este sprint reforzó mi compromiso con el cumplimiento ordenado de objetivos. Me permitió ver cómo una buena planificación colectiva facilita el cierre de un proyecto complejo. Me llevo herramientas prácticas para futuros proyectos donde el trabajo colaborativo sea clave.</p>
           <br>
           
 <p><b>Rafael Andres Vivanco Salazar</b></p>
@@ -765,7 +650,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Este sprint me permitió desarrollar mis habilidades de liderazgo dentro de un equipo. Aprendí que liderar no solo implica tomar decisiones, sino también asegurarse de que todos estén bien informados y colaboren activamente en la ejecución de las tareas. Estoy más confiado en mi capacidad para coordinarme con otros y asumir responsabilidades clave en el desarrollo de tareas complejas.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Comprendí que cumplir objetivos en grupo requiere coordinación continua y atención a los detalles. Me siento más capaz de trabajar en equipo incluso en momentos de alta presión y contribuir con soluciones rápidas y efectivas.</p>
       </td>
     </tr>
   </tbody>
