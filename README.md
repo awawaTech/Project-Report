@@ -5403,26 +5403,49 @@ En este sprint final, se consolidó la conexión integral entre frontend y backe
 
 A continuación, se presentan algunas de las evidencias visuales que demuestran el funcionamiento correcto de estas funcionalidades:<br/>
 
-#### Evidencia 1: Autenticación
+#### Evidencia 1: Authentication
 ![Evidencia au1:](/img/sprint-4/au1.png)  
 ![Evidencia au2:](/img/sprint-4/au2.png)  
 ![Evidencia au3:](/img/sprint-4/au3.png)  
 ![Evidencia au4:](/img/sprint-4/au4.png)  
 
 
-#### Evidencia 2: Plantas
+#### Evidencia 2: Plants
 ![Evidencia pl1:](/img/sprint-4/pl1.png)  
 ![Evidencia pl2:](/img/sprint-4/pl2.png)  
 ![Evidencia pl3:](/img/sprint-4/pl3.png)  
 ![Evidencia pl4:](/img/sprint-4/pl4.png)  
 
 
-#### Evidencia 3: Lineas de producción
+#### Evidencia 3: Production Lines
 ![Evidencia pl1:](/img/sprint-4/pl1.png)  
 ![Evidencia pl2:](/img/sprint-4/pl2.png)  
 ![Evidencia pl3:](/img/sprint-4/pl3.png)  
 ![Evidencia pl4:](/img/sprint-4/pl4.png)  
 
+#### Evidencia 4: Inventory Parts
+![image](https://github.com/user-attachments/assets/da4fa1e2-a032-45b0-b2d7-dfb451a0f580)
+![image](https://github.com/user-attachments/assets/88e8d49c-3df9-4187-8e79-d66b629935a5)
+
+#### Evidencia 4: Purchase Orders
+![image](https://github.com/user-attachments/assets/82b1a328-7b26-4c46-a8b9-be5afd128c0f)
+![image](https://github.com/user-attachments/assets/b326ce50-35d9-4cc7-a239-227ec5265794)
+
+#### Evidencia 5: Work Order
+![image](https://github.com/user-attachments/assets/e5c03f12-0633-4faa-91f7-578b8cba1d81)
+![image](https://github.com/user-attachments/assets/1a1df60d-26b0-4317-9f03-9ac0717df11d)
+
+#### Evidencia 6: Maintenance Plan
+![image](https://github.com/user-attachments/assets/b206f883-01a6-4fb1-94a3-be4a645b40b9)
+![image](https://github.com/user-attachments/assets/9e296ed0-8051-494c-ba6a-df41c17a2f1c)
+
+#### Evidencia 6: Metrics
+![image](https://github.com/user-attachments/assets/78216cf1-3fad-49d3-99f3-1587056adc08)
+![image](https://github.com/user-attachments/assets/30663b55-505a-4bb7-b7f9-de4e01b07b43)
+
+#### Evidencia 6: Personal Management
+![image](https://github.com/user-attachments/assets/370d2ad9-141d-4d28-be9c-0463b0c86b51)
+![image](https://github.com/user-attachments/assets/c071c375-aac7-4c8e-b5f5-0926c150044d)
 
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
