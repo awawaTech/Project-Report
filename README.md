@@ -4957,7 +4957,6 @@ Captura de colaboracion en github:
 
 ### 5.2.4. Sprint 4
 #### 5.2.4.1. Sprint Planning 4
-
 <table>
     <tr>
         <td>Sprint #</td>
@@ -5024,8 +5023,8 @@ Captura de colaboracion en github:
 </table>
 
 
-<br>
 
+<br>
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 
@@ -5228,7 +5227,6 @@ Captura de colaboracion en github:
     <th rowspan="1">Registro de ordenes de trabajo realizadas</th>
     <td>4</td>
     <td align="justify">Agregar opción para marcar ordenes de trabajo como completadas</td>
-    <td align="justify">Permitir que el técnico actualice el estado de las ordenes de trabajo dentro de una orden de trabajo.</td>
     <td>2 hr</td>
     <td>Ariana Agreda</td>
     <td>Done</td>
@@ -5305,7 +5303,6 @@ Captura de colaboracion en github:
   <td>Ariana Agreda</td>
   <td>Done</td>
 </tr>
-
 
   <!-- US25 -->
   <tr>
@@ -5410,7 +5407,6 @@ A continuación, se presenta una tabla con los commits relacionados con la imple
 
 
 <br>
-
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 En este sprint final, se consolidó la conexión integral entre frontend y backend del sistema Mecanaut. Esto permitió validar funcionalidades clave, entre ellas el proceso de autenticación de usuarios, la visualización y gestión de plantas, así como la asignación de líneas de producción a dichas plantas. Estas integraciones garantizan que el sistema funcione de manera fluida y que los roles asignados puedan operar correctamente en sus respectivos contextos.
@@ -5892,6 +5888,7 @@ Se adjuntan a continuación capturas y de los pasos realizados durante este Spri
 
 <br>
 
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 Durante el desarrollo del Sprint Final, el equipo demostró una coordinación efectiva para integrar todas las funcionalidades desarrolladas en los sprints anteriores y consolidar el sistema Mecanaut como un producto funcional. Las tareas se enfocaron en la conexión completa entre el frontend y backend, validación de vistas y endpoints, manejo de perfiles, login seguro y operaciones CRUD críticas como órdenes de trabajo, inventario y mantenimiento.<br/>
 
@@ -5912,6 +5909,7 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 Capturas de colaboracion en github:
 
 Backend:
+
 ![image](https://github.com/user-attachments/assets/1a8e9f88-8967-4bb5-8c3a-ea98972607f8)
 ![image](https://github.com/user-attachments/assets/529084cf-2ad3-4697-8037-e3be78299329)
 ![image](https://github.com/user-attachments/assets/ef067d95-c992-403f-b59f-4cc4469140c2)
