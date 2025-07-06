@@ -5453,6 +5453,31 @@ Captura de colaboracion en github:
 #### 5.2.4.4. Development Evidence for Sprint Review.
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
+En este sprint final, se consolidó la conexión integral entre frontend y backend del sistema Mecanaut. Esto permitió validar funcionalidades clave, entre ellas el proceso de autenticación de usuarios, la visualización y gestión de plantas, así como la asignación de líneas de producción a dichas plantas. Estas integraciones garantizan que el sistema funcione de manera fluida y que los roles asignados puedan operar correctamente en sus respectivos contextos.
+
+A continuación, se presentan algunas de las evidencias visuales que demuestran el funcionamiento correcto de estas funcionalidades:<br/>
+
+#### Evidencia 1: Autenticación
+![Evidencia au1:](/img/sprint-4/au1.png)  
+![Evidencia au2:](/img/sprint-4/au2.png)  
+![Evidencia au3:](/img/sprint-4/au3.png)  
+![Evidencia au4:](/img/sprint-4/au4.png)  
+
+
+#### Evidencia 2: Plantas
+![Evidencia pl1:](/img/sprint-4/pl1.png)  
+![Evidencia pl2:](/img/sprint-4/pl2.png)  
+![Evidencia pl3:](/img/sprint-4/pl3.png)  
+![Evidencia pl4:](/img/sprint-4/pl4.png)  
+
+
+#### Evidencia 3: Lineas de producción
+![Evidencia pl1:](/img/sprint-4/pl1.png)  
+![Evidencia pl2:](/img/sprint-4/pl2.png)  
+![Evidencia pl3:](/img/sprint-4/pl3.png)  
+![Evidencia pl4:](/img/sprint-4/pl4.png)  
+
+
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
@@ -5478,17 +5503,17 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 Capturas de colaboracion en github:
 
 Backend:
-![Evidencia Git1:](/img/sprint-4/network4b.png)
-![Evidencia Git2:](/img/sprint-4/contribuitors4b.png)
-![Evidencia Git3:](/img/sprint-4/git4b.png)
-![Evidencia Git4:](/img/sprint-4/commit4b.png)
+![Evidencia Git1a:](/img/sprint-4/network4b.png)
+![Evidencia Git2a:](/img/sprint-4/contribuitors4b.png)
+![Evidencia Git3a:](/img/sprint-4/git4b.png)
+![Evidencia Git4a:](/img/sprint-4/commit4b.png)
 
 
 Frontend:
-![Evidencia Git1:](/img/sprint-4/network4f.png)
-![Evidencia Git2:](/img/sprint-4/contribuitors4f.png)
-![Evidencia Git3:](/img/sprint-4/git4f.png)
-![Evidencia Git4:](/img/sprint-4/commit4f.png)
+![Evidencia Git1b:](/img/sprint-4/network4f.png)
+![Evidencia Git2b:](/img/sprint-4/contribuitors4f.png)
+![Evidencia Git3b:](/img/sprint-4/git4f.png)
+![Evidencia Git4b:](/img/sprint-4/commit4f.png)
 
 
 ## 5.3. Validation Interviews.
