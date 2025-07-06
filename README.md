@@ -269,6 +269,14 @@ __TB2__
 ![image](https://github.com/user-attachments/assets/5dfcf980-e381-4518-9f48-162c949468cd)
 ![image](https://github.com/user-attachments/assets/6949fc70-d158-4592-bffe-913d2b69ed5c)
 
+__TF__
+
+<div>
+  <p><img src="img/sprint-4/contribuitors4.png" alt="Contributors" width="700px" /></p>
+</div>
+<div>
+  <p><img src="img/sprint-4/network4.png" alt="Overview" width="700px" /></p>
+</div>
 
 ---
 
@@ -5451,6 +5459,36 @@ Captura de colaboracion en github:
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
+Durante el desarrollo del Sprint Final, el equipo demostró una coordinación efectiva para integrar todas las funcionalidades desarrolladas en los sprints anteriores y consolidar el sistema Mecanaut como un producto funcional. Las tareas se enfocaron en la conexión completa entre el frontend y backend, validación de vistas y endpoints, manejo de perfiles, login seguro y operaciones CRUD críticas como órdenes de trabajo, inventario y mantenimiento.<br/>
+
+Cada integrante asumió responsabilidades clave que permitieron cumplir con los objetivos propuestos del sprint. A continuación, se detalla la participación específica en las áreas principales de trabajo colaborativo:
+
+| **Nombre**                       | **Actividad**                                                                                                                                                              |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Agreda Sobrino, Ariana Cecilia   | Participó en la validación de vistas conectadas al backend, especialmente en perfiles de usuario. Coordinó pruebas funcionales y colaboró en el ajuste visual de componentes clave.      |
+| Belledone Espinoza, Claudia      | Lideró la conexión e integración de funcionalidades críticas como el registro, login y perfil de administrador. Gestionó validaciones y resolvió errores en endpoints de autenticación.        |
+| Elera Rodríguez, Mauricio Daniel | Implementó y ajustó endpoints para login, métricas y gestión de inventario. Validó la conexión backend-frontend, y colaboró en pruebas y correcciones en vistas relacionadas.                  |
+| Vivanco Salazar, Rafael Andres | Se encargó de conectar el plan de mantenimiento al backend, implementar la lógica de edición y eliminación de planes, y validar los flujos funcionales completos desde frontend.      |
+| Cruz Ibarra, Victor Andres | Participó en la conexión y validación de vistas de usuario técnico, asegurando el diseño responsive. Realizó ajustes visuales finales y pruebas integradas con endpoints.      |
+
+
+#### Evidencia de colaboración en GitHub
+A continuación, se presentan capturas de los analíticos de colaboración desde el repositorio oficial del backend y del frontend, donde se evidencia la participación activa de todos los miembros del equipo en el Sprint 4. <br/>
+
+Capturas de colaboracion en github:
+
+Backend:
+![Evidencia Git1:](/img/sprint-4/network4b.png)
+![Evidencia Git2:](/img/sprint-4/contribuitors4b.png)
+![Evidencia Git3:](/img/sprint-4/git4b.png)
+![Evidencia Git4:](/img/sprint-4/commit4b.png)
+
+
+Frontend:
+![Evidencia Git1:](/img/sprint-4/network4f.png)
+![Evidencia Git2:](/img/sprint-4/contribuitors4f.png)
+![Evidencia Git3:](/img/sprint-4/git4f.png)
+![Evidencia Git4:](/img/sprint-4/commit4f.png)
 
 
 ## 5.3. Validation Interviews.
