@@ -4953,10 +4953,11 @@ Captura de colaboracion en github:
 ![Evidencia Git3:](/img/sprint3/git.png)
 ![Evidencia Git4:](/img/sprint3/commit.png)
 
-
+<br>
 
 ### 5.2.4. Sprint 4
 #### 5.2.4.1. Sprint Planning 4
+
 <table>
     <tr>
         <td>Sprint #</td>
@@ -5021,6 +5022,9 @@ Captura de colaboracion en github:
         <td>47 Story Points.</td>
     </tr>
 </table>
+
+
+<br>
 
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
@@ -5152,10 +5156,14 @@ Captura de colaboracion en github:
 </table>
 
 
+<br>
+
+
 #### 5.2.4.3. Sprint Backlog 4.
 <p>El objetivo de este cuarto sprint es conectar las funcionalidades desarrolladas previamente en el backend con la interfaz del usuario, permitiendo la integración completa del sistema. Se trabajó en implementar, consumir y validar los endpoints desde el frontend para funcionalidades clave como el registro de cuentas, técnicos y planes de mantenimiento, así como la gestión de inventario, perfiles de usuario, tareas realizadas y visualización en distintos dispositivos. Esto permitió asegurar la comunicación entre capas y garantizar una experiencia funcional y coherente para usuarios técnicos y administradores dentro del sistema Mecanaut.</p>
 
-![Sprint Backlog 4:](/img/sprint-4/sprint4backlog.png)  
+![image](https://github.com/user-attachments/assets/46f7a1a0-ab2a-4907-9566-905d4eaf7afb)
+
 <p>link: https://trello.com/invite/b/6869ac6f5f53fd4d132b4158/ATTIadd3c83f4651caa18a358e778e8716902D79214F/mecanaut-sprint4</p>
 
 <table>
@@ -5385,6 +5393,9 @@ Captura de colaboracion en github:
 </table>
 
 
+<br>
+
+
 #### 5.2.4.4. Development Evidence for Sprint Review.
 En este sprint, se consolidaron las conexiones clave del sistema Mecanaut, enfocándose en la autenticación de usuarios y la gestión estructurada de plantas y líneas de producción. Se configuraron rutas protegidas, controladores REST y modelos de datos relacionados, garantizando un flujo seguro y coherente de la información. Además, se realizaron pruebas funcionales para validar el comportamiento esperado del backend, asegurando su integración efectiva con el frontend. Estas implementaciones permiten al sistema manejar jerarquías industriales reales y preparan el camino para los módulos de asignación de maquinaria y seguimiento de mantenimiento.<br/>
 
@@ -5396,6 +5407,9 @@ A continuación, se presenta una tabla con los commits relacionados con la imple
 | [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | branchcode   | feat(user): add GET user by ID                 | Implemented GET endpoint to retrieve user information with role mapping          | 05/07/2025          |
 | [https://github.com/awawaTech/mecanaut-fronted](https://github.com/awawaTech/mecanaut-fronted) | main    | 79dfc1a…e8c9b57   | chore(release): merge Sprint 4 frontend to main | Merged all Sprint 4 frontend including users, plants, machines, metric-definitions,inventory-parts, assets, orders and production-lines | 06/07/2025          |
 | [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | main    | f28c9ad   | chore(release): merge Sprint 4 backend to main | Merged all Sprint 4 backend features including users, plants, machines, metric-definitions,inventory-parts, assets, orders and production-lines | 06/07/2025          |
+
+
+<br>
 
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
@@ -5876,7 +5890,7 @@ Se adjuntan a continuación capturas y de los pasos realizados durante este Spri
 - Despues de haber configurado correctamente, validamos que ya estamos conectados y guardamos correctamente nuestras imagenes.
 ![image](https://github.com/user-attachments/assets/5f0f6cc7-59e7-4232-b425-e4a76ac946f6)
 
-
+<br>
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 Durante el desarrollo del Sprint Final, el equipo demostró una coordinación efectiva para integrar todas las funcionalidades desarrolladas en los sprints anteriores y consolidar el sistema Mecanaut como un producto funcional. Las tareas se enfocaron en la conexión completa entre el frontend y backend, validación de vistas y endpoints, manejo de perfiles, login seguro y operaciones CRUD críticas como órdenes de trabajo, inventario y mantenimiento.<br/>
@@ -5908,7 +5922,7 @@ Frontend:
 ![image](https://github.com/user-attachments/assets/2d3c9ad5-b538-45c4-a0b4-5f3ea572b549)
 ![image](https://github.com/user-attachments/assets/dc20753e-e3b6-41d1-82fc-46151e017ff5)
 
-
+<br>
 
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
