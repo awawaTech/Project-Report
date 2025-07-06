@@ -5842,17 +5842,16 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 Capturas de colaboracion en github:
 
 Backend:
-![Evidencia Git1a:](/img/sprint-4/network4b.png)
-![Evidencia Git2a:](/img/sprint-4/contribuitors4b.png)
-![Evidencia Git3a:](/img/sprint-4/git4b.png)
-![Evidencia Git4a:](/img/sprint-4/commit4b.png)
+![image](https://github.com/user-attachments/assets/1a8e9f88-8967-4bb5-8c3a-ea98972607f8)
+![image](https://github.com/user-attachments/assets/529084cf-2ad3-4697-8037-e3be78299329)
+![image](https://github.com/user-attachments/assets/ef067d95-c992-403f-b59f-4cc4469140c2)
 
 
 Frontend:
-![Evidencia Git1b:](/img/sprint-4/network4f.png)
-![Evidencia Git2b:](/img/sprint-4/contribuitors4f.png)
-![Evidencia Git3b:](/img/sprint-4/git4f.png)
-![Evidencia Git4b:](/img/sprint-4/commit4f.png)
+![image](https://github.com/user-attachments/assets/d927a5ab-a5cd-4ba6-bc45-07d2cc2a8fe7)
+![image](https://github.com/user-attachments/assets/2d3c9ad5-b538-45c4-a0b4-5f3ea572b549)
+![image](https://github.com/user-attachments/assets/dc20753e-e3b6-41d1-82fc-46151e017ff5)
+
 
 
 ## 5.3. Validation Interviews.
