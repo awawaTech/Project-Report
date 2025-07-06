@@ -210,6 +210,54 @@
     <td>Mauricio Elera, Ariana Agreda</td>
     <td>Redacción de Software Deployment Evidence for Sprint Review y Team Collaboration Insights during Sprint</td>
 </tr>
+<tr>
+    <td>4.0</td>
+    <td>03/07/2025</td>
+    <td>Victor Andres Cruz Ibarra</td>
+    <td>Actualización de índice y estructura general para incluir el Sprint 4 correctamente enlazado.</td>
+</tr>
+<tr>
+    <td>4.1</td>
+    <td>03/07/2025</td>
+    <td>Mauricio Elera</td>
+    <td>Redacción de Sprint Planning 4 y Aspect Leaders and Collaborators correspondientes al Sprint 4.</td>
+</tr>
+<tr>
+    <td>4.2</td>
+    <td>04/07/2025</td>
+    <td>Rafael Vivanco</td>
+    <td>Redacción y documentación del Sprint Backlog 4, detallando tareas técnicas y responsables.</td>
+</tr>
+<tr>
+    <td>4.3</td>
+    <td>04/07/2025</td>
+    <td>Ariana Agreda</td>
+    <td>Documentación y redacción de Development Evidence for Sprint Review del Sprint 4.</td>
+</tr>
+<tr>
+    <td>4.4</td>
+    <td>04/07/2025</td>
+    <td>Victor Andres Cruz Ibarra</td>
+    <td>Documentación y redacción de Execution Evidence for Sprint Review con imágenes y descripciones del Sprint 4.</td>
+</tr>
+<tr>
+    <td>4.5</td>
+    <td>05/07/2025</td>
+    <td>Claudia Belledonne</td>
+    <td>Documentación y redacción de Services Documentation Evidence for Sprint Review correspondiente al Sprint 4.</td>
+</tr>
+<tr>
+    <td>4.6</td>
+    <td>05/07/2025</td>
+    <td>Mauricio Elera</td>
+    <td>Documentación de Software Deployment Evidence for Sprint Review del Sprint 4, incluyendo despliegue local y Docker.</td>
+</tr>
+<tr>
+    <td>4.7</td>
+    <td>06/07/2025</td>
+    <td>Claudia Belledonne y Ariana Agreda</td>
+    <td>Redacción de Team Collaboration Insights during Sprint con análisis individual y conclusiones por miembro.</td>
+</tr>
 </table>
 
 </br>
@@ -382,6 +430,15 @@ __TF__
     - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
     - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
     - [5.2.3.8. Team Collaboration Insights during Sprint.](#5238-team-collaboration-insights-during-sprint)
+  - [5.2.4. Sprint 4](#524-sprint-4)
+    - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+    - [5.2.4.2. Aspect Leaders and Collaborators.](#5242-aspect-leaders-and-collaborators)
+    - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+    - [5.2.4.4. Development Evidence for Sprint Review.](#5244-development-evidence-for-sprint-review)
+    - [5.2.4.5. Execution Evidence for Sprint Review.](#5245-execution-evidence-for-sprint-review)
+    - [5.2.4.6. Services Documentation Evidence for Sprint Review.](#5246-services-documentation-evidence-for-sprint-review)
+    - [5.2.4.7. Software Deployment Evidence for Sprint Review.](#5247-software-deployment-evidence-for-sprint-review)
+    - [5.2.4.8. Team Collaboration Insights during Sprint.](#5248-team-collaboration-insights-during-sprint)
 - [5.3. Validation Interviews.](#53-validation-interviews)
   - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
   - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
@@ -396,129 +453,7 @@ __TF__
 [Bibliografía](#bibliografía)
 
 [Anexos](#anexos)
-      - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews.](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product.](#54-video-about-the-product)
-- [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-- [Video About-the-Team.](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
 
-[Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-- [COURSE PROJECT](#course-project)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Contenido](#contenido)
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Impact Mapping](#33-impact-mapping)
-  - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
-  - [4.1. Style Guidelines](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-  - [4.2. Information Architecture](#42-information-architecture)
-    - [4.2.1. Organization Systems.](#421-organization-systems)
-    - [4.2.2. Labeling Systems.](#422-labeling-systems)
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems.](#424-searching-systems)
-    - [4.2.5. Navigation Systems.](#425-navigation-systems)
-  - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
-  - [4.4. Web Applications UX/UI Design.](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes.](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams.](#442-web-applications-wireflow-diagrams)
-    - [4.4.2. Web Applications Mock-ups.](#442-web-applications-mock-ups)
-    - [4.4.3. Web Applications User Flow Diagrams.](#443-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping.](#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture.](#46-domain-driven-software-architecture)
-    - [4.6.1. Software Architecture Context Diagram.](#461-software-architecture-context-diagram)
-    - [4.6.2. Software Architecture Container Diagrams.](#462-software-architecture-container-diagrams)
-    - [4.6.3. Software Architecture Components Diagrams.](#463-software-architecture-components-diagrams)
-  - [4.7. Software Object-Oriented Design.](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams.](#471-class-diagrams)
-    - [4.7.2. Class Dictionary.](#472-class-dictionary)
-  - [4.8. Database Design.](#48-database-design)
-    - [4.8.1. Database Diagram.](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management.](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management.](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint 1](#521-sprint-1)
-      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-      - [5.2.1.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog n.](#5213-sprint-backlog-n)
-      - [5.2.1.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
-  - [5.2.2. Sprint 2](#521-sprint-1)
-      - [5.2.2.1. Sprint Planning 2](#5211-sprint-planning-1)
-      - [5.2.2.2. Aspect Leaders and Collaborators.](#5212-aspect-leaders-and-collaborators)
-      - [5.2.2.3. Sprint Backlog 2](#5213-sprint-backlog-n)
-      - [5.2.2.4. Development Evidence for Sprint Review.](#5214-development-evidence-for-sprint-review)
-      - [5.2.2.5. Execution Evidence for Sprint Review.](#5215-execution-evidence-for-sprint-review)
-      - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.2.8. Team Collaboration Insights during Sprint.](#5218-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews.](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product.](#54-video-about-the-product)
-- [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones.](#conclusiones-y-recomendaciones)
-- [Video About-the-Team.](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
-
-[Conclusiones](#conclusiones)
-- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
-
-[Bibliografía](#bibliografía)
-
-[Anexos](#anexos)
 
 # Student Outcome
 ABET – EAC - Student Outcome 5
@@ -544,7 +479,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Cumplí con el Student Outcome al liderar la implementación de los endpoints para obtener los roles de usuario y las métricas de maquinarias. Me aseguré de que las métricas fueran precisas y fáciles de interpretar, lo cual fue crucial para la toma de decisiones dentro del sistema. Esta responsabilidad me permitió asumir un papel de liderazgo en el desarrollo de funcionalidades clave para el proyecto.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>En el TF participé activamente en la conexión de funcionalidades clave del frontend con el backend. Apoyé en la revisión final de tareas asignadas, ayudando a otros integrantes con la validación de componentes y pruebas de vista. Me aseguré de que el flujo del usuario en los perfiles funcionara correctamente. Además, me mantuve en comunicación constante con el equipo para resolver problemas de integración.</p>
           <br>
 
         
@@ -556,7 +491,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Cumplí con el Student Outcome al tomar la iniciativa en la implementación de las validaciones para el registro de usuarios y en el diseño de los modelos para los ítems de inventario y activos. Fui responsable de asegurar que las funciones claves estuvieran correctamente implementadas y protegidas, liderando el aspecto de la seguridad y la estructuración de datos en el proyecto.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>En la entrega final asumí un rol de liderazgo en la integración del formulario de registro, el login y el perfil del administrador, asegurándome de que todas las validaciones funcionaran correctamente. Guié al equipo en la revisión de bugs finales y coordiné entregables técnicos, brindando soporte a cada miembro para que completaran sus tareas a tiempo.</p>
           <br>
 
           
@@ -568,7 +503,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Cumplí con el Student Outcome al liderar la implementación de los endpoints para obtener los roles de usuario y las métricas de maquinarias. Me aseguré de que las métricas fueran precisas y fáciles de interpretar, lo cual fue crucial para la toma de decisiones dentro del sistema. Esta responsabilidad me permitió asumir un papel de liderazgo en el desarrollo de funcionalidades clave para el proyecto.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Durante el TF participé en la conexión del backend con funcionalidades del inventario y el sistema de autenticación. Me aseguré de que los endpoints de inicio de sesión y métricas funcionaran de forma estable. También colaboré con pruebas y ajustes de lógica en el sistema de visualización de activos.</p>
           <br>
 
           
@@ -580,7 +515,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>En este sprint, fui responsable del diseño y desarrollo de los modelos para los ítems de inventario y activos. Además, desarrollé el endpoint GET para consultar los ítems del inventario. Mi enfoque estuvo en garantizar que las tareas estuvieran bien definidas, planificadas y distribuidas entre el equipo. Me aseguré de que todas las partes del proyecto estuvieran alineadas con los objetivos, y promoví una comunicación constante con el equipo para asegurarme de que todas las dudas se resolvieran a tiempo, creando un ambiente inclusivo y colaborativo.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Me encargué de conectar el plan de mantenimiento con el backend, asegurando que las vistas funcionaran de forma dinámica y actualizada. También revisé las funcionalidades de edición de planes y colaboré en la validación general del sistema. Coordiné con el equipo los avances y ayudé en la organización de entregables finales.</p>
           <br>
           
 <p><b>Rafael Andres Vivanco Salazar</b></p>
@@ -591,7 +526,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>En este sprint, me encargué de desarrollar el endpoint POST para la creación de órdenes de trabajo relacionadas con los planes de mantenimiento. Trabajé en estrecha colaboración con mi equipo para asegurar que las tareas estuvieran bien planificadas y cumplidas dentro del tiempo estimado. Coordiné las metas del sprint y me aseguré de que mis responsabilidades estuvieran alineadas con los objetivos globales del equipo. Además, mantuve una comunicación abierta y compartí avances regularmente, lo que contribuyó a un entorno inclusivo donde todos podíamos contribuir y apoyar a los demás.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Fui responsable de verificar que las vistas responsive funcionaran correctamente. Realicé los ajustes finales en la visualización del perfil de técnico y colaboré con la conexión de endpoints desde frontend. También estuve atento a los detalles visuales, asegurando que la interfaz sea clara y funcional.</p>
       </td>
       <td>
         <p><b>Ariana Cecilia Agreda Sobrino</b></p>
@@ -602,7 +537,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Este sprint me permitió practicar el liderazgo en tareas técnicas críticas. Aprendí la importancia de tener datos precisos y claros para el análisis posterior, lo que es esencial en sistemas complejos. Me siento más segura en la toma de decisiones técnicas y en la gestión de tareas de desarrollo.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Esta etapa final me permitió reafirmar la importancia del liderazgo compartido, especialmente cuando surgen tareas urgentes. Aprendí que apoyar a otros en sus entregables también es una forma de liderazgo, y que estar presente para el equipo es clave para cerrar el proyecto exitosamente.</p>
           <br>
           
 <p><b>Claudia Valeria Belledonne Espinoza</b></p>
@@ -613,7 +548,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Este sprint me permitió aplicar y fortalecer mis habilidades en diseño de modelos y validación de datos. Asumí un papel de liderazgo técnico, lo que me ayudó a comprender la importancia de la seguridad y la integridad de los datos en el desarrollo de sistemas. Me siento más preparada para liderar tareas complejas en futuros sprints.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Este cierre me permitió consolidar mis habilidades como líder técnica. Saber coordinar, revisar código y apoyar en tareas críticas fueron aspectos clave en este sprint. Me llevo la experiencia de haber sido un punto de apoyo para el equipo cuando más lo necesitaba.</p>
           <br>
           
 
@@ -625,7 +560,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Este sprint me permitió mejorar mi capacidad para liderar tareas técnicas importantes. Aprendí la importancia de la validación de datos y cómo asegurar que todo funcione correctamente en el backend. Me siento más confiado en mi capacidad para asumir responsabilidades y coordinar mis esfuerzos para avanzar en el proyecto.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Me di cuenta de que un liderazgo efectivo también se da desde la responsabilidad técnica. Guiar la implementación de endpoints críticos fue clave para el éxito del proyecto. Aprendí que trabajar de forma ordenada y predecible es lo que más ayuda al equipo en momentos finales.</p>
           <br>
 
           
@@ -637,7 +572,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Este sprint me permitió entender cómo la colaboración efectiva y la planificación de tareas son esenciales para lograr los objetivos del equipo. Aprendí la importancia de la organización y la comunicación continua, y cómo estas prácticas contribuyen a un entorno de trabajo más eficiente y armonioso. Estoy más consciente de cómo puedo contribuir a un equipo para alcanzar metas de manera efectiva.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Esta etapa me ayudó a reafirmar que el liderazgo conjunto se basa en apoyar al equipo y tomar responsabilidad en tareas clave. Disfruté poder ayudar a otros y asegurar que lo que hicimos se entregue con calidad.</p>
           <br>
           
 <p><b>Rafael Andres Vivanco Salazar</b></p>
@@ -646,11 +581,9 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TP1:</b></p>
         <p>Validar ideas con el equipo me ayudó a enriquecer la propuesta de interfaz. Escuchar distintas perspectivas permitió que la experiencia del usuario fuera más completa y cuidada.</p>
         <p><b>TB2:</b></p>
-        <p>Este sprint me ayudó a entender mejor cómo un entorno colaborativo mejora la eficiencia en el cumplimiento de objetivos. Aprendí que planificar tareas y mantener una comunicación constante son claves para un trabajo en equipo exitoso. Me siento más cómodo en la toma de decisiones y en la coordinación con el equipo para cumplir nuestras metas de manera eficaz.
-
-</p>
+        <p>Este sprint me ayudó a entender mejor cómo un entorno colaborativo mejora la eficiencia en el cumplimiento de objetivos. Aprendí que planificar tareas y mantener una comunicación constante son claves para un trabajo en equipo exitoso. Me siento más cómodo en la toma de decisiones y en la coordinación con el equipo para cumplir nuestras metas de manera eficaz.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>El liderazgo en este sprint se reflejó en asumir tareas específicas y ejecutarlas con compromiso. Trabajar en equipo para solucionar problemas pequeños pero urgentes me enseñó que el liderazgo también está en los detalles que consolidan un buen producto.</p>
       </td>
     </tr>
 
@@ -667,7 +600,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Cumplí con el Student Outcome al trabajar de manera inclusiva con el equipo para implementar los endpoints de roles de usuario y métricas de maquinarias. Me aseguré de establecer metas claras para las métricas que debían ser calculadas y trabajé de manera colaborativa para asegurar que todos estuviéramos alineados en cuanto a los objetivos del sprint. Me aseguré de cumplir con los plazos establecidos y de coordinarme con el equipo para cualquier ajuste necesario.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Durante el TF me aseguré de cumplir con mis tareas de forma oportuna y brindé soporte a compañeros que necesitaban ayuda en pruebas. Coordiné con el equipo detalles de vista y validación. Aporté a las reuniones finales de revisión y cumplimos con los objetivos planificados.</p>
           <br>
 
           
@@ -679,7 +612,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Cumplí con el Student Outcome al crear un entorno inclusivo y colaborativo, donde compartí ideas y trabajé de manera estrecha con el equipo para diseñar las validaciones de seguridad y los modelos de inventario y activos. Me aseguré de que todos los miembros del equipo tuvieran claridad sobre las tareas y de que todas las acciones estuvieran alineadas con los objetivos del sprint. Coordiné las tareas de manera eficaz para asegurar que se cumplieran los plazos.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Me encargué de revisar que las funcionalidades clave del registro, login y perfil de administrador estuvieran completas, validadas y alineadas con lo planificado. Me aseguré de que cada integrante tuviera claro su objetivo final, promoviendo la resolución de problemas de forma proactiva y colaborativa.</p>
           <br>
 
           
@@ -691,7 +624,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Cumplí con este Student Outcome al trabajar de manera colaborativa con mi equipo para desarrollar los endpoints POST y GET para usuarios. Me aseguré de que las metas para el sprint estuvieran claras y de que las tareas estuvieran planificadas y distribuidas de forma eficiente. Coordiné con mis compañeros para asegurarme de que las tareas avanzaran de manera sincronizada, y me aseguré de cumplir con los objetivos establecidos para la implementación de los endpoints.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Participé activamente en el cumplimiento de metas técnicas relacionadas al sistema de login e inventario. Coordiné tareas técnicas con compañeros para que todas las conexiones funcionaran correctamente y propuse soluciones rápidas ante errores detectados.</p>
           <br>
 
           
@@ -703,7 +636,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Cumplí con el Student Outcome al tomar la iniciativa en el desarrollo del modelo y los endpoints para los ítems de inventario y activos. Aunque mi tarea era técnica, busqué siempre involucrar al equipo en las decisiones relacionadas con la estructura de datos y los requerimientos del sistema. Ayudé a guiar el desarrollo de las tareas para asegurar que todos estuviéramos alineados y que las tareas avanzaran en conjunto, proporcionando liderazgo en áreas clave.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Ayudé a definir las metas del cierre técnico, asegurando que el plan de mantenimiento, la edición y eliminación de planes funcionaran bien. Coordiné con compañeros para validar funcionalidades y corregir bugs en los endpoints y vistas. Nos organizamos para revisar todo a tiempo.</p>
           <br>
           
 <p><b>Rafael Andres Vivanco Salazar</b></p>
@@ -714,7 +647,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Cumplí con el Student Outcome al trabajar en equipo, proporcionando liderazgo en las tareas relacionadas con el desarrollo del endpoint de las órdenes de trabajo. Aunque mi tarea era técnica, tomé la iniciativa en el diseño de la API y en la estructura necesaria para que las órdenes se registraran correctamente en la base de datos. Aseguré que el diseño estuviera alineado con los requerimientos y que todos los miembros del equipo pudieran comprender el flujo del trabajo, contribuyendo a una colaboración efectiva.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Contribuí a la planificación del cierre técnico de vistas de usuario, asegurando que el diseño responsive estuviera aplicado correctamente. También participé en la validación de perfiles, ayudando a compañeros a cumplir con sus entregables y haciendo revisiones conjuntas antes del cierre.</p>
       </td>
       
 <td>
@@ -726,7 +659,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Este sprint me permitió fortalecer mis habilidades de colaboración y planificación de tareas. Aprendí la importancia de tener metas claras y asegurarse de que todos los miembros del equipo trabajen en la misma dirección. Ahora me siento más confiada en crear un entorno inclusivo y en asegurarme de que se cumplan los objetivos establecidos.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Este cierre me ayudó a ver el valor de planificar y mantener una actitud colaborativa hasta el final. Me siento más preparada para proyectos donde la organización, el cumplimiento y la colaboración constante son esenciales para lograr buenos resultados.</p>
           <br>
 
           
@@ -738,7 +671,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Este sprint me permitió ver cómo un entorno colaborativo mejora la eficiencia del equipo. Aprendí a planificar y distribuir tareas de manera equitativa y asegurarme de que todos estuvieran involucrados en las decisiones clave. Me siento más preparada para seguir trabajando de manera inclusiva y contribuir al éxito del equipo.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Esta etapa final me permitió reforzar mi capacidad para planificar tareas y acompañar al equipo en su cumplimiento. Mantener el enfoque organizacional fue clave, y aprendí que generar espacios claros de trabajo mejora el ritmo y los resultados del grupo.</p>
           <br>
         
 
@@ -750,7 +683,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Este sprint me permitió practicar la importancia de establecer metas claras y planificar las tareas de manera efectiva. Aprendí cómo gestionar tareas técnicas dentro de un entorno colaborativo, donde cada miembro del equipo aporta de manera significativa. Me siento más cómodo trabajando en equipo y coordinando esfuerzos para cumplir los objetivos del sprint.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Aprendí que en las etapas finales lo más importante es tener claridad en las metas y trabajar coordinadamente. Me siento más confiado en mi capacidad para colaborar y contribuir al cumplimiento de objetivos con eficiencia.</p>
           <br>
 
           
@@ -762,7 +695,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Este sprint me permitió trabajar de manera más integrada con el equipo, liderando el desarrollo de tareas técnicas y asegurando que todos trabajáramos hacia el mismo objetivo. Aprendí que el liderazgo no solo implica tomar decisiones, sino también estar atento a las necesidades del equipo y fomentar una comunicación fluida. Me siento más preparado para liderar en proyectos futuros y contribuir a la dirección del equipo.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Este sprint reforzó mi compromiso con el cumplimiento ordenado de objetivos. Me permitió ver cómo una buena planificación colectiva facilita el cierre de un proyecto complejo. Me llevo herramientas prácticas para futuros proyectos donde el trabajo colaborativo sea clave.</p>
           <br>
           
 <p><b>Rafael Andres Vivanco Salazar</b></p>
@@ -773,7 +706,7 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
         <p><b>TB2:</b></p>
         <p>Este sprint me permitió desarrollar mis habilidades de liderazgo dentro de un equipo. Aprendí que liderar no solo implica tomar decisiones, sino también asegurarse de que todos estén bien informados y colaboren activamente en la ejecución de las tareas. Estoy más confiado en mi capacidad para coordinarme con otros y asumir responsabilidades clave en el desarrollo de tareas complejas.</p>
         <p><b>TF:</b></p>
-        <p>-</p>
+        <p>Comprendí que cumplir objetivos en grupo requiere coordinación continua y atención a los detalles. Me siento más capaz de trabajar en equipo incluso en momentos de alta presión y contribuir con soluciones rápidas y efectivas.</p>
       </td>
     </tr>
   </tbody>
@@ -1816,8 +1749,8 @@ En comparación con el escenario actual, el To-Be Scenario introduce mejoras cla
 | US20 | Registro de cuenta | Como administrador, quiero registrar una cuenta con datos de empresa, tipo y contacto, para usar el sistema. | Escenario 1: Registro exitoso **Given** que el administrador accede al formulario de registro. **When** completa todos los campos requeridos. **Then** el sistema crea la cuenta y envía confirmación. Escenario 2: Campos incompletos **Given** que deja campos obligatorios vacíos. **When** intenta registrar la cuenta. **Then** el sistema muestra los errores específicos que debe corregir. | EP09 |
 | US21 | Registro de técnicos | Como administrador, quiero registrar técnicos con sus datos, para asignarles tareas. | Escenario 1: Técnico registrado correctamente **Given** que el administrador tiene los datos del técnico. **When** completa el formulario de registro. **Then** el técnico queda disponible en el sistema. Escenario 2: Error en el formulario **Given** que el administrador ingresa datos inválidos. **When** intenta registrar al técnico. **Then** el sistema indica los errores y no permite continuar. | EP09 |
 | US22 | Inicio de sesión | Como administrador o técnico, quiero iniciar sesión en el sistema para acceder a mis funcionalidades. | Escenario 1: Inicio de sesión exitoso **Given** que el usuario tiene credenciales válidas. **When** las ingresa correctamente. **Then** accede a su panel de usuario. Escenario 2: Error en las credenciales **Given** que el usuario introduce datos incorrectos. **When** intenta iniciar sesión. **Then** el sistema indica que el usuario o la contraseña son inválidos. | EP09 |
-| US23 | Modificar plan de mantenimiento | Como administrador, quiero modificar un plan de mantenimiento ya registrado en el calendario, para ajustar fechas o duración según nuevas necesidades. | Escenario 1: Modificación exitosa **Given** que accede al calendario de mantenimiento. **When** edita un plan existente y guarda los cambios. **Then** el sistema actualiza el calendario y notifica a los técnicos afectados. Escenario 2: Campos inválidos al modificar **Given** que intenta editar un plan. **When** deja campos obligatorios vacíos. **Then** el sistema bloquea la acción y solicita completar los datos. | EP02 |
-| US24 | Eliminar plan de mantenimiento | Como administrador, quiero eliminar un plan de mantenimiento del calendario, para retirar tareas que ya no se realizarán. | Escenario 1: Eliminación exitosa **Given** que accede al plan de mantenimiento. **When** selecciona la opción eliminar. **Then** el sistema borra el plan del calendario y actualiza las asignaciones. Escenario 2: Error al eliminar plan inexistente **Given** que el plan ya fue eliminado previamente. **When** intenta eliminarlo nuevamente. **Then** el sistema muestra un mensaje indicando que no se encuentra el plan. | EP02 |
+| US23 | Simulación de Registro de Métricas de Maquinarias | Como administrador, quiero simular el registro de métricas de una maquinaria necesitada. | Escenario 1: Simulación exitosa **Given** que accede al la vista de simulaciones. **When** actualiza una metrica. **Then** el sistema actualiza la metrica y se visualiza. Escenario 2: Campos inválidos al modificar **Given** una metrica inexistente. **When** deja campos obligatorios vacíos. **Then** el sistema bloquea la acción y solicita completar los datos. | EP02 |
+| US24 | Asignar tecnicos a orden de trabajo | Como administrador, asignar tecnicos a ordenes de trabajo, para que estos sepan sus deberes. | Escenario 1: Asignación exitosa **Given** se visualizan los cambios. **When** selecciona la opción asignar. **Then** el sistema asigna la lista de tecnicos. Escenario 2: Error al asignar inexistente **Given** que dicha orden no existe. **When** trata de asignar relación de tecnicos. **Then** el sistema muestra un mensaje indicando que no se encuentra la orden. | EP02 |
 | US25 | Eliminar activo | Como administrador, quiero eliminar activos que ya no están en uso, para mantener actualizada la base de datos. | Escenario 1: Eliminación exitosa **Given** que accede al listado de activos. **When** selecciona un activo y confirma su eliminación. **Then** el sistema lo elimina y actualiza los registros relacionados. Escenario 2: Error por dependencias activas **Given** que el activo está asociado a órdenes de trabajo activas. **When** intenta eliminarlo. **Then** el sistema muestra un error y no permite la acción. | EP01 |
 | US26 | Eliminar orden de trabajo repentina | Como administrador, quiero eliminar órdenes de trabajo repentinas que fueron creadas por error, para mantener el calendario limpio. | Escenario 1: Eliminación correcta **Given** que accede a una orden de trabajo. **When** decide eliminarla. **Then** el sistema la elimina del calendario y del historial. Escenario 2: Orden ya finalizada **Given** que la orden ya fue completada. **When** intenta eliminarla. **Then** el sistema muestra un mensaje indicando que no puede eliminar tareas ya cerradas. | EP02 |
 | US27 | Visualización de perfil de administrador | Como administrador, quiero visualizar mi perfil, para revisar y actualizar mi información personal o de la cuenta. | Escenario 1: Visualización exitosa del perfil **Given** que el administrador accede a su cuenta. **When** abre la sección de perfil. **Then** el sistema muestra sus datos correctamente. Escenario 2: Error al cargar perfil **Given** que hay un problema de conexión. **When** intenta abrir su perfil. **Then** el sistema muestra un mensaje de error temporal. | EP09 |
@@ -5020,7 +4953,7 @@ Captura de colaboracion en github:
 ![Evidencia Git3:](/img/sprint3/git.png)
 ![Evidencia Git4:](/img/sprint3/commit.png)
 
-
+<br>
 
 ### 5.2.4. Sprint 4
 #### 5.2.4.1. Sprint Planning 4
@@ -5089,6 +5022,9 @@ Captura de colaboracion en github:
     </tr>
 </table>
 
+
+
+<br>
 
 #### 5.2.4.2. Aspect Leaders and Collaborators.
 
@@ -5219,9 +5155,14 @@ Captura de colaboracion en github:
 </table>
 
 
+<br>
+
+
 #### 5.2.4.3. Sprint Backlog 4.
 <p>El objetivo de este cuarto sprint es conectar las funcionalidades desarrolladas previamente en el backend con la interfaz del usuario, permitiendo la integración completa del sistema. Se trabajó en implementar, consumir y validar los endpoints desde el frontend para funcionalidades clave como el registro de cuentas, técnicos y planes de mantenimiento, así como la gestión de inventario, perfiles de usuario, tareas realizadas y visualización en distintos dispositivos. Esto permitió asegurar la comunicación entre capas y garantizar una experiencia funcional y coherente para usuarios técnicos y administradores dentro del sistema Mecanaut.</p>
-![Sprint Backlog 4:]()
+
+![image](https://github.com/user-attachments/assets/46f7a1a0-ab2a-4907-9566-905d4eaf7afb)
+
 <p>link: https://trello.com/invite/b/6869ac6f5f53fd4d132b4158/ATTIadd3c83f4651caa18a358e778e8716902D79214F/mecanaut-sprint4</p>
 
 <table>
@@ -5247,10 +5188,10 @@ Captura de colaboracion en github:
   <!-- US09 -->
   <tr>
     <th rowspan="1">US09</th>
-    <th rowspan="1">Implementación de plan de trabajo</th>
+    <th rowspan="1">Implementación de plan de mantenimiento</th>
     <td>1</td>
-    <td align="justify">Conectar backend con el calendario de mantenimiento</td>
-    <td align="justify">Permitir agregar un plan al calendario desde el frontend, enviando datos al backend y mostrando confirmación visual.</td>
+    <td align="justify">Conectar endpoints del backend con la vista de plan de mantenimiento</td>
+    <td align="justify">Permitir agregar un plan desde el frontend, enviando datos al backend y mostrando confirmación visual.</td>
     <td>4 hr</td>
     <td>Victor Cruz</td>
     <td>Done</td>
@@ -5274,7 +5215,7 @@ Captura de colaboracion en github:
     <th rowspan="1">Revisión de inventario</th>
     <td>3</td>
     <td align="justify">Conectar inventario con backend</td>
-    <td align="justify">Mostrar lista de insumos y permitir editar cantidades desde el frontend utilizando los endpoints correspondientes.</td>
+    <td align="justify">Mostrar lista de insumos y permitir interactuar desde el frontend utilizando los endpoints correspondientes.</td>
     <td>3 hr</td>
     <td>Mauricio Elera</td>
     <td>Done</td>
@@ -5283,10 +5224,9 @@ Captura de colaboracion en github:
   <!-- US18 -->
   <tr>
     <th rowspan="1">US18</th>
-    <th rowspan="1">Registro de tareas realizadas</th>
+    <th rowspan="1">Registro de ordenes de trabajo realizadas</th>
     <td>4</td>
-    <td align="justify">Agregar opción para marcar tareas como completadas</td>
-    <td align="justify">Permitir que el técnico actualice el estado de las tareas dentro de una orden de trabajo.</td>
+    <td align="justify">Agregar opción para marcar ordenes de trabajo como completadas</td>
     <td>2 hr</td>
     <td>Ariana Agreda</td>
     <td>Done</td>
@@ -5343,34 +5283,34 @@ Captura de colaboracion en github:
   <!-- US23 -->
   <tr>
     <th rowspan="1">US23</th>
-    <th rowspan="1">Modificar plan de mantenimiento</th>
+    <th rowspan="1">Simulación de Registro de Métricas de Maquinarias</th>
     <td>9</td>
-    <td align="justify">Agregar funcionalidad de edición de planes</td>
-    <td align="justify">Permitir editar un plan de mantenimiento y enviar los cambios al backend.</td>
+    <td align="justify">Agregar funcionalidad para registrar cambios en las lecturas de las métricas de las maquinarias</td>
+    <td align="justify">Permitir seleccionar la maquinaria y metrica a registrar. Creacion de un plan dinamico en caso corresponda.</td>
     <td>3 hr</td>
     <td>Victor Cruz</td>
     <td>Done</td>
   </tr>
 
   <!-- US24 -->
-  <tr>
-    <th rowspan="1">US24</th>
-    <th rowspan="1">Eliminar plan de mantenimiento</th>
-    <td>10</td>
-    <td align="justify">Agregar funcionalidad de eliminación de planes</td>
-    <td align="justify">Eliminar un plan de mantenimiento del calendario enviando la solicitud al backend.</td>
-    <td>2 hr</td>
-    <td>Ariana Agreda</td>
-    <td>Done</td>
-  </tr>
+<tr>
+  <th rowspan="1">US24</th>
+  <th rowspan="1">Asignar tecnicos a orden de trabajo</th>
+  <td>10</td>
+  <td align="justify">Agregar funcionalidad de asignación de técnicos</td>
+  <td align="justify">Seleccionar una orden de trabajo sin técnicos e implementar el endpoint de asignación</td>
+  <td>2 hr</td>
+  <td>Ariana Agreda</td>
+  <td>Done</td>
+</tr>
 
   <!-- US25 -->
   <tr>
     <th rowspan="1">US25</th>
-    <th rowspan="1">Eliminar activo</th>
+    <th rowspan="1">Ejecutar orden de trabajo</th>
     <td>11</td>
-    <td align="justify">Eliminar activos desde interfaz</td>
-    <td align="justify">Permitir eliminar un activo existente desde la vista del administrador.</td>
+    <td align="justify">Subir un informe resumen de la orden de trabajo</td>
+    <td align="justify">Permitir agregar comentarios y subir imagenes de evidencia de la ejecución.</td>
     <td>2 hr</td>
     <td>Rafael Vivanco</td>
     <td>Done</td>
@@ -5450,38 +5390,504 @@ Captura de colaboracion en github:
 </table>
 
 
+<br>
+
+
 #### 5.2.4.4. Development Evidence for Sprint Review.
+En este sprint, se consolidaron las conexiones clave del sistema Mecanaut, enfocándose en la autenticación de usuarios y la gestión estructurada de plantas y líneas de producción. Se configuraron rutas protegidas, controladores REST y modelos de datos relacionados, garantizando un flujo seguro y coherente de la información. Además, se realizaron pruebas funcionales para validar el comportamiento esperado del backend, asegurando su integración efectiva con el frontend. Estas implementaciones permiten al sistema manejar jerarquías industriales reales y preparan el camino para los módulos de asignación de maquinaria y seguimiento de mantenimiento.<br/>
+
+A continuación, se presenta una tabla con los commits relacionados con la implementación de estas funcionalidades:  <br/>
+
+| Repository                                                                                           | Branch  | Commit Id | Commit Message                                 | Commit Message Body                                                              | Committed on (Date) |
+| ---------------------------------------------------------------------------------------------------- | ------- | --------- | ---------------------------------------------- | -------------------------------------------------------------------------------- | ------------------- |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | branchcode   | feat(user): implement POST user registration   | Added endpoint for user creation with validation and password hashing            | 05/07/2025         |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | develop | branchcode   | feat(user): add GET user by ID                 | Implemented GET endpoint to retrieve user information with role mapping          | 05/07/2025          |
+| [https://github.com/awawaTech/mecanaut-fronted](https://github.com/awawaTech/mecanaut-fronted) | main    | 79dfc1a…e8c9b57   | chore(release): merge Sprint 4 frontend to main | Merged all Sprint 4 frontend including users, plants, machines, metric-definitions,inventory-parts, assets, orders and production-lines | 06/07/2025          |
+| [https://github.com/awawaTech/mecanaut-back](https://github.com/awawaTech/mecanaut-back) | main    | f28c9ad   | chore(release): merge Sprint 4 backend to main | Merged all Sprint 4 backend features including users, plants, machines, metric-definitions,inventory-parts, assets, orders and production-lines | 06/07/2025          |
+
+
+<br>
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 En este sprint final, se consolidó la conexión integral entre frontend y backend del sistema Mecanaut. Esto permitió validar funcionalidades clave, entre ellas el proceso de autenticación de usuarios, la visualización y gestión de plantas, así como la asignación de líneas de producción a dichas plantas. Estas integraciones garantizan que el sistema funcione de manera fluida y que los roles asignados puedan operar correctamente en sus respectivos contextos.
 
 A continuación, se presentan algunas de las evidencias visuales que demuestran el funcionamiento correcto de estas funcionalidades:<br/>
 
-#### Evidencia 1: Autenticación
+#### Evidencia 1: Authentication
 ![Evidencia au1:](/img/sprint-4/au1.png)  
 ![Evidencia au2:](/img/sprint-4/au2.png)  
 ![Evidencia au3:](/img/sprint-4/au3.png)  
 ![Evidencia au4:](/img/sprint-4/au4.png)  
 
 
-#### Evidencia 2: Plantas
+#### Evidencia 2: Plants
 ![Evidencia pl1:](/img/sprint-4/pl1.png)  
 ![Evidencia pl2:](/img/sprint-4/pl2.png)  
 ![Evidencia pl3:](/img/sprint-4/pl3.png)  
 ![Evidencia pl4:](/img/sprint-4/pl4.png)  
 
 
-#### Evidencia 3: Lineas de producción
+#### Evidencia 3: Production Lines
 ![Evidencia pl1:](/img/sprint-4/pl1.png)  
 ![Evidencia pl2:](/img/sprint-4/pl2.png)  
 ![Evidencia pl3:](/img/sprint-4/pl3.png)  
 ![Evidencia pl4:](/img/sprint-4/pl4.png)  
 
+#### Evidencia 4: Inventory Parts
+![image](https://github.com/user-attachments/assets/da4fa1e2-a032-45b0-b2d7-dfb451a0f580)
+![image](https://github.com/user-attachments/assets/88e8d49c-3df9-4187-8e79-d66b629935a5)
 
+#### Evidencia 4: Purchase Orders
+![image](https://github.com/user-attachments/assets/82b1a328-7b26-4c46-a8b9-be5afd128c0f)
+![image](https://github.com/user-attachments/assets/b326ce50-35d9-4cc7-a239-227ec5265794)
+
+#### Evidencia 5: Work Order
+![image](https://github.com/user-attachments/assets/e5c03f12-0633-4faa-91f7-578b8cba1d81)
+![image](https://github.com/user-attachments/assets/1a1df60d-26b0-4317-9f03-9ac0717df11d)
+
+#### Evidencia 6: Maintenance Plan
+![image](https://github.com/user-attachments/assets/b206f883-01a6-4fb1-94a3-be4a645b40b9)
+![image](https://github.com/user-attachments/assets/9e296ed0-8051-494c-ba6a-df41c17a2f1c)
+
+#### Evidencia 6: Metrics
+![image](https://github.com/user-attachments/assets/78216cf1-3fad-49d3-99f3-1587056adc08)
+![image](https://github.com/user-attachments/assets/30663b55-505a-4bb7-b7f9-de4e01b07b43)
+
+#### Evidencia 6: Personal Management
+![image](https://github.com/user-attachments/assets/370d2ad9-141d-4d28-be9c-0463b0c86b51)
+![image](https://github.com/user-attachments/assets/c071c375-aac7-4c8e-b5f5-0926c150044d)
+
+<br>
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+##### Inventory Parts
+
+| Endpoint | Verbo HTTP | Sintaxis |
+|----------|-------------|----------|
+| `/api/inventory-parts` | POST | `/api/inventory-parts` |
+
+---
+
+**Parámetros (Request Body):**  
+```
+{
+  "code": "P11223",
+  "name": "Tuerca de Acero M8",
+  "description": "Tuerca de acero de alta resistencia para tornillos M8.",
+  "currentStock": 1000,
+  "minStock": 200,
+  "unitPrice": 0.30,
+  "plantId": 1
+}
+```
+
+**Ejemplo Response (201 Created):**  
+```
+{
+  "id": 4,
+  "code": "P11223",
+  "name": "Tuerca de Acero M8",
+  "description": "Tuerca de acero de alta resistencia para tornillos M8.",
+  "currentStock": 1000,
+  "minStock": 200,
+  "unitPrice": 0.3,
+  "stockStatus": null
+}
+```
+
+**Descripción:**  
+Permite registrar una nueva parte de inventario vinculada a una planta específica.
+![Evidencia pl1:](/img/sprint-4/api/1.png)
+![Evidencia pl1:](/img/sprint-4/api/2.png)  
+
+<br>
+
+##### Inventory Parts (GET)
+
+| Endpoint | Verbo HTTP | Sintaxis |
+|----------|-------------|----------|
+| `/api/inventory-parts` | GET | `/api/inventory-parts?plantId=1` |
+
+---
+
+**Parámetros (Query):**  
+```
+plantId: 1
+```
+
+**Ejemplo Response (200 OK):**  
+```
+[
+  {
+    "id": 1,
+    "code": "A12345",
+    "name": "Tornillo de Acero Inoxidable",
+    "description": "Tornillo de alta resistencia, ideal para proyectos industriales y construcción.",
+    "currentStock": 80,
+    "minStock": 50,
+    "unitPrice": 0.75,
+    "stockStatus": null
+  },
+  {
+    "id": 2,
+    "code": "P12345",
+    "name": "Aceite Industrial X-100",
+    "description": "Aceite lubricante de alta viscosidad para maquinaria pesada.",
+    "currentStock": 190,
+    "minStock": 50,
+    "unitPrice": 15.75,
+    "stockStatus": null
+  },
+  {
+    "id": 3,
+    "code": "P67890",
+    "name": "Lubricante Universal",
+    "description": "Lubricante multipropósito para piezas mecánicas.",
+    "currentStock": 70,
+    "minStock": 30,
+    "unitPrice": 5.50,
+    "stockStatus": null
+  }
+]
+```
+
+**Descripción:**  
+Permite consultar todas las partes de inventario filtradas por `plantId`.
+![Evidencia pl1:](/img/sprint-4/api/3.png) 
+
+<br>
+
+##### Purchase Orders (POST)
+
+| Endpoint | Verbo HTTP | Sintaxis |
+|----------|-------------|----------|
+| `/api/purchase-orders` | POST | `/api/purchase-orders` |
+
+---
+
+**Parámetros (Request Body):**  
+```
+{
+  "orderNumber": "string",
+  "inventoryPartId": 0,
+  "quantity": 2147483647,
+  "totalPrice": 0,
+  "plantId": 0,
+  "deliveryDate": "2025-07-06T21:50:06.077Z"
+}
+```
+
+**Ejemplo Response (201 Created):**  
+```
+{
+  "id": 0,
+  "orderNumber": "string",
+  "inventoryPartId": 0,
+  "quantity": 0,
+  "totalPrice": 0,
+  "orderDate": "2025-07-06T21:50:06.089Z",
+  "deliveryDate": "2025-07-06T21:50:06.089Z",
+  "status": "string",
+  "plantId": 0
+}
+```
+
+**Descripción:**  
+Permite registrar una nueva orden de compra, vinculada a una parte de inventario y a una planta, incluyendo cantidad, precio total y fecha de entrega.
+
+![Evidencia pl1:](/img/sprint-4/api/4.png) 
+![Evidencia pl1:](/img/sprint-4/api/5.png) 
+
+<br>
+
+##### Work Orders (POST)
+
+| Endpoint | Verbo HTTP | Sintaxis |
+|----------|-------------|----------|
+| `/api/v1/work-orders` | POST | `/api/v1/work-orders` |
+
+---
+
+**Parámetros (Request Body):**  
+```
+{
+  "code": "string",
+  "date": "2025-07-06T21:53:42.645Z",
+  "productionLineId": 0,
+  "type": "string",
+  "machineIds": [
+    0
+  ],
+  "tasks": [
+    "string"
+  ],
+  "technicianIds": [
+    0
+  ]
+}
+```
+
+**Ejemplo Response (201 Created):**  
+```
+{
+  "id": 3,
+  "code": "PH-12345",
+  "status": "Pending",
+  "type": "Corrective",
+  "date": "2025-07-06T21:54:33.245Z",
+  "productionLineId": 1,
+  "machineIds": [
+    101,
+    103
+  ],
+  "technicianIds": [
+    5,
+    7
+  ],
+  "tasks": [
+    "Revisión de filtros",
+    "Inspección de cables y conexiones",
+    "Ajuste de componentes eléctricos",
+    "Limpieza de sistema de ventilación"
+  ]
+}
+```
+
+**Descripción:**  
+Permite crear una nueva orden de trabajo asociando línea de producción, máquinas, técnicos y tareas programadas.
+
+![Evidencia pl1:](/img/sprint-4/api/6.png) 
+![Evidencia pl1:](/img/sprint-4/api/7.png) 
+
+<br>
+
+##### Work Orders (GET)
+
+| Endpoint | Verbo HTTP | Sintaxis |
+|----------|-------------|----------|
+| `/api/v1/work-orders/{id}` | GET | `/api/v1/work-orders/3` |
+
+---
+
+**Parámetros (Path):**  
+```
+id: 3
+```
+
+**Ejemplo Response (200 OK):**  
+```
+{
+  "id": 3,
+  "code": "PH-12345",
+  "status": "Pending",
+  "type": "Corrective",
+  "date": "2025-07-06T21:54:33.245Z",
+  "productionLineId": 1,
+  "machineIds": [
+    101,
+    103
+  ],
+  "technicianIds": [
+    5,
+    7
+  ],
+  "tasks": [
+    "Revisión de filtros",
+    "Inspección de cables y conexiones",
+    "Ajuste de componentes eléctricos",
+    "Limpieza de sistema de ventilación"
+  ]
+}
+```
+
+**Descripción:**  
+Permite consultar una orden de trabajo específica por su `id`.
+![Evidencia pl1:](/img/sprint-4/api/8.png)
+
+<br>
+
+
+##### Executed Work Orders (POST)
+
+| Endpoint | Verbo HTTP | Sintaxis |
+|----------|-------------|----------|
+| `/api/v1/executed-work-orders` | POST | `/api/v1/executed-work-orders` |
+
+---
+
+**Parámetros (Request Body):**  
+```
+{
+  "code": "Plan de Mantenimiento Mensual - Línea 1.2",
+  "annotations": "Esto realmente necesita validaciones",
+  "executionDate": "2025-07-06T18:26:09.356Z",
+  "productionLineId": 1,
+  "intervenedMachineIds": [
+    2
+  ],
+  "assignedTechnicianIds": [
+    1
+  ],
+  "executedTasks": [
+    "string"
+  ],
+  "usedProducts": [
+    {
+      "productId": 2,
+      "quantity": 10
+    }
+  ],
+  "files": [
+    "fotiotp2"
+  ],
+  "workOrderId": 3
+}
+```
+
+**Ejemplo Response (200 OK):**  
+```
+{
+  "code": "Plan de Mantenimiento Mensual - Línea 1.2",
+  "annotations": "Esto realmente necesita validaciones",
+  "executionDate": "2025-07-06T18:26:09.356Z",
+  "productionLineId": 1,
+  "intervenedMachineIds": [
+    2
+  ],
+  "assignedTechnicianIds": [
+    1
+  ],
+  "executedTasks": [
+    "string"
+  ],
+  "usedProducts": [
+    {
+      "productId": 2,
+      "quantity": 10
+    }
+  ],
+  "files": [
+    "fotiotp2"
+  ],
+  "workOrderId": 3
+}
+```
+
+**Descripción:**  
+Permite registrar la ejecución de una orden de trabajo, indicando máquinas intervenidas, técnicos asignados, tareas realizadas, productos utilizados y archivos de evidencia.
+
+![Evidencia 9:](/img/sprint-4/api/9.png)
+![Evidencia 10:](/img/sprint-4/api/10.png)
+
+<br>
+
+##### Executed Work Orders (GET)
+
+| Endpoint | Verbo HTTP | Sintaxis |
+|----------|-------------|----------|
+| `/api/v1/executed-work-orders/{id}` | GET | `/api/v1/executed-work-orders/1` |
+
+---
+
+**Parámetros (Path):**  
+```
+id: 1
+```
+
+**Ejemplo Response (200 OK):**  
+```
+{
+  "id": 1,
+  "code": "12e",
+  "annotations": "eqwqwe",
+  "executionDate": "2025-07-06T17:29:58.63",
+  "productionLineId": 0,
+  "intervenedMachineIds": [
+    1
+  ],
+  "assignedTechnicianIds": [
+    1
+  ],
+  "executedTasks": [
+    "eee"
+  ],
+  "usedProducts": [
+    {
+      "productId": 1,
+      "quantity": 10
+    }
+  ],
+  "executionImages": []
+}
+```
+
+**Descripción:**  
+Permite consultar la información de una orden de trabajo ejecutada específica mediante su `id`.
+
+![Evidencia 9:](/img/sprint-4/api/11.png)
+![Evidencia 9:](/img/sprint-4/api/12.png)
+
+<br>
+
+##### Image Storage (POST)
+
+| Endpoint | Verbo HTTP | Sintaxis |
+|----------|-------------|----------|
+| `/api/image-storage/upload` | POST | `/api/image-storage/upload` |
+
+---
+
+**Parámetros (Request Body):**  
+```
+File: string(binary)
+Tipo de envío: multipart/form-data
+Ejemplo: archivo PNG o JPG cargado desde el formulario
+```
+
+**Ejemplo Response (200 OK):**  
+```
+{
+  "url": "https://res.cloudinary.com/dgrgsm8ok/image/upload/v1715841973/mecanaut/ealwpjvtb7k1becqlgfk.png"
+}
+```
+
+**Descripción:**  
+Permite subir una imagen al servidor y almacenarla en **Cloudinary**, devolviendo la URL pública de acceso al archivo.
+
+
+![Evidencia 9:](/img/sprint-4/api/13.png)
+![Evidencia 9:](/img/sprint-4/api/14.png)
+
+
+<br>
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+Durante este Sprint no se realizaron nuevos despliegues de la infraestructura principal, ya que tanto la Landing Page, la Web Application y los Web Services ya se encontraban desplegados y operativos desde Sprints anteriores. 
+
+Sin embargo, como parte de la mejora del flujo de trabajo y almacenamiento de evidencias, se implementó la integración con **Cloudinary** para gestionar de forma centralizada las imágenes generadas en la ejecución de órdenes de trabajo. Esta integración permite subir, almacenar y servir de forma eficiente los archivos multimedia (evidencias fotográficas) sin sobrecargar el servidor backend ni el almacenamiento local.
+
+Para ello, se crearon cuentas y recursos en **Cloudinary**, se configuraron las variables necesarias, se implementaron credenciales seguras y se realizaron pruebas de carga y recuperación de imágenes, asegurando que el servicio esté correctamente enlazado con el backend desplegado.
+
+Se adjuntan a continuación capturas y de los pasos realizados durante este Sprint para evidenciar la configuración de Cloudinary, la gestión de credenciales y la integración en la lógica del backend.
+
+- Primero creamos una cuenta en cloudinary
+
+![image](https://github.com/user-attachments/assets/d921d8fb-4055-435e-b5ee-c431e919f583)
+
+
+- Luego, descargamos las dependencias necesarias en nuestro proyecto asi como guardar las credenciales
+
+![image](https://github.com/user-attachments/assets/cfff16e3-7c17-42e1-a42e-8dfb8932ab0d)
+![image](https://github.com/user-attachments/assets/cfbf904b-41b7-451a-9157-14c3f6781845)
+![image](https://github.com/user-attachments/assets/94c5f2d5-3b2d-4852-bd3c-0ad9b05f8f92)
+
+
+- Despues de haber configurado correctamente, validamos que ya estamos conectados y guardamos correctamente nuestras imagenes.
+![image](https://github.com/user-attachments/assets/5f0f6cc7-59e7-4232-b425-e4a76ac946f6)
+
+<br>
+
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 Durante el desarrollo del Sprint Final, el equipo demostró una coordinación efectiva para integrar todas las funcionalidades desarrolladas en los sprints anteriores y consolidar el sistema Mecanaut como un producto funcional. Las tareas se enfocaron en la conexión completa entre el frontend y backend, validación de vistas y endpoints, manejo de perfiles, login seguro y operaciones CRUD críticas como órdenes de trabajo, inventario y mantenimiento.<br/>
@@ -5503,18 +5909,18 @@ A continuación, se presentan capturas de los analíticos de colaboración desde
 Capturas de colaboracion en github:
 
 Backend:
-![Evidencia Git1a:](/img/sprint-4/network4b.png)
-![Evidencia Git2a:](/img/sprint-4/contribuitors4b.png)
-![Evidencia Git3a:](/img/sprint-4/git4b.png)
-![Evidencia Git4a:](/img/sprint-4/commit4b.png)
+
+![image](https://github.com/user-attachments/assets/1a8e9f88-8967-4bb5-8c3a-ea98972607f8)
+![image](https://github.com/user-attachments/assets/529084cf-2ad3-4697-8037-e3be78299329)
+![image](https://github.com/user-attachments/assets/ef067d95-c992-403f-b59f-4cc4469140c2)
 
 
 Frontend:
-![Evidencia Git1b:](/img/sprint-4/network4f.png)
-![Evidencia Git2b:](/img/sprint-4/contribuitors4f.png)
-![Evidencia Git3b:](/img/sprint-4/git4f.png)
-![Evidencia Git4b:](/img/sprint-4/commit4f.png)
+![image](https://github.com/user-attachments/assets/d927a5ab-a5cd-4ba6-bc45-07d2cc2a8fe7)
+![image](https://github.com/user-attachments/assets/2d3c9ad5-b538-45c4-a0b4-5f3ea572b549)
+![image](https://github.com/user-attachments/assets/dc20753e-e3b6-41d1-82fc-46151e017ff5)
 
+<br>
 
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
