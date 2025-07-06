@@ -5819,8 +5819,64 @@ Permite consultar la información de una orden de trabajo ejecutada específica 
 
 <br>
 
+##### Image Storage (POST)
+
+| Endpoint | Verbo HTTP | Sintaxis |
+|----------|-------------|----------|
+| `/api/image-storage/upload` | POST | `/api/image-storage/upload` |
+
+---
+
+**Parámetros (Request Body):**  
+```
+File: string(binary)
+Tipo de envío: multipart/form-data
+Ejemplo: archivo PNG o JPG cargado desde el formulario
+```
+
+**Ejemplo Response (200 OK):**  
+```
+{
+  "url": "https://res.cloudinary.com/dgrgsm8ok/image/upload/v1715841973/mecanaut/ealwpjvtb7k1becqlgfk.png"
+}
+```
+
+**Descripción:**  
+Permite subir una imagen al servidor y almacenarla en **Cloudinary**, devolviendo la URL pública de acceso al archivo.
+
+
+![Evidencia 9:](/img/sprint-4/api/13.png)
+![Evidencia 9:](/img/sprint-4/api/14.png)
+
+
+<br>
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+Durante este Sprint no se realizaron nuevos despliegues de la infraestructura principal, ya que tanto la Landing Page, la Web Application y los Web Services ya se encontraban desplegados y operativos desde Sprints anteriores. 
+
+Sin embargo, como parte de la mejora del flujo de trabajo y almacenamiento de evidencias, se implementó la integración con **Cloudinary** para gestionar de forma centralizada las imágenes generadas en la ejecución de órdenes de trabajo. Esta integración permite subir, almacenar y servir de forma eficiente los archivos multimedia (evidencias fotográficas) sin sobrecargar el servidor backend ni el almacenamiento local.
+
+Para ello, se crearon cuentas y recursos en **Cloudinary**, se configuraron las variables necesarias, se implementaron credenciales seguras y se realizaron pruebas de carga y recuperación de imágenes, asegurando que el servicio esté correctamente enlazado con el backend desplegado.
+
+Se adjuntan a continuación capturas y de los pasos realizados durante este Sprint para evidenciar la configuración de Cloudinary, la gestión de credenciales y la integración en la lógica del backend.
+
+- Primero creamos una cuenta en cloudinary
+
+![image](https://github.com/user-attachments/assets/d921d8fb-4055-435e-b5ee-c431e919f583)
+
+
+- Luego, descargamos las dependencias necesarias en nuestro proyecto asi como guardar las credenciales
+
+![image](https://github.com/user-attachments/assets/cfff16e3-7c17-42e1-a42e-8dfb8932ab0d)
+![image](https://github.com/user-attachments/assets/cfbf904b-41b7-451a-9157-14c3f6781845)
+![image](https://github.com/user-attachments/assets/94c5f2d5-3b2d-4852-bd3c-0ad9b05f8f92)
+
+
+- Despues de haber configurado correctamente, validamos que ya estamos conectados y guardamos correctamente nuestras imagenes.
+![image](https://github.com/user-attachments/assets/5f0f6cc7-59e7-4232-b425-e4a76ac946f6)
+
+
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 Durante el desarrollo del Sprint Final, el equipo demostró una coordinación efectiva para integrar todas las funcionalidades desarrolladas en los sprints anteriores y consolidar el sistema Mecanaut como un producto funcional. Las tareas se enfocaron en la conexión completa entre el frontend y backend, validación de vistas y endpoints, manejo de perfiles, login seguro y operaciones CRUD críticas como órdenes de trabajo, inventario y mantenimiento.<br/>
