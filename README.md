@@ -1749,8 +1749,8 @@ En comparación con el escenario actual, el To-Be Scenario introduce mejoras cla
 | US20 | Registro de cuenta | Como administrador, quiero registrar una cuenta con datos de empresa, tipo y contacto, para usar el sistema. | Escenario 1: Registro exitoso **Given** que el administrador accede al formulario de registro. **When** completa todos los campos requeridos. **Then** el sistema crea la cuenta y envía confirmación. Escenario 2: Campos incompletos **Given** que deja campos obligatorios vacíos. **When** intenta registrar la cuenta. **Then** el sistema muestra los errores específicos que debe corregir. | EP09 |
 | US21 | Registro de técnicos | Como administrador, quiero registrar técnicos con sus datos, para asignarles tareas. | Escenario 1: Técnico registrado correctamente **Given** que el administrador tiene los datos del técnico. **When** completa el formulario de registro. **Then** el técnico queda disponible en el sistema. Escenario 2: Error en el formulario **Given** que el administrador ingresa datos inválidos. **When** intenta registrar al técnico. **Then** el sistema indica los errores y no permite continuar. | EP09 |
 | US22 | Inicio de sesión | Como administrador o técnico, quiero iniciar sesión en el sistema para acceder a mis funcionalidades. | Escenario 1: Inicio de sesión exitoso **Given** que el usuario tiene credenciales válidas. **When** las ingresa correctamente. **Then** accede a su panel de usuario. Escenario 2: Error en las credenciales **Given** que el usuario introduce datos incorrectos. **When** intenta iniciar sesión. **Then** el sistema indica que el usuario o la contraseña son inválidos. | EP09 |
-| US23 | Modificar plan de mantenimiento | Como administrador, quiero modificar un plan de mantenimiento ya registrado en el calendario, para ajustar fechas o duración según nuevas necesidades. | Escenario 1: Modificación exitosa **Given** que accede al calendario de mantenimiento. **When** edita un plan existente y guarda los cambios. **Then** el sistema actualiza el calendario y notifica a los técnicos afectados. Escenario 2: Campos inválidos al modificar **Given** que intenta editar un plan. **When** deja campos obligatorios vacíos. **Then** el sistema bloquea la acción y solicita completar los datos. | EP02 |
-| US24 | Eliminar plan de mantenimiento | Como administrador, quiero eliminar un plan de mantenimiento del calendario, para retirar tareas que ya no se realizarán. | Escenario 1: Eliminación exitosa **Given** que accede al plan de mantenimiento. **When** selecciona la opción eliminar. **Then** el sistema borra el plan del calendario y actualiza las asignaciones. Escenario 2: Error al eliminar plan inexistente **Given** que el plan ya fue eliminado previamente. **When** intenta eliminarlo nuevamente. **Then** el sistema muestra un mensaje indicando que no se encuentra el plan. | EP02 |
+| US23 | Simulación de Registro de Métricas de Maquinarias | Como administrador, quiero simular el registro de métricas de una maquinaria necesitada. | Escenario 1: Simulación exitosa **Given** que accede al la vista de simulaciones. **When** actualiza una metrica. **Then** el sistema actualiza la metrica y se visualiza. Escenario 2: Campos inválidos al modificar **Given** una metrica inexistente. **When** deja campos obligatorios vacíos. **Then** el sistema bloquea la acción y solicita completar los datos. | EP02 |
+| US24 | Asignar tecnicos a orden de trabajo | Como administrador, asignar tecnicos a ordenes de trabajo, para que estos sepan sus deberes. | Escenario 1: Asignación exitosa **Given** se visualizan los cambios. **When** selecciona la opción asignar. **Then** el sistema asigna la lista de tecnicos. Escenario 2: Error al asignar inexistente **Given** que dicha orden no existe. **When** trata de asignar relación de tecnicos. **Then** el sistema muestra un mensaje indicando que no se encuentra la orden. | EP02 |
 | US25 | Eliminar activo | Como administrador, quiero eliminar activos que ya no están en uso, para mantener actualizada la base de datos. | Escenario 1: Eliminación exitosa **Given** que accede al listado de activos. **When** selecciona un activo y confirma su eliminación. **Then** el sistema lo elimina y actualiza los registros relacionados. Escenario 2: Error por dependencias activas **Given** que el activo está asociado a órdenes de trabajo activas. **When** intenta eliminarlo. **Then** el sistema muestra un error y no permite la acción. | EP01 |
 | US26 | Eliminar orden de trabajo repentina | Como administrador, quiero eliminar órdenes de trabajo repentinas que fueron creadas por error, para mantener el calendario limpio. | Escenario 1: Eliminación correcta **Given** que accede a una orden de trabajo. **When** decide eliminarla. **Then** el sistema la elimina del calendario y del historial. Escenario 2: Orden ya finalizada **Given** que la orden ya fue completada. **When** intenta eliminarla. **Then** el sistema muestra un mensaje indicando que no puede eliminar tareas ya cerradas. | EP02 |
 | US27 | Visualización de perfil de administrador | Como administrador, quiero visualizar mi perfil, para revisar y actualizar mi información personal o de la cuenta. | Escenario 1: Visualización exitosa del perfil **Given** que el administrador accede a su cuenta. **When** abre la sección de perfil. **Then** el sistema muestra sus datos correctamente. Escenario 2: Error al cargar perfil **Given** que hay un problema de conexión. **When** intenta abrir su perfil. **Then** el sistema muestra un mensaje de error temporal. | EP09 |
@@ -5181,10 +5181,10 @@ Captura de colaboracion en github:
   <!-- US09 -->
   <tr>
     <th rowspan="1">US09</th>
-    <th rowspan="1">Implementación de plan de trabajo</th>
+    <th rowspan="1">Implementación de plan de mantenimiento</th>
     <td>1</td>
-    <td align="justify">Conectar backend con el calendario de mantenimiento</td>
-    <td align="justify">Permitir agregar un plan al calendario desde el frontend, enviando datos al backend y mostrando confirmación visual.</td>
+    <td align="justify">Conectar endpoints del backend con la vista de plan de mantenimiento</td>
+    <td align="justify">Permitir agregar un plan desde el frontend, enviando datos al backend y mostrando confirmación visual.</td>
     <td>4 hr</td>
     <td>Victor Cruz</td>
     <td>Done</td>
@@ -5208,7 +5208,7 @@ Captura de colaboracion en github:
     <th rowspan="1">Revisión de inventario</th>
     <td>3</td>
     <td align="justify">Conectar inventario con backend</td>
-    <td align="justify">Mostrar lista de insumos y permitir editar cantidades desde el frontend utilizando los endpoints correspondientes.</td>
+    <td align="justify">Mostrar lista de insumos y permitir interactuar desde el frontend utilizando los endpoints correspondientes.</td>
     <td>3 hr</td>
     <td>Mauricio Elera</td>
     <td>Done</td>
@@ -5217,10 +5217,10 @@ Captura de colaboracion en github:
   <!-- US18 -->
   <tr>
     <th rowspan="1">US18</th>
-    <th rowspan="1">Registro de tareas realizadas</th>
+    <th rowspan="1">Registro de ordenes de trabajo realizadas</th>
     <td>4</td>
-    <td align="justify">Agregar opción para marcar tareas como completadas</td>
-    <td align="justify">Permitir que el técnico actualice el estado de las tareas dentro de una orden de trabajo.</td>
+    <td align="justify">Agregar opción para marcar ordenes de trabajo como completadas</td>
+    <td align="justify">Permitir que el técnico actualice el estado de las ordenes de trabajo dentro de una orden de trabajo.</td>
     <td>2 hr</td>
     <td>Ariana Agreda</td>
     <td>Done</td>
@@ -5277,34 +5277,35 @@ Captura de colaboracion en github:
   <!-- US23 -->
   <tr>
     <th rowspan="1">US23</th>
-    <th rowspan="1">Modificar plan de mantenimiento</th>
+    <th rowspan="1">Simulación de Registro de Métricas de Maquinarias</th>
     <td>9</td>
-    <td align="justify">Agregar funcionalidad de edición de planes</td>
-    <td align="justify">Permitir editar un plan de mantenimiento y enviar los cambios al backend.</td>
+    <td align="justify">Agregar funcionalidad para registrar cambios en las lecturas de las métricas de las maquinarias</td>
+    <td align="justify">Permitir seleccionar la maquinaria y metrica a registrar. Creacion de un plan dinamico en caso corresponda.</td>
     <td>3 hr</td>
     <td>Victor Cruz</td>
     <td>Done</td>
   </tr>
 
   <!-- US24 -->
-  <tr>
-    <th rowspan="1">US24</th>
-    <th rowspan="1">Eliminar plan de mantenimiento</th>
-    <td>10</td>
-    <td align="justify">Agregar funcionalidad de eliminación de planes</td>
-    <td align="justify">Eliminar un plan de mantenimiento del calendario enviando la solicitud al backend.</td>
-    <td>2 hr</td>
-    <td>Ariana Agreda</td>
-    <td>Done</td>
-  </tr>
+<tr>
+  <th rowspan="1">US24</th>
+  <th rowspan="1">Asignar tecnicos a orden de trabajo</th>
+  <td>10</td>
+  <td align="justify">Agregar funcionalidad de asignación de técnicos</td>
+  <td align="justify">Seleccionar una orden de trabajo sin técnicos e implementar el endpoint de asignación</td>
+  <td>2 hr</td>
+  <td>Ariana Agreda</td>
+  <td>Done</td>
+</tr>
+
 
   <!-- US25 -->
   <tr>
     <th rowspan="1">US25</th>
-    <th rowspan="1">Eliminar activo</th>
+    <th rowspan="1">Ejecutar orden de trabajo</th>
     <td>11</td>
-    <td align="justify">Eliminar activos desde interfaz</td>
-    <td align="justify">Permitir eliminar un activo existente desde la vista del administrador.</td>
+    <td align="justify">Subir un informe resumen de la orden de trabajo</td>
+    <td align="justify">Permitir agregar comentarios y subir imagenes de evidencia de la ejecución.</td>
     <td>2 hr</td>
     <td>Rafael Vivanco</td>
     <td>Done</td>
