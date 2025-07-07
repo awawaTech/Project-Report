@@ -6232,3 +6232,4 @@ Para acceder a los diferentes recursos del proyecto, puedes visitar los siguient
 - https://youtu.be/ch44ZfRNnuE
 - https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210259_upc_edu_pe/Eatgx8ofihRLkXpFKcXZp-kBTvydQxAIaxjAxhq3S3nfew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=U4mI7y
 
+- Video de exposición TF1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210259_upc_edu_pe/Eay_GspBRr9FpCsQL_32EcEBwGkP_YEOKtyR-VBO0e86vw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iuDM3N
