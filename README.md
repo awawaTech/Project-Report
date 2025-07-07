@@ -5430,10 +5430,11 @@ A continuación, se presentan algunas de las evidencias visuales que demuestran 
 
 
 #### Evidencia 3: Production Lines
-![Evidencia pl1:](/img/sprint-4/pl1.png)  
-![Evidencia pl2:](/img/sprint-4/pl2.png)  
-![Evidencia pl3:](/img/sprint-4/pl3.png)  
-![Evidencia pl4:](/img/sprint-4/pl4.png)  
+![lp1](https://github.com/user-attachments/assets/0380f40c-ae54-4fdb-b99b-1ce4eb038962)
+![lp2](https://github.com/user-attachments/assets/44212ee0-c1e7-4023-a0ba-d08dac898e90)
+![lp3](https://github.com/user-attachments/assets/9b4d7dd9-e65b-4768-bd89-3c00e9242ea3)
+![lp4](https://github.com/user-attachments/assets/dc8cff1d-5afb-4358-9c8a-30952693eb42)
+
 
 #### Evidencia 4: Inventory Parts
 ![image](https://github.com/user-attachments/assets/da4fa1e2-a032-45b0-b2d7-dfb451a0f580)
