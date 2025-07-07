@@ -5880,13 +5880,19 @@ Se adjuntan a continuación capturas y de los pasos realizados durante este Spri
 
 ![image](https://github.com/user-attachments/assets/d921d8fb-4055-435e-b5ee-c431e919f583)
 
+<br>
 
 - Luego, descargamos las dependencias necesarias en nuestro proyecto asi como guardar las credenciales
 
-![image](https://github.com/user-attachments/assets/cfff16e3-7c17-42e1-a42e-8dfb8932ab0d)
 ![image](https://github.com/user-attachments/assets/cfbf904b-41b7-451a-9157-14c3f6781845)
 ![image](https://github.com/user-attachments/assets/94c5f2d5-3b2d-4852-bd3c-0ad9b05f8f92)
 
+<br>
+
+- En la VM donde tenemos desplegado nuestro Backend configuramos las variables de entorno
+![image](https://github.com/user-attachments/assets/afc0c4b8-538e-41d5-8eb8-b29bb17981bd)
+
+<br>
 
 - Despues de haber configurado correctamente, validamos que ya estamos conectados y guardamos correctamente nuestras imagenes.
 ![image](https://github.com/user-attachments/assets/5f0f6cc7-59e7-4232-b425-e4a76ac946f6)
