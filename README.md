@@ -1,4 +1,4 @@
-<center>Project Report</center>
+![image](https://github.com/user-attachments/assets/5a0a0a58-b086-4367-bf90-c6a90c90f8dd)<center>Project Report</center>
 
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
@@ -5563,35 +5563,36 @@ Permite consultar todas las partes de inventario filtradas por `plantId`.
 **Parámetros (Request Body):**  
 ```
 {
-  "orderNumber": "string",
-  "inventoryPartId": 0,
-  "quantity": 2147483647,
-  "totalPrice": 0,
-  "plantId": 0,
-  "deliveryDate": "2025-07-06T21:50:06.077Z"
+  "orderNumber": "ORD-001",
+  "inventoryPartId": 1,
+  "quantity": 15,
+  "totalPrice": 100,
+  "plantId": 1,
+  "deliveryDate": "2025-07-08T03:58:18.753Z"
 }
 ```
 
 **Ejemplo Response (201 Created):**  
 ```
 {
-  "id": 0,
-  "orderNumber": "string",
-  "inventoryPartId": 0,
-  "quantity": 0,
-  "totalPrice": 0,
-  "orderDate": "2025-07-06T21:50:06.089Z",
-  "deliveryDate": "2025-07-06T21:50:06.089Z",
-  "status": "string",
-  "plantId": 0
+  "id": 1,
+  "orderNumber": "ORD-001",
+  "inventoryPartId": 1,
+  "quantity": 15,
+  "totalPrice": 100,
+  "orderDate": "2025-07-07T03:58:39.1737074Z",
+  "deliveryDate": "2025-07-08T03:58:18.753Z",
+  "status": "Created",
+  "plantId": 1
 }
 ```
 
 **Descripción:**  
 Permite registrar una nueva orden de compra, vinculada a una parte de inventario y a una planta, incluyendo cantidad, precio total y fecha de entrega.
+![image](https://github.com/user-attachments/assets/75336ee8-7a7c-4526-8c6d-29f20166e023)
 
-![Evidencia pl1:](/img/sprint-4/api/4.png) 
-![Evidencia pl1:](/img/sprint-4/api/5.png) 
+![image](https://github.com/user-attachments/assets/d137d639-ac96-439b-845c-c001a3a0c545)
+
 
 <br>
 
@@ -5730,18 +5731,18 @@ Permite consultar una orden de trabajo específica por su `id`.
     1
   ],
   "executedTasks": [
-    "string"
+    "Cambio de aceite del compresor"
   ],
   "usedProducts": [
     {
-      "productId": 2,
+      "productId": 1,
       "quantity": 10
     }
   ],
   "files": [
     "fotiotp2"
   ],
-  "workOrderId": 3
+  "workOrderId": 1
 }
 ```
 
@@ -5759,26 +5760,25 @@ Permite consultar una orden de trabajo específica por su `id`.
     1
   ],
   "executedTasks": [
-    "string"
+    "Cambio de aceite del compresor"
   ],
   "usedProducts": [
     {
-      "productId": 2,
+      "productId": 1,
       "quantity": 10
     }
   ],
   "files": [
     "fotiotp2"
   ],
-  "workOrderId": 3
+  "workOrderId": 1
 }
 ```
 
 **Descripción:**  
 Permite registrar la ejecución de una orden de trabajo, indicando máquinas intervenidas, técnicos asignados, tareas realizadas, productos utilizados y archivos de evidencia.
+![image](https://github.com/user-attachments/assets/b3fa0435-bc01-48c7-ac7a-145d6e97d4c4)
 
-![Evidencia 9:](/img/sprint-4/api/9.png)
-![Evidencia 10:](/img/sprint-4/api/10.png)
 
 <br>
 
@@ -5798,19 +5798,20 @@ id: 1
 **Ejemplo Response (200 OK):**  
 ```
 {
+{
   "id": 1,
-  "code": "12e",
-  "annotations": "eqwqwe",
-  "executionDate": "2025-07-06T17:29:58.63",
-  "productionLineId": 0,
+  "code": "Plan de Mantenimiento Mensual - Línea 1.2",
+  "annotations": "Esto realmente necesita validaciones",
+  "executionDate": "2025-07-06T18:26:09.356",
+  "productionLineId": 1,
   "intervenedMachineIds": [
-    1
+    2
   ],
   "assignedTechnicianIds": [
     1
   ],
   "executedTasks": [
-    "eee"
+    "Cambio de aceite del compresor"
   ],
   "usedProducts": [
     {
@@ -5818,15 +5819,18 @@ id: 1
       "quantity": 10
     }
   ],
-  "executionImages": []
+  "executionImages": [
+    "fotiotp2"
+  ]
 }
 ```
 
 **Descripción:**  
 Permite consultar la información de una orden de trabajo ejecutada específica mediante su `id`.
 
-![Evidencia 9:](/img/sprint-4/api/11.png)
-![Evidencia 9:](/img/sprint-4/api/12.png)
+![image](https://github.com/user-attachments/assets/1389748c-0653-4029-8c71-88f5dbe80dfa)
+![image](https://github.com/user-attachments/assets/f7cc6709-c23a-4ee7-9757-4b20f981c288)
+
 
 <br>
 
@@ -5848,16 +5852,14 @@ Ejemplo: archivo PNG o JPG cargado desde el formulario
 **Ejemplo Response (200 OK):**  
 ```
 {
-  "url": "https://res.cloudinary.com/dgrgsm8ok/image/upload/v1715841973/mecanaut/ealwpjvtb7k1becqlgfk.png"
+  "url": "https://res.cloudinary.com/dgrsgm8ok/image/upload/v1751859599/mecanaut/yctcwltydtsnzrzwfxh3.jpg"
 }
 ```
 
 **Descripción:**  
 Permite subir una imagen al servidor y almacenarla en **Cloudinary**, devolviendo la URL pública de acceso al archivo.
 
-
-![Evidencia 9:](/img/sprint-4/api/13.png)
-![Evidencia 9:](/img/sprint-4/api/14.png)
+![image](https://github.com/user-attachments/assets/c910518a-7a44-48c6-a2de-b816cbd5e58b)
 
 
 <br>
