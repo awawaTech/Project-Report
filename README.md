@@ -5477,34 +5477,35 @@ A continuación, se presentan algunas de las evidencias visuales que demuestran 
 **Parámetros (Request Body):**  
 ```
 {
-  "code": "P11223",
-  "name": "Tuerca de Acero M8",
-  "description": "Tuerca de acero de alta resistencia para tornillos M8.",
-  "currentStock": 1000,
-  "minStock": 200,
-  "unitPrice": 0.30,
-  "plantId": 1
+  "code": "FLT-120",
+  "name": "Filtro de Aceite HF-120",
+  "description": "Filtro hidráulico para sistema de alta presión, rosca M20×1.5",
+  "currentStock": 45,
+  "minStock": 10,
+  "unitPrice": 27.50,
+  "plantId": 3
 }
 ```
 
 **Ejemplo Response (201 Created):**  
 ```
 {
-  "id": 4,
-  "code": "P11223",
-  "name": "Tuerca de Acero M8",
-  "description": "Tuerca de acero de alta resistencia para tornillos M8.",
-  "currentStock": 1000,
-  "minStock": 200,
-  "unitPrice": 0.3,
+  "id": 1,
+  "code": "FLT-120",
+  "name": "Filtro de Aceite HF-120",
+  "description": "Filtro hidráulico para sistema de alta presión, rosca M20×1.5",
+  "currentStock": 45,
+  "minStock": 10,
+  "unitPrice": 27.5,
   "stockStatus": null
 }
 ```
 
 **Descripción:**  
 Permite registrar una nueva parte de inventario vinculada a una planta específica.
-![Evidencia pl1:](/img/sprint-4/api/1.png)
-![Evidencia pl1:](/img/sprint-4/api/2.png)  
+![image](https://github.com/user-attachments/assets/569b604b-b3c4-469f-812b-d5f3f770144b)
+![image](https://github.com/user-attachments/assets/6ef74e04-d8df-4053-bf4e-c2217b7fb209)
+
 
 <br>
 
@@ -5525,33 +5526,23 @@ plantId: 1
 ```
 [
   {
-    "id": 1,
-    "code": "A12345",
-    "name": "Tornillo de Acero Inoxidable",
-    "description": "Tornillo de alta resistencia, ideal para proyectos industriales y construcción.",
-    "currentStock": 80,
-    "minStock": 50,
-    "unitPrice": 0.75,
-    "stockStatus": null
-  },
-  {
     "id": 2,
-    "code": "P12345",
-    "name": "Aceite Industrial X-100",
-    "description": "Aceite lubricante de alta viscosidad para maquinaria pesada.",
-    "currentStock": 190,
-    "minStock": 50,
-    "unitPrice": 15.75,
+    "code": "BRG-102",
+    "name": "Rodamiento de bolas 6304",
+    "description": "Rodamiento de bolas de acero para eje de 20 mm",
+    "currentStock": 25,
+    "minStock": 5,
+    "unitPrice": 15,
     "stockStatus": null
   },
   {
     "id": 3,
-    "code": "P67890",
-    "name": "Lubricante Universal",
-    "description": "Lubricante multipropósito para piezas mecánicas.",
-    "currentStock": 70,
-    "minStock": 30,
-    "unitPrice": 5.50,
+    "code": "SEAL-210",
+    "name": "Sello mecánico tipo 210",
+    "description": "Sello mecánico de dos anillos para bombas centrífugas",
+    "currentStock": 12,
+    "minStock": 3,
+    "unitPrice": 42.75,
     "stockStatus": null
   }
 ]
@@ -5559,7 +5550,9 @@ plantId: 1
 
 **Descripción:**  
 Permite consultar todas las partes de inventario filtradas por `plantId`.
-![Evidencia pl1:](/img/sprint-4/api/3.png) 
+![image](https://github.com/user-attachments/assets/d7a91bfa-c256-4f09-a285-48870c153b4e)
+![image](https://github.com/user-attachments/assets/ced391da-144d-4a71-8122-4e91329bc39c)
+
 
 <br>
 
@@ -5617,53 +5610,57 @@ Permite registrar una nueva orden de compra, vinculada a una parte de inventario
 **Parámetros (Request Body):**  
 ```
 {
-  "code": "string",
-  "date": "2025-07-06T21:53:42.645Z",
-  "productionLineId": 0,
-  "type": "string",
+  "code": "PH-67890",
+  "date": "2025-07-07T02:11:22.986Z",
+  "productionLineId": 1,
+  "type": "Corrective",
   "machineIds": [
-    0
+    201,
+    204
   ],
   "tasks": [
-    "string"
+    "Cambio de aceite del compresor",
+    "Inspección y limpieza de ventiladores",
+    "Verificación de presión hidráulica"
   ],
   "technicianIds": [
-    0
+    3,
+    6
   ]
 }
+
 ```
 
 **Ejemplo Response (201 Created):**  
 ```
 {
-  "id": 3,
-  "code": "PH-12345",
+  "id": 1,
+  "code": "PH-67890",
   "status": "Pending",
   "type": "Corrective",
-  "date": "2025-07-06T21:54:33.245Z",
+  "date": "2025-07-07T02:11:22.986Z",
   "productionLineId": 1,
   "machineIds": [
-    101,
-    103
+    201,
+    204
   ],
   "technicianIds": [
-    5,
-    7
+    3,
+    6
   ],
   "tasks": [
-    "Revisión de filtros",
-    "Inspección de cables y conexiones",
-    "Ajuste de componentes eléctricos",
-    "Limpieza de sistema de ventilación"
+    "Cambio de aceite del compresor",
+    "Inspección y limpieza de ventiladores",
+    "Verificación de presión hidráulica"
   ]
 }
 ```
 
 **Descripción:**  
 Permite crear una nueva orden de trabajo asociando línea de producción, máquinas, técnicos y tareas programadas.
+![image](https://github.com/user-attachments/assets/6ad9abb1-4f70-42ee-b893-d684167e0ae5)
+![image](https://github.com/user-attachments/assets/218ed4db-adbb-41d9-92a0-295e7eb19e5e)
 
-![Evidencia pl1:](/img/sprint-4/api/6.png) 
-![Evidencia pl1:](/img/sprint-4/api/7.png) 
 
 <br>
 
@@ -5683,32 +5680,34 @@ id: 3
 **Ejemplo Response (200 OK):**  
 ```
 {
-  "id": 3,
-  "code": "PH-12345",
+  "id": 1,
+  "code": "PH-67890",
   "status": "Pending",
   "type": "Corrective",
-  "date": "2025-07-06T21:54:33.245Z",
+  "date": "2025-07-07T02:11:22.986",
   "productionLineId": 1,
   "machineIds": [
-    101,
-    103
+    201,
+    204
   ],
   "technicianIds": [
-    5,
-    7
+    3,
+    6
   ],
   "tasks": [
-    "Revisión de filtros",
-    "Inspección de cables y conexiones",
-    "Ajuste de componentes eléctricos",
-    "Limpieza de sistema de ventilación"
+    "Cambio de aceite del compresor",
+    "Inspección y limpieza de ventiladores",
+    "Verificación de presión hidráulica"
   ]
 }
 ```
 
 **Descripción:**  
 Permite consultar una orden de trabajo específica por su `id`.
-![Evidencia pl1:](/img/sprint-4/api/8.png)
+![image](https://github.com/user-attachments/assets/87744ca0-3a19-45d8-aa47-698f528dd159)
+![image](https://github.com/user-attachments/assets/d2c8838d-3f73-4481-9130-2c083b28520b)
+
+
 
 <br>
 
