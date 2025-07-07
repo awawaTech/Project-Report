@@ -319,12 +319,15 @@ __TB2__
 
 __TF__
 
-<div>
-  <p><img src="img/sprint-4/contribuitors4.png" alt="Contributors" width="700px" /></p>
-</div>
-<div>
-  <p><img src="img/sprint-4/network4.png" alt="Overview" width="700px" /></p>
-</div>
+![image](https://github.com/user-attachments/assets/618dadcc-c2f7-4184-8cde-75c1db97c865)
+![image](https://github.com/user-attachments/assets/4dffde79-b15b-4c88-a202-e6e750ae6f02)
+
+![image](https://github.com/user-attachments/assets/f4bf2d43-b5e5-4f86-8705-51699160e5fc)
+![image](https://github.com/user-attachments/assets/2f2619d6-cdb6-4740-85ea-9e32b221d3ce)
+
+![image](https://github.com/user-attachments/assets/510b30fb-c9e8-4ac0-b426-d7f35693e212)
+![image](https://github.com/user-attachments/assets/afad32d5-78f0-4646-8f42-544b098a141b)
+
 
 ---
 
