@@ -5889,7 +5889,8 @@ Se adjuntan a continuación capturas y de los pasos realizados durante este Spri
 
 <br>
 
-- En la VM donde tenemos desplegado nuestro Backend configuramos las variables de entorno
+- En la VM donde tenemos desplegado nuestro Backend configuramos las variables de entorno. Una vez esto hecho, reiniciamos la VM.
+![image](https://github.com/user-attachments/assets/c39d9ff5-74b7-46d3-9f05-ca63050540ad)
 ![image](https://github.com/user-attachments/assets/afc0c4b8-538e-41d5-8eb8-b29bb17981bd)
 
 <br>
