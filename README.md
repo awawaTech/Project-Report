@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5a0a0a58-b086-4367-bf90-c6a90c90f8dd)<center>Project Report</center>
+<center>Project Report</center>
 
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
