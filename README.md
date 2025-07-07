@@ -5070,6 +5070,7 @@ Captura de colaboracion en github:
     <td>L</td>
     <td>C</td>
     <td>C</td>
+    <td>C</td>
   </tr>
   <tr>
     <td>Belledonne, Claudia</td>
@@ -5090,6 +5091,7 @@ Captura de colaboracion en github:
     <td>C</td>
     <td>L</td>
     <td>L</td>
+    <td>L</td>
   </tr>
   <tr>
     <td>Elera, Mauricio</td>
@@ -5107,6 +5109,7 @@ Captura de colaboracion en github:
     <td>C</td>
     <td>C</td>
     <td>L</td>
+    <td>C</td>
     <td>C</td>
     <td>C</td>
     <td>C</td>
@@ -5130,6 +5133,7 @@ Captura de colaboracion en github:
     <td>C</td>
     <td>C</td>
     <td>C</td>
+    <td>C</td>
   </tr>
   <tr>
     <td>Vivanco, Rafael</td>
@@ -5149,6 +5153,7 @@ Captura de colaboracion en github:
     <td>C</td>
     <td>C</td>
     <td>L</td>
+    <td>C</td>
     <td>C</td>
   </tr>
     
@@ -5228,7 +5233,6 @@ Captura de colaboracion en github:
     <td>4</td>
     <td align="justify">Agregar opción para marcar ordenes de trabajo como completadas</td>
     <td align="justify">Unir el endpoint de ordenes de trabajo con el front.</td>
-    <td>2 hr</td>
     <td>2 hr</td>
     <td>Ariana Agreda</td>
     <td>Done</td>
