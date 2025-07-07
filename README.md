@@ -5227,6 +5227,8 @@ Captura de colaboracion en github:
     <th rowspan="1">Registro de ordenes de trabajo realizadas</th>
     <td>4</td>
     <td align="justify">Agregar opción para marcar ordenes de trabajo como completadas</td>
+    <td align="justify">Unir el endpoint de ordenes de trabajo con el front.</td>
+    <td>2 hr</td>
     <td>2 hr</td>
     <td>Ariana Agreda</td>
     <td>Done</td>
